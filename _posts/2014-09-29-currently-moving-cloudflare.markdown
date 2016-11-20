@@ -1,0 +1,18 @@
+---
+author: calvinbui93
+comments: true
+date: 2014-09-29 21:22:40+00:00
+layout: post
+link: https://calvinbuiblog.wordpress.com/2014/09/30/currently-moving-cloudflare/
+slug: currently-moving-cloudflare
+title: Currently Moving to CloudFlare!
+wordpress_id: 380
+categories:
+- Misc
+---
+
+Some stuff might break...
+
+SSL certificates are wonky at the moment. But they're offering free HTTPS connection between my server and theirs!
+
+Feel free to browse the [non-HTTPS version](http://calvin.me/) of my site in the meantime if you feel I'm dangerous.
