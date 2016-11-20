@@ -13,6 +13,7 @@ categories:
 tags:
 - ios
 - iphone
+images: 2015-06-23-iphone-for-a-week
 ---
 
 I had a few days with an iPhone so I decided to try it out and see if it was usable for someone like me.

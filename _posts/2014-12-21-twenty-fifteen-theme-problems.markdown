@@ -9,6 +9,7 @@ title: Twenty Fifteen Theme Problems
 wordpress_id: 613
 categories:
 - Review
+images: 2014-12-21-twenty-fifteen-theme-problems
 ---
 
 I don't like this year's default theme. I was excited for a few months looking at the previews and news circulating around, but it ended up not meeting my expectations.

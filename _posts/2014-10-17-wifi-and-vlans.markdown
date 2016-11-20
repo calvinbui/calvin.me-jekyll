@@ -13,6 +13,7 @@ categories:
 tags:
 - vlan
 - wifi
+images: 2014-10-17-wifi-and-vlans
 ---
 
 WiFi is so important in the household with the emergence of portable devices. Pretty much everyone that comes over my place, young or old, will want to connect to it for some YouTube (young) and Viber (old). Because my network is segregated into various VLANs, they must be directed and placed correctly into the right network. This is how I made my network work with WiFi and VLANs.

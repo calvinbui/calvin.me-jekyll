@@ -9,6 +9,7 @@ title: Currently Moving to CloudFlare (Update)
 wordpress_id: 385
 categories:
 - Misc
+images: 2014-10-03-update-transition-cloudflare
 ---
 
 It's been almost 5 days now and the SSL certificate from CloudFlare still hasn't come through. Expected though with [2 million websites to deploy to](https://blog.cloudflare.com/universal-ssl-be-just-a-bit-more-patient/). But the good thing is my account now as an 'SSL issuing' message on it!

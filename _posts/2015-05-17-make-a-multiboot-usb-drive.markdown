@@ -15,6 +15,7 @@ tags:
 - system admin
 - tool
 - usb
+images: 2015-05-17-make-a-multiboot-usb-drive
 ---
 
 For my job and as a system admin, I'm expected to provide quick fixes and know the solution to every single problem that my users face. That is why I need a tool that just works wherever I bring it and that tool is my USB drive. It can rescue systems from death, scan for viruses, partition drives, install Linux or Windows but best of all it's on a light and speedy portable SSD!

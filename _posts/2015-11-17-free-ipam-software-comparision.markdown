@@ -13,6 +13,7 @@ tags:
 - comparison
 - free
 - ipam
+images: 2015-11-17-free-ipam-software-comparision
 ---
 
 Lose the spreadsheets, manage IP addresses properly using an IP Address Management tool (IPAM)!
