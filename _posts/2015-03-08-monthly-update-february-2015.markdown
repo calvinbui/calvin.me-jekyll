@@ -150,7 +150,7 @@ I've taken some time to write document my hosts in MediaWiki. What you start off
 
 [![Capture](http://calvinbuiblog.files.wordpress.com/2015/02/capture1.png)](http://calvinbuiblog.files.wordpress.com/2015/02/capture1.png)
 
-    
+    {% raw %}
     {{Infobox
     | bodyclass   = vevent
     | bodystyle   = {{{bodystyle|}}}
@@ -191,7 +191,7 @@ I've taken some time to write document my hosts in MediaWiki. What you start off
     | label31     = Hard drive2
     | data31      = {{{hdd2|}}}
     }}
-
+    {% endraw %}
 
 
 
