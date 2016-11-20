@@ -5,14 +5,17 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-    	<img src="{{ site.baseurl }}/images/{{ post.images }}/featured-image-small.jpg">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-      <span class="entry-date"><time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time></span>
-      <div class="entry">
-        {{ post.excerpt }}
+    	<div class="post-image">
+        <img src="{{ site.baseurl }}/images/{{ post.images }}/featured-image-small.jpg">
       </div>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
+      <div class="post-content">
+        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <span class="entry-date"><time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time></span>
+        <div class="entry">
+          {{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More >></a>
+        </div>
+      </div>
     </article>
   {% endfor %}
 </div>
