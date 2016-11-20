@@ -15,10 +15,7 @@ tags:
 - hikvision
 - ipcam
 - Security
-img:
-  small: IMG_20160910_151152 - small.jpg
-  medium: IMG_20160910_151152 - medium.jpg
-  large: IMG_20160910_151152 - large.jpg
+images: 2016-09-11-home-security-cameras
 ---
 
 This post covers some of my home security camera system. Not a lot of information is shared for obvious reasons, but enough to show its capabilities and configuration.
