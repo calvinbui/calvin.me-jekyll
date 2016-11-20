@@ -5,7 +5,7 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-    	<img src="{{ site.url }}/images/{{ post.images }}/featured-image-small.jpg">
+    	<img src="{{ site.baseurl }}/images/{{ post.images }}/featured-image-small.jpg">
       <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
       <span class="entry-date"><time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time></span>
       <div class="entry">
