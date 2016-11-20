@@ -16,6 +16,7 @@ tags:
 - openssl
 - ssl
 - tls
+images: 2014-11-23-encrypt-everything
 ---
 
 Why send data over plain text when you can encrypt it as well! SSL/TLS doesn't have to cost anything - it certainly doesn't cost me anything. Certificate Authorities supply 'trusted' certificates but we can generate our own 'untrusted' certificates, and well who doesn't trust themselves right?!

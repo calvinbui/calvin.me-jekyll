@@ -9,6 +9,7 @@ title: Server, PC, Gadgets & Learning Plans for 2015
 wordpress_id: 596
 categories:
 - Misc
+images: 2014-12-13-server-pc-gadgets-learning-plans-2015
 ---
 
 Now that 2014 is almost over and its time to wrap up the year, there are a few plans I have in mind for the year ahead. Now they might be ideas and plans I've had for 2014 that I never got around to but some are goals that I would've had to wait until the technology matured a lot more.

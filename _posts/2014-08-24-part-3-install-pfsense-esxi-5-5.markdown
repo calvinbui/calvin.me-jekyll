@@ -15,6 +15,7 @@ tags:
 - pfsense
 - virtualised
 - vmware
+images: 2014-08-24-part-3-install-pfsense-esxi-5-5
 ---
 
 In Part 3 of my virtualised pfSense installation on ESXi 5.5 we will be configurating the WAN (Internet) interface and finalise our transition from our transitional router to a virtualised pfSense router. [Part 1 can be found here](https://calvin.me/part-1-install-pfsense-on-esxi-5-5/) and [Part 2 can be found here](https://calvin.me/part-2-install-pfsense-esxi-5-5/).

@@ -16,6 +16,7 @@ tags:
 - pfsense
 - port forward
 - web server
+images: 2014-09-02-port-forward-web-servers-in-pfsense-2
 ---
 
 Web servers are configured to run on port 80 (HTTP) and 443 (HTTPS). pfSense, as a firewall, blocks all incoming connections to your network from the outside world. By opening the 80 and 443 port we are allowing the outside world (Internet) to access applications running on these ports on a local machine - which are commonly web servers. This also allows you to access your personal home server from literally anywhere in the world with an Internet connection. Web browsers will by default access websites at port 80 when they are HTTP and port 443 when it is HTTPS e.g. https://calvin.me:443 and http://calvin.me:80 are the same as https://calvin.me and http://calvin.me. This guide will help port forward web servers in pfSense.

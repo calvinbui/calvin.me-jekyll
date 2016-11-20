@@ -15,6 +15,7 @@ tags:
 - autofs
 - mount
 - shares
+images: 2015-04-18-mount-connect-shares-need-basis-using-autofs
 ---
 
 autofs is a program for automatically mounting directories on an as-needed basis. Auto-mounts are mounted only as they are accessed, and are unmounted after a period of inactivity. Mounting a remote share through fstab remains mounted unless you unmount it. Automounting NFS/Samba shares conserves bandwidth and offers better overall performance compared to static mounts through fstab. Furthermore fstab might cause problems if the remote share becomes unavailable, resulting in stale mounts. For example, the file server you are connecting to might crash or the network might go down.

@@ -21,6 +21,7 @@ tags:
 - usenet
 - video player
 - wordpress
+images: 2014-12-07-monthly-update-30112014
 ---
 
 In the monthly update, I bring you what I've been doing throughout the past month in regards to technology, computers and more with links to tutorials and guides.

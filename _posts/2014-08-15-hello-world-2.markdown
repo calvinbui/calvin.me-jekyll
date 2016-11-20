@@ -9,6 +9,7 @@ title: Hello World, Hi I'm Calvin
 wordpress_id: 20
 categories:
 - Misc
+images: 2014-08-16-hello-world-2
 ---
 
 ## Hello World !

@@ -13,6 +13,7 @@ tags:
 - computer build
 - log
 - parts
+images: 2015-03-14-computer-build-girlfriend
 ---
 
 Recently I went through the process of researching and picking out components for a new computer for my SO.

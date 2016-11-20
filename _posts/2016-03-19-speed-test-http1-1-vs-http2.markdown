@@ -12,6 +12,7 @@ categories:
 tags:
 - http/1.1
 - http/2
+images: 2016-03-19-speed-test-http1-1-vs-http2
 ---
 
 Last week I updated the backend NGINX web servers to support HTTP/2. Now to find out how much difference it makes.

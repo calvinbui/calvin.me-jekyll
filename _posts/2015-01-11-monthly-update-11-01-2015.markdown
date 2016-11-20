@@ -15,6 +15,7 @@ tags:
 - monthly update
 - nps
 - plex
+images: 2015-01-11-monthly-update-11-01-2015
 ---
 
 In the monthly update, I bring you what I've been doing throughout the past month in regards to technology, computers and more with links to tutorials and guides.

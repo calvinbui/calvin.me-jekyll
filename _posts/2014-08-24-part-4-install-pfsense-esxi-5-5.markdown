@@ -15,6 +15,7 @@ tags:
 - pfsense
 - virtualised
 - vmware
+images: 2014-08-24-part-4-install-pfsense-esxi-5-5
 ---
 
 Now that our pfSense installation is set up and working, we will have to wrap up our installation with a few necessities such as VMware Tools. You can find follow along our installation in [Part 1](https://calvin.me/part-1-install-pfsense-on-esxi-5-5/), [Part 2](https://calvin.me/part-2-install-pfsense-esxi-5-5/) and [Part 3](https://calvin.me/part-3-install-pfsense-esxi-5-5/).

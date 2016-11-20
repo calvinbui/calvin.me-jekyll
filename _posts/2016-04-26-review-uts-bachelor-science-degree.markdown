@@ -15,6 +15,7 @@ tags:
 - sydney
 - university of technology
 - uts
+images: 2016-04-26-review-uts-bachelor-science-degree
 ---
 
 Today I graduate from UTS with my Bachelor of Science in IT degree.

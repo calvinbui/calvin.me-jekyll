@@ -14,6 +14,7 @@ tags:
 - laptop
 - personal
 - recommended
+images: 2016-07-20-my-next-laptop
 ---
 
 I’m not into writing a buying guides, [LappyList](http://www.lappylist.com/) is probably the best place to find a laptop if you want something that would probably do the job pretty well. This is based off my own research I have done in preparation to replace my slowly dying (but strong) 5-year-old Lenovo X220. These laptops are what I would probably end up purchasing.

@@ -9,6 +9,7 @@ title: DogNZB, NZB.su and OMGWTFNZB Invites!
 wordpress_id: 1115
 categories:
 - Uncategorised
+images: 2015-10-22-invites-usenet
 ---
 
 No more invites :(

@@ -15,6 +15,7 @@ tags:
 - best
 - comparison
 - gps
+images: 2015-06-07-android-gps-apps-comparison
 ---
 
 I drive a lot for work. To work and from work. The most handy thing I have on my drive is my phone running my GPS to let me know the fastest way there. There are a lot of apps out there though and I can't stand it knowing there might be a better one out there. The only way to find out the best one, is to try them all.

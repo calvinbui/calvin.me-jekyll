@@ -9,6 +9,7 @@ title: Currently Moving to CloudFlare!
 wordpress_id: 380
 categories:
 - Misc
+images: 2014-09-29-currently-moving-cloudflare
 ---
 
 Some stuff might break...
