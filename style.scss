@@ -273,7 +273,7 @@ nav {
       }
     }
   }
-  
+
   .post-content {
     h1 {
       margin-bottom: 0;
@@ -323,6 +323,12 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+}
+
+figcaption {
+  font-style: italic;
+  text-align: center;
+  font-size: 85%;
 }
 
 .wrapper-footer {
