@@ -64,14 +64,14 @@ For this, I used the Windows vSphere client instead of the web client
 
  	
   3. Open a datastore (Configuration > Hardware > Storage) by right-clicking it and selecting 'Browse Datastore...'
-![1](http://calvinbuiblog.files.wordpress.com/2015/01/11.png)
+![1](/images/{{page.images}}/11.png)
 
  	
   4. Copy the 'esxi' folder to the datastore by selecting 'Upload Folder' making note of the warning of replacing any existing folders you may have with the same name
 
  	
   5. Enable and connect to SSH on the host (Configuration > Software > Security Profile > Services > Properties > SSH > Options > Start > OK)
-[![2](http://calvinbuiblog.files.wordpress.com/2015/01/21.png)](http://calvinbuiblog.files.wordpress.com/2015/01/21.png)
+[![2](/images/{{page.images}}/21.png)](/images/{{page.images}}/21.png)
 
  	
   6. Change directory over to your VMFS datastore
@@ -173,12 +173,12 @@ Only supports 10.8 and below.
 
 Make sure to select Apple Mac OS X as your Guest Operating System.
 
-[![3](http://calvinbuiblog.files.wordpress.com/2015/01/31.png)](http://calvinbuiblog.files.wordpress.com/2015/01/31.png)
+[![3](/images/{{page.images}}/31.png)](/images/{{page.images}}/31.png)
 
 Power on the VM and mount the ISO image to install.
 
 If you get the error 'darwin11_64guest is not supported', try starting the VM directly from the host instead of vCenter.
 
-[![123](https://calvin.me/mymedia/uploads/2015/03/123-1024x875.png)](http://calvinbuiblog.files.wordpress.com/2015/03/123.png)
+[![123](/images/{{page.images}}/123-1024x875.png)](/images/{{page.images}}/123.png)
 
 

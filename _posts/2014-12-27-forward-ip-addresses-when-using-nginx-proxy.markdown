@@ -118,11 +118,11 @@ The three lines are:
 
 The reason I posted this was because on this site, comments left by you guys were shown as coming from my proxy server (10.0.9.2), hiding everyone's IP address behind my own proxy server. Take a look
 
-[![proxy comments](http://calvinbuiblog.files.wordpress.com/2014/12/comments-b4.png)](http://calvinbuiblog.files.wordpress.com/2014/12/comments-b4.png)
+[![proxy comments](/images/{{page.images}}/comments-b4.png)](/images/{{page.images}}/comments-b4.png)
 
 Now with the changes above...
 
-[![comments work](http://calvinbuiblog.files.wordpress.com/2014/12/test.png)](http://calvinbuiblog.files.wordpress.com/2014/12/test.png)
+[![comments work](/images/{{page.images}}/test.png)](/images/{{page.images}}/test.png)
 
 The forwarded IP addresses is no longer my proxy server :)
 

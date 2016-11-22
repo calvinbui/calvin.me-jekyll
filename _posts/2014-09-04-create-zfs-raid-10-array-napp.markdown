@@ -27,23 +27,23 @@ images: 2014-09-04-create-zfs-raid-10-array-napp
 
 **1.** Create a new pool with the first two disks to be mirrored.
 
-[caption id="attachment_224" align="alignnone" width="409"][![create a new pool](http://calvinbuiblog.files.wordpress.com/2014/09/11.png)](http://calvinbuiblog.files.wordpress.com/2014/09/11.png) Select the 'Create Pool' option from the Pools dropdown[/caption]
+[caption id="attachment_224" align="alignnone" width="409"][![create a new pool](/images/{{page.images}}/11.png)](/images/{{page.images}}/11.png) Select the 'Create Pool' option from the Pools dropdown[/caption]
 
 **2.** Enter the pool details and select the first mirror.
 
-[caption id="attachment_225" align="alignnone" width="676"][![first mirrored pair for raid 10](http://calvinbuiblog.files.wordpress.com/2014/09/21.png)](http://calvinbuiblog.files.wordpress.com/2014/09/21.png) Select the first mirror of the RAID 10 array[/caption]
+[caption id="attachment_225" align="alignnone" width="676"][![first mirrored pair for raid 10](/images/{{page.images}}/21.png)](/images/{{page.images}}/21.png) Select the first mirror of the RAID 10 array[/caption]
 
 **3.** Extend the new pool by selecting the option from the menu.
 
-[caption id="attachment_220" align="alignnone" width="665"][![extend the pool](http://calvinbuiblog.files.wordpress.com/2014/09/31.png)](http://calvinbuiblog.files.wordpress.com/2014/09/31.png) Back in the dropdown menu, select the option to 'Extend Pool'[/caption]
+[caption id="attachment_220" align="alignnone" width="665"][![extend the pool](/images/{{page.images}}/31.png)](/images/{{page.images}}/31.png) Back in the dropdown menu, select the option to 'Extend Pool'[/caption]
 
 **4.** Select the next two disks to be in the pool and set the option to mirror.
 
-[caption id="attachment_221" align="alignnone" width="670"][![add any mirrors to raid 10 array](http://calvinbuiblog.files.wordpress.com/2014/09/41.png)](http://calvinbuiblog.files.wordpress.com/2014/09/41.png) Select the next mirror to be part of the RAID 10 array[/caption]
+[caption id="attachment_221" align="alignnone" width="670"][![add any mirrors to raid 10 array](/images/{{page.images}}/41.png)](/images/{{page.images}}/41.png) Select the next mirror to be part of the RAID 10 array[/caption]
 
 **5.** Select any remaining disks to be in the pool and also set the option to mirror.
 
-[caption id="attachment_222" align="alignnone" width="652"][![add last drives to raid 10 array](http://calvinbuiblog.files.wordpress.com/2014/09/5.png)](http://calvinbuiblog.files.wordpress.com/2014/09/5.png) Optionally, select any remaining mirrors and repeat this step if necessary if you have more disks remaining.[/caption]
+[caption id="attachment_222" align="alignnone" width="652"][![add last drives to raid 10 array](/images/{{page.images}}/5.png)](/images/{{page.images}}/5.png) Optionally, select any remaining mirrors and repeat this step if necessary if you have more disks remaining.[/caption]
 
 
 ## Verify the RAID 10 Array
@@ -51,7 +51,7 @@ images: 2014-09-04-create-zfs-raid-10-array-napp
 
 If successful, in the main page of the your 'Pools', nappit will list your new RAID 10 array. Alternatively, run the command 'zpool status' to return the Pools and their allocated drives within the terminal.
 
-[caption id="attachment_223" align="alignnone" width="600"][![raid 10 complete](http://calvinbuiblog.files.wordpress.com/2014/09/6.png)](http://calvinbuiblog.files.wordpress.com/2014/09/6.png) RAID 10 created. Mirrors in a stripe.[/caption]
+[caption id="attachment_223" align="alignnone" width="600"][![raid 10 complete](/images/{{page.images}}/6.png)](/images/{{page.images}}/6.png) RAID 10 created. Mirrors in a stripe.[/caption]
 
 
 ## My thoughts of RAID 10

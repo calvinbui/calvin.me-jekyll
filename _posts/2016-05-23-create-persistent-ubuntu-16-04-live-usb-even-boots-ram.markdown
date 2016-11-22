@@ -45,7 +45,7 @@ This used to be a very simple process in Ubuntu before 16.04 using the Startup D
     -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Fri, 11 Dec 2015 12:37:41 -0500
 
 
-[caption id="attachment_1300" align="aligncenter" width="179"][![Startupdiskcreatorcomparison](https://calvin.me/mymedia/uploads/2016/05/Startupdiskcreatorcomparison-179x300.png)](http://calvinbuiblog.files.wordpress.com/2016/05/startupdiskcreatorcomparison.png) Comparison of Startup Disk Creator from 15.10 to 16.04[/caption]
+[caption id="attachment_1300" align="aligncenter" width="179"][![Startupdiskcreatorcomparison](/images/{{page.images}}/Startupdiskcreatorcomparison-179x300.png)](/images/{{page.images}}/startupdiskcreatorcomparison.png) Comparison of Startup Disk Creator from 15.10 to 16.04[/caption]
 
 
 ## Let's start:
@@ -106,48 +106,48 @@ You can start mkusb by either searching for it through Unity or running the comm
     sudo -H mkusb
 
 
-[![Ubuntu 64-bit-2016-05-23-19-07-49](http://calvinbuiblog.files.wordpress.com/2016/05/ubuntu-64-bit-2016-05-23-19-07-49.png)](http://calvinbuiblog.files.wordpress.com/2016/05/ubuntu-64-bit-2016-05-23-19-07-49.png)
+[![Ubuntu 64-bit-2016-05-23-19-07-49](/images/{{page.images}}/ubuntu-64-bit-2016-05-23-19-07-49.png)](/images/{{page.images}}/ubuntu-64-bit-2016-05-23-19-07-49.png)
 
-The program will then prompt for your password:[![Ubuntu 64-bit-2016-05-23-19-07-59](https://calvin.me/mymedia/uploads/2016/05/Ubuntu-64-bit-2016-05-23-19-07-59-300x200.png)](https://calvin.me/mymedia/uploads/2016/05/Ubuntu-64-bit-2016-05-23-19-07-59.png)
+The program will then prompt for your password:[![Ubuntu 64-bit-2016-05-23-19-07-59](/images/{{page.images}}/Ubuntu-64-bit-2016-05-23-19-07-59-300x200.png)](/images/{{page.images}}/Ubuntu-64-bit-2016-05-23-19-07-59.png)
 
 Then be shown the welcome screen:
 
-[![Screenshot from 2016-05-23 02-08-25](https://calvin.me/mymedia/uploads/2016/05/Screenshot-from-2016-05-23-02-08-25.png)](https://calvin.me/mymedia/uploads/2016/05/Screenshot-from-2016-05-23-02-08-25.png)
+[![Screenshot from 2016-05-23 02-08-25](/images/{{page.images}}/Screenshot-from-2016-05-23-02-08-25.png)](/images/{{page.images}}/Screenshot-from-2016-05-23-02-08-25.png)
 
 The first thing to do is select your source, use the file browser to select the Ubuntu ISO file.
 
-[![Screenshot from 2016-05-23 02-08-56](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-08-56.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-08-56.png) [![Screenshot from 2016-05-23 02-09-29](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-09-29-e1464005557692.png)](https://calvin.me/mymedia/uploads/2016/05/Screenshot-from-2016-05-23-02-09-29.png)
+[![Screenshot from 2016-05-23 02-08-56](/images/{{page.images}}/screenshot-from-2016-05-23-02-08-56.png)](/images/{{page.images}}/screenshot-from-2016-05-23-02-08-56.png) [![Screenshot from 2016-05-23 02-09-29](/images/{{page.images}}/screenshot-from-2016-05-23-02-09-29-e1464005557692.png)](/images/{{page.images}}/Screenshot-from-2016-05-23-02-09-29.png)
 
 Next, click on the **Live only selected** option to toggle it to **Persistent live selected** mode:
 
-[![Screenshot from 2016-05-23 02-09-43](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-09-43.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-09-43.png)Finally click on the Install button to be brought to the next screen. Here you are shown devices connected to your computer:[
-](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-10-07.png) [![Screenshot from 2016-05-23 02-10-22](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-10-22.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-10-22.png)
+[![Screenshot from 2016-05-23 02-09-43](/images/{{page.images}}/screenshot-from-2016-05-23-02-09-43.png)](/images/{{page.images}}/screenshot-from-2016-05-23-02-09-43.png)Finally click on the Install button to be brought to the next screen. Here you are shown devices connected to your computer:[
+](/images/{{page.images}}/screenshot-from-2016-05-23-02-10-07.png) [![Screenshot from 2016-05-23 02-10-22](/images/{{page.images}}/screenshot-from-2016-05-23-02-10-22.png)](/images/{{page.images}}/screenshot-from-2016-05-23-02-10-22.png)
 
 Select your USB from the next screen or select **toggle USB-only; show all drives** if your USB is not showing, as it is being seen as a hard drive.
 
-[![Screenshot from 2016-05-23 02-10-34](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-10-34.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-10-34.png)
+[![Screenshot from 2016-05-23 02-10-34](/images/{{page.images}}/screenshot-from-2016-05-23-02-10-34.png)](/images/{{page.images}}/screenshot-from-2016-05-23-02-10-34.png)
 
 Finally you will be brought to this screen which is the final confirmation before it wipes your drive:
 
-[![Screenshot from 2016-05-23 02-10-52](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-10-52.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-10-52.png)
+[![Screenshot from 2016-05-23 02-10-52](/images/{{page.images}}/screenshot-from-2016-05-23-02-10-52.png)](/images/{{page.images}}/screenshot-from-2016-05-23-02-10-52.png)
 
 Select the boot system and partition table which suits your needs. If your computer only has secure boot then you must either turn it off or choose **ISO file**. For the partition table, it is safe to go with GPT in most cases.
 
-[![Screenshot from 2016-05-23 02-11-20](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-11-20.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-11-20.png) [![Screenshot from 2016-05-23 02-11-32](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-11-32.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-11-32.png)
+[![Screenshot from 2016-05-23 02-11-20](/images/{{page.images}}/screenshot-from-2016-05-23-02-11-20.png)](/images/{{page.images}}/screenshot-from-2016-05-23-02-11-20.png) [![Screenshot from 2016-05-23 02-11-32](/images/{{page.images}}/screenshot-from-2016-05-23-02-11-32.png)](/images/{{page.images}}/screenshot-from-2016-05-23-02-11-32.png)
 
 Enter how much of the remaining space should be used for persistence which sits on-top of the Ubuntu Live USB. Any remaining will be normal USB storage:
 
-[![Screenshot from 2016-05-23 02-11-50](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-11-50.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-11-50.png)
+[![Screenshot from 2016-05-23 02-11-50](/images/{{page.images}}/screenshot-from-2016-05-23-02-11-50.png)](/images/{{page.images}}/screenshot-from-2016-05-23-02-11-50.png)
 
 When finished, you will be shown this screen:
 
-[![Screenshot from 2016-05-23 02-20-19](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-20-19.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-02-20-19.png)
+[![Screenshot from 2016-05-23 02-20-19](/images/{{page.images}}/screenshot-from-2016-05-23-02-20-19.png)](/images/{{page.images}}/screenshot-from-2016-05-23-02-20-19.png)
 
 Plug it in and see if works. In some cases you may have to change your BIOS from Legacy to UEFI or vice-versa if nothing is showing.
 
-[![](https://calvin.me/mymedia/uploads/2016/05/Ubuntu-64-bit-2-2016-05-23-19-21-06-1024x768.png)](http://calvinbuiblog.files.wordpress.com/2016/05/ubuntu-64-bit-2-2016-05-23-19-21-06.png)
+[![](/images/{{page.images}}/Ubuntu-64-bit-2-2016-05-23-19-21-06-1024x768.png)](/images/{{page.images}}/ubuntu-64-bit-2-2016-05-23-19-21-06.png)
 
-[![Ubuntu 64-bit (2)-2016-05-23-19-22-34](https://calvin.me/mymedia/uploads/2016/05/Ubuntu-64-bit-2-2016-05-23-19-22-34-1024x768.png)](http://calvinbuiblog.files.wordpress.com/2016/05/ubuntu-64-bit-2-2016-05-23-19-22-34.png)
+[![Ubuntu 64-bit (2)-2016-05-23-19-22-34](/images/{{page.images}}/Ubuntu-64-bit-2-2016-05-23-19-22-34-1024x768.png)](/images/{{page.images}}/ubuntu-64-bit-2-2016-05-23-19-22-34.png)
 
 Success!
 
@@ -159,34 +159,34 @@ When running applications or any read operations, everything is run from the USB
 
 The easiest way to test this out is when booting, hit the 'e' key to edit the boot options of Ubuntu. Add the word '**toram**' right after the word '**boot=casper**' and before '**quiet**' then hit F10 or Ctrl+X to boot. Booting will take a little longer as everything is being copied from the USB to memory.
 
-[![Ubuntu 64-bit (2)-2016-05-23-19-27-52](https://calvin.me/mymedia/uploads/2016/05/Ubuntu-64-bit-2-2016-05-23-19-27-52-1024x768.png)](http://calvinbuiblog.files.wordpress.com/2016/05/ubuntu-64-bit-2-2016-05-23-19-27-52.png)
+[![Ubuntu 64-bit (2)-2016-05-23-19-27-52](/images/{{page.images}}/Ubuntu-64-bit-2-2016-05-23-19-27-52-1024x768.png)](/images/{{page.images}}/ubuntu-64-bit-2-2016-05-23-19-27-52.png)
 
 To compare, here is my computer before and after using the 'toram' option:
 
-[![toram-memory-usage](http://calvinbuiblog.files.wordpress.com/2016/05/toram-memory-usage.png)](http://calvinbuiblog.files.wordpress.com/2016/05/toram-memory-usage.png)
+[![toram-memory-usage](/images/{{page.images}}/toram-memory-usage.png)](/images/{{page.images}}/toram-memory-usage.png)
 
 To make the 'toram' permanent you will have to edit GRUB and add another entry to the boot options. First open up the Disks application.
 
-[![Ubuntu 64-bit (2)-2016-05-23-19-44-58](http://calvinbuiblog.files.wordpress.com/2016/05/ubuntu-64-bit-2-2016-05-23-19-44-58-1.png)](http://calvinbuiblog.files.wordpress.com/2016/05/ubuntu-64-bit-2-2016-05-23-19-44-58-1.png)
+[![Ubuntu 64-bit (2)-2016-05-23-19-44-58](/images/{{page.images}}/ubuntu-64-bit-2-2016-05-23-19-44-58-1.png)](/images/{{page.images}}/ubuntu-64-bit-2-2016-05-23-19-44-58-1.png)
 
 
 
 Mount the 128MB partition of your USB by clicking the Play button when it is highlighted:
 
-[![Screenshot from 2016-05-23 19-45-17](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-19-45-17.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-19-45-17.png)
+[![Screenshot from 2016-05-23 19-45-17](/images/{{page.images}}/screenshot-from-2016-05-23-19-45-17.png)](/images/{{page.images}}/screenshot-from-2016-05-23-19-45-17.png)
 
 The mounting location should now appear at the bottom-right. Click on this to browse to it.
 
-[![Screenshot from 2016-05-23 19-45-46](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-19-45-46.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-19-45-46.png)
+[![Screenshot from 2016-05-23 19-45-46](/images/{{page.images}}/screenshot-from-2016-05-23-19-45-46.png)](/images/{{page.images}}/screenshot-from-2016-05-23-19-45-46.png)
 
 Navigate to /boot/grub and open up grub.cfg in gedit or your favourite editor.
 
-[![Screenshot from 2016-05-23 19-46-18](https://calvin.me/mymedia/uploads/2016/05/Screenshot-from-2016-05-23-19-46-18.png)](https://calvin.me/mymedia/uploads/2016/05/Screenshot-from-2016-05-23-19-46-18.png)
+[![Screenshot from 2016-05-23 19-46-18](/images/{{page.images}}/Screenshot-from-2016-05-23-19-46-18.png)](/images/{{page.images}}/Screenshot-from-2016-05-23-19-46-18.png)
 
 I have chosen to copy and paste the first menu entry and simply change it's name and add the toram option as you can see in this photo. Up to you how you would like to do this.
 
-[![Screenshot from 2016-05-23 19-47-19](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-19-47-19.png)](http://calvinbuiblog.files.wordpress.com/2016/05/screenshot-from-2016-05-23-19-47-19.png)
+[![Screenshot from 2016-05-23 19-47-19](/images/{{page.images}}/screenshot-from-2016-05-23-19-47-19.png)](/images/{{page.images}}/screenshot-from-2016-05-23-19-47-19.png)
 
 Finally reboot and check if the option appears:
 
-[![Ubuntu 64-bit (2)-2016-05-23-19-48-41](https://calvin.me/mymedia/uploads/2016/05/Ubuntu-64-bit-2-2016-05-23-19-48-41-1024x768.png)](http://calvinbuiblog.files.wordpress.com/2016/05/ubuntu-64-bit-2-2016-05-23-19-48-41.png)
+[![Ubuntu 64-bit (2)-2016-05-23-19-48-41](/images/{{page.images}}/Ubuntu-64-bit-2-2016-05-23-19-48-41-1024x768.png)](/images/{{page.images}}/ubuntu-64-bit-2-2016-05-23-19-48-41.png)

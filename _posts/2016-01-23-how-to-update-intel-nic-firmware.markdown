@@ -35,15 +35,15 @@ I will be updating my Intel I350 T4 NIC that I got in Christmas 2014. I will be
 
 	
   3. Boot into your EFI, Windows or DOS
-[![Boot](http://calvinbuiblog.files.wordpress.com/2016/01/boot.png)](http://calvinbuiblog.files.wordpress.com/2016/01/boot.png)
+[![Boot](/images/{{page.images}}/boot.png)](/images/{{page.images}}/boot.png)
 
 	
   4. For EFI, change paths by entering the path into the EFI shell. I am using a USB and it was mounted under fs0.
-[![FS0](http://calvinbuiblog.files.wordpress.com/2016/01/fs0.png)](http://calvinbuiblog.files.wordpress.com/2016/01/fs0.png)
+[![FS0](/images/{{page.images}}/fs0.png)](/images/{{page.images}}/fs0.png)
 
 	
   5. Depending on where you are updating once again, run the executable under your operating system folder to be shown a list of network adapters available
-[![running command](https://calvin.me/mymedia/uploads/2016/01/running-command.png)](https://calvin.me/mymedia/uploads/2016/01/running-command.png)
+[![running command](/images/{{page.images}}/running-command.png)](/images/{{page.images}}/running-command.png)
 
 	
   6. If a NIC is saying it cannot be flashed (but you know it can be), enable flash using the command:
@@ -71,11 +71,11 @@ Or specifying the file using:
 
 	
   8. You will be prompted to save create a restore image for your NIC before updating. It is probably best to do this in case something goes wrong :P
-[![Updating](http://calvinbuiblog.files.wordpress.com/2016/01/updating.png)](http://calvinbuiblog.files.wordpress.com/2016/01/updating.png)
+[![Updating](/images/{{page.images}}/updating.png)](/images/{{page.images}}/updating.png)
 
 	
   9. After the update, reboot and you are done!
-[![Update complete](http://calvinbuiblog.files.wordpress.com/2016/01/update-complete.png)](http://calvinbuiblog.files.wordpress.com/2016/01/update-complete.png)
+[![Update complete](/images/{{page.images}}/update-complete.png)](/images/{{page.images}}/update-complete.png)
 
 
 

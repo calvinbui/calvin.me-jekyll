@@ -36,7 +36,7 @@ Afterwards, settings can be altered under Home >Services > Apache.
 
 To share a filesystem over HTTP, enable it under the Home > ZFS Filesystems under the 'WWW' column.
 
-[![apache](http://calvinbuiblog.files.wordpress.com/2014/11/apache.png)](http://calvinbuiblog.files.wordpress.com/2014/11/apache.png)
+[![apache](/images/{{page.images}}/apache.png)](/images/{{page.images}}/apache.png)
 
 By itself, sharing over HTTP is very plain old boring. That is why I use [h5ai](http://larsjung.de/h5ai/) which adds several additional features (the styling alone is good enough) like sorting, breadcrumbs, thumbnails, file previews and filtering.
 
@@ -52,7 +52,7 @@ ProFTPD Is a FTP server, among the most popular today. Its primary goal is to be
 
 Similar to Apache, it can be configured under Home > Services > FTP. Sharing on the other hand occurs under Home > ZFS Filesystems underneath the FTP column.
 
-[![ftp](http://calvinbuiblog.files.wordpress.com/2014/11/ftp.png)](http://calvinbuiblog.files.wordpress.com/2014/11/ftp.png)
+[![ftp](/images/{{page.images}}/ftp.png)](/images/{{page.images}}/ftp.png)
 
 
 ## Private Cloud
@@ -91,11 +91,11 @@ Serviio is accessible at http://<nappit>phpserviio/
 
 With Serviio, I am able to specify which shares I want to be visible over DLNA/UPnP. Device such as my PS3 and Yamaha RX-V475 receiver were easily able to access and play from it!
 
-[caption id="attachment_577" align="alignnone" width="977"][![serviio1](http://calvinbuiblog.files.wordpress.com/2014/11/serviio1.png)](http://calvinbuiblog.files.wordpress.com/2014/11/serviio1.png) Adding the shares[/caption]
+[caption id="attachment_577" align="alignnone" width="977"][![serviio1](/images/{{page.images}}/serviio1.png)](/images/{{page.images}}/serviio1.png) Adding the shares[/caption]
 
-[caption id="attachment_578" align="alignnone" width="945"][![serviio2](http://calvinbuiblog.files.wordpress.com/2014/11/serviio2.png)](http://calvinbuiblog.files.wordpress.com/2014/11/serviio2.png) Devices that are accessing the shares[/caption]
+[caption id="attachment_578" align="alignnone" width="945"][![serviio2](/images/{{page.images}}/serviio2.png)](/images/{{page.images}}/serviio2.png) Devices that are accessing the shares[/caption]
 
-[caption id="attachment_579" align="alignnone" width="187"][![serviio3](http://calvinbuiblog.files.wordpress.com/2014/11/serviio3.png)](http://calvinbuiblog.files.wordpress.com/2014/11/serviio3.png) My Yamaha Receiver connecting to the share (shown through my tablet)[/caption]
+[caption id="attachment_579" align="alignnone" width="187"][![serviio3](/images/{{page.images}}/serviio3.png)](/images/{{page.images}}/serviio3.png) My Yamaha Receiver connecting to the share (shown through my tablet)[/caption]
 
 An alternative to Serviio is Mediatomb, although it hasn't be updated in a long time:
 

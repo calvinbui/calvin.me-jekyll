@@ -59,7 +59,7 @@ When a problem is too big or I just can't figure out the root cause I usually th
   * ComboFix
 
 
-[![bLmusI0](http://calvinbuiblog.files.wordpress.com/2015/05/blmusi0.png)](http://calvinbuiblog.files.wordpress.com/2015/05/blmusi0.png)
+[![bLmusI0](/images/{{page.images}}/blmusi0.png)](/images/{{page.images}}/blmusi0.png)
 
 
 ## Portable Applications
@@ -76,7 +76,7 @@ These programs are great when I need a quit fix or program to do something. As t
   * PortableApps
 
 
-[![_features_-_organize](http://calvinbuiblog.files.wordpress.com/2015/05/features_-_organize.png)](http://calvinbuiblog.files.wordpress.com/2015/05/features_-_organize.png)
+[![_features_-_organize](/images/{{page.images}}/features_-_organize.png)](/images/{{page.images}}/features_-_organize.png)
 
 
 ## Anti-Virus
@@ -136,7 +136,7 @@ Sometimes I run into a slow computer even though it's rocking good hardware. The
   * Process Hacker
 
 
-[![Capture](http://calvinbuiblog.files.wordpress.com/2015/05/capture3.png)](http://calvinbuiblog.files.wordpress.com/2015/05/capture3.png)
+[![Capture](/images/{{page.images}}/capture3.png)](/images/{{page.images}}/capture3.png)
 
 
 ## Tools
@@ -162,7 +162,7 @@ These are general tools which are helpful in different situations. ProduKey for 
   * SpeedFan
 
 
-[![Capture](http://calvinbuiblog.files.wordpress.com/2015/05/capture2.png)](http://calvinbuiblog.files.wordpress.com/2015/05/capture2.png)
+[![Capture](/images/{{page.images}}/capture2.png)](/images/{{page.images}}/capture2.png)
 
 
 ## Disk
@@ -185,4 +185,4 @@ While the problem could be some malware or lack of resources, sometimes the issu
   * WinDirStat
 
 
-![Capture](http://calvinbuiblog.files.wordpress.com/2015/05/capture1.png)
+![Capture](/images/{{page.images}}/capture1.png)

@@ -95,7 +95,7 @@ Login to your new user and let's begin.
 #### Get a GUI
 
 
-[![Screenshot at 2016-07-31 19:58:07](https://calvin.me/mymedia/uploads/2016/07/Screenshot-at-2016-07-31-195807-1024x576.png)](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-195807.png)
+[![Screenshot at 2016-07-31 19:58:07](/images/{{page.images}}/Screenshot-at-2016-07-31-195807-1024x576.png)](/images/{{page.images}}/screenshot-at-2016-07-31-195807.png)
 
 I prefer [MATE](https://wiki.archlinux.org/index.php/MATE) as it's light on resources (lighter than XFCE in my tests) and pretty usable. There a list to choose from on the [wiki](https://wiki.archlinux.org/index.php/desktop_environment).
 
@@ -159,7 +159,7 @@ Reboot when done.
 
 This should enable a good working trackpad on boot with tapping working. Afterwards, you can edit trackpad settings under '_System > Preferences  > Hardware > Mouse_' to enable two finger scrolling, two finger taps, three finger taps, etc.
 
-[![Screenshot at 2016-07-31 19:59:29](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-195929.png)](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-195929.png)
+[![Screenshot at 2016-07-31 19:59:29](/images/{{page.images}}/screenshot-at-2016-07-31-195929.png)](/images/{{page.images}}/screenshot-at-2016-07-31-195929.png)
 
 Note: if it's really hard navigating with the broken trackpad, press _CTRL + ALT + Refresh_ to return to the command line.
 
@@ -179,7 +179,7 @@ Then enable _Network Manager_ and reboot to find the applet:
     systemctl enable NetworkManager.service
 
 
-[![Screenshot at 2016-07-31 20:17:20](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-201720.png)](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-201720.png)
+[![Screenshot at 2016-07-31 20:17:20](/images/{{page.images}}/screenshot-at-2016-07-31-201720.png)](/images/{{page.images}}/screenshot-at-2016-07-31-201720.png)
 
 
 #### Brightness Control
@@ -222,9 +222,9 @@ Make the scripts executable:
 
 Then create keyboard shortcuts through '_System > Preferences > Hardware > Keyboard Shortcuts_' to map:
 
-[![Screenshot at 2016-07-31 07:06:15](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-070615.png)](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-070615.png)
+[![Screenshot at 2016-07-31 07:06:15](/images/{{page.images}}/screenshot-at-2016-07-31-070615.png)](/images/{{page.images}}/screenshot-at-2016-07-31-070615.png)
 
-[![Screenshot at 2016-07-31 07:06:01](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-070601.png)](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-070601.png)
+[![Screenshot at 2016-07-31 07:06:01](/images/{{page.images}}/screenshot-at-2016-07-31-070601.png)](/images/{{page.images}}/screenshot-at-2016-07-31-070601.png)
 
     
     Name: Brightness Down
@@ -286,7 +286,7 @@ Go across the page (arrow keys) and press M to unmute
   * Right Speaker Mixer Right DAC1
 
 
-[![Screenshot at 2016-07-31 20:03:01](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-200301.png)](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-200301.png)
+[![Screenshot at 2016-07-31 20:03:01](/images/{{page.images}}/screenshot-at-2016-07-31-200301.png)](/images/{{page.images}}/screenshot-at-2016-07-31-200301.png)
 
 Press ESC when down and it should save itself.
 
@@ -340,7 +340,7 @@ The Chromebook does not suspend after a period of inactivity in my tests, the di
     ...
 
 
-[![Screenshot at 2016-07-31 08:35:10](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-083510.png)](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-083510.png)
+[![Screenshot at 2016-07-31 08:35:10](/images/{{page.images}}/screenshot-at-2016-07-31-083510.png)](/images/{{page.images}}/screenshot-at-2016-07-31-083510.png)
 
 Reboot to apply.
 
@@ -418,7 +418,7 @@ To run the configuration file at startup, add it to the _~/.xprofile _which is 
 
 '_System > Preferences > Look and Feel > Windows_' and tick '_Enable software compositing window manager_' in the General tab.
 
-[![Screenshot at 2016-07-31 19:18:52](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-191852.png)](http://calvinbuiblog.files.wordpress.com/2016/07/screenshot-at-2016-07-31-191852.png)
+[![Screenshot at 2016-07-31 19:18:52](/images/{{page.images}}/screenshot-at-2016-07-31-191852.png)](/images/{{page.images}}/screenshot-at-2016-07-31-191852.png)
 
 
 #### Set Hostname

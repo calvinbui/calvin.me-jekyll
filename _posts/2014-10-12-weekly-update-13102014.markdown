@@ -34,7 +34,7 @@ This is something I should've done from the start but better late than never. Be
 
 Luckily there's a solution! Well a work-around, but still better than nothing! When installing Ubuntu Server, you can press F4 to install a 'minimal virtual machine' meaning things like graphics and sound aren't install with the kernel, reducing memory by roughly half!!!! Sadly I didn't do this until I found out, but [Attila Györffy has a post on CoderWall](https://coderwall.com/p/a56j3w) where he shows how to achieve this by manually disabling those components.
 
-[![UbuntuVM](https://calvin.me/mymedia/uploads/2014/10/ubuntuvm002.png)](https://calvin.me/mymedia/uploads/2014/10/ubuntuvm002.png)
+[![UbuntuVM](/images/{{page.images}}/ubuntuvm002.png)](/images/{{page.images}}/ubuntuvm002.png)
 
 
 ### CloudFlare Free SSL
@@ -42,7 +42,7 @@ Luckily there's a solution! Well a work-around, but still better than nothing! W
 
 I [posted ](https://calvin.me/currently-moving-cloudflare/)about this [twice already](https://calvin.me/update-transition-cloudflare/) but my site is now using CloudFlare as its CDN which means it loads faster plus protection from CloudFlare security. I could kiss you CloudFlare if you had a face. You can find more about CloudFlare's features [here](https://www.cloudflare.com/overview) and why you should take up their free SSL offer!
 
-[![SSL Issued](http://calvinbuiblog.files.wordpress.com/2014/10/capture1.png)](http://calvinbuiblog.files.wordpress.com/2014/10/capture1.png)
+[![SSL Issued](/images/{{page.images}}/capture1.png)](/images/{{page.images}}/capture1.png)
 
 
 ### Changed duplicate passwords via LastPass
@@ -73,7 +73,7 @@ I ended up going with Usenet Bucket after they gave me a 20% discount after the 
   *  [StatusPage](%20statuspage.io).io is the provider of the server status page I've seen so often on sites like [Bitbucket](http://status.bitbucket.org/). As my infrastructure grows and grows eventually I will need a way to monitor everything. For example this site crashed one day and luckily [New Relic](http://newrelic.com/) notified me, even though it was meant to measure performance. StatusPage isn't free however, but free if I never activate the page meaning I can still use it if I login hehehe. Alternatively I can just design my own using PHP like I've done before:
 
 
-[![PHP Services](http://calvinbuiblog.files.wordpress.com/2014/10/capture2.png)](http://calvinbuiblog.files.wordpress.com/2014/10/capture2.png)
+[![PHP Services](/images/{{page.images}}/capture2.png)](/images/{{page.images}}/capture2.png)
 
 
 

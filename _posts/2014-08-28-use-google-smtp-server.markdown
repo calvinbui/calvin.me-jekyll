@@ -22,7 +22,7 @@ A lot of (the good ones at least) hardware and software give you the ability to 
 
 <!-- more -->
 
-[caption id="attachment_184" align="alignnone" width="725"][![google-smtp-table](http://calvinbuiblog.files.wordpress.com/2014/08/capture2.png)](http://calvinbuiblog.files.wordpress.com/2014/08/capture2.png) Table from https://support.google.com/a/answer/176600?hl=en[/caption]
+[caption id="attachment_184" align="alignnone" width="725"][![google-smtp-table](/images/{{page.images}}/capture2.png)](/images/{{page.images}}/capture2.png) Table from https://support.google.com/a/answer/176600?hl=en[/caption]
 
 
 ## To utilise the Google SMTP server:
@@ -68,9 +68,9 @@ Copies of outgoing emails are stored in the Gmail/Google Apps 'Sent folder'.
 
 NOTE: Google rewrites the 'From' address emails to the default 'Send' email address in your Gmail/Google Apps account settings. To fix this,  go to the "Accounts" tab and make another account the  "default" Gmail/Google Apps account.
 
-[caption id="attachment_187" align="alignnone" width="474"][![smtp-email](http://calvinbuiblog.files.wordpress.com/2014/08/1.png)](http://calvinbuiblog.files.wordpress.com/2014/08/1.png) Example email details[/caption]
+[caption id="attachment_187" align="alignnone" width="474"][![smtp-email](/images/{{page.images}}/1.png)](/images/{{page.images}}/1.png) Example email details[/caption]
 
-[caption id="attachment_188" align="alignnone" width="497"][![smtp-email-sent](http://calvinbuiblog.files.wordpress.com/2014/08/23.png)](http://calvinbuiblog.files.wordpress.com/2014/08/23.png) Test email from pfSense using the Google SMTP Server[/caption]
+[caption id="attachment_188" align="alignnone" width="497"][![smtp-email-sent](/images/{{page.images}}/23.png)](/images/{{page.images}}/23.png) Test email from pfSense using the Google SMTP Server[/caption]
 
 
 ## Sending Limits
@@ -82,13 +82,13 @@ There is a limit of 2000 emails per day. Plenty.
 ## Start Using It Everywhere
 
 
-[caption id="attachment_186" align="aligncenter" width="764"][![smtp-pfsense](http://calvinbuiblog.files.wordpress.com/2014/08/37.png)](http://calvinbuiblog.files.wordpress.com/2014/08/37.png) pfSense[/caption]
+[caption id="attachment_186" align="aligncenter" width="764"][![smtp-pfsense](/images/{{page.images}}/37.png)](/images/{{page.images}}/37.png) pfSense[/caption]
 
-[caption id="attachment_189" align="aligncenter" width="421"][![CyberPower UPS PowerPanel - to let me know when the power goes out at home](http://calvinbuiblog.files.wordpress.com/2014/08/ups.png)](http://calvinbuiblog.files.wordpress.com/2014/08/ups.png) CyberPower UPS PowerPanel - to let me know when the power goes out at home[/caption]
+[caption id="attachment_189" align="aligncenter" width="421"][![CyberPower UPS PowerPanel - to let me know when the power goes out at home](/images/{{page.images}}/ups.png)](/images/{{page.images}}/ups.png) CyberPower UPS PowerPanel - to let me know when the power goes out at home[/caption]
 
-[caption id="attachment_190" align="aligncenter" width="674"][![napp-it which is set to notify of disk failures and daily/weekly/monthly status](http://calvinbuiblog.files.wordpress.com/2014/08/napp-it.png)](http://calvinbuiblog.files.wordpress.com/2014/08/napp-it.png) napp-it which is set to notify of disk failures and daily/weekly/monthly status[/caption]
+[caption id="attachment_190" align="aligncenter" width="674"][![napp-it which is set to notify of disk failures and daily/weekly/monthly status](/images/{{page.images}}/napp-it.png)](/images/{{page.images}}/napp-it.png) napp-it which is set to notify of disk failures and daily/weekly/monthly status[/caption]
 
-[caption id="attachment_191" align="aligncenter" width="730"][![Ubiquiti UniFi Controller which monitors my wireless access points](http://calvinbuiblog.files.wordpress.com/2014/08/unifi.png)](http://calvinbuiblog.files.wordpress.com/2014/08/unifi.png) Ubiquiti UniFi Controller which monitors my wireless access points[/caption]
+[caption id="attachment_191" align="aligncenter" width="730"][![Ubiquiti UniFi Controller which monitors my wireless access points](/images/{{page.images}}/unifi.png)](/images/{{page.images}}/unifi.png) Ubiquiti UniFi Controller which monitors my wireless access points[/caption]
 
 
 

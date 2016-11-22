@@ -46,7 +46,7 @@ Let's run through how my setup works.
 
 In my environment the proxy server is a different host from NZBmegasearcH. My proxy server connects to all my Usenet applications which are all on different virtualised hosts. Here's a little picture to help you out with that:
 
-[caption id="attachment_444" align="alignnone" width="610"][![proxy configuration nzbmegasearch](http://calvinbuiblog.files.wordpress.com/2014/10/capture5.png)](http://calvinbuiblog.files.wordpress.com/2014/10/capture5.png) Only my proxy server is exposed to the Internet. It connects to other hosts when accessing applications.[/caption]
+[caption id="attachment_444" align="alignnone" width="610"][![proxy configuration nzbmegasearch](/images/{{page.images}}/capture5.png)](/images/{{page.images}}/capture5.png) Only my proxy server is exposed to the Internet. It connects to other hosts when accessing applications.[/caption]
 
 
 ## Apache Proxy Install
@@ -101,7 +101,7 @@ If it works, let's move onto the next step.
 
 Within NZBmegasearcH there is an option to set the Reverse proxy directory located in the 'Connectivity' section. I found that you have to put the full URL for this to work.
 
-[![connectivity proxy](http://calvinbuiblog.files.wordpress.com/2014/10/capture6.png)](http://calvinbuiblog.files.wordpress.com/2014/10/capture6.png)
+[![connectivity proxy](/images/{{page.images}}/capture6.png)](/images/{{page.images}}/capture6.png)
 
 This means the URL you will be accessing it from including the protocol, domain and path. So if you were accessing it over _HTTPS_, your domain is _mydomain.com_ and the path will be _/search_ then you will have to put in '_https://mydomain.com/search_'. Save and restart NZBmegasearcH after you have done this.
 

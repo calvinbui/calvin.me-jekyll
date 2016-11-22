@@ -34,7 +34,7 @@ IBM Bluemix offers instantly deployable ‘boilerplates’ such as [WordPress](h
 
 WordPress offers themes, plugins and templates to transform your site to meet your every need. For more information about this, visit the [WordPress documentation on Bluemix](https://www.ng.bluemix.net/docs/#starters/wordpress/index.html). Bluemix can also run Drupal and other popular CMS systems like [Ghost](https://github.com/ibmjstart/bluemix-ghost-js) and [PencilBlue](https://github.com/pencilblue/pencilblue/wiki/Cloud-Hosting:-IBM-Bluemix). Bluemix can also host many other types of websites built using Java, Ruby, PHP and more.
 
-[![workpress-on-bluemix](https://calvin.me/mymedia/uploads/2015/01/workpress-on-bluemix.png)](https://calvin.me/mymedia/uploads/2015/01/workpress-on-bluemix.png)
+[![workpress-on-bluemix](/images/{{page.images}}/workpress-on-bluemix.png)](/images/{{page.images}}/workpress-on-bluemix.png)
 
 
 ## Enhance your website using Bluemix services
@@ -60,7 +60,7 @@ WordPress binds directly with many services offered on Bluemix. Coupled with it 
   * AppScan Dynamic Analyzer: Tests your application for security issues to help keep them secure. Provides a thorough report when finished containing all issues found and recommended fixes and advisories to protect your site.
 
 
-[![Capture](https://calvin.me/mymedia/uploads/2015/01/Capture.png)](https://calvin.me/mymedia/uploads/2015/01/Capture.png)
+[![Capture](/images/{{page.images}}/Capture.png)](/images/{{page.images}}/Capture.png)
 
 
 ## Its practically free! FREE!
@@ -70,7 +70,7 @@ Best of all WordPress could be running for free! With 375 GB-hours free hosting 
 
 If WordPress isn’t to your liking though, Bluemix can similarly offer websites made using either Java, Go, Node.js, Ruby Sinatra or Ruby on Rails for 375GB-hours free as well! Pair these up with Bluemix’s wide selection of databases including NoSQL databases to improve your website’s capabilities.
 
-[![Capture](http://calvinbuiblog.files.wordpress.com/2015/01/capture1.png)](http://calvinbuiblog.files.wordpress.com/2015/01/capture1.png)
+[![Capture](/images/{{page.images}}/capture1.png)](/images/{{page.images}}/capture1.png)
 
 
 ## Go even further
@@ -84,4 +84,4 @@ If the website ever does get serious, you can buy and add your personalised webs
 
 You can be amazed at the growing capabilities of technology. Websites are no longer limited to savvy individuals as technology has made it easier than ever for small businesses and individuals to create their own. Thanks to Bluemix and WordPress, with very little effort anyone can represent themselves to the digital world.
 
-[![10428706_860527777302228_169226801673963820_n](http://calvinbuiblog.files.wordpress.com/2015/01/10428706_860527777302228_169226801673963820_n.png)](http://calvinbuiblog.files.wordpress.com/2015/01/10428706_860527777302228_169226801673963820_n.png)
+[![10428706_860527777302228_169226801673963820_n](/images/{{page.images}}/10428706_860527777302228_169226801673963820_n.png)](/images/{{page.images}}/10428706_860527777302228_169226801673963820_n.png)

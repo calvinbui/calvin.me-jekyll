@@ -30,19 +30,19 @@ The most important rule first off is to block access to the pfSense web interfac
 
 First create a new alias containing all the gateways of the various VLANs. Do not leave out your LAN gateway as well (unless it is disabled).
 
-[![pfsense gui access](http://calvinbuiblog.files.wordpress.com/2014/09/34.png)](http://calvinbuiblog.files.wordpress.com/2014/09/34.png)
+[![pfsense gui access](/images/{{page.images}}/34.png)](/images/{{page.images}}/34.png)
 
 Make note of your pfSense TCP Port. Mine is currently 443 but I changed it to 444.
 
-[![pfsense port](http://calvinbuiblog.files.wordpress.com/2014/09/52.png)](http://calvinbuiblog.files.wordpress.com/2014/09/52.png)
+[![pfsense port](/images/{{page.images}}/52.png)](/images/{{page.images}}/52.png)
 
 Go to the Floating Firewall Rules and create a rule which blocks certain VLANs from accessing the pfSense GUI from its TCP Port.
 
-[![firewall rule](http://calvinbuiblog.files.wordpress.com/2014/09/7.png)](http://calvinbuiblog.files.wordpress.com/2014/09/7.png)
+[![firewall rule](/images/{{page.images}}/7.png)](/images/{{page.images}}/7.png)
 
 The end result is something like this:
 
-[![6](http://calvinbuiblog.files.wordpress.com/2014/09/62.png)](http://calvinbuiblog.files.wordpress.com/2014/09/62.png)
+[![6](/images/{{page.images}}/62.png)](/images/{{page.images}}/62.png)
 
 Test it out by attempting to access the pfSense web interface from a host on the blocked VLAN.
 
@@ -68,7 +68,7 @@ These addresses are:
   * 192.168.0.0/16
 
 
-[![rfc 1918](http://calvinbuiblog.files.wordpress.com/2014/09/8.png)](http://calvinbuiblog.files.wordpress.com/2014/09/8.png)
+[![rfc 1918](/images/{{page.images}}/8.png)](/images/{{page.images}}/8.png)
 
 Create the following VLAN rules for the Internet Only VLAN:
 
@@ -87,7 +87,7 @@ Create the following VLAN rules for the Internet Only VLAN:
   4. Any host on the Guest network **CAN** access anything. (this last rule enables Internet access)
 
 
-[![internet only](http://calvinbuiblog.files.wordpress.com/2014/09/9.png)](http://calvinbuiblog.files.wordpress.com/2014/09/9.png)
+[![internet only](/images/{{page.images}}/9.png)](/images/{{page.images}}/9.png)
 
 
 ## Admin VLAN
@@ -95,7 +95,7 @@ Create the following VLAN rules for the Internet Only VLAN:
 
 An administrative VLAN with access to anyone and anything it wants. Just create a rule where anything on this network can access everything else.
 
-[![admin vlan](http://calvinbuiblog.files.wordpress.com/2014/09/101.png)](http://calvinbuiblog.files.wordpress.com/2014/09/101.png)
+[![admin vlan](/images/{{page.images}}/101.png)](/images/{{page.images}}/101.png)
 
 
 ## Private No-Internet VLAN
@@ -115,4 +115,4 @@ More or less a local area network without Internet access. Hosts on this network
   3. This network cannot communicate with anything.
 
 
-[![local vlan](http://calvinbuiblog.files.wordpress.com/2014/09/111.png)](http://calvinbuiblog.files.wordpress.com/2014/09/111.png)
+[![local vlan](/images/{{page.images}}/111.png)](/images/{{page.images}}/111.png)

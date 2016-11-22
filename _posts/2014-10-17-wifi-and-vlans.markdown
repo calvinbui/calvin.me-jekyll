@@ -60,7 +60,7 @@ The solution was to find an AP that supported VLANs and multiple SSIDs. Easy rig
 ## The Decision - Unifi AP-AC
 
 
-[![uap-ac-small](http://calvinbuiblog.files.wordpress.com/2014/10/uap-ac-small.png)](http://calvinbuiblog.files.wordpress.com/2014/10/uap-ac-small.png) [![uap-ac-small](http://calvinbuiblog.files.wordpress.com/2014/10/uap-ac-small.png)](http://calvinbuiblog.files.wordpress.com/2014/10/uap-ac-small.png)
+[![uap-ac-small](/images/{{page.images}}/uap-ac-small.png)](/images/{{page.images}}/uap-ac-small.png) [![uap-ac-small](/images/{{page.images}}/uap-ac-small.png)](/images/{{page.images}}/uap-ac-small.png)
 
 So in the end I picked up two (yes two!) Unifi AP-AC models because it offered:
 
@@ -108,17 +108,17 @@ This part is important: for the access points to have an IP address of their own
 
 So taking the above into account, I made them untagged on 10 and tagged on 20, 30 and 40. By tagging them, it means every packet sent and retrieve will have an associated VLAN attached onto it.
 
-[![switch vlan](http://calvinbuiblog.files.wordpress.com/2014/10/capture3.png)](http://calvinbuiblog.files.wordpress.com/2014/10/capture3.png)
+[![switch vlan](/images/{{page.images}}/capture3.png)](/images/{{page.images}}/capture3.png)
 
 Next I setup the four networks within the UniFi web application which manages the access points.
 
-[![four networks](http://calvinbuiblog.files.wordpress.com/2014/10/capture4.png)](http://calvinbuiblog.files.wordpress.com/2014/10/capture4.png)
+[![four networks](/images/{{page.images}}/capture4.png)](/images/{{page.images}}/capture4.png)
 
 NOTE! This is where you should remember what we did above. Because the access points are untagged on VLAN 10, they do not require a VLAN tag associated with the network as they are already on the VLAN. The others will however because they are untagged on that VLAN. Compare the the Admin VLAN and Guest VLAN below.
 
-[caption id="attachment_420" align="alignnone" width="819"]![admin settings](http://calvinbuiblog.files.wordpress.com/2014/10/admin.png) The Admin VLAN is untagged, and therefore does not require a VLAN ID. The access points are already on the VLAN![/caption]
+[caption id="attachment_420" align="alignnone" width="819"]![admin settings](/images/{{page.images}}/admin.png) The Admin VLAN is untagged, and therefore does not require a VLAN ID. The access points are already on the VLAN![/caption]
 
-[caption id="attachment_421" align="alignnone" width="820"][![guest settings](http://calvinbuiblog.files.wordpress.com/2014/10/guest.png)](http://calvinbuiblog.files.wordpress.com/2014/10/guest.png) The Guest Network VLAN ID is 30. It must be specified as the access points are trunk ports to this VLAN.[/caption]
+[caption id="attachment_421" align="alignnone" width="820"][![guest settings](/images/{{page.images}}/guest.png)](/images/{{page.images}}/guest.png) The Guest Network VLAN ID is 30. It must be specified as the access points are trunk ports to this VLAN.[/caption]
 
 After this I simply connected from my phone and they worked perfectly! Sure, you can go the full VLAN route but as I said you will not be able to manage the access points afterwards - therefore you won't be able to even add configure the networks to begin with. There's probably better methods out there (like maybe putting them all in a separate VLAN dedicated for WiFi) but it was a little bit too over the top for something like this. Feel free to try it though!
 

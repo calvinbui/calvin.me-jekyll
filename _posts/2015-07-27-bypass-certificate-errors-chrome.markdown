@@ -27,16 +27,16 @@ Chrome can remember decisions to proceed through certificate errors for a speci
 
 
 	
-  1. Enter **chrome://flags** into the address bar[![flags](http://calvinbuiblog.files.wordpress.com/2015/07/flags.jpg)](http://calvinbuiblog.files.wordpress.com/2015/07/flags.jpg)
+  1. Enter **chrome://flags** into the address bar[![flags](/images/{{page.images}}/flags.jpg)](/images/{{page.images}}/flags.jpg)
 
 	
-  2. Find '**Remember decisions to proceed through SSL errors for a specified length of time.**' It is about 3/4 of the way down the page. Use CTRL+F to make your life a little easier. [![remember](http://calvinbuiblog.files.wordpress.com/2015/07/remember.jpg)](http://calvinbuiblog.files.wordpress.com/2015/07/remember.jpg)
+  2. Find '**Remember decisions to proceed through SSL errors for a specified length of time.**' It is about 3/4 of the way down the page. Use CTRL+F to make your life a little easier. [![remember](/images/{{page.images}}/remember.jpg)](/images/{{page.images}}/remember.jpg)
 
 	
-  3. Select '**Remember for three months**' in the drop-down. [![dropdown](http://calvinbuiblog.files.wordpress.com/2015/07/dropdown.jpg)](http://calvinbuiblog.files.wordpress.com/2015/07/dropdown.jpg)
+  3. Select '**Remember for three months**' in the drop-down. [![dropdown](/images/{{page.images}}/dropdown.jpg)](/images/{{page.images}}/dropdown.jpg)
 
 	
-  4. Relaunch Chrome as prompted. [![relaunch](http://calvinbuiblog.files.wordpress.com/2015/07/relaunch.jpg)](http://calvinbuiblog.files.wordpress.com/2015/07/relaunch.jpg)
+  4. Relaunch Chrome as prompted. [![relaunch](/images/{{page.images}}/relaunch.jpg)](/images/{{page.images}}/relaunch.jpg)
 
 
 

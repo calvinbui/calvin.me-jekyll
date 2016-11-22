@@ -89,7 +89,7 @@ My portal utilises the pfSense User Accounts method but in a unique way - a user
   4. Upload the 'error.html' for Authentication error page contents.
 
 	
-  5. Upload the rest of the files with the pre-fix 'captiveportal-' into the File Manager. [![captive portal file manager](http://calvinbuiblog.files.wordpress.com/2014/09/capture2.png)](http://calvinbuiblog.files.wordpress.com/2014/09/capture2.png)
+  5. Upload the rest of the files with the pre-fix 'captiveportal-' into the File Manager. [![captive portal file manager](/images/{{page.images}}/capture2.png)](/images/{{page.images}}/capture2.png)
 
 
 

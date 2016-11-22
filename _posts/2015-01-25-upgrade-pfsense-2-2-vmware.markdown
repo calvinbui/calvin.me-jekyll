@@ -51,10 +51,10 @@ Assuming you are on VMware (as per the blog title), the first best thing to do i
   1. Perform the update to 2.2. This is under System > Firmware.
 
 	
-  2. After the system updates and restarts, head over to the VM's console to reassign the interfaces. [![1](http://calvinbuiblog.files.wordpress.com/2015/01/1.png)](http://calvinbuiblog.files.wordpress.com/2015/01/1.png)
+  2. After the system updates and restarts, head over to the VM's console to reassign the interfaces. [![1](/images/{{page.images}}/1.png)](/images/{{page.images}}/1.png)
 
 	
-  3. When asked about VLANs, answer 'no' to be given a list of your current VLANs and their interfaces. [![2](http://calvinbuiblog.files.wordpress.com/2015/01/2.png)](http://calvinbuiblog.files.wordpress.com/2015/01/2.png)
+  3. When asked about VLANs, answer 'no' to be given a list of your current VLANs and their interfaces. [![2](/images/{{page.images}}/2.png)](/images/{{page.images}}/2.png)
 
 	
   4. Similar to your first-time setup, enter the matching interfaces for the WAN and LAN (vmx0 and vmx1 I would assume).
@@ -67,7 +67,7 @@ Assuming you are on VMware (as per the blog title), the first best thing to do i
 
 	
   7. When you have entered all the interfaces, pfSense will connect to the Internet and upgrade any packages it can find such as snort and squid.
-[![updating packages](http://calvinbuiblog.files.wordpress.com/2015/01/updating-packages.png)](http://calvinbuiblog.files.wordpress.com/2015/01/updating-packages.png)[![Capture (1)](http://calvinbuiblog.files.wordpress.com/2015/01/capture-1.png)](http://calvinbuiblog.files.wordpress.com/2015/01/capture-1.png)
+[![updating packages](/images/{{page.images}}/updating-packages.png)](/images/{{page.images}}/updating-packages.png)[![Capture (1)](/images/{{page.images}}/capture-1.png)](/images/{{page.images}}/capture-1.png)
 
 	
   8. Once finished pfSense will return to its usual console menu.
@@ -76,13 +76,13 @@ Assuming you are on VMware (as per the blog title), the first best thing to do i
   9. Get a LAN connection. If you are on a VLAN this will not work, you require a LAN connection to reestablish a connection to pfSense.
 
 	
-  10. Log into the pfSense web configurator and change your VLAN parent interfaces to the new vmx interface.[![vlans](http://calvinbuiblog.files.wordpress.com/2015/01/vlans.png)](http://calvinbuiblog.files.wordpress.com/2015/01/vlans.png)
+  10. Log into the pfSense web configurator and change your VLAN parent interfaces to the new vmx interface.[![vlans](/images/{{page.images}}/vlans.png)](/images/{{page.images}}/vlans.png)
 
 	
-  11. Apply the new interface assignments and restart pfSense.[![reassign network](http://calvinbuiblog.files.wordpress.com/2015/01/reassign-network.png)](http://calvinbuiblog.files.wordpress.com/2015/01/reassign-network.png)
+  11. Apply the new interface assignments and restart pfSense.[![reassign network](/images/{{page.images}}/reassign-network.png)](/images/{{page.images}}/reassign-network.png)
 
 	
-  12. Your interfaces should now be back in order and working again. [![Capture](http://calvinbuiblog.files.wordpress.com/2015/01/capture4.png)](http://calvinbuiblog.files.wordpress.com/2015/01/capture4.png)
+  12. Your interfaces should now be back in order and working again. [![Capture](/images/{{page.images}}/capture4.png)](/images/{{page.images}}/capture4.png)
 
 
 
@@ -129,7 +129,7 @@ HAVP and Squid are both updated in version 2.2. The downside is that HAVP no lon
 
 Squid 3 provides c-icap antivirus built in along with clamd, a replacement for HAVP but not as nice. The downside is you won't get to use templates/web pages to notify users of viruses as easy as HAVP did.
 
-[![4](http://calvinbuiblog.files.wordpress.com/2015/01/4.png)](http://calvinbuiblog.files.wordpress.com/2015/01/4.png)
+[![4](/images/{{page.images}}/4.png)](/images/{{page.images}}/4.png)
 
 
 #### Snort
@@ -137,4 +137,4 @@ Squid 3 provides c-icap antivirus built in along with clamd, a replacement for H
 
 Because of the new interface, Snort changes where it stores its logs and therefore the Snort tab will be empty. You can verify this by going to /var/log/snort where you will find a folder starting with 'vmx' and another with 'vmx3f'.
 
-[![3](http://calvinbuiblog.files.wordpress.com/2015/01/3.png)](http://calvinbuiblog.files.wordpress.com/2015/01/3.png)
+[![3](/images/{{page.images}}/3.png)](/images/{{page.images}}/3.png)

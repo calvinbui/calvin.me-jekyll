@@ -76,7 +76,7 @@ If everything went smoothly you should be able to access the controller through 
 
 Depending on the version installed, you will be taken to the setup wizard. You're done!
 
-[![Capture](http://calvinbuiblog.files.wordpress.com/2015/01/capture2.png)](http://calvinbuiblog.files.wordpress.com/2015/01/capture2.png)
+[![Capture](/images/{{page.images}}/capture2.png)](/images/{{page.images}}/capture2.png)
 
 
 ## Problems?

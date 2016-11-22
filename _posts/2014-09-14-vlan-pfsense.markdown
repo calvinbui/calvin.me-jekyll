@@ -32,34 +32,34 @@ Have some VLAN numbers in mind. Something memorable if possible. Possible VLAN n
 
 
 
-	
+
   * 0 - user priority data
 
-	
+
   * 1 - native VLAN
 
-	
+
   * 4095 - automatically discarded
 
 
 Here are the VLANs I chose for myself that were easy to remember and had a common separation of components.:
 
-	
+
   * **Management VLAN 10**: For Administrative operations. Access to all other VLANs. Where the infrastructure and my main computers will be.
 
-	
+
   * **User VLAN 20**: Gives access to file server and little bit of infrastructure like a printer and sound system. Mainly for trusted family and friends.
 
-	
+
   * **Guest VLAN 30**: Internet Access only. No access to anything but the Internet.
 
-	
+
   * **Local VLAN 40**: No Internet Access. Just a plain old local area network for whatever purpose.
 
-	
+
   * **Voice VLAN 50**: VoIP devices go here. Traffic will be prioritised over other VLANs
 
-	
+
   * **Surveillance VLAN 60**: When I get some cameras and surveillance cameras this will be there they go.
 
 
@@ -73,47 +73,47 @@ Create a new VLAN using your LAN interface as the parent interface. I only have 
 
 Give your VLAN a number/tag (10) and a short description of what it is (e.g. Management).
 
-[![Create a VLAN](https://calvin.me/mymedia/uploads/2014/09/12.png)](https://calvin.me/mymedia/uploads/2014/09/12.png)
+[![Create a VLAN](/images/{{page.images}}/12.png)](/images/{{page.images}}/12.png)
 
 Continuing creating VLANs to your heart's content until you have enough.
 
-[caption id="attachment_278" align="alignnone" width="786"][![all vlans](http://calvinbuiblog.files.wordpress.com/2014/09/22.png)](http://calvinbuiblog.files.wordpress.com/2014/09/22.png) Finished list[/caption]
+[caption id="attachment_278" align="alignnone" width="786"][![all vlans](/images/{{page.images}}/22.png)](/images/{{page.images}}/22.png) Finished list[/caption]
 
 **2.** Go to 'Interfaces -> Assign' and add some new Interfaces for your new VLANs. We will worry about renaming and configuring them next.
 
-[caption id="attachment_276" align="alignnone" width="778"][![Assign Network Ports](https://calvin.me/mymedia/uploads/2014/09/32.png)](https://calvin.me/mymedia/uploads/2014/09/32.png) Assign Network Ports[/caption]
+[caption id="attachment_276" align="alignnone" width="778"][![Assign Network Ports](/images/{{page.images}}/32.png)](/images/{{page.images}}/32.png) Assign Network Ports[/caption]
 
 **3.** Pick an interface under the 'Interfaces' menu and enable it. This will give you the ability to configure it.
 
-[![Configure Interface](http://calvinbuiblog.files.wordpress.com/2014/09/42.png)](http://calvinbuiblog.files.wordpress.com/2014/09/42.png)
+[![Configure Interface](/images/{{page.images}}/42.png)](/images/{{page.images}}/42.png)
 
 Give the interface an IPv4 address (gateway). Make sure it is unique and outside the address range of your other networks/interfaces. I chose to give each VLAN a _10.0.X.0_ address, where X is the VLAN number.
 
 
 
-	
+
   * LAN is 10.0.100.1/24 (will never be used)
 
-	
+
   * VLAN 10 is 10.0.0.1/23 (covers 10.0.0.1 - 10.0.1.255)
 
-	
+
   * VLAN 20 is 10.0.2.1/24
 
-	
+
   * VLAN 30 is 10.0.3.1/24
 
-	
+
   * VLAN 40 is 10.0.4.1/24
 
 
 You can return to the Interfaces page to confirm your VLANs.
 
-[![Confirm VLANs](https://calvin.me/mymedia/uploads/2014/09/51.png)](https://calvin.me/mymedia/uploads/2014/09/51.png)
+[![Confirm VLANs](/images/{{page.images}}/51.png)](/images/{{page.images}}/51.png)
 
 **4.** Enable any DHCP servers for the VLANs interfaces if you need it. I have configured half of each range to be DHCP and the other half to be static.
 
-[caption id="attachment_281" align="alignnone" width="785"][![Configure DHCP](https://calvin.me/mymedia/uploads/2014/09/61.png)](https://calvin.me/mymedia/uploads/2014/09/61.png) Configure DHCP on any/all VLANs[/caption]
+[caption id="attachment_281" align="alignnone" width="785"][![Configure DHCP](/images/{{page.images}}/61.png)](/images/{{page.images}}/61.png) Configure DHCP on any/all VLANs[/caption]
 
 **5.** Go to Firewall -> Rules and select a VLAN interface. Currently each VLAN cannot access anything, like ANYTHING at all without any 'pass' rules. Play with this until you are happy with it. I will share my rules in a future post.
 
@@ -121,25 +121,25 @@ You can return to the Interfaces page to confirm your VLANs.
 
 First edit your LAN Port Group so it has access to All (4095) VLAN groups. Doing so allows pfSense to configure VLAN access to VMware. Imagine you are configuring a switch, except this one is virtual. Allowing the LAN 'port' on the switch to access all VLANs transforms it into a 'trunk' or 'tagged' VLAN port which is able to carry all VLAN data.
 
-[caption id="attachment_283" align="alignnone" width="526"][![LAN VLAN Access](http://calvinbuiblog.files.wordpress.com/2014/09/lan1.png)](http://calvinbuiblog.files.wordpress.com/2014/09/lan1.png) LAN VLAN Access[/caption]
+[caption id="attachment_283" align="alignnone" width="526"][![LAN VLAN Access](/images/{{page.images}}/lan1.png)](/images/{{page.images}}/lan1.png) LAN VLAN Access[/caption]
 
 **7. ** Begin to create additional Port Groups for VLANs. Click 'Add Networking...' in the top right hand corner.
 
 a. Choose 'Virtual Machine' as the connection type.
 
-[![Connection Type](http://calvinbuiblog.files.wordpress.com/2014/09/13.png)](http://calvinbuiblog.files.wordpress.com/2014/09/13.png)
+[![Connection Type](/images/{{page.images}}/13.png)](/images/{{page.images}}/13.png)
 
 b. Select the same vSwitch as the LAN Port Group we edited earlier
 
-[![vSwitch](http://calvinbuiblog.files.wordpress.com/2014/09/23.png)](http://calvinbuiblog.files.wordpress.com/2014/09/23.png)
+[![vSwitch](/images/{{page.images}}/23.png)](/images/{{page.images}}/23.png)
 
 c. Enter the Network Label and its associated VLAN ID.
 
-[![Name and VLAN ID](http://calvinbuiblog.files.wordpress.com/2014/09/33.png)](http://calvinbuiblog.files.wordpress.com/2014/09/33.png)
+[![Name and VLAN ID](/images/{{page.images}}/33.png)](/images/{{page.images}}/33.png)
 
 d. Repeat for all other VLANs.
 
-[![vSwitch Port ID](http://calvinbuiblog.files.wordpress.com/2014/09/vmware.png)](http://calvinbuiblog.files.wordpress.com/2014/09/vmware.png)
+[![vSwitch Port ID](/images/{{page.images}}/vmware.png)](/images/{{page.images}}/vmware.png)
 
 You can now assign Virtual Machines to different VLANs by changing their Network Connection/Network Label from LAN to your specified VLAN.
 
@@ -147,16 +147,16 @@ You can now assign Virtual Machines to different VLANs by changing their Networ
 
 Create a new VLAN matching your current VLAN settings.
 
-[![Switch VLAN Config](http://calvinbuiblog.files.wordpress.com/2014/09/14.png)](http://calvinbuiblog.files.wordpress.com/2014/09/14.png)
+[![Switch VLAN Config](/images/{{page.images}}/14.png)](/images/{{page.images}}/14.png)
 
 Depending on your switch, you may have the terms '_Untagged_' and '_Tagged_' or '_Access_' and '_Trunk_'. Cisco brand switches will use '_Access_' and '_Trunk_' while other vendors stick to the '_Untagged_' and '_Tagged_' convention. To make it easier to remember:
 
 
 
-	
+
   * Untagged = Access
 
-	
+
   * Tagged = Trunk
 
 
@@ -168,7 +168,7 @@ In my scenario, my ESXi box (which contains by pfSense virtual machine) are conn
 
 Configure all other VLAN ports as necessary.
 
-[![DLink Switch](http://calvinbuiblog.files.wordpress.com/2014/09/10.png)](http://calvinbuiblog.files.wordpress.com/2014/09/10.png)
+[![DLink Switch](/images/{{page.images}}/10.png)](/images/{{page.images}}/10.png)
 
 If a DHCP is configured on each VLAN through pfSense, you should be able to acquire an IP address with matching DHCP range when you plug a device into that port.
 

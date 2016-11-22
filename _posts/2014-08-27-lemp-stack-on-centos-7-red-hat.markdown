@@ -71,4 +71,4 @@ A very quick how-to guide on installing NGINX, MySQL and PHP, otherwise known as
     sudo chkconfig --levels 235 mariadb on sudo chkconfig --levels 235 nginx on sudo chkconfig --levels 235 php-fpm on
 
 
-And we are finished! Start configurating your new LEMP stack on CentOS [![nginx-success](http://calvinbuiblog.files.wordpress.com/2014/08/successsss.png)](http://calvinbuiblog.files.wordpress.com/2014/08/successsss.png)
+And we are finished! Start configurating your new LEMP stack on CentOS [![nginx-success](/images/{{page.images}}/successsss.png)](/images/{{page.images}}/successsss.png)

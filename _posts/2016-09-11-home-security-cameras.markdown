@@ -26,7 +26,7 @@ This post covers some of my home security camera system. Not a lot of informatio
 ## Cameras
 
 
-[caption id="attachment_1421" align="aligncenter" width="400"][![hikvision-ds-2cd2335-i-3-0mp-3mp-1080p-poe-outdoor-dome-net-ip-camera-4mm-lens-ba73cd720095db8c9202a8da065e2761](http://calvinbuiblog.files.wordpress.com/2016/07/hikvision-ds-2cd2335-i-3-0mp-3mp-1080p-poe-outdoor-dome-net-ip-camera-4mm-lens-ba73cd720095db8c9202a8da065e2761-1.jpg)](http://calvinbuiblog.files.wordpress.com/2016/07/hikvision-ds-2cd2335-i-3-0mp-3mp-1080p-poe-outdoor-dome-net-ip-camera-4mm-lens-ba73cd720095db8c9202a8da065e2761-1.jpg) Hikvision DS-2CD2335-I[/caption]
+[caption id="attachment_1421" align="aligncenter" width="400"][![hikvision-ds-2cd2335-i-3-0mp-3mp-1080p-poe-outdoor-dome-net-ip-camera-4mm-lens-ba73cd720095db8c9202a8da065e2761](/images/{{page.images}}/hikvision-ds-2cd2335-i-3-0mp-3mp-1080p-poe-outdoor-dome-net-ip-camera-4mm-lens-ba73cd720095db8c9202a8da065e2761-1.jpg)](/images/{{page.images}}/hikvision-ds-2cd2335-i-3-0mp-3mp-1080p-poe-outdoor-dome-net-ip-camera-4mm-lens-ba73cd720095db8c9202a8da065e2761-1.jpg) Hikvision DS-2CD2335-I[/caption]
 
 For the most important part of this system, the cameras, I went with the Hikvision 2CD2335 - the successor to the popular and highly recommended Hikvision 2CD2332. Not much has changed between the two, with 25 fps vs 20 fps at 3MP (2048x1536) and H.265 as standouts. PoE (power and data in one cable) comes as standard on the camera but there is a power port if necessary. The camera can be manually rotated and locked into place with a screw.
 
@@ -34,13 +34,13 @@ I ordered two with a 2.8mm lens (narrow) and two with 4mm lens (wider). Two came
 
 The seller was XinRay who is a reputable seller on [Aliexpress](http://www.aliexpress.com/store/319147) but also have their own [eBay store](http://stores.ebay.com.au/dbyz/). A flood had struck their warehouse and it took over a month for the cameras to arrive, however, they made up for it with express shipping from DHL.
 
-[![img_20160910_151152](https://calvin.me/mymedia/uploads/2016/09/IMG_20160910_151152.jpg)](https://calvin.me/mymedia/uploads/2016/09/IMG_20160910_151152.jpg)
+[![img_20160910_151152](/images/{{page.images}}/IMG_20160910_151152.jpg)](/images/{{page.images}}/IMG_20160910_151152.jpg)
 
 
 ## PoE Switch
 
 
-[![PoESWITCH](http://calvinbuiblog.files.wordpress.com/2016/07/poeswitch.jpg)](http://calvinbuiblog.files.wordpress.com/2016/07/poeswitch.jpg)
+[![PoESWITCH](/images/{{page.images}}/poeswitch.jpg)](/images/{{page.images}}/poeswitch.jpg)
 
 I went with the [TP-Link TL-SG2210P](http://www.tp-link.com.au/products/details/TL-SG2210P.html) to power the cameras (using PoE) and provide networking. It is an 8-Port gigabit switch with 2 SFP Slots for a theoretical maximum of 7 cameras as one port is a dedicated connection back to the network. I could not find any similarly priced alternative with 8 PoE ports. It uses the 802.3af PoE standard and is rated up to 53W however each camera only consumes 3W. Head over to the [TP-Link's website](http://www.tp-link.com.au/products/details/TL-SG2210P.html#specifications) for more details.
 
@@ -112,13 +112,13 @@ For editing multiple cameras at once, I recommend using [HikVision's Batch Confi
 
 For my video settings I went with 15 fps @ 2048*1536 (3MP), 5120 Kbps variable bitrate, H.264 and Video Quality at Highest.
 
-[![camera-video-settings](http://calvinbuiblog.files.wordpress.com/2016/07/capture.png)](http://calvinbuiblog.files.wordpress.com/2016/07/capture.png)
+[![camera-video-settings](/images/{{page.images}}/capture.png)](/images/{{page.images}}/capture.png)
 
 The FPS sweet spot in a recording is 15 fps. This [video shows and explains it well](https://www.youtube.com/watch?v=W7LYhTPc-Nw). Not much is lost between 25/30fps and 15fps and it would likely catch fast hand movements when going back and pausing at a specific frame. Even 7fps is pretty good if tight on storage, everything you need to see is still captured although a little choppy. As long as the resolution is high enough, most details will be picked up.
 
 The correct bitrate settings (video quality) are based on Hikvision's very own recommendations (3MP @ 15fps):
 
-[![video-bitrate-settings](http://calvinbuiblog.files.wordpress.com/2016/07/capture-1.png)](http://calvinbuiblog.files.wordpress.com/2016/07/capture-1.png)
+[![video-bitrate-settings](/images/{{page.images}}/capture-1.png)](/images/{{page.images}}/capture-1.png)
 
 I could not get H.264+ or H.265 working with Milestone or Blue Iris. I suspect iVMS should support it. The difference would be minimal, however (3 Mb/s vs 1 Mb/s on a 1 Gb/s capable switch).
 
@@ -148,7 +148,7 @@ Milestone Go does not feature any motion detection/alert notifications. This is 
 
 As I already had a Windows PC running the VMS, I installed [Microsoft OneDrive](https://onedrive.live.com?invref=7a3199ab078dcadc&invscr=90) on it. As I already signed up a while back I had 15GB (new users only receive 5GB) as well as 15GB of Camera Roll Bonus (uploading photos). I could further increase this number by referring others (or just myself a 20 times) to get another 10GB. This is 40GB of OneDrive storage which is around 300,000 possible motion detection photos, as each is anywhere from 100kB-150kB.
 
-[![""</yoastmark](http://calvinbuiblog.files.wordpress.com/2016/07/capture-4-e1469573899130.png)](https://calvin.me/mymedia/uploads/2016/07/Capture-4.png)
+[![""</yoastmark](/images/{{page.images}}/capture-4-e1469573899130.png)](/images/{{page.images}}/Capture-4.png)
 
 With that in mind, I made a script (.bat file) which would just delete anything older than 30 days. Windows Task Scheduler runs it once daily . The photos would also be deleted on OneDrive as they are located in its folder.
 
@@ -182,11 +182,11 @@ Of course, you can also use any other cloud storage solution you have lying arou
 
 I used Filezilla as my FTP server running on the VMS server. Setup is straightforward, create a new user and specify the directories on the computer they can access and what permissions they have. I would recommend turning off any limits to ensure the cameras can connect to the FTP server without any issues.
 
-[![filezilla-hikv](http://calvinbuiblog.files.wordpress.com/2016/07/capture-3.png)](http://calvinbuiblog.files.wordpress.com/2016/07/capture-3.png)
+[![filezilla-hikv](/images/{{page.images}}/capture-3.png)](/images/{{page.images}}/capture-3.png)
 
 The camera’s FTP configuration can be found under ‘Configuration > Network > Advanced Settings > FTP’. There are fields to specify the server, port, username, password and the option to save in different directories to sort out each camera.
 
-[![capture2](http://calvinbuiblog.files.wordpress.com/2016/09/capture2.png)](http://calvinbuiblog.files.wordpress.com/2016/09/capture2.png)
+[![capture2](/images/{{page.images}}/capture2.png)](/images/{{page.images}}/capture2.png)
 
 
 #### Motion Detection / Intrusion Detection
@@ -194,7 +194,7 @@ The camera’s FTP configuration can be found under ‘Configuration > Network >
 
 I found the basic motion detection to trip on almost anything even with the lowest possible sensitively. Instead, I used the Intrusion Detection Feature under 'Event > Smart Event'. Select the entire area or draw the areas to sense motion detection and then choose 'Upload to FTP' under Linkage Method.
 
-[![capture](https://calvin.me/mymedia/uploads/2016/09/Capture.png)](https://calvin.me/mymedia/uploads/2016/09/Capture.png)
+[![capture](/images/{{page.images}}/Capture.png)](/images/{{page.images}}/Capture.png)
 
 
 ## Network Configuration
@@ -283,7 +283,7 @@ If by chance you are like me and perhaps you're running other web servers at hom
 
 A little complicated but I tried to make it as easy to look at as possible. Of course this just my personal configuration and many things you won't even need like FreeNAS or a Proxy Server.
 
-[caption id="attachment_1428" align="aligncenter" width="634"][![ip_cam_network_diagram (1)](https://calvin.me/mymedia/uploads/2016/07/ip_cam_network_diagram-1-1024x457.png)](http://calvinbuiblog.files.wordpress.com/2016/07/ip_cam_network_diagram-1.png) Click for a larger image[/caption]
+[caption id="attachment_1428" align="aligncenter" width="634"][![ip_cam_network_diagram (1)](/images/{{page.images}}/ip_cam_network_diagram-1-1024x457.png)](/images/{{page.images}}/ip_cam_network_diagram-1.png) Click for a larger image[/caption]
 
 
 ## Sample Video & Motion Captures

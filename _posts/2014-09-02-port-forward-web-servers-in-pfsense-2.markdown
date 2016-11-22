@@ -27,31 +27,31 @@ Web servers are configured to run on port 80 (HTTP) and 443 (HTTPS). pfSense, as
 
 Save and Apply this setting and wait for pfSense to redirect you or you can redirect yourself to the new web interface URL.
 
-[![pfsense-port](http://calvinbuiblog.files.wordpress.com/2014/09/1.png)](http://calvinbuiblog.files.wordpress.com/2014/09/1.png)
+[![pfsense-port](/images/{{page.images}}/1.png)](/images/{{page.images}}/1.png)
 
 **2**. Once in the new URL, return to 'System -> Advanced' and check the '_WebGUI redirect_' option to prevent pfSense from redirecting your web server to itself. Save and Apply this setting.
 
-[![webgui-redirect](http://calvinbuiblog.files.wordpress.com/2014/09/2.png)](http://calvinbuiblog.files.wordpress.com/2014/09/2.png)
+[![webgui-redirect](/images/{{page.images}}/2.png)](/images/{{page.images}}/2.png)
 
 **3.** While still in '_Advanced_', navigate to the '_Firewall/NAT_' tab and scroll down to '_Network Address Translation_'. Change the '_NAT Reflection_' mode for port forwards' to 'Enable'. Choose the option which suits you more. I found '_NAT + Proxy_' works for me but '_Pure NAT_' does not.
 
-[![Choose (NAT + Proxy) Reflection mode](http://calvinbuiblog.files.wordpress.com/2014/08/41.png)](http://calvinbuiblog.files.wordpress.com/2014/08/41.png)
+[![Choose (NAT + Proxy) Reflection mode](/images/{{page.images}}/41.png)](/images/{{page.images}}/41.png)
 
 Choose (NAT + Proxy) Reflection mode.
 
 **Optional Step:** On the top menu, click 'Firewall -> Aliases'. Here you can set an alias for a Machines, Ports and URLs, saving you having to change the IP address in a lot of different places if it does change. Create a new 'IP Alias' with the information of the web server. You can now just reference the Alias instead of the IP address.
 
-![port-forward-alias](http://calvinbuiblog.files.wordpress.com/2014/08/22.png)
+![port-forward-alias](/images/{{page.images}}/22.png)
 
 **4.** Navigate to 'Firewall -> NAT' from the top menu bar. This is where you configure Port Forwarding, 1:1, Outbound and NPt. You want your port forward table to look like this (I used an IP instead of an Alias...bad Calvin). To do so, create a new 'port forwarding' rule.
 
-[![nat-rules](http://calvinbuiblog.files.wordpress.com/2014/09/3.png)](http://calvinbuiblog.files.wordpress.com/2014/09/3.png)
+[![nat-rules](/images/{{page.images}}/3.png)](/images/{{page.images}}/3.png)
 
 **5.** Enter in the details of your web server. Any red input boxes are linked to aliases. You can select HTTP and HTTPS from the port dropdowns . If you are running server blocks on NGINX or Virtual Hosts on Apache, you will only need to port forward that one host.
 
-[caption id="attachment_158" align="alignnone" width="785"]![port-forward-rules](http://calvinbuiblog.files.wordpress.com/2014/08/36.png) With an alias, HTTP Port (80)[/caption]
+[caption id="attachment_158" align="alignnone" width="785"]![port-forward-rules](/images/{{page.images}}/36.png) With an alias, HTTP Port (80)[/caption]
 
-[caption id="attachment_208" align="alignnone" width="788"][![port-forward-80](http://calvinbuiblog.files.wordpress.com/2014/09/4.png)](http://calvinbuiblog.files.wordpress.com/2014/09/4.png) Without alias, HTTPS Port (443)[/caption]
+[caption id="attachment_208" align="alignnone" width="788"][![port-forward-80](/images/{{page.images}}/4.png)](/images/{{page.images}}/4.png) Without alias, HTTPS Port (443)[/caption]
 
 **6. **Save and Apply the changes.
 

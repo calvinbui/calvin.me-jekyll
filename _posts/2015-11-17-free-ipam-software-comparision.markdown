@@ -31,7 +31,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 
 
 [
-](http://calvinbuiblog.files.wordpress.com/2015/11/gestio.png)[![infoblox](https://calvin.me/mymedia/uploads/2015/11/infoblox-300x231.png)](https://calvin.me/mymedia/uploads/2015/11/infoblox.png)
+](/images/{{page.images}}/gestio.png)[![infoblox](/images/{{page.images}}/infoblox-300x231.png)](/images/{{page.images}}/infoblox.png)
 
 [Download](https://www.infoblox.com/downloads/software/ip-address-management-freeware)
 
@@ -61,7 +61,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 ### phpIPAM
 
 
-[![ipam](https://calvin.me/mymedia/uploads/2015/11/ipam-300x234.png)](https://calvin.me/mymedia/uploads/2015/11/ipam.png)
+[![ipam](/images/{{page.images}}/ipam-300x234.png)](/images/{{page.images}}/ipam.png)
 
 [Download](http://phpipam.net/documents/download-phpipam/)
 
@@ -94,7 +94,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 ### GestioIP
 
 
-![gestio](https://calvin.me/mymedia/uploads/2015/11/gestio-300x281.png)
+![gestio](/images/{{page.images}}/gestio-300x281.png)
 
 [Download](http://sourceforge.net/projects/gestioip/)
 

@@ -38,21 +38,21 @@ Generally 192.168.0.1 or 192.168.1.1, depending on the model and brand. I have a
 
 Find and enable the option in the web interface to disable NAT (network address translation) to turn the device into a simple modem. This activates Bridge Mode. You have have to search your device's manual to find this option and see if it supports it. Restart the device if prompted before continuing.
 
-[caption id="attachment_119" align="alignnone" width="648"][![pfsense-nat](http://calvinbuiblog.files.wordpress.com/2014/08/34.png)](http://calvinbuiblog.files.wordpress.com/2014/08/34.png) Disable NAT on your modem router to activate bridge mode[/caption]
+[caption id="attachment_119" align="alignnone" width="648"][![pfsense-nat](/images/{{page.images}}/34.png)](/images/{{page.images}}/34.png) Disable NAT on your modem router to activate bridge mode[/caption]
 
 **4. Log back into the device**
 
 It may have a new IP address. Disable everything you will never use again on it to save some energy. For me, WiFi was still enabled so I disabled it.
 
-[caption id="attachment_120" align="alignnone" width="644"][![pfsense-modem-disable-features](http://calvinbuiblog.files.wordpress.com/2014/08/35.png)](http://calvinbuiblog.files.wordpress.com/2014/08/35.png) Turn off WiFi on your modem router. It is almost useless when in bridge mode.[/caption]
+[caption id="attachment_120" align="alignnone" width="644"][![pfsense-modem-disable-features](/images/{{page.images}}/35.png)](/images/{{page.images}}/35.png) Turn off WiFi on your modem router. It is almost useless when in bridge mode.[/caption]
 
 **5. Connect the WAN interface on your ESXi host**
 
 You are ready to connect the WAN port. Connect the NIC from your ESXi host into the any port on the modem. Disconnect your computer from the modem and back into the switch. Your network should look like this:
 
-[caption id="attachment_66" align="alignnone" width="452"][![nd2](http://calvinbuiblog.files.wordpress.com/2014/08/nd2.png)](http://calvinbuiblog.files.wordpress.com/2014/08/nd2.png) You can plug in your WAN connection now. Plug a cable from your bridged modem router to the ESXi host running pfSense. Make sure it is into the network card you have specified as your WAN.[/caption]
+[caption id="attachment_66" align="alignnone" width="452"][![nd2](/images/{{page.images}}/nd2.png)](/images/{{page.images}}/nd2.png) You can plug in your WAN connection now. Plug a cable from your bridged modem router to the ESXi host running pfSense. Make sure it is into the network card you have specified as your WAN.[/caption]
 
-[caption id="attachment_69" align="alignleft" width="963"][![the network we want to have](http://calvinbuiblog.files.wordpress.com/2014/08/network-diagram.png)](http://calvinbuiblog.files.wordpress.com/2014/08/network-diagram.png) Your network is ready. Having a switch allows you to have more LAN connections. pfSense has now become your router, firewall, DHCP and DNS server.[/caption]
+[caption id="attachment_69" align="alignleft" width="963"][![the network we want to have](/images/{{page.images}}/network-diagram.png)](/images/{{page.images}}/network-diagram.png) Your network is ready. Having a switch allows you to have more LAN connections. pfSense has now become your router, firewall, DHCP and DNS server.[/caption]
 
 If successful, you should get an Internet connection! Log back into pfSense and verify your WAN connection has an IP address. If you do not for whatever reason, go into 'Interfaces -> WAN' and give pfSense a hostname under 'DHCP client configuration'.
 

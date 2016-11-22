@@ -157,7 +157,7 @@ Notifications just don't appear on the top status bar like it does on Android. T
 
 I guess this is more of a design thing for iOS. Widgets are possible through the 'Today' tab when you pull down the notification shade, but are very limited. I have widgets on my Nexus for my calendar events, credit usage and tasks. None of this was at all possible on iOS.
 
-[caption id="attachment_1060" align="aligncenter" width="346"][![A lot of dynamic information can be displayed with widgets.](http://calvinbuiblog.files.wordpress.com/2015/06/nexus2cee_screenshot_2014-08-26-11-48-43.jpg)](http://calvinbuiblog.files.wordpress.com/2015/06/nexus2cee_screenshot_2014-08-26-11-48-43.jpg) A lot of dynamic information can be displayed with widgets.[/caption]
+[caption id="attachment_1060" align="aligncenter" width="346"][![A lot of dynamic information can be displayed with widgets.](/images/{{page.images}}/nexus2cee_screenshot_2014-08-26-11-48-43.jpg)](/images/{{page.images}}/nexus2cee_screenshot_2014-08-26-11-48-43.jpg) A lot of dynamic information can be displayed with widgets.[/caption]
 
 
 #### DISLIKED: Siri follow up questions
@@ -173,7 +173,7 @@ One time it showed me a potential match it thought was the one so I replied with
 
 It was nice to see Apple include toggles for Wi-Fi, Bluetooth and Auto-Rotate in the Action Center menu that can be pulled up from the bottom of the screen. The bad news though is that it's missing the important mobile data toggle! I don't get why this wasn't editable or there was an easy way to turn off 3G on the phone. I'm on a data plan (1.5GB per month) and I prefer to not go through screens of settings to flip a single switch! I thought this was totally ridiculous.
 
-[caption id="attachment_1062" align="aligncenter" width="782"][![It's all I want!](http://calvinbuiblog.files.wordpress.com/2015/06/androidpit-galaxy-s6-touchwiz-lollipop-mobile-data-toggle-highlight-w782.jpg)](http://calvinbuiblog.files.wordpress.com/2015/06/androidpit-galaxy-s6-touchwiz-lollipop-mobile-data-toggle-highlight-w782.jpg) It's all I want![/caption]
+[caption id="attachment_1062" align="aligncenter" width="782"][![It's all I want!](/images/{{page.images}}/androidpit-galaxy-s6-touchwiz-lollipop-mobile-data-toggle-highlight-w782.jpg)](/images/{{page.images}}/androidpit-galaxy-s6-touchwiz-lollipop-mobile-data-toggle-highlight-w782.jpg) It's all I want![/caption]
 
 
 #### DISLIKED: Convoluted Settings
@@ -181,7 +181,7 @@ It was nice to see Apple include toggles for Wi-Fi, Bluetooth and Auto-Rotate in
 
 I always thought Android's settings menu was a bit confusing, then I saw Apple's one. Is it me, or is almost everything I try and find turns out to be dumped under the 'General' tab? Trying to find keyboard settings? General. Trying to find battery usage? General. Trying to find storage usage? General.
 
-[![settings](http://calvinbuiblog.files.wordpress.com/2015/06/swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)](http://calvinbuiblog.files.wordpress.com/2015/06/swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)
+[![settings](/images/{{page.images}}/swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)](/images/{{page.images}}/swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)
 
 
 #### DISLIKED: No Data Usage Limit

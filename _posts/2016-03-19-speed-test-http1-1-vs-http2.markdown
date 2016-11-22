@@ -34,7 +34,7 @@ Adding HTTP/2 support was very simple, just one extra word, as noted in the ab
 
 Firefox 45.0.1 will be used to perform the tests. Firefox is preferable over browsers as it is possible to toggle on and off HTTP/2 and SPDY through the about:config page. To do this, set the value of '**security.ssl.enable_alpn**' and '**network.http.spdy.enabled.http2**' to **false**
 
-[![FF](http://calvinbuiblog.files.wordpress.com/2016/03/ff.png)](http://calvinbuiblog.files.wordpress.com/2016/03/ff.png)
+[![FF](/images/{{page.images}}/ff.png)](/images/{{page.images}}/ff.png)
 
 
 ### Computer
@@ -67,13 +67,13 @@ Internet is currently a 100/12 megabit cable connection provided by Telstra
 
 To find out quickly a page runs, the built-in Network Developer Tools (CTRL + Shift + Q) in Firefox is able to provide page statistics. On this page, clicking the stats in the bottom right corner will bring up a speed test with and without cache. I will be using this 20 times and get an average number. After each run I will clear all browsing data in Firefox and restart the browser. Nothing scientific happening here :P
 
-[![http2 speed](http://calvinbuiblog.files.wordpress.com/2016/03/http2-speed.png)](http://calvinbuiblog.files.wordpress.com/2016/03/http2-speed.png)
+[![http2 speed](/images/{{page.images}}/http2-speed.png)](/images/{{page.images}}/http2-speed.png)
 
 
 ## Results
 
 
-![http1 header](https://calvin.me/mymedia/uploads/2016/03/http1-header-300x262.png)
+![http1 header](/images/{{page.images}}/http1-header-300x262.png)
 
 [table id=1 /]
 
@@ -83,6 +83,6 @@ To find out quickly a page runs, the built-in Network Developer Tools (CTRL + Sh
 
 Roughly a half-second increase in speed on the home page. Currently this site is being optimised for HTTP/1.1 with techniques such as file concatenation by combining multiple CSS and JS files together. This can hurt performance in HTTP/2 and is not considered a best practice. This practice is favourable in HTTP/1.1 as the browser is only able to open one connection at any time  and received sequentially.HTTP/2 allows each request to the server to use its own TCP connection, known as multiplexing, and allows each request to be received in parallel resulting in a dramatic performance gain.
 
-[![http2-multiplexing](http://calvinbuiblog.files.wordpress.com/2016/03/http2-multiplexing.png)](http://calvinbuiblog.files.wordpress.com/2016/03/http2-multiplexing.png)
+[![http2-multiplexing](/images/{{page.images}}/http2-multiplexing.png)](/images/{{page.images}}/http2-multiplexing.png)
 
-[caption id="attachment_1236" align="aligncenter" width="800"][![http2-network-graph-comparison](https://calvin.me/mymedia/uploads/2016/03/http2-network-graph-comparison.png)](https://calvin.me/mymedia/uploads/2016/03/http2-network-graph-comparison.png) Images from CloudFlare https://www.cloudflare.com/http2/what-is-http2/[/caption]
+[caption id="attachment_1236" align="aligncenter" width="800"][![http2-network-graph-comparison](/images/{{page.images}}/http2-network-graph-comparison.png)](/images/{{page.images}}/http2-network-graph-comparison.png) Images from CloudFlare https://www.cloudflare.com/http2/what-is-http2/[/caption]

@@ -124,7 +124,7 @@ note: please change the path of the NGINX LDAP module in the command below if it
 
 If it does not run successfully then there are some dependencies missing. Looking through the output and reading the error messages can determine which specific libraries are missing. The successful output will look like:
 
-![configure finished](http://calvinbuiblog.files.wordpress.com/2014/11/untitled.png)
+![configure finished](/images/{{page.images}}/untitled.png)
 
 Once it runs successfully (thumbs crossed) it's time to build the system. Just this command:
 
@@ -132,7 +132,7 @@ Once it runs successfully (thumbs crossed) it's time to build the system. Just t
     make
 
 
-[![make finished](https://calvin.me/mymedia/uploads/2014/11/Capture.png)](https://calvin.me/mymedia/uploads/2014/11/Capture.png)
+[![make finished](/images/{{page.images}}/Capture.png)](/images/{{page.images}}/Capture.png)
 
 To finish it off, install NGINX with all the paths and modules we've specified.
 
@@ -140,7 +140,7 @@ To finish it off, install NGINX with all the paths and modules we've specified.
     sudo make install
 
 
-[![sudo make install finished](https://calvin.me/mymedia/uploads/2014/11/Untitled1.png)](https://calvin.me/mymedia/uploads/2014/11/Untitled1.png)
+[![sudo make install finished](/images/{{page.images}}/Untitled1.png)](/images/{{page.images}}/Untitled1.png)
 
 
 ## Init script
@@ -174,7 +174,7 @@ Now you can start NGINX but running:
 
 Browse to the host's IP address or FQDN to see the NGINX page:
 
-[![nginx landing page](https://calvin.me/mymedia/uploads/2014/11/Capture1.png)](https://calvin.me/mymedia/uploads/2014/11/Capture1.png)
+[![nginx landing page](/images/{{page.images}}/Capture1.png)](/images/{{page.images}}/Capture1.png)
 
 
 ## (Optional) Package Manager Layout
@@ -280,7 +280,7 @@ Restart NGINX when done
 
 Now access the page again and if successful you will be prompted to login!
 
-[![nginx ldap prompt](https://calvin.me/mymedia/uploads/2014/11/Capture2.png)](https://calvin.me/mymedia/uploads/2014/11/Capture2.png)
+[![nginx ldap prompt](/images/{{page.images}}/Capture2.png)](/images/{{page.images}}/Capture2.png)
 
 We're done! For extra configurations have a read through the [nginx ldap module](https://github.com/kvspb/nginx-auth-ldap) documentation.
 

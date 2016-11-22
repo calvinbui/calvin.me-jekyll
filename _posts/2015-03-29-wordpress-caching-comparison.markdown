@@ -58,7 +58,7 @@ I thought I would test based on two factors, number of **website requests** and 
 
 I decided to use [Pingdom's Website Speed Test](http://tools.pingdom.com/fpt/) as the main testing tool because it gave results quickly and there wasn't much fussing around.
 
-[![Capture555](http://calvinbuiblog.files.wordpress.com/2015/03/capture555.png)](http://calvinbuiblog.files.wordpress.com/2015/03/capture555.png)
+[![Capture555](/images/{{page.images}}/capture555.png)](/images/{{page.images}}/capture555.png)
 
 A total of 8 tests were taken for each plugin and the best 5 were selected to avoid many outliers.
 
@@ -212,9 +212,9 @@ Other reputable testing sites include:
 </tr>
 </tbody>
 </table>
-[![average](http://calvinbuiblog.files.wordpress.com/2015/03/average.png)](http://calvinbuiblog.files.wordpress.com/2015/03/average.png)
+[![average](/images/{{page.images}}/average.png)](/images/{{page.images}}/average.png)
 
-[![response](http://calvinbuiblog.files.wordpress.com/2015/03/response.png)](http://calvinbuiblog.files.wordpress.com/2015/03/response.png)
+[![response](/images/{{page.images}}/response.png)](/images/{{page.images}}/response.png)
 
 
 ## Conclusion

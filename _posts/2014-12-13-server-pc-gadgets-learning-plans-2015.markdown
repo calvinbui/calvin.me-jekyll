@@ -17,7 +17,7 @@ Now that 2014 is almost over and its time to wrap up the year, there are a few p
 <!-- more -->
 
 
-## [![LG_UltraWide_monitors](http://calvinbuiblog.files.wordpress.com/2014/12/lg_ultrawide_monitors.jpg)](http://calvinbuiblog.files.wordpress.com/2014/12/lg_ultrawide_monitors.jpg)
+## [![LG_UltraWide_monitors](/images/{{page.images}}/lg_ultrawide_monitors.jpg)](/images/{{page.images}}/lg_ultrawide_monitors.jpg)
 
 
 
@@ -49,7 +49,7 @@ I'm quite interested in new cases appearing on HardForum's Small Form Factor sec
 
 Link Aggregation and 10Gb networking are two things I'm very interested in. The reality is that I'll probably be only be able to achieve link aggregation. pfSense offers 'LAGG', their version of LACP that I can benefit from to increase bandwidth on my network. Four upstream ports mmm mmm mmm.Getting a network card would be the first step!
 
-[![20140616_135635_zps8b9592ca](http://calvinbuiblog.files.wordpress.com/2014/12/20140616_135635_zps8b9592ca.jpg)](http://calvinbuiblog.files.wordpress.com/2014/12/20140616_135635_zps8b9592ca.jpg)
+[![20140616_135635_zps8b9592ca](/images/{{page.images}}/20140616_135635_zps8b9592ca.jpg)](/images/{{page.images}}/20140616_135635_zps8b9592ca.jpg)
 
 
 ## Gadgets
@@ -70,7 +70,7 @@ Zoneminder is a Linux application which handles video cameras that I'm looking a
 
 I'm not sure how much I need one but there have been times when It would've came in handy. But If I get one of these I'd probably need a massive TV to go with it :) Putting a pin in this for now.
 
-[![New+Cert+Logos_520x150](http://calvinbuiblog.files.wordpress.com/2014/12/new-cert-logos_520x150.jpg)](http://calvinbuiblog.files.wordpress.com/2014/12/new-cert-logos_520x150.jpg)
+[![New+Cert+Logos_520x150](/images/{{page.images}}/new-cert-logos_520x150.jpg)](/images/{{page.images}}/new-cert-logos_520x150.jpg)
 
 
 ## Learning
