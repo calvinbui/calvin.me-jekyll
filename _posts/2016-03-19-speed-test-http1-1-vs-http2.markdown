@@ -85,4 +85,4 @@ Roughly a half-second increase in speed on the home page. Currently this site is
 
 [![http2-multiplexing](/images/{{page.images}}/http2-multiplexing.png)](/images/{{page.images}}/http2-multiplexing.png)
 
-[caption id="attachment_1236" align="aligncenter" width="800"][![http2-network-graph-comparison](/images/{{page.images}}/http2-network-graph-comparison.png)](/images/{{page.images}}/http2-network-graph-comparison.png) Images from CloudFlare https://www.cloudflare.com/http2/what-is-http2/[/caption]
+{% include caption.html path="http2-network-graph-comparison.png" caption="Images from CloudFlare https://www.cloudflare.com/http2/what-is-http2/" alt="http2-network-graph-comparison" %}

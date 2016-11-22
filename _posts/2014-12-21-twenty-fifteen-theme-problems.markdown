@@ -34,11 +34,11 @@ The font is a lot bigger than Twenty Fourteen but amazing still fits everything 
 
 When on your mobile, the Twenty Fourteen theme nicely compacted your posts into a list, only showing their title, date and author.
 
-[caption id="attachment_618" align="alignnone" width="377"][![Viewing TwentyFourteen on a Galaxy S4](/images/{{page.images}}/mobile-t14.png)](/images/{{page.images}}/mobile-t14.png) Viewing Twenty Fourteen on a Galaxy S4[/caption]
+{% include caption.html path="mobile-t14.png" caption="Viewing Twenty Fourteen on a Galaxy S4" alt="Viewing TwentyFourteen on a Galaxy S4" %}
 
 On the Twenty Fifteen theme, the entire post is shown as if you're on a desktop.
 
-[caption id="attachment_619" align="alignnone" width="384"][![Viewing the TwentyFifteen on a Galaxy S4 - the entire opening of the post is shown.](/images/{{page.images}}/mobile-t15.png)](/images/{{page.images}}/mobile-t15.png) Viewing the Twenty Fifteen on a Galaxy S4 - the entire opening of the post is shown.[/caption]
+{% include caption.html path="mobile-t15.png" caption="Viewing the Twenty Fifteen on a Galaxy S4 - the entire opening of the post is shown." alt="Viewing the TwentyFifteen on a Galaxy S4 - the entire opening of the post is shown." %}
 
 Now if I'm on a mobile, I'd prefer the most compact and easily navigable layout as possible - which Twenty Fourteen does better than Twenty Fifteen. On a tablet this looks okay but not on mobiles.
 

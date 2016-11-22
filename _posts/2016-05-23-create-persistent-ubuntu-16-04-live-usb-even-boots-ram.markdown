@@ -45,7 +45,7 @@ This used to be a very simple process in Ubuntu before 16.04 using the Startup D
     -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Fri, 11 Dec 2015 12:37:41 -0500
 
 
-[caption id="attachment_1300" align="aligncenter" width="179"][![Startupdiskcreatorcomparison](/images/{{page.images}}/Startupdiskcreatorcomparison-179x300.png)](/images/{{page.images}}/startupdiskcreatorcomparison.png) Comparison of Startup Disk Creator from 15.10 to 16.04[/caption]
+{% include caption.html path="Startupdiskcreatorcomparison-179x300.png" caption="Comparison of Startup Disk Creator from 15.10 to 16.04" alt="Startupdiskcreatorcomparison" %}
 
 
 ## Let's start:

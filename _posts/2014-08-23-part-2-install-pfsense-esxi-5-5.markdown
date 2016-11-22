@@ -3,10 +3,8 @@ author: calvinbui93
 comments: true
 date: 2014-08-23 13:00:14+00:00
 layout: post
-
 slug: part-2-install-pfsense-esxi-5-5
 title: 'Part 2: Install pfSense on ESXi 5.5'
-
 categories:
 - pfSense
 tags:
@@ -22,9 +20,7 @@ In Part 2 of my virtualised pfSense installation on ESXi 5.5 we will be specifyi
 
 <!-- more -->
 
-
 ## Part 2: Configure the pfSense and LAN
-
 
 After rebooting, let pfSense load to the point where the initial setup begins. This is when you must configure the WAN and LAN for pfSense to work with.
 
@@ -78,9 +74,7 @@ At this point you may either change the LAN IP to your own private range or add 
 
 Click 'Interfaces' in the top menu bar than 'LAN'. Provide the new Static IPv4 address you prefer e.g. 10.0.0.1/24 than click 'Save'. DO NOT APPLY CHANGES. You will also need to setup your new DHCP range before continuing.
 
-
 DO NOT APPLY CHANGES
-
 
 [![pfsense-lan-ip](/images/2014-08-23-part-2-install-pfsense-esxi-5-5/31.png)](/images/2014-08-23-part-2-install-pfsense-esxi-5-5/31.png)
 

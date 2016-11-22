@@ -26,7 +26,7 @@ This post covers some of my home security camera system. Not a lot of informatio
 ## Cameras
 
 
-[caption id="attachment_1421" align="aligncenter" width="400"][![hikvision-ds-2cd2335-i-3-0mp-3mp-1080p-poe-outdoor-dome-net-ip-camera-4mm-lens-ba73cd720095db8c9202a8da065e2761](/images/{{page.images}}/hikvision-ds-2cd2335-i-3-0mp-3mp-1080p-poe-outdoor-dome-net-ip-camera-4mm-lens-ba73cd720095db8c9202a8da065e2761-1.jpg)](/images/{{page.images}}/hikvision-ds-2cd2335-i-3-0mp-3mp-1080p-poe-outdoor-dome-net-ip-camera-4mm-lens-ba73cd720095db8c9202a8da065e2761-1.jpg) Hikvision DS-2CD2335-I[/caption]
+{% include caption.html path="hikvision-ds-2cd2335-i-3-0mp-3mp-1080p-poe-outdoor-dome-net-ip-camera-4mm-lens-ba73cd720095db8c9202a8da065e2761-1.jpg" caption="Hikvision DS-2CD2335-I" alt="hikvision-ds-2cd2335-i-3-0mp-3mp-1080p-poe-outdoor-dome-net-ip-camera-4mm-lens-ba73cd720095db8c9202a8da065e2761" %}
 
 For the most important part of this system, the cameras, I went with the Hikvision 2CD2335 - the successor to the popular and highly recommended Hikvision 2CD2332. Not much has changed between the two, with 25 fps vs 20 fps at 3MP (2048x1536) and H.265 as standouts. PoE (power and data in one cable) comes as standard on the camera but there is a power port if necessary. The camera can be manually rotated and locked into place with a screw.
 
@@ -283,7 +283,7 @@ If by chance you are like me and perhaps you're running other web servers at hom
 
 A little complicated but I tried to make it as easy to look at as possible. Of course this just my personal configuration and many things you won't even need like FreeNAS or a Proxy Server.
 
-[caption id="attachment_1428" align="aligncenter" width="634"][![ip_cam_network_diagram (1)](/images/{{page.images}}/ip_cam_network_diagram-1-1024x457.png)](/images/{{page.images}}/ip_cam_network_diagram-1.png) Click for a larger image[/caption]
+{% include caption.html path="ip_cam_network_diagram-1-1024x457.png" caption="Click for a larger image" alt="ip_cam_network_diagram (1)" %}
 
 
 ## Sample Video & Motion Captures

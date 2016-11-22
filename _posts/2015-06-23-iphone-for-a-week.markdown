@@ -157,7 +157,7 @@ Notifications just don't appear on the top status bar like it does on Android. T
 
 I guess this is more of a design thing for iOS. Widgets are possible through the 'Today' tab when you pull down the notification shade, but are very limited. I have widgets on my Nexus for my calendar events, credit usage and tasks. None of this was at all possible on iOS.
 
-[caption id="attachment_1060" align="aligncenter" width="346"][![A lot of dynamic information can be displayed with widgets.](/images/{{page.images}}/nexus2cee_screenshot_2014-08-26-11-48-43.jpg)](/images/{{page.images}}/nexus2cee_screenshot_2014-08-26-11-48-43.jpg) A lot of dynamic information can be displayed with widgets.[/caption]
+{% include caption.html path="nexus2cee_screenshot_2014-08-26-11-48-43.jpg" caption="A lot of dynamic information can be displayed with widgets." alt="A lot of dynamic information can be displayed with widgets." %}
 
 
 #### DISLIKED: Siri follow up questions
@@ -173,7 +173,7 @@ One time it showed me a potential match it thought was the one so I replied with
 
 It was nice to see Apple include toggles for Wi-Fi, Bluetooth and Auto-Rotate in the Action Center menu that can be pulled up from the bottom of the screen. The bad news though is that it's missing the important mobile data toggle! I don't get why this wasn't editable or there was an easy way to turn off 3G on the phone. I'm on a data plan (1.5GB per month) and I prefer to not go through screens of settings to flip a single switch! I thought this was totally ridiculous.
 
-[caption id="attachment_1062" align="aligncenter" width="782"][![It's all I want!](/images/{{page.images}}/androidpit-galaxy-s6-touchwiz-lollipop-mobile-data-toggle-highlight-w782.jpg)](/images/{{page.images}}/androidpit-galaxy-s6-touchwiz-lollipop-mobile-data-toggle-highlight-w782.jpg) It's all I want![/caption]
+{% include caption.html path="androidpit-galaxy-s6-touchwiz-lollipop-mobile-data-toggle-highlight-w782.jpg" caption="It's all I want!" alt="It's all I want!" %}
 
 
 #### DISLIKED: Convoluted Settings
