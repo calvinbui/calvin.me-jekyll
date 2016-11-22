@@ -12,6 +12,14 @@
 }
 
 
+pre > code {
+  font-size: 75%
+}
+
+code, pre {
+  font-family: monospace;
+}
+
 .highlight .hll { background-color: #202020 }
 .highlight .c { color: #75715e } /* Comment */
 .highlight .err { color: #960050; background-color: #1e0010 } /* Error */
