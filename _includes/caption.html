@@ -1,8 +1,11 @@
+{% capture imagePath %}/images/{{page.images}}/{{include.path}}{% endcapture %}
 {% if include.caption %}
+<p>
   <figure>
-      <a href="{{include.path}}"><img src="{{ include.path }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/></a>
-      <figcaption>{{ include.caption }}</figcaption>
+    <a href="{{imagePath}}"><img src="{{imagePath}}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/></a>
+    <figcaption>{{ include.caption }}</figcaption>
   </figure>
+</p>
 {% else %}
-  <img src="{{ include.path }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+  <img src="{{imagePath}}" {% if include.alt %} alt="{{imagePath}}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
 {% endif %}
