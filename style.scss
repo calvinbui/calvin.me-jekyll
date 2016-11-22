@@ -323,13 +323,25 @@ nav {
     text-transform: uppercase;
     font-size: 15px;
   }
+
+  .entry * img {
+    display: block;
+    margin: 0 auto;
+  }
 }
 
-figcaption {
-  font-style: italic;
-  text-align: center;
-  font-size: 85%;
+figure {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  figcaption {
+    font-style: italic;
+    text-align: center;
+    font-size: 85%;
+  }
 }
+
 
 .wrapper-footer {
   border-top: 1px solid #ddd;
