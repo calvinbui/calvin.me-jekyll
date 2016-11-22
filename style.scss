@@ -181,8 +181,6 @@ img {
 }
 
 .site-info {
-  float: left;
-
   @include mobile {
     float: none;
     display: block;
@@ -211,8 +209,9 @@ img {
 }
 
 nav {
-  float: right;
-  margin-top: 23px; // @TODO: Vertically middle align
+  float: left;
+  margin-top: -5px;
+  margin-left: 2px;
   font-family: $helveticaNeue;
   font-size: 18px;
 
@@ -220,11 +219,10 @@ nav {
     float: none;
     margin-top: 9px;
     display: block;
-    font-size: 16px;
   }
 
   a {
-    margin-left: 20px;
+    margin-right: 10px;
     color: $darkGray;
     text-align: right;
     font-weight: 300;
@@ -234,6 +232,16 @@ nav {
       margin: 0 10px;
       color: $blue;
     }
+  }
+}
+
+.social {
+  margin-top: -30px;
+  float: right;
+
+  @include mobile {
+    float: none;
+    margin: 3px 0;
   }
 }
 
