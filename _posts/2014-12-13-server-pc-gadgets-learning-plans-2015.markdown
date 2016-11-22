@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-12-13 23:28:54+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/12/14/server-pc-gadgets-learning-plans-2015/
+
 slug: server-pc-gadgets-learning-plans-2015
 title: Server, PC, Gadgets & Learning Plans for 2015
-wordpress_id: 596
+
 categories:
 - Misc
 images: 2014-12-13-server-pc-gadgets-learning-plans-2015

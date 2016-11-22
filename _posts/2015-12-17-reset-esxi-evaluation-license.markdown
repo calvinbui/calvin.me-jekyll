@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-12-17 03:03:55+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/12/17/reset-esxi-evaluation-license/
+
 slug: reset-esxi-evaluation-license
 title: Reset ESXi 6 Evaluation License (cron script included)
-wordpress_id: 1148
+
 categories:
 - How-To
 - Virtualisation

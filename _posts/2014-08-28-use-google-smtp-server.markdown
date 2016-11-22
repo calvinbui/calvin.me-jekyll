@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-08-28 09:39:02+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/08/28/use-google-smtp-server/
+
 slug: use-google-smtp-server
 title: Use the Google SMTP Server for notifications
-wordpress_id: 178
+
 categories:
 - How-To
 - Networking

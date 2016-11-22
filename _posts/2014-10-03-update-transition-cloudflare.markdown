@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-10-03 03:35:02+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/10/03/update-transition-cloudflare/
+
 slug: update-transition-cloudflare
 title: Currently Moving to CloudFlare (Update)
-wordpress_id: 385
+
 categories:
 - Misc
 images: 2014-10-03-update-transition-cloudflare

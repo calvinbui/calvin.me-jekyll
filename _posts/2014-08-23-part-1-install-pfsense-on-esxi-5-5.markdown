@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-08-23 12:47:43+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/08/23/part-1-install-pfsense-on-esxi-5-5/
+
 slug: part-1-install-pfsense-on-esxi-5-5
 title: 'Part 1: Install pfSense on ESXi'
-wordpress_id: 59
+
 categories:
 - pfSense
 tags:
@@ -29,22 +29,22 @@ pfSense is an open source firewall/router based on FreeBSD. It is more than just
 
 
 
- 	
+
   * A computer or laptop - to do the configuring
 
- 	
+
   * ESXi - the hypervisor it will run on
 
- 	
+
   * Modem - used to connect to the Internet, can be your current modem/router combo
 
- 	
+
   * RJ45 cables
 
- 	
+
   * At least two network cards in your server, although you can use one it is easier to spread your connections out as LAN and WAN.
 
- 	
+
   * KVM or monitor to ESXi, required when changing its IP address.
 
 
@@ -62,13 +62,13 @@ Private addresses are:
 
 
 
- 	
+
   * 10.0.0.0 to 10.255.255.255 (16777216 addresses)
 
- 	
+
   * 172.16.0.0 to 172.31.255.255 (1048576 addresses)
 
- 	
+
   * 192.168.0.0 to 192.168.255.255 (65536 addresses)
 
 
@@ -84,9 +84,11 @@ The best way would be a physical screen and monitor (what I will use), KVM or IP
 ## Let's Start!
 
 
-Currently your setup may look similar to something like this: [![nd3](http://calvinbuiblog.files.wordpress.com/2014/08/nd3.png)](http://calvinbuiblog.files.wordpress.com/2014/08/nd3.png) We want it to look something like this:
+Currently your setup may look similar to something like this: [![nd3](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/nd3.png)](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/nd3.png)
 
-[caption id="attachment_69" align="alignnone" width="963"][![the network we want to have](http://calvinbuiblog.files.wordpress.com/2014/08/network-diagram.png)](http://calvinbuiblog.files.wordpress.com/2014/08/network-diagram.png) Our modem becomes independent of the router. pfSense becomes the router living as a VM on our ESXi host. A switch may not be needed, but they're great to have.[/caption]
+We want it to look something like this:
+
+![the network we want to have](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/network-diagram.png) *Our modem becomes independent of the router. pfSense becomes the router living as a VM on our ESXi host. A switch may not be needed, but they're great to have.*
 
 pfSense as a virtual machine will sit between your modem and switch to act as a router. It will be able to provide IP addresses to both physical and virtual machines via it's DHCP server (or you can set the IP manually). One network card on your ESXi host will connect to the modem (WAN) while the other connects to the your switch (LAN). Without a switch, you will only be able to connect one host to your network  as there is only one connection!
 
@@ -96,38 +98,38 @@ pfSense as a virtual machine will sit between your modem and switch to act as a 
 
 **1. Set up a LAN and WAN switch in the vSphere client.** One NIC (network card) will be the LAN and one NIC will be the WAN. The LAN NIC will act as a router to your VMs as well as anything connected to the switch. The WAN will be connected to your modem to access and provide Internet connectivity to your LAN.
 
-[caption id="attachment_64" align="alignnone" width="413"][![ESXi networking](http://calvinbuiblog.files.wordpress.com/2014/08/lanwan.png)](http://calvinbuiblog.files.wordpress.com/2014/08/lanwan.png) Two vSwitches using two different network cards. One network card is responsible for the local network and one is dedicated to the wide area network (Internet)[/caption]
+![ESXi networking](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/lanwan.png)] *Two vSwitches using two different network cards. One network card is responsible for the local network and one is dedicated to the wide area network (Internet)*
 
 Give the names WAN and LAN corresponding to the which ever NIC is connected to the Modem (WAN) and Switch (LAN).
 
 **2. Create a new Virtual machine with the follow settings:**
 
-[![13](http://calvinbuiblog.files.wordpress.com/2014/08/13.png)](http://calvinbuiblog.files.wordpress.com/2014/08/13.png)
+[![13](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/13.png)](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/13.png)
 
 ** 3. Load the pfSense ISO image into the VM and boot from it.**
 
 Straightforward enough. Make sure to boot from the CD/DVD drive.
 
-[![pfsense-iso](http://calvinbuiblog.files.wordpress.com/2014/08/14.png)](http://calvinbuiblog.files.wordpress.com/2014/08/14.png)
+[![pfsense-iso](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/14.png)](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/14.png)
 
 **4. Go with the default boot (number 1) or let the timer run down.**
 
-[![pfsense-boot](http://calvinbuiblog.files.wordpress.com/2014/08/141.png)](http://calvinbuiblog.files.wordpress.com/2014/08/141.png)
+[![pfsense-boot](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/141.png)](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/141.png)
 
 **5. Press 'I' when prompted again to start the installer. **
 
 Otherwise you will be running a LiveCD. Restart if this happens.
 
-[![pfsense-boot-options](http://calvinbuiblog.files.wordpress.com/2014/08/142.png)](http://calvinbuiblog.files.wordpress.com/2014/08/142.png)
+[![pfsense-boot-options](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/142.png)](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/142.png)
 
 **6. Accept all the default settings and wait for it to finish installing.**
 
-[![pfsense-install-progress](http://calvinbuiblog.files.wordpress.com/2014/08/143.png)](http://calvinbuiblog.files.wordpress.com/2014/08/143.png)
+[![pfsense-install-progress](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/143.png)](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/143.png)
 
 **7. Reboot when finished.**
 
 pfSense has now been installed. It isn't doing anything yet so we will need to configure and transition our network over to it.
 
-[![pfsense-reboot](https://calvin.me/mymedia/uploads/2014/08/144.png)](https://calvin.me/mymedia/uploads/2014/08/144.png)
+[![pfsense-reboot](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/144.png)](/images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/144.png)
 
-Continued in [Part 2: Install pfSense on ESXI 5.5](https://calvin.me/part-2-install-pfsense-esxi-5-5/) where we will configure the new installation.
+Continued in [Part 2: Install pfSense on ESXI 5.5](/part-2-install-pfsense-esxi-5-5/) where we will configure the new installation.

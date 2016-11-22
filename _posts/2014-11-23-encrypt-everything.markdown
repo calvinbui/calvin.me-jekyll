@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-11-23 00:07:13+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/11/23/encrypt-everything/
+
 slug: encrypt-everything
 title: Encrypt Everything with SSL/TLS
-wordpress_id: 477
+
 categories:
 - How-To
 - Security

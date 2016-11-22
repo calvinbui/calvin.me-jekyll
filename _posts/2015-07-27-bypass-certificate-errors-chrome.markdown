@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-07-27 17:34:09+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/07/28/bypass-certificate-errors-chrome/
+
 slug: bypass-certificate-errors-chrome
 title: Bypass self-signed certificate errors on Google Chrome
-wordpress_id: 1082
+
 categories:
 - How-To
 - Networking

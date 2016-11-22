@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-09-02 14:41:54+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/09/03/port-forward-web-servers-in-pfsense-2/
+
 slug: port-forward-web-servers-in-pfsense-2
 title: Port Forward Web Servers In pfSense 2
-wordpress_id: 154
+
 categories:
 - Networking
 - pfSense

@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-01-25 13:01:21+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/01/26/upgrade-pfsense-2-2-vmware/
+
 slug: upgrade-pfsense-2-2-vmware
 title: Upgrade to pfSense 2.2 on VMware
-wordpress_id: 750
+
 categories:
 - How-To
 - Networking

@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-01-03 23:35:36+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/01/04/im-migrating-ubuntu-centos/
+
 slug: im-migrating-ubuntu-centos
 title: I'm migrating from Ubuntu to CentOS
-wordpress_id: 616
+
 categories:
 - Linux
 - Misc

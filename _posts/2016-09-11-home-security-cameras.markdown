@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2016-09-11 13:00:56+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2016/09/11/home-security-cameras/
+
 slug: home-security-cameras
 title: Home Security Cameras Setup
-wordpress_id: 1350
+
 categories:
 - How-To
 - Security

@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-09-16 23:00:31+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/09/17/block-traffic-vlan-pfsense/
+
 slug: block-traffic-vlan-pfsense
 title: Block traffic between VLANs on pfSense
-wordpress_id: 301
+
 categories:
 - How-To
 - Networking

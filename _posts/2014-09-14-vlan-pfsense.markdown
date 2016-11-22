@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-09-14 09:36:51+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/09/14/vlan-pfsense/
+
 slug: vlan-pfsense
 title: VLAN on VMware, pfSense and a Switch
-wordpress_id: 272
+
 categories:
 - How-To
 - Networking

@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-08-15 14:43:13+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/08/16/hello-world-2/
+
 slug: hello-world-2
 title: Hello World, Hi I'm Calvin
-wordpress_id: 20
+
 categories:
 - Misc
 images: 2014-08-16-hello-world-2

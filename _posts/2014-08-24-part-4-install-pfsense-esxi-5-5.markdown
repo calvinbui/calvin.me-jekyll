@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-08-24 05:05:15+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/08/24/part-4-install-pfsense-esxi-5-5/
+
 slug: part-4-install-pfsense-esxi-5-5
 title: 'Part 4: Install pfSense on ESXi 5.5'
-wordpress_id: 121
+
 categories:
 - pfSense
 tags:

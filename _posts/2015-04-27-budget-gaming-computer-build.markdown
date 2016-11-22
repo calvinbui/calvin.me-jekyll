@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-04-27 21:19:54+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/04/28/budget-gaming-computer-build/
+
 slug: budget-gaming-computer-build
 title: Budget Gaming Computer Build
-wordpress_id: 963
+
 categories:
 - Misc
 tags:

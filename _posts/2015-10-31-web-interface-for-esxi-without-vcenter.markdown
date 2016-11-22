@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-10-31 10:23:30+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/10/31/web-interface-for-esxi-without-vcenter/
+
 slug: web-interface-for-esxi-without-vcenter
 title: Web Interface for ESXi without vCenter
-wordpress_id: 1122
+
 categories:
 - How-To
 - Virtualisation

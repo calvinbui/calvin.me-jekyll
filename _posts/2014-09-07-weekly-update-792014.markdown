@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-09-07 14:02:16+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/09/08/weekly-update-792014/
+
 slug: weekly-update-792014
 title: The Weekly Update (7/9/2014)
-wordpress_id: 262
+
 categories:
 - Monthy Update
 tags:

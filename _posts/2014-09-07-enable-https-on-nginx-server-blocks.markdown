@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-09-07 04:28:15+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/09/07/enable-https-on-nginx-server-blocks/
+
 slug: enable-https-on-nginx-server-blocks
 title: Enable HTTPS on NGINX Server Blocks
-wordpress_id: 235
+
 categories:
 - How-To
 - Networking

@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2016-01-11 16:29:24+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2016/01/12/napp-it-10gbps-network-solaris-11/
+
 slug: napp-it-10gbps-network-solaris-11
 title: Improve 10Gbps Performance on napp-it (Solaris 11)
-wordpress_id: 1169
+
 categories:
 - Networking
 tags:

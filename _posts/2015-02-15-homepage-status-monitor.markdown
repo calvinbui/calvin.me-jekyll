@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-02-15 02:52:26+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/02/15/homepage-status-monitor/
+
 slug: homepage-status-monitor
 title: My Homepage Status Monitoring Application
-wordpress_id: 650
+
 categories:
 - Misc
 tags:

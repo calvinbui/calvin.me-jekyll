@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-02-07 16:17:07+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/02/08/monthly-update-08022015/
+
 slug: monthly-update-08022015
 title: Monthly Update (08/02/2015)
-wordpress_id: 686
+
 categories:
 - Misc
 tags:

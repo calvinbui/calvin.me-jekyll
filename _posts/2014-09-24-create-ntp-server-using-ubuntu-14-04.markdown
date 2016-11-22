@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-09-24 00:43:05+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/09/24/create-ntp-server-using-ubuntu-14-04/
+
 slug: create-ntp-server-using-ubuntu-14-04
 title: Create an NTP Server using Ubuntu 14.04
-wordpress_id: 1484
+
 categories:
 - How-To
 - Linux

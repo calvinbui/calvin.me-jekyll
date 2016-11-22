@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-09-19 00:01:27+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/09/19/pfsense-captive-portal/
+
 slug: pfsense-captive-portal
 title: My pfSense Captive Portal
-wordpress_id: 316
+
 categories:
 - pfSense
 - Web

@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-09-30 23:53:44+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/10/01/favourite-pfsense-packages/
+
 slug: favourite-pfsense-packages
 title: The Best pfSense Packages
-wordpress_id: 352
+
 categories:
 - pfSense
 tags:

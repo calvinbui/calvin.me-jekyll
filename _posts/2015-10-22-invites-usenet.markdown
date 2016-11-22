@@ -3,10 +3,10 @@ author: calvinbui93
 comments: false
 date: 2015-10-22 07:12:30+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/10/22/invites-usenet/
+
 slug: invites-usenet
 title: DogNZB, NZB.su and OMGWTFNZB Invites!
-wordpress_id: 1115
+
 categories:
 - Uncategorised
 images: 2015-10-22-invites-usenet

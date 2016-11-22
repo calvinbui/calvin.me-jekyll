@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-01-17 20:54:06+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/01/18/install-unifi-controller-ubuntu/
+
 slug: install-unifi-controller-ubuntu
 title: How to install the UniFi Controller on Ubuntu
-wordpress_id: 689
+
 categories:
 - How-To
 - Networking

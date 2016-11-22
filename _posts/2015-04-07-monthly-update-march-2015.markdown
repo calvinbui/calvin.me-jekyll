@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-04-07 10:02:00+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/04/07/monthly-update-march-2015/
+
 slug: monthly-update-march-2015
 title: Monthly Update (March 2015)
-wordpress_id: 955
+
 categories:
 - Monthy Update
 tags:

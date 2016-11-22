@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-10-24 01:42:04+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/10/24/nzbmegasearch-reverse-proxy/
+
 slug: nzbmegasearch-reverse-proxy
 title: NZBmegasearcH NGINX Reverse Proxy
-wordpress_id: 440
+
 categories:
 - How-To
 - Misc

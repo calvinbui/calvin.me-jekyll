@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2016-02-14 22:49:12+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2016/02/15/zfs-slog-zil-revisited/
+
 slug: zfs-slog-zil-revisited
 title: ZFS SLOG/ZIL Drive (Revisited)
-wordpress_id: 1199
+
 categories:
 - Storage
 tags:

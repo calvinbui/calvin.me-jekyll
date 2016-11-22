@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-11-16 00:41:07+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/11/16/nginx-ldap-http-authentication/
+
 slug: nginx-ldap-http-authentication
 title: NGINX LDAP HTTP Authentication
-wordpress_id: 522
+
 categories:
 - How-To
 - Networking

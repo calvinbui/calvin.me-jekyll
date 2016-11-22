@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-07-07 06:49:29+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/07/07/slow-vmware-nfs-zfs-add-zil/
+
 slug: slow-vmware-nfs-zfs-add-zil
 title: Slow VMware NFS on ZFS? Add a ZIL!
-wordpress_id: 1070
+
 categories:
 - Server
 - Storage

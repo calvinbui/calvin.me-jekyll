@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2016-03-19 18:17:30+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2016/03/20/speed-test-http1-1-vs-http2/
+
 slug: speed-test-http1-1-vs-http2
 title: HTTP/2 Blog Speed Test
-wordpress_id: 1230
+
 categories:
 - Web
 tags:

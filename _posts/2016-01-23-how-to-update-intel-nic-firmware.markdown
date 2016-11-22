@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2016-01-23 05:56:56+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2016/01/23/how-to-update-intel-nic-firmware/
+
 slug: how-to-update-intel-nic-firmware
 title: How to Update Firmware on an Intel NIC
-wordpress_id: 1200
+
 categories:
 - How-To
 - Networking

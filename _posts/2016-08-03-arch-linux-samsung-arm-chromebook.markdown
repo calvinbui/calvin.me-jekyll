@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2016-08-03 11:04:12+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2016/08/03/arch-linux-samsung-arm-chromebook/
+
 slug: arch-linux-samsung-arm-chromebook
 title: Arch Linux on Samsung ARM Chromebook
-wordpress_id: 1443
+
 categories:
 - How-To
 - Linux

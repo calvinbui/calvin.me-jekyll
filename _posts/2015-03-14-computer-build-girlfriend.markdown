@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-03-14 21:38:19+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/03/15/computer-build-girlfriend/
+
 slug: computer-build-girlfriend
 title: Computer Build for Girlfriend
-wordpress_id: 879
+
 categories:
 - Misc
 tags:

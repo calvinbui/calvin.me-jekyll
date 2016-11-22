@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-03-22 05:44:45+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/03/22/install-macos-esxi/
+
 slug: install-macos-esxi
 title: Install macOS on ESXi
-wordpress_id: 843
+
 categories:
 - How-To
 tags:

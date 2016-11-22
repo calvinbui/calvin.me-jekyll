@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-11-09 03:41:40+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/11/09/definition-strong-password/
+
 slug: definition-strong-password
 title: My Definition of a Strong Password
-wordpress_id: 467
+
 categories:
 - Misc
 tags:

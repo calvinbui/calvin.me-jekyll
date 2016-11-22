@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-11-02 04:44:49+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/11/02/fortnightly-update-22112014/
+
 slug: fortnightly-update-22112014
 title: Fortnightly Update (2/11/2014)
-wordpress_id: 433
+
 categories:
 - Monthy Update
 tags:

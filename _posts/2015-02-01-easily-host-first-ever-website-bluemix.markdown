@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-02-01 05:11:07+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/02/01/easily-host-first-ever-website-bluemix/
+
 slug: easily-host-first-ever-website-bluemix
 title: Easily host your first ever website on Bluemix
-wordpress_id: 675
+
 categories:
 - How-To
 - Web

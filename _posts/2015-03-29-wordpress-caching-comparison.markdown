@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-03-29 03:19:01+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/03/29/wordpress-caching-comparison/
+
 slug: wordpress-caching-comparison
 title: WordPress Caching Comparison
-wordpress_id: 924
+
 categories:
 - Web
 tags:

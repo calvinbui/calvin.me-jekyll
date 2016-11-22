@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2016-02-29 03:31:29+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2016/02/29/comparison-of-free-esxi-vm-backup-softwares/
+
 slug: comparison-of-free-esxi-vm-backup-softwares
 title: Backup VMs! Comparison of Free Backup Software
-wordpress_id: 1212
+
 categories:
 - Storage
 - Virtualisation

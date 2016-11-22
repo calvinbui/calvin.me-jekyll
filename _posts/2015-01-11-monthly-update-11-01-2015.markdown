@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-01-11 08:27:19+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/01/11/monthly-update-11-01-2015/
+
 slug: monthly-update-11-01-2015
 title: Monthly Update (11/01/2015)
-wordpress_id: 654
+
 categories:
 - Monthy Update
 tags:

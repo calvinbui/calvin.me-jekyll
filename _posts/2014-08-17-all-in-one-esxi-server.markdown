@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-08-17 11:11:50+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/08/17/all-in-one-esxi-server/
+
 slug: all-in-one-esxi-server
 title: My All In One ESXi Server
-wordpress_id: 43
+
 categories:
 - Server
 tags:

@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-11-30 00:43:27+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/11/30/zfs-sharing-options/
+
 slug: zfs-sharing-options
 title: ZFS Sharing over HTTP, FTP and more
-wordpress_id: 475
+
 categories:
 - How-To
 - Storage

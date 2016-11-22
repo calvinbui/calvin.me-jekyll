@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-08-24 08:56:51+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/08/24/weekly-update-2482014/
+
 slug: weekly-update-2482014
 title: The Weekly Update (24/8/2014)
-wordpress_id: 147
+
 categories:
 - Monthy Update
 tags:

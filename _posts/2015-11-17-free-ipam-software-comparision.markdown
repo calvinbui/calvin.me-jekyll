@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-11-17 16:20:23+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/11/18/free-ipam-software-comparision/
+
 slug: free-ipam-software-comparision
 title: Free IPAM Software Comparision
-wordpress_id: 1129
+
 categories:
 - Networking
 tags:

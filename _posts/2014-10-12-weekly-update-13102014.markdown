@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-10-12 14:43:39+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/10/13/weekly-update-13102014/
+
 slug: weekly-update-13102014
 title: The Weekly Update (13/10/2014)
-wordpress_id: 409
+
 categories:
 - Monthy Update
 tags:

@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-05-30 09:55:51+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/05/30/more-apps-for-the-system-admin-usb-drive/
+
 slug: more-apps-for-the-system-admin-usb-drive
 title: More Apps for the System Admin USB Drive
-wordpress_id: 1011
+
 categories:
 - Misc
 tags:

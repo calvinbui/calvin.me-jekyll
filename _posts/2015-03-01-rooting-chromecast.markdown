@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-03-01 06:07:48+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/03/01/rooting-chromecast/
+
 slug: rooting-chromecast
 title: Rooting the Chromecast
-wordpress_id: 670
+
 categories:
 - Misc
 tags:

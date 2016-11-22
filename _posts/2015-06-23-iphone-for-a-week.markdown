@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-06-23 09:54:01+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/06/23/iphone-for-a-week/
+
 slug: iphone-for-a-week
 title: A week with an iPhone
-wordpress_id: 1055
+
 categories:
 - Mobile
 - Review

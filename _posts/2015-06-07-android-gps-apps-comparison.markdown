@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-06-07 05:18:36+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/06/07/android-gps-apps-comparison/
+
 slug: android-gps-apps-comparison
 title: Android GPS App Comparison
-wordpress_id: 957
+
 categories:
 - Mobile
 - Review

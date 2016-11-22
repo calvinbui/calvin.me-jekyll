@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2016-07-20 16:41:27+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2016/07/21/my-next-laptop/
+
 slug: my-next-laptop
 title: My Next Laptop
-wordpress_id: 1383
+
 categories:
 - Misc
 - Review

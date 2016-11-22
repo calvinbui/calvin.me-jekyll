@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-12-27 23:44:25+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/12/28/forward-ip-addresses-when-using-nginx-proxy/
+
 slug: forward-ip-addresses-when-using-nginx-proxy
 title: Forward IP Addresses with NGINX Proxy
-wordpress_id: 630
+
 categories:
 - How-To
 - Networking

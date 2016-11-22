@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-05-17 08:18:51+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/05/17/make-a-multiboot-usb-drive/
+
 slug: make-a-multiboot-usb-drive
 title: Make A Multiboot USB Drive
-wordpress_id: 992
+
 categories:
 - How-To
 - Misc

@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2016-05-23 13:11:12+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2016/05/23/create-persistent-ubuntu-16-04-live-usb-even-boots-ram/
+
 slug: create-persistent-ubuntu-16-04-live-usb-even-boots-ram
 title: Create a persistent Ubuntu USB which boots to RAM
-wordpress_id: 1293
+
 categories:
 - How-To
 - Linux

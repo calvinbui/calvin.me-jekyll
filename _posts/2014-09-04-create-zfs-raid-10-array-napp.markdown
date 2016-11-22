@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-09-04 10:53:19+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/09/04/create-zfs-raid-10-array-napp/
+
 slug: create-zfs-raid-10-array-napp
 title: How To Create a ZFS RAID 10 Array
-wordpress_id: 219
+
 categories:
 - How-To
 - Storage

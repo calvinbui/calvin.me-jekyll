@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-09-09 23:00:53+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/09/10/quick-how-to-decrease-ipmi-fan-threshold/
+
 slug: quick-how-to-decrease-ipmi-fan-threshold
 title: 'Decrease Supermicro IPMI Fan Threshold'
-wordpress_id: 265
+
 categories:
 - How-To
 - Server

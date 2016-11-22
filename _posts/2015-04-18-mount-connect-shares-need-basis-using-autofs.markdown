@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-04-18 08:08:21+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/04/18/mount-connect-shares-need-basis-using-autofs/
+
 slug: mount-connect-shares-need-basis-using-autofs
 title: Connect shares on a as-need basis using autofs
-wordpress_id: 946
+
 categories:
 - How-To
 - Linux

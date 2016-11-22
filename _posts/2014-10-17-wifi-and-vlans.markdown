@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-10-17 01:21:25+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/10/17/wifi-and-vlans/
+
 slug: wifi-and-vlans
 title: WiFi and VLANs
-wordpress_id: 392
+
 categories:
 - How-To
 - Networking

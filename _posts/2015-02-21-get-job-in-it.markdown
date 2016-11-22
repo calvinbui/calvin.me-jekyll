@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-02-21 23:41:35+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/02/22/get-job-in-it/
+
 slug: get-job-in-it
 title: Getting a Job in I.T.
-wordpress_id: 652
+
 categories:
 - Misc
 tags:

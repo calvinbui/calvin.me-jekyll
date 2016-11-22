@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2014-12-21 07:31:25+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/12/21/twenty-fifteen-theme-problems/
+
 slug: twenty-fifteen-theme-problems
 title: Twenty Fifteen Theme Problems
-wordpress_id: 613
+
 categories:
 - Review
 images: 2014-12-21-twenty-fifteen-theme-problems

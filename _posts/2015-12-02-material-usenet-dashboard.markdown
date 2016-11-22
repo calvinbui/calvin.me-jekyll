@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-12-02 22:52:46+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/12/03/material-usenet-dashboard/
+
 slug: material-usenet-dashboard
 title: Material Usenet Dashboard
-wordpress_id: 1159
+
 categories:
 - Misc
 - Web

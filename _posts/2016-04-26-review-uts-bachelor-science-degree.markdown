@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2016-04-26 11:00:13+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2016/04/26/review-uts-bachelor-science-degree/
+
 slug: review-uts-bachelor-science-degree
 title: Review of the UTS Bachelor of Science in IT Degree
-wordpress_id: 1140
+
 categories:
 - Misc
 - Review
