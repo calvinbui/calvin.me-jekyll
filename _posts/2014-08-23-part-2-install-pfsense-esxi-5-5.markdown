@@ -94,4 +94,4 @@ Verify your new network details and access pfSense once again at its new IP (e.g
 
 [![pfsense-new-ip](/images/2014-08-23-part-2-install-pfsense-esxi-5-5/29.png)](/images/2014-08-23-part-2-install-pfsense-esxi-5-5/29.png)
 
-In [Part 3: Install pfSense on ESXi 5.5](https://calvin.me/part-3-install-pfsense-esxi-5-5/) we will configure the WAN (Internet) connection for your LAN.
+In [Part 3: Install pfSense on ESXi 5.5](/part-3-install-pfsense-esxi-5-5/) we will configure the WAN (Internet) connection for your LAN.

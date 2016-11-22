@@ -40,7 +40,7 @@ Luckily there's a solution! Well a work-around, but still better than nothing! W
 ### CloudFlare Free SSL
 
 
-I [posted ](https://calvin.me/currently-moving-cloudflare/)about this [twice already](https://calvin.me/update-transition-cloudflare/) but my site is now using CloudFlare as its CDN which means it loads faster plus protection from CloudFlare security. I could kiss you CloudFlare if you had a face. You can find more about CloudFlare's features [here](https://www.cloudflare.com/overview) and why you should take up their free SSL offer!
+I [posted ](/currently-moving-cloudflare/)about this [twice already](/update-transition-cloudflare/) but my site is now using CloudFlare as its CDN which means it loads faster plus protection from CloudFlare security. I could kiss you CloudFlare if you had a face. You can find more about CloudFlare's features [here](https://www.cloudflare.com/overview) and why you should take up their free SSL offer!
 
 [![SSL Issued](/images/{{page.images}}/capture1.png)](/images/{{page.images}}/capture1.png)
 
@@ -69,7 +69,7 @@ I ended up going with Usenet Bucket after they gave me a 20% discount after the 
 
 
 
-	
+
   *  [StatusPage](%20statuspage.io).io is the provider of the server status page I've seen so often on sites like [Bitbucket](http://status.bitbucket.org/). As my infrastructure grows and grows eventually I will need a way to monitor everything. For example this site crashed one day and luckily [New Relic](http://newrelic.com/) notified me, even though it was meant to measure performance. StatusPage isn't free however, but free if I never activate the page meaning I can still use it if I login hehehe. Alternatively I can just design my own using PHP like I've done before:
 
 
@@ -77,7 +77,5 @@ I ended up going with Usenet Bucket after they gave me a 20% discount after the 
 
 
 
-	
+
   * Gist. Specifically my own Gist. Having a Git server is nice and all but sometimes saving just a single file is all I want. My pastebin does this but it doesn't support reverting or updating which is what I'm really looking for.
-
-

@@ -18,7 +18,7 @@ tags:
 images: 2014-08-24-part-4-install-pfsense-esxi-5-5
 ---
 
-Now that our pfSense installation is set up and working, we will have to wrap up our installation with a few necessities such as VMware Tools. You can find follow along our installation in [Part 1](https://calvin.me/part-1-install-pfsense-on-esxi-5-5/), [Part 2](https://calvin.me/part-2-install-pfsense-esxi-5-5/) and [Part 3](https://calvin.me/part-3-install-pfsense-esxi-5-5/).
+Now that our pfSense installation is set up and working, we will have to wrap up our installation with a few necessities such as VMware Tools. You can find follow along our installation in [Part 1](/part-1-install-pfsense-on-esxi-5-5/), [Part 2](/part-2-install-pfsense-esxi-5-5/) and [Part 3](/part-3-install-pfsense-esxi-5-5/).
 
 <!-- more -->
 
@@ -48,19 +48,19 @@ pfSense by default prevents you from downloading packages for good reason, it co
 First you will need to change where pfSense gets its packages from. As of this post, pfSense 2.1.4 is based off FreeBSD 8.3-RELEASE-p16. Find the URL that fits your version. Run the follow commands in the shell:
 For 64 bit:
 
-    
+
     setenv PACKAGESITE "http://ftpmirror.your.org/pub/FreeBSD-Unofficial-Packages/83amd64-default/Latest/"
 
 
 For 32 bit:
 
-    
+
     setenv PACKAGESITE "http://ftpmirror.your.org/pub/FreeBSD-Unofficial-Packages/83i386-default/Latest/"
 
 
 Once the package site has been set, install 'perl'
 
-    
+
     pkg_add -rv perl
 
 
@@ -68,13 +68,13 @@ Finally install the compatibility library for your version of pfSense
 
 For 64 bit:
 
-    
+
     pkg_add -rv compat6x-amd64
 
 
 For 32 bit:
 
-    
+
     pkg_add -rv compat6x-i386
 
 
@@ -102,7 +102,7 @@ or if you are in VMware workstation:
 
 Run the following line by line to mount the the VMware Tools disk, unpack its contents and install i:
 
-    
+
     mount -t cd9660 /dev/acd0 /mnt/
     cd /tmp
     tar xvzf /mnt/vmware-freebsd-tools.tar.gz
@@ -114,7 +114,7 @@ If it fails to install the first time, run the final line again for a reinstall.
 
 Remove the leftovers after the installation:
 
-    
+
     rm -f /etc/vmware-tools/not_configured
 
 
@@ -122,15 +122,15 @@ Remove the leftovers after the installation:
 
 A script is required to add the compat6x library to boot time or VMware tools will not start properly. Enter these lines into the shell:
 
-    
+
     echo '#!/bin/sh' > /usr/local/etc/rc.d/000-ldconfig.sh
-    
+
     echo '/sbin/ldconfig -m /usr/local/lib/compat' >> /usr/local/etc/rc.d/000-ldconfig.sh
-    
+
     echo '/usr/local/etc/rc.d/vmware-tools.sh restart' >> /usr/local/etc/rc.d/000-ldconfig.sh
-    
+
     echo '/usr/local/bin/vmware-config-tools.pl -d' >> /usr/local/etc/rc.d/000-ldconfig.sh
-    
+
     chmod a+x /usr/local/etc/rc.d/000-ldconfig.sh[/sourcecode]
 
 
@@ -204,16 +204,16 @@ If pfSense is now your router, it is very important to auto-start it with ESXi.
 
 
 
-	
+
   1. Open the vSphere Client and connect to ESXi
 
-	
+
   2. Select your host and click on the 'Configuration' tab
 
-	
+
   3. Select 'Virtual Machine Startup/Shutdown' and click on 'Properties...' in the top right corner.
 
-	
+
   4. Select the VM and click 'Move Up' until it reaches Automatic Startup. Adjust the delay if necessary. Click 'OK' when done.
 
 
@@ -227,16 +227,14 @@ Our installation may be finished but pfSense offers many more features than such
 
 
 
-	
+
   * pfSense is now your router, it must be on and running to get a connection to the Internet
 
-	
+
   * Don't put your server into maintenance mode, ESXi will never start pfSense and you wont be able to access it without plugging and unplugging a bunch of things to be able to access the vSphere client and exit maintenance mode.
 
-	
+
   * Make regular back ups of the pfSense VM. One wrong move and your network will collapse.
 
-	
+
   * Always give static addresses to important infrastructure like ESXi, IPMI, IMM, Switches, Modems and of course, pfSense.
-
-

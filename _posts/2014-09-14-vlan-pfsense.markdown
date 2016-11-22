@@ -18,7 +18,7 @@ tags:
 images: 2014-09-14-vlan-pfsense
 ---
 
-My current set-up has [pfSense vitualised](https://www.pfsense.org/) on an [all-in-one ESXi host](https://calvin.me/all-in-one-esxi-5-5-server/) providing networking to my entire infrastructure. This infrastructure is both virtual and physical and therefore denying guest access to them is very important so that not anyone can just type an IP address into their browser and begin changing settings.
+My current set-up has [pfSense vitualised](https://www.pfsense.org/) on an [all-in-one ESXi host](/all-in-one-esxi-server/) providing networking to my entire infrastructure. This infrastructure is both virtual and physical and therefore denying guest access to them is very important so that not anyone can just type an IP address into their browser and begin changing settings.
 
 We can do this through the use of [VLANs](http://en.wikipedia.org/wiki/Virtual_LAN) to restrict users to one particular network while having Administrator access to all. pfSense has the ability to set up VLANs and deny access between them. In addition to this, our m[anaged/smart network switch](http://www.dlink.com.au/business-solutions/16-port-gigabit-easysmart-switch) and [VMware vSwitch](http://www.vmware.com/products/vsphere/features/distributed-switch) support this feature.
 
