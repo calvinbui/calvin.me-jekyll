@@ -66,6 +66,7 @@ kramdown:
   syntax_highlighter: rouge
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
+    default_lang: terminal
     css_class: 'highlight'
     span:
       line_numbers: false
