@@ -63,23 +63,18 @@ To enable jumbo frames on Solaris 11, Oracle provides a [very easy guide](https:
 
 4. Set MTU to 9000
 
-  ```terminal
-  $ dladm set-linkprop -p mtu=9000 vmxnet3s0
-  ```
+       $ dladm set-linkprop -p mtu=9000 vmxnet3s0
 
 5. Re-enable the interface
 
-```terminal
-$ ifconfig vmxnet3s0 plumb 10.0.0.5/24 up
-```
+      $ ifconfig vmxnet3s0 plumb 10.0.0.5/24 up
 
 6. Check if it has updated
 
-```terminal
-$ dladm show-link vmxnet3s0
-LINK      CLASS MTU  STATE BRIDGE OVER
-vmxnet3s0 phys  9000 up    --     --
-```
+       $ dladm show-link vmxnet3s0
+       LINK      CLASS MTU  STATE BRIDGE OVER
+       vmxnet3s0 phys  9000 up    --     --
+
 
 At this point you can test the Jumbo Frames using a ping to a machine which can accept an MTU of 9000. I did a ping to my Ubuntu Desktop.
 
@@ -109,7 +104,7 @@ LSO or Large Segment Offload is a technology to reduce CPU while having better n
 
 1. Run the following command to disable LSO though Solaris
 
-    	# ndd -set /dev/ip ip_lso_outbound 0
+    	  $ ndd -set /dev/ip ip_lso_outbound 0
 
 2. Disable LSO through the VMXNET3 driver. Edit /kernel/drv/vmxnet3s.conf. I changed EnableLSO and MTU.
 
