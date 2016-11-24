@@ -5,18 +5,23 @@
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 10px 0px;
   padding-left: 10px;
   background: #202020;
   color: #C1C2C3;
+  font-size: 75%;
+  .gutter {
+    padding-right: 5px;
+
+    .lineno {
+      border-right: 1px solid #ccc;
+      color: white;
+      padding-right: 5px;
+    }
+  }
 }
 
-
-pre > code {
-  font-size: 75%
-}
-
-code, pre {
+.code, pre {
   font-family: monospace;
 }
 
