@@ -45,7 +45,7 @@ First thing to do is enable jumbo frames. Typically, networks set their 'maximum
 
 To enable jumbo frames on Solaris 11, Oracle provides a [very easy guide](https://docs.oracle.com/cd/E19120-01/open.solaris/819-6990/ggtwf/index.html) to this:
 
-1. Select the interface to enable jumbo frames on, list it using the command:v4
+1. Select the interface to enable jumbo frames on, list it using the command:
 
        $ dladm show-phys
        LINK      MEDIA    STATE SPEED DUPLEX DEVICE
@@ -67,7 +67,7 @@ To enable jumbo frames on Solaris 11, Oracle provides a [very easy guide](https:
 
 5. Re-enable the interface
 
-      $ ifconfig vmxnet3s0 plumb 10.0.0.5/24 up
+       $ ifconfig vmxnet3s0 plumb 10.0.0.5/24 up
 
 6. Check if it has updated
 
@@ -104,59 +104,53 @@ LSO or Large Segment Offload is a technology to reduce CPU while having better n
 
 1. Run the following command to disable LSO though Solaris
 
-    	  $ ndd -set /dev/ip ip_lso_outbound 0
+     $ ndd -set /dev/ip ip_lso_outbound 0
 
 2. Disable LSO through the VMXNET3 driver. Edit /kernel/drv/vmxnet3s.conf. I changed EnableLSO and MTU.
 
-
-	    # Driver.conf(4) file for VMware Vmxnet Generation 3 adapters.
-
-	    # TxRingSize --
-	    #
-	    #    Tx ring size for each vmxnet3s# adapter. Must be a multiple of 32.
-	    #
-	    #    Minimum value: 32
-	    #    Maximum value: 4096
-	    #
-	    TxRingSize=256,256,256,256,256,256,256,256,256,256;
-
-	    # RxRingSize --
-	    #
-	    #    Rx ring size for each vmxnet3s# adapter. Must be a multiple of 32.
-	    #
-	    #    Minimum value: 32
-	    #    Maximum value: 4096
-	    #
-	    RxRingSize=256,256,256,256,256,256,256,256,256,256;
-
-	    # RxBufPoolLimit --
-	    #
-	    #    Limit the number of Rx buffers cached for each vmxnet3s# adapter.
-	    #    Increasing the limit might improve performance but increases the
-	    #    memory footprint.
-	    #
-	    #    Minimum value: 0
-	    #    Maximum value: RxRingSize * 10
-	    #
-	    RxBufPoolLimit=512,512,512,512,512,512,512,512,512,512;
-
-	    # EnableLSO --
-	    #
-	    #    Enable or disable LSO for each vmxnet3s# adapter.
-	    #
-	    #    Minimum value: 0
-	    #    Maximum value: 1
-	    #
-	    EnableLSO=0,0,0,0,0,0,0,0,0,0;
-
-	    # MTU --
-	    #
-	    #    Set MTU for each vmxnet3s# adapter.
-	    #
-	    #    Minimum value: 60
-	    #    Maximum value: 9000
-	    #
-	    MTU=9000,9000,9000,9000,9000,9000,9000,9000,9000,9000;
+	   # Driver.conf(4) file for VMware Vmxnet Generation 3 adapters.
+	   # TxRingSize --
+	   #
+	   #    Tx ring size for each vmxnet3s# adapter. Must be a multiple of 32.
+     #
+	   #    Minimum value: 32
+	   #    Maximum value: 4096
+	   #
+	   TxRingSize=256,256,256,256,256,256,256,256,256,256;
+	   # RxRingSize --
+	   #
+	   #    Rx ring size for each vmxnet3s# adapter. Must be a multiple of 32.
+	   #
+	   #    Minimum value: 32
+	   #    Maximum value: 4096
+	   #
+	   RxRingSize=256,256,256,256,256,256,256,256,256,256;
+ 	   # RxBufPoolLimit --
+	   #
+	   #    Limit the number of Rx buffers cached for each vmxnet3s# adapter.
+	   #    Increasing the limit might improve performance but increases the
+	   #    memory footprint.
+	   #
+	   #    Minimum value: 0
+	   #    Maximum value: RxRingSize * 10
+	   #
+	   RxBufPoolLimit=512,512,512,512,512,512,512,512,512,512;
+     # EnableLSO --
+     #
+     #    Enable or disable LSO for each vmxnet3s# adapter.
+     #
+     #    Minimum value: 0
+     #    Maximum value: 1
+     #
+     EnableLSO=0,0,0,0,0,0,0,0,0,0;
+     # MTU --
+     #
+     #    Set MTU for each vmxnet3s# adapter.
+     #
+     #    Minimum value: 60
+     #    Maximum value: 9000
+     #
+     MTU=9000,9000,9000,9000,9000,9000,9000,9000,9000,9000;
 
 ## Tuning
 
