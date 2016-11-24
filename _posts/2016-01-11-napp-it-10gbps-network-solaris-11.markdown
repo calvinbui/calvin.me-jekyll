@@ -45,43 +45,42 @@ First thing to do is enable jumbo frames. Typically, networks set their 'maximum
 
 To enable jumbo frames on Solaris 11, Oracle provides a [very easy guide](https://docs.oracle.com/cd/E19120-01/open.solaris/819-6990/ggtwf/index.html) to this:
 
-1. Select the interface to enable jumbo frames on, list it using the command
-
-	    # dladm show-phys
-
-	    LINK      MEDIA    STATE SPEED DUPLEX DEVICE
-	    vmxnet3s0 Ethernet up    10000 full   vmxnet3s0
-
+1. Select the interface to enable jumbo frames on, list it using the command:
+```terminal
+$ dladm show-phys
+LINK      MEDIA    STATE SPEED DUPLEX DEVICE
+vmxnet3s0 Ethernet up    10000 full   vmxnet3s0
+```
 2. See the current MTU, replacing vmxnet3s0 with your interface
-
-	    # dladm show-linkprop -p mtu vmxnet3s0
-
-	    LINK      PROPERTY PERM VALUE DEFAULT POSSIBLE
-	    vmxnet3s0 mtu      rw   1500  1500    60-9000
+```terminal
+$ dladm show-linkprop -p mtu vmxnet3s0
+LINK      PROPERTY PERM VALUE DEFAULT POSSIBLE
+vmxnet3s0 mtu      rw   1500  1500    60-9000
+```
 
 3. Turn off the interface to configure it
-```
-ifconfig vmxnet3s0 unplumb
+```terminal
+$ ifconfig vmxnet3s0 unplumb
 ```
 4. Set MTU to 9000
-```
-dladm set-linkprop -p mtu=9000 vmxnet3s0
+```terminal
+$ dladm set-linkprop -p mtu=9000 vmxnet3s0
 ```
 5. Re-enable the interface
-```
-ifconfig vmxnet3s0 plumb 10.0.0.5/24 up
+```terminal
+$ ifconfig vmxnet3s0 plumb 10.0.0.5/24 up
 ```
 6. Check if it has updated
-
-		# dladm show-link vmxnet3s0
-
-		LINK      CLASS MTU  STATE BRIDGE OVER
-		vmxnet3s0 phys  9000 up    --     --
+```terminal
+$ dladm show-link vmxnet3s0
+LINK      CLASS MTU  STATE BRIDGE OVER
+vmxnet3s0 phys  9000 up    --     --
+```
 
 At this point you can test the Jumbo Frames using a ping to a machine which can accept an MTU of 9000. I did a ping to my Ubuntu Desktop.
 
 ```terminal
-# ping -s 10.0.0.16 9000 4
+$ ping -s 10.0.0.16 9000 4
 
 PING 10.0.0.16: 9000 data bytes
 9008 bytes from 10.0.0.16: icmp_seq=0. time=0.223 ms
@@ -165,9 +164,9 @@ LSO or Large Segment Offload is a technology to reduce CPU while having better n
 Finally tune TCP parameters to accommodate the faster speeds
 
 ```terminal
-# ipadm set-prop -p max_buf=4194304 tcp
-# ipadm set-prop -p recv_buf=1048576 tcp
-# ipadm set-prop -p send_buf=1048576 tcp
+$ ipadm set-prop -p max_buf=4194304 tcp
+$ ipadm set-prop -p recv_buf=1048576 tcp
+$ ipadm set-prop -p send_buf=1048576 tcp
 ```
 
 ## Test out your new performance
@@ -175,8 +174,8 @@ Finally tune TCP parameters to accommodate the faster speeds
 Start iperf 2 as a server on napp-it
 
 ```terminal
-# cd /var/web-gui/data/tools/iperf
-# ./iperf -s
+$ cd /var/web-gui/data/tools/iperf
+$ ./iperf -s
 ```
 
 On another computer, run iperf as a client to connect to napp-it.

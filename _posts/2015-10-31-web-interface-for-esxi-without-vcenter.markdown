@@ -55,7 +55,7 @@ Everything you need to know can be found on the [official Fling page](https://la
 2. Run the command
 
 ```terminal    
-esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/esxui/esxui_signed.vib
+$ esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/esxui/esxui_signed.vib
 ```
 
 **Installing it from a local file**
@@ -66,7 +66,7 @@ esxcli software vib install -v http://download3.vmware.com/software/vmw-tools/es
   4. Run the command
 
 ```terminal
-esxcli software vib install -v /tmp/esxui_signed.vib
+$ esxcli software vib install -v /tmp/esxui_signed.vib
 ```
 
 Making sure you include the full path name to the file or else installation will fail

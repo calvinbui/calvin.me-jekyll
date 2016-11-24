@@ -32,7 +32,7 @@ _**Word of warning**: older versions of OpenSSL are vulnerable to the [HeartBlee
 It's so easy to generate a certificate. If you have OpenSSL installed on a Linux machine, just run:
 
 ```terminal
-sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
+$ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
 ```    
 
 ![Linux ssl command](/images/{{page.images}}/capture4.png)
@@ -40,7 +40,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out
 On Windows, you can download and install [OpenSSL from their website](https://www.openssl.org/). Browse to where openssl.exe has been installed (mine is at C:OpenSSL-Win32bin) and run the command:
 
 ```terminal    
-openssl.exe req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
+$ openssl.exe req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt
 ```
 
 [![Windows SSL generation](/images/{{page.images}}/capture3.png)](/images/{{page.images}}/capture3.png)

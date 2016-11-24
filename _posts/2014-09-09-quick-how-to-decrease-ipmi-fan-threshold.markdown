@@ -22,13 +22,13 @@ I like quiet (slow) fans. I like Supermicro's X10SL7 motherboard. I like how I 
 **1.** Install IPMITOOL on a Linux machine on the same network as your IPMI. This is possible via command line or manually downloading it. I used Ubuntu 14.04.
 
 ```terminal
-sudo apt-get install ipmitool
+$ sudo apt-get install ipmitool
 ```
 
 **2.** Run the command
 
 ```terminal  
-ipmitool -I lan -U ADMIN -H 10.0.0.4 sensor thresh FAN1 lower 150 225 300
+$ ipmitool -I lan -U ADMIN -H 10.0.0.4 sensor thresh FAN1 lower 150 225 300
 ```
 
 Replacing:

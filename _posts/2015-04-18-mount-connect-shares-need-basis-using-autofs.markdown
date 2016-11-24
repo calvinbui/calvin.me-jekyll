@@ -27,13 +27,13 @@ To start, first install autofs through.
 For Ubuntu
 
 ```terminal    
-sudo apt-get install autofs
+$ sudo apt-get install autofs
 ```
 
 For Red Hat, Fedora and CentOS
 
 ```terminal
-sudo yum install autofs
+$ sudo yum install autofs
 ```
 
 ## Select or create a mount point
@@ -53,7 +53,7 @@ Create a new file in /etc/. I like to name this after my mount point e.g. if I c
 Edit the master autofs configuration file at the bottom
 
 ```terminal    
-sudo nano /etc/auto.master
+$ sudo nano /etc/auto.master
 ```
 
 Add the mountpoint to the bottom
@@ -65,7 +65,7 @@ Add the mountpoint to the bottom
 Now create the auto.mnt file
 
 ```terminal    
-sudo nano /etc/auto.mnt
+$ sudo nano /etc/auto.mnt
 ```
 
 There are several types of mounts and each differs in their configuration.
@@ -124,8 +124,8 @@ folder -fstype=cifs,rw,noperm,username=myuser,domain=domain.com,password=mypass 
 Reboot and attempt to access your share.
 
 ```terminal    
-ls /mnt/folder  
-cd /mnt/folder
+$ ls /mnt/folder  
+$ cd /mnt/folder
 ```
 
 If it does not work, you will have to debug it
@@ -133,13 +133,13 @@ If it does not work, you will have to debug it
 1. Stop the **autofs** daemon
 
 ```terminal    
-sudo service autofs stop
+$ sudo service autofs stop
 ```
 
 2. Run **automount** in the foreground with verbose information
 
 ```terminal    
-sudo automount -f -v
+$ sudo automount -f -v
 ```
 
 3. From another terminal, try to mount your file-systems by changing directories into the mountpoint.

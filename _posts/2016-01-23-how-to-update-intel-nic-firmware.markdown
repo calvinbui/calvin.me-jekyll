@@ -41,17 +41,17 @@ I will be updating my Intel I350 T4 NIC that I got in Christmas 2014. I will be
 
 6. If a NIC is saying it cannot be flashed (but you know it can be), enable flash using the command:
 ```terminal
-BootUtil -NIC=1 -FLASHENABLE
+$ BootUtil -NIC=1 -FLASHENABLE
 ```
 Where -NIC is the port number. Reboot when done and go to the next step.
 
 7. You can choose to update a particular NIC or all at once using:
 ```terminal
-BootUtil -UP=PXE -ALL (Assumes input file is bootimg.flb)
+$ BootUtil -UP=PXE -ALL (Assumes input file is bootimg.flb)
 ```
 Or specifying the file using:
 ```terminal
-Bootutil -UP=PXE -ALL -FILE=BOOTIMG.FLB (explicit user specified file)
+$ Bootutil -UP=PXE -ALL -FILE=BOOTIMG.FLB (explicit user specified file)
 ```
 
 8. You will be prompted to save create a restore image for your NIC before updating. It is probably best to do this in case something goes wrong :P

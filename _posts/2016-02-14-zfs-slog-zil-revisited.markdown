@@ -67,7 +67,7 @@ What I did not know until now was how the ZIL was fixing the issues. The way a Z
 
 I tried a new installation of napp-it as recommended by its creator Gea. This showed no difference. [He then advised](http://hardforum.com/showpost.php?p=1042097373&postcount=7354) to disable sync and see if I was still seeing any difference. Nope no difference, actually it's even _SLOWER_ than before.
 
-```
+```text
 Memory size: 16384 Megabytes
 
 write 4.096 GB via dd, please wait...
@@ -105,7 +105,7 @@ Temporarily leaving napp-it behind I decided to try out FreeNAS and see if the i
 
 Something was still wrong. I messed around in FreeNAS for a while (I would say napp-it has a lot more features but FreeNAS is cleaner, but i digress) and noticed some alerts in the top right hand corner. It told me I needed update my LSI 2308 controller from P19 to P20 (which FreeNAS supported). This was pretty much the same advice Gea had told me so I gave it a try and...BOOM
 
-```terminal
+```text
 Memory size: 16384 Megabytes
 write 12.8 GB via dd, please wait...
 time dd if=/dev/zero of=/ssd/dd.tst bs=2048000 count=6250

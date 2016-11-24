@@ -30,19 +30,19 @@ I will be using a freshly installed Ubuntu 14.04.1 LTS. I previously had issues 
 To install the controller you will need to add the Ubiquiti repository to your apt sources list. This one liner does that for you:
 
 ```terminal    
-echo 'deb http://www.ubnt.com/downloads/unifi/debian stable ubiquiti' | sudo tee -a /etc/apt/sources.list.d/100-ubnt.list
+$ echo 'deb http://www.ubnt.com/downloads/unifi/debian stable ubiquiti' | sudo tee -a /etc/apt/sources.list.d/100-ubnt.list
 ```
 
 Next you will need to add the [GNU Privacy Guard (GPG) ](http://en.wikipedia.org/wiki/GNU_Privacy_Guard)keys for UniFi and MongoDB (used to store your users and WiFi statistics within the UniFi controller). The GPG keys verifies the genuinity of who you will be downloading from during the installation. Here's another one liner to add both (Ubiquiti first then MongoDB):
 
 ```terminal      
-sudo apt-key adv --keyserver keyserver.ubuntu.com --recv C0A52C50 && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
+$ sudo apt-key adv --keyserver keyserver.ubuntu.com --recv C0A52C50 && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv 7F0CEB10
 ```
 
 Now perform update to ensure Ubuntu recognises the repository:
 
 ```terminal      
-sudo apt-get update
+$ sudo apt-get update
 ```
 
 ## Install UniFi
@@ -50,7 +50,7 @@ sudo apt-get update
 Finally the big moment - installing the UniFi controller.
 
 ```terminal      
-sudo apt-get install unifi -y
+$ sudo apt-get install unifi -y
 ```
 
 It will install a bunch of dependencies with it including Java 6, MongoDB, Tomcat and a Java SSL certificate tool.
@@ -73,7 +73,7 @@ Depending on the version installed, you will be taken to the setup wizard. You'r
 A good start would be to go through the system logs and google the issue:
 
 ```terminal      
-cat /var/log/unifi/server.log
+$ cat /var/log/unifi/server.log
 ```
 
 ### Restart UniFi
@@ -82,16 +82,16 @@ Just like any other service in Ubuntu, UniFi can be stop, started and restarted.
 
 ```terminal    
 # to stop the controller
-sudo service unifi stop
+$ sudo service unifi stop
 
 # to start the controller
-sudo service unifi start
+$ sudo service unifi start
 
 # to restart the controller
-sudo service unifi restart
+$ sudo service unifi restart
 
 # to view the controller's current status
-sudo service unifi status
+$ sudo service unifi status
 ```
 
 ### Java Home not found
@@ -99,7 +99,7 @@ sudo service unifi status
 This issue can be tricky. UniFi cannot access Java to run Tomcat (its web server). To check if you have Java, simply run:
 
 ```terminal       
-java -version
+$ java -version
 ```
 
 If nothing appears you do not have Java. The latest version of UniFi supports Java 8. To install Java, [follow this guide from Digital Ocean](https://www.digitalocean.com/community/tutorials/how-to-manually-install-oracle-java-on-a-debian-or-ubuntu-vps).
@@ -107,13 +107,13 @@ If nothing appears you do not have Java. The latest version of UniFi supports Ja
 If you do have Java (or installed it now), you will have to edit the UniFi startup script to point out the location of Java. Open the startup script:
 
 ```terminal    
-sudo editor /etc/init.d/unifi
+$ sudo editor /etc/init.d/unifi
 ```
 
 Change the 'JAVA_HOME' location to your new Java location:
 
 ```terminal       
-JAVA_HOME=/opt/jdk/jdk1.8.0_XX
+$ JAVA_HOME=/opt/jdk/jdk1.8.0_XX
 ```
 
 ### Keystore file missing / java.io.FileNotFoundException
@@ -121,7 +121,7 @@ JAVA_HOME=/opt/jdk/jdk1.8.0_XX
 When going through the log file you may find the error:
 
 ```terminal    
-java.io.FileNotFoundException: /usr/lib/unifi/data/keystore (No such file or directory)
+$ java.io.FileNotFoundException: /usr/lib/unifi/data/keystore (No such file or directory)
 ```
 
 This error means that the 'keystore' file is missing, resulting in Tomcat not being able to start up. The keystore file is responsible for encrypting your connection (HTTPS/SSL).
@@ -129,11 +129,11 @@ This error means that the 'keystore' file is missing, resulting in Tomcat not be
 Generate a new keystore file, answering blank to every question including password:
 
 ```terminal    
-sudo keytool -genkey -keyalg RSA -alias selfsigned -keystore /usr/lib/unifi/data/keystore -storepass aircontrolenterprise -validity 365 -keysize 2048 -destalias unifi
+$ sudo keytool -genkey -keyalg RSA -alias selfsigned -keystore /usr/lib/unifi/data/keystore -storepass aircontrolenterprise -validity 365 -keysize 2048 -destalias unifi
 ```
 
 Restart UniFi when successful and try accessing the web interface again.
 
 ```terminal     
-sudo service unifi restart
+$ sudo service unifi restart
 ```

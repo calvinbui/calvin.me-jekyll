@@ -40,13 +40,13 @@ This will be all you need.
 **2.** Install the NTP daemon using the command:
 
 ```terminal
-sudo apt-get install ntp
+$ sudo apt-get install ntp
 ```
 
 **3.** Let's configure the NTP servers we are going to retrieve from. Edit the ntp.conf using the command:
 
 ```terminal
-sudo nano /etc/ntp.conf
+$ sudo nano /etc/ntp.conf
 ```
 
 Here are the current servers that the service is currently retrieving the time from:
@@ -82,13 +82,13 @@ Hit _CTRL+X_, enter _Y_ to confirm and hit Enter.
 **6.** Restart the daemon service using the command:
 
 ```terminal    
-sudo /etc/init.d/ntp restart
+$ sudo /etc/init.d/ntp restart
 ```
 
 **7.** Monitor the log to see when it starts synchronising using the command:
 
 ```terminal     
-tail -f /var/log/syslog
+$ tail -f /var/log/syslog
 ```
 
 (Ctrl + C to exit)
@@ -98,7 +98,7 @@ tail -f /var/log/syslog
 **8.** It nothing comes up (which usually happens to me), run the command '_ntpq -p_' and it should show you all the time servers you are currently connecting with. This is enough to know if it is synchronized for now.
 
 ```terminal
-ntpq -p
+$ ntpq -p
 ```
 
 [![polling server](/images/{{page.images}}/63.png)](/images/{{page.images}}/63.png)
