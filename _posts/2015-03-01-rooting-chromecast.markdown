@@ -3,10 +3,8 @@ author: calvinbui93
 comments: true
 date: 2015-03-01 06:07:48+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/03/01/rooting-chromecast/
 slug: rooting-chromecast
 title: Rooting the Chromecast
-wordpress_id: 670
 categories:
 - Misc
 tags:
@@ -20,9 +18,7 @@ Rooting a Chromecast looks easy. The method itself looks easy. But when things 
 
 <!-- more -->
 
-
 ## The First Chromecast
-
 
 I say first Chromecast, because there were more after this. For Christmas I got a Chromecast. I had an idea to use stream from it late at night to save energy by turning off my computer.
 
@@ -34,25 +30,23 @@ An hour goes by screwing around with it. I thought, is this all it does? I guess
 
 I was going to try it anyway. I got my external DVD-drive's Y cable and used that along with a Minimus I had when I used it for jailbreaking my PS3. Everything was plugged in and I was ready to press the button when suddenly...I realised it had no button. My button was actually missing.
 
-[caption id="attachment_711" align="alignnone" width="600"][![An example of a Y cable I used](http://calvinbuiblog.files.wordpress.com/2015/01/cab-usb-yblack.jpg)](http://calvinbuiblog.files.wordpress.com/2015/01/cab-usb-yblack.jpg) An example of a Y cable I used[/caption]
-
+{% include caption.html path="cab-usb-yblack.jpg" caption="An example of a Y cable I used" alt="An example of a Y cable I used" %}
 
 ## The Second Chromecast
-
 
 Lucky me I thought, because my Chromecast is defective I now get a brand new-in-box non-updated one.
 
 The second Chromecast is identical to the first. I realised how vigilant I have to be to make sure this works correctly. I read around as much as I could and watched some videos too.  A good trick was to connect to the Chromecast and visit [http://192.168.255.249:8008/setup/eureka_info?options=detail](http://192.168.255.249:8008/setup/eureka_info?options=detail) where it'll give some details of it including the firmware level.
 
-    
-    {"build_version":"15098"
-
+```
+{"build_version":"15098"
+```
 
 But I ran into another problem. I didn't have a 'powered OTG cable', only a normal OTG cable. I put an order through eBay for one and kept trying to see what I could do.
 
 The best solution I found was to use an USB hub connected to the Chromecast:
 
-[caption id="attachment_700" align="aligncenter" width="800"][![](http://calvinbuiblog.files.wordpress.com/2015/01/pa010003.jpg)](http://calvinbuiblog.files.wordpress.com/2015/01/pa010003.jpg) http://forum.xda-developers.com/showthread.php?t=2465642[/caption]
+{% include caption.html path="pa010003.jpg" caption="http://forum.xda-developers.com/showthread.php?t=2465642" alt="" %}
 
 I didn't have any unpowered hubs though, I only ever bought powered ones. I took out my [Roccat Apuri USB Hub](http://www.roccat.org/Products/Gaming-Accessories/ROCCAT-Apuri/) (with mouse bungee) and tried to duplicate the method.
 
@@ -62,50 +56,48 @@ I plugged in the laptop charger and the it was still happening, on and off like 
 
 Needless to say, the USB hub, Minimus32 and Chomecast are all dead or not responding (but some lights up at least). This is what happens when you don't do things the proper way. It always works the proper way.
 
-[caption id="attachment_712" align="alignnone" width="300"][![RIP Minimus](http://calvinbuiblog.files.wordpress.com/2015/01/minimus.jpg)](http://calvinbuiblog.files.wordpress.com/2015/01/minimus.jpg) RIP Minimus[/caption]
-
+{% include caption.html path="minimus.jpg" caption="RIP Minimus" alt="RIP Minimus" %}
 
 ## The Third Chromecast
-
 
 This time I knew I had to just wait for the powered OTG cable in the mail...but I was itching to get this done.
 
 I had a normal USB hub this time and I bought a Teensy2 since the incident. I tried to repeat what I did last time in a safer way but this Chromecast was annoying!
 
-[caption id="attachment_702" align="alignnone" width="800"][![IMG_20150108_230231](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_230231.jpg)](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_230231.jpg) Hacked by something smaller than itself. David vs Goliath.[/caption]
+{% include caption.html path="img_20150108_230231.jpg" caption="Hacked by something smaller than itself. David vs Goliath." alt="IMG_20150108_230231" %}
 
 Sometimes it would flash, sometimes I wouldn't. It would work at certain power points but not others. Sometimes it only flashed if the Chromecast was plugged into a monitor as well. When it did begin working (to my relief) I realised I had used the wrong flash file because the instructions weren't updated to cater for the 15098 firmware. It was frustrating and annoying all around.
 
 After a while I gave up, it would turn on and keep throwing me the 'Startup Issues' screen. I decided there and then I was going to make my own powered USB OTG cable.
 
-[![JhGf3Se](http://calvinbuiblog.files.wordpress.com/2015/01/jhgf3se.jpg)](http://calvinbuiblog.files.wordpress.com/2015/01/jhgf3se.jpg)
+[![JhGf3Se](/images/{{page.images}}/jhgf3se.jpg)](/images/{{page.images}}/jhgf3se.jpg)
 
 I followed a [very simple guide ](http://forum.xda-developers.com/showthread.php?t=1828032)on how to make an OTG cable. Just by soldering the black and red cables together, I could power my unpowered OTG cable. First I needed a USB Male head to power the cable. I got out a USB Mini cable and snipped it off there.
 
-[![IMG_20150108_231328](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_231328.jpg)](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_231328.jpg)
+[![IMG_20150108_231328](/images/{{page.images}}/img_20150108_231328.jpg)](/images/{{page.images}}/img_20150108_231328.jpg)
 
 I also have a soldering iron from back in the PS3 days, iron-ically. I'm not very good with the solder but I can do basic cable modding without any clips.
 
-[![IMG_20150108_230433](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_230433.jpg)](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_230433.jpg)
+[![IMG_20150108_230433](/images/{{page.images}}/img_20150108_230433.jpg)](/images/{{page.images}}/img_20150108_230433.jpg)
 
 A few snips with the scissors along with peeling the cable shielding back I was able to fashion a very dodgy powered OTG cable. Plugging it in, I was delighted to see the Chromecast power on (and that the dodgy soldering worked!).
 
-[![IMG_20150108_230910](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_230910.jpg)](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_230910.jpg)
+[![IMG_20150108_230910](/images/{{page.images}}/img_20150108_230910.jpg)](/images/{{page.images}}/img_20150108_230910.jpg)
 
 Even using the newly made cable, the Chromecast still didn't want to flash, annoyingly showing me the 'Startup Issues' screen over and over again. I thought it could've been an issue with the Teensy so I kept reflashing over and over to make sure it was perfect...and then it happened...the Teensy began flashing orange!
 
 I carefully plugged the Chromecast into my monitor and sat back relieved.
 
-[caption id="attachment_706" align="alignnone" width="800"][![IMG_20150108_221612](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_221612.jpg)](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_221612.jpg) Finally![/caption]
+{% include caption.html path="img_20150108_221612.jpg" caption="Finally!" alt="IMG_20150108_221612" %}
 
-[caption id="attachment_707" align="alignnone" width="800"][![The Chromecast, USB OTG and power cable](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_221628.jpg)](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_221628.jpg) The Chromecast, USB OTG and power cable[/caption]
+{% include caption.html path="img_20150108_221628.jpg" caption="The Chromecast, USB OTG and power cable" alt="The Chromecast, USB OTG and power cable" %}
 
 After it was done, I checked the [http://192.168.255.249:8008/setup/eureka_info?options=detail](http://192.168.255.249:8008/setup/eureka_info?options=detail) page again to find:
 
-    
+```    
     {"bssid":"","build_version":"17977",
-
+```
 
 SUCCESS AT LAST! Now to clean the mess I made in my room.
 
-[caption id="attachment_708" align="alignnone" width="800"][![This is why you use your garage or basement as your workshop.](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_225818.jpg)](http://calvinbuiblog.files.wordpress.com/2015/01/img_20150108_225818.jpg) This is why you use your garage or basement as your workshop.[/caption]
+{% include caption.html path="img_20150108_225818.jpg" caption="This is why you use your garage or basement as your workshop." alt="This is why you use your garage or basement as your workshop." %}

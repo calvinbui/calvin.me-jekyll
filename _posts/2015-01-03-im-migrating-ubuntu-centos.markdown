@@ -3,10 +3,10 @@ author: calvinbui93
 comments: true
 date: 2015-01-03 23:35:36+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/01/04/im-migrating-ubuntu-centos/
+
 slug: im-migrating-ubuntu-centos
 title: I'm migrating from Ubuntu to CentOS
-wordpress_id: 616
+
 categories:
 - Linux
 - Misc
@@ -22,28 +22,16 @@ I'm migrating from Ubuntu to CentOS as my main Linux distro. Literally every vi
 
 First off, Ubuntu is great. I really love it.
 
-
-
-	
-  * It eats less memory than CentOS.
-
-	
-  * It doesn't have a minimum installation requirement like CentOS (although you can just decrease it when you finish the installation).
-
-	
-  * It has more packages than CentOS.
-
-	
-  * It almost always works with any hardware configuration I throw at it.
-
+* It eats less memory than CentOS.
+* It doesn't have a minimum installation requirement like CentOS (although you can just decrease it when you finish the installation).
+* It has more packages than CentOS.
+* It almost always works with any hardware configuration I throw at it.
 
 I'm not hating on Ubuntu, I'm just against it from now on for my own usage - not that I'm telling you to change too. There are just a few niggly things I'm worried about and some decisions Canonical have made which don't bode well with me.
 
-![ubuntu-trusty-320x205](http://calvinbuiblog.files.wordpress.com/2014/12/ubuntu-trusty-320x205.jpg)
-
+![ubuntu-trusty-320x205](/images/{{page.images}}/ubuntu-trusty-320x205.jpg)
 
 ### Reason 1: Upstart vs Systemd
-
 
 This is probably the biggest reason for my switch - 14.04 LTS uses [upstart](http://upstart.ubuntu.com/). If you haven't heard, the rest of the Linux world (except a minor few) use [systemd](http://www.freedesktop.org/wiki/Software/systemd/).
 
@@ -53,28 +41,25 @@ I'm not clear on how to convert upstart scripts to systemd. I hope it just autom
 
 I guess this isn't their fault as they follow Debian closely.
 
-
 ### Reason 2: Longterm Kernel
-
 
 Ubuntu 14.04 uses the 3.13 Linux kernel, not a [longterm version of the Linux kernel](https://www.kernel.org/). Longterm kernels (LTR) are supported for roughly 3 years, where higher stability would be provided than a 'mainline' or newer release. For a 'server' environment, I don't understand why Ubuntu 14.04 LTS went with 3.13 and not the 3.12 LTR.
 
 Apparently Torvalds held off the 3.14 LTR until a week after the [14.04 LTS kernel code freeze occurred](http://www.phoronix.com/scan.php?page=news_item&px=MTY0MjM). Why didn't Ubuntu just wait another week to implement it? Now every new patch release must be manually added and tested by Ubuntu kernel maintainers for the next 5 years...if they even bother. The updates would've gave direct from the official linux kernel if they just went with 3.12 LTR.
 
-[![tux](http://calvinbuiblog.files.wordpress.com/2014/12/tux.png)](http://calvinbuiblog.files.wordpress.com/2014/12/tux.png)
+[![tux](/images/{{page.images}}/tux.png)](/images/{{page.images}}/tux.png)
 
 
 ### Reason 3: Landscape costs money! $$$$
 
-
 [Landscape](http://www.ubuntu.com/management) is Canonical's system management tool for all your Ubuntu hosts. It does everything you would expect from updating/upgrading software (using apt-get and aptitude), host monitoring like when you see CPU usage and warnings; and deployment features for OpenStack and cloud infrastructure.
 
-![imageso_0serverso_0landscape](http://calvinbuiblog.files.wordpress.com/2014/12/imageso_0serverso_0landscape.png)
+![imageso_0serverso_0landscape](/images/{{page.images}}/imageso_0serverso_0landscape.png)
 
 I haven't tried Landscape and I don't plan to because it costs money. Although it has the general 30 day free trial, I rather not be wasting my time because in the end I wouldn't fork out my cash for it.
 
 This is Ubuntu's answer to [Red Hat's Satellite](https://access.redhat.com/products/red-hat-satellite) but there isn't an answer to Red Hat's free alternative: [Spacewalk](http://spacewalk.redhat.com/).
 
-[![spacewalk-black](http://calvinbuiblog.files.wordpress.com/2014/12/spacewalk-black.png)](http://calvinbuiblog.files.wordpress.com/2014/12/spacewalk-black.png)
+[![spacewalk-black](/images/{{page.images}}/spacewalk-black.png)](/images/{{page.images}}/spacewalk-black.png)
 
 System management is tough as it is already (I do it as a job) but without the proper tools it gets a lot harder. Until Ubuntu release a free offshoot there's not much to do except try out other alternatives like [Puppet ](http://puppetlabs.com/)and [Chef](https://www.chef.io/chef/).

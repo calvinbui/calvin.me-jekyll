@@ -3,10 +3,8 @@ author: calvinbui93
 comments: true
 date: 2014-09-29 21:22:40+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2014/09/30/currently-moving-cloudflare/
 slug: currently-moving-cloudflare
 title: Currently Moving to CloudFlare!
-wordpress_id: 380
 categories:
 - Misc
 images: 2014-09-29-currently-moving-cloudflare

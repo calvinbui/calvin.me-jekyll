@@ -3,10 +3,8 @@ author: calvinbui93
 comments: true
 date: 2015-05-30 09:55:51+00:00
 layout: post
-link: https://calvinbuiblog.wordpress.com/2015/05/30/more-apps-for-the-system-admin-usb-drive/
 slug: more-apps-for-the-system-admin-usb-drive
 title: More Apps for the System Admin USB Drive
-wordpress_id: 1011
 categories:
 - Misc
 tags:
@@ -20,169 +18,79 @@ If you haven't read the last post about making a [Multiboot USB Drive](https://c
 
 <!-- more -->
 
-
 ## Drivers
-
 
 There have been times where I have installed Windows and performed every single Windows Update to find it was missing drivers. Sometimes the manufacturer's website such as Acer or ASUS do not provide working drivers either >:(
 
 The best thing to do then is to open up the machine and look at each individual piece of hardware, or, use a program to find the right drivers. For this I used:
 
-
-
-	
-  * [Driver Pack](http://drp.su/)
-
-	
-  * [Driver Identifier](http://www.driveridentifier.com/)
-
-
-
+* [Driver Pack](http://drp.su/)
+* [Driver Identifier](http://www.driveridentifier.com/)
 
 ## All-In-One Fixers
 
-
 When a problem is too big or I just can't figure out the root cause I usually throw one of these programs at it. They have a zillion tools built into them and run through a list of fixes until the computer is fixed like removing malware, installing updates and cleaning out junk.
 
+* [d7](https://www.foolishit.com/d7/)
+* [NirSoft](http://www.nirsoft.net/)
+* [TronScript](https://www.reddit.com/r/TronScript/)
+* ComboFix
 
-
-	
-  * [d7](https://www.foolishit.com/d7/)
-
-	
-  * [NirSoft](http://www.nirsoft.net/)
-
-	
-  * [TronScript](https://www.reddit.com/r/TronScript/)
-
-	
-  * ComboFix
-
-
-[![bLmusI0](http://calvinbuiblog.files.wordpress.com/2015/05/blmusi0.png)](http://calvinbuiblog.files.wordpress.com/2015/05/blmusi0.png)
-
+[![bLmusI0](/images/{{page.images}}/blmusi0.png)](/images/{{page.images}}/blmusi0.png)
 
 ## Portable Applications
 
-
 These programs are great when I need a quit fix or program to do something. As they are 'portable', no installation i needed and nothing is stored on the user's computer. They come with heaps of utilities for all sorts of situations and sometimes I just jump straight to them instead of the others in this list.
 
+* LiberKey
+* PortableApps
 
-
-	
-  * LiberKey
-
-	
-  * PortableApps
-
-
-[![_features_-_organize](http://calvinbuiblog.files.wordpress.com/2015/05/features_-_organize.png)](http://calvinbuiblog.files.wordpress.com/2015/05/features_-_organize.png)
-
+[![_features_-_organize](/images/{{page.images}}/features_-_organize.png)](/images/{{page.images}}/features_-_organize.png)
 
 ## Anti-Virus
 
-
 Self-explanatory. Fixing an infected computer will require different tools. The best one though in this list is which ever works :)
 
-
-
-	
-  * Crucial Scan
-
-	
-  * HiJack This
-
-	
-  * MBAM
-
-	
-  * RKill
-
-	
-  * Rogue Killer
-
-	
-  * SAS
-
-	
-  * SpyBot S&D
-
-	
-  * Spyware Blaster
-
-	
-  * SUPER Anti-Spyware
-
-	
-  * TDSS Killer
-
-
-
+* Crucial Scan
+* HiJack This
+* MBAM
+* RKill
+* Rogue Killer
+* SAS
+* SpyBot S&D
+* Spyware Blaster
+* SUPER Anti-Spyware
+* TDSS Killer
 
 ## Diagnostics
 
-
 Sometimes I run into a slow computer even though it's rocking good hardware. The easiest fix to this is to find out what the heck is happening in the background and startup. There are variety of tools for this but the best I've found are below:
 
+* Glary Utilities
+* HWMonitor
+* Process Hacker
 
-
-	
-  * Glary Utilities
-
-	
-  * HWMonitor
-
-	
-  * Process Hacker
-
-
-[![Capture](http://calvinbuiblog.files.wordpress.com/2015/05/capture3.png)](http://calvinbuiblog.files.wordpress.com/2015/05/capture3.png)
-
+[![Capture](/images/{{page.images}}/capture3.png)](/images/{{page.images}}/capture3.png)
 
 ## Tools
 
-
 These are general tools which are helpful in different situations. ProduKey for example grabs all the product keys on the computer it can find before I do a reinstall.
 
+* Bluescreen View
+* ImgBurn
+* CD Burner XP
+* ProduKey
+* SpeedFan
 
-
-	
-  * Bluescreen View
-
-	
-  * ImgBurn
-
-	
-  * CD Burner XP
-
-	
-  * ProduKey
-
-	
-  * SpeedFan
-
-
-[![Capture](http://calvinbuiblog.files.wordpress.com/2015/05/capture2.png)](http://calvinbuiblog.files.wordpress.com/2015/05/capture2.png)
-
+[![Capture](/images/{{page.images}}/capture2.png)](/images/{{page.images}}/capture2.png)
 
 ## Disk
 
-
 While the problem could be some malware or lack of resources, sometimes the issue is a corrupted or dying disk. WinDirStat is good for finding what files are taking up most of the space on a disk as well.
 
+* H2Test
+* JDisk Report
+* Test Disk
+* WinDirStat
 
-
-	
-  * H2Test
-
-	
-  * JDisk Report
-
-	
-  * Test Disk
-
-	
-  * WinDirStat
-
-
-![Capture](http://calvinbuiblog.files.wordpress.com/2015/05/capture1.png)
+![Capture](/images/{{page.images}}/capture1.png)
