@@ -102,55 +102,17 @@ Of course this depends on the hardware you are using so I can't help much here.
 
 LSO or Large Segment Offload is a technology to reduce CPU while having better network performance through segmentation. Segmentation however is not required if we are using an MTU of 9000 however.
 
-1. Run the following command to disable LSO though Solaris
+**1.** Run the following command to disable LSO though Solaris
+```terminal
+$ ndd -set /dev/ip ip_lso_outbound 0
+```
 
-    $ ndd -set /dev/ip ip_lso_outbound 0
+**2.** Disable LSO through the VMXNET3 driver. Edit /kernel/drv/vmxnet3s.conf. I changed EnableLSO and MTU.
 
-2. Disable LSO through the VMXNET3 driver. Edit /kernel/drv/vmxnet3s.conf. I changed EnableLSO and MTU.
-
-	   # Driver.conf(4) file for VMware Vmxnet Generation 3 adapters.
-	   # TxRingSize --
-	   #
-	   #    Tx ring size for each vmxnet3s# adapter. Must be a multiple of 32.
-     #
-	   #    Minimum value: 32
-	   #    Maximum value: 4096
-	   #
-	   TxRingSize=256,256,256,256,256,256,256,256,256,256;
-	   # RxRingSize --
-	   #
-	   #    Rx ring size for each vmxnet3s# adapter. Must be a multiple of 32.
-	   #
-	   #    Minimum value: 32
-	   #    Maximum value: 4096
-	   #
-	   RxRingSize=256,256,256,256,256,256,256,256,256,256;
- 	   # RxBufPoolLimit --
-	   #
-	   #    Limit the number of Rx buffers cached for each vmxnet3s# adapter.
-	   #    Increasing the limit might improve performance but increases the
-	   #    memory footprint.
-	   #
-	   #    Minimum value: 0
-	   #    Maximum value: RxRingSize * 10
-	   #
-	   RxBufPoolLimit=512,512,512,512,512,512,512,512,512,512;
-     # EnableLSO --
-     #
-     #    Enable or disable LSO for each vmxnet3s# adapter.
-     #
-     #    Minimum value: 0
-     #    Maximum value: 1
-     #
-     EnableLSO=0,0,0,0,0,0,0,0,0,0;
-     # MTU --
-     #
-     #    Set MTU for each vmxnet3s# adapter.
-     #
-     #    Minimum value: 60
-     #    Maximum value: 9000
-     #
-     MTU=9000,9000,9000,9000,9000,9000,9000,9000,9000,9000;
+```config
+EnableLSO=0,0,0,0,0,0,0,0,0,0;
+MTU=9000,9000,9000,9000,9000,9000,9000,9000,9000,9000;
+```
 
 ## Tuning
 
