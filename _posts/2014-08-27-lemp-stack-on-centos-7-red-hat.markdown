@@ -26,6 +26,7 @@ $ yum install mariadb mariadb-server
 $ mariadb restart
 $ sudo /usr/bin/mysql_secure_installation
 ```
+
 **2. Add the NGINX repository** Create the file named /etc/yum.repos.d/nginx.repo with the following contents:
 
 ```config  
