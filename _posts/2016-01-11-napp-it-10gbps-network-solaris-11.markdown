@@ -47,21 +47,19 @@ To enable jumbo frames on Solaris 11, Oracle provides a [very easy guide](https:
 
 1. Select the interface to enable jumbo frames on, list it using the command:v4
 
-      $ dladm show-phys
-      LINK      MEDIA    STATE SPEED DUPLEX DEVICE
-      vmxnet3s0 Ethernet up    10000 full   vmxnet3s0
+       $ dladm show-phys
+       LINK      MEDIA    STATE SPEED DUPLEX DEVICE
+       vmxnet3s0 Ethernet up    10000 full   vmxnet3s0
 
 2. See the current MTU, replacing vmxnet3s0 with your interface
 
-        $ dladm show-linkprop -p mtu vmxnet3s0
-        LINK      PROPERTY PERM VALUE DEFAULT POSSIBLE
-        vmxnet3s0 mtu      rw   1500  1500    60-9000
+       $ dladm show-linkprop -p mtu vmxnet3s0
+       LINK      PROPERTY PERM VALUE DEFAULT POSSIBLE
+       vmxnet3s0 mtu      rw   1500  1500    60-9000
 
 3. Turn off the interface to configure it
 
-      ```terminal
-      $ ifconfig vmxnet3s0 unplumb
-      ```
+       $ ifconfig vmxnet3s0 unplumb
 
 4. Set MTU to 9000
 
