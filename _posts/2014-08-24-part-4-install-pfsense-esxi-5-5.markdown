@@ -146,9 +146,8 @@ VMware Tools should be successfully installed natively on pfSense
 {% include caption.html path="7.png" caption="10Gbps networking!" alt="pfsense-vmxnet3-wi" %}
 
 Credits:
-* [https://doc.pfsense.org/index.php/VMware_Tools](https://doc.pfsense.org/index.php/VMware_Tools)
-* [http://www.v-front.de/2013/06/how-to-install-or-update-VMware-tools.html](http://www.v-front.de/2013/06/how-to-install-or-update-VMware-tools.html)
-
+* [pfSense VMware Tools Docs](https://doc.pfsense.org/index.php/VMware_Tools)
+* [v-front.de](http://www.v-front.de/2013/06/how-to-install-or-update-VMware-tools.html)
 
 ### Give ESXi a static IP
 
