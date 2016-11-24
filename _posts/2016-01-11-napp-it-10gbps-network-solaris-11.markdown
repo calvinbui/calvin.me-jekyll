@@ -105,13 +105,21 @@ LSO or Large Segment Offload is a technology to reduce CPU while having better n
 1. Run the following command to disable LSO though Solaris
 
 $ ndd -set /dev/ip ip_lso_outbound 0
+
   $ ndd -set /dev/ip ip_lso_outbound 0
+
     $ ndd -set /dev/ip ip_lso_outbound 0
+
       $ ndd -set /dev/ip ip_lso_outbound 0
+
         $ ndd -set /dev/ip ip_lso_outbound 0
+
           $ ndd -set /dev/ip ip_lso_outbound 0
+
             $ ndd -set /dev/ip ip_lso_outbound 0
+
               $ ndd -set /dev/ip ip_lso_outbound 0
+
                 $ ndd -set /dev/ip ip_lso_outbound 0
 
 2. Disable LSO through the VMXNET3 driver. Edit /kernel/drv/vmxnet3s.conf. I changed EnableLSO and MTU.
