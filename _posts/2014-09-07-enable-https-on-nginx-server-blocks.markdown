@@ -29,12 +29,12 @@ Place your SSL files on the Reverse Proxy server under '/etc/nginx/ssl/'
 **2.** On the Reverse Proxy Server (_proxy_ from now on), edit the configuration file for the remote host. I will be using _calvin.me_ as the example.
 
 ```terminal
-sudo nano /etc/nginx/sites-enabled/calvin.me
+$ sudo nano /etc/nginx/sites-enabled/calvin.me
 ```
 
 The original configuration file may look something like this:
 
-```config
+```nginx
 server {
      listen 80;
      server_name calvin.me www.calvin.me;
@@ -51,7 +51,7 @@ server {
 
 Edit it so it looks like the one below. The new stuff is highlighted in red.
 
-```config
+```nginx
 # redirect calvin.me to https
 server {
     listen      80;
@@ -90,12 +90,12 @@ server {
 **3.** Save and restart the NGINX server when done.
 
 ```terminal
-sudo service nginx restart
+$ sudo service nginx restart
 ```
 
 **Optional.** If you are running WordPress you will have to add two lines into the _wp-config.php_ file (on the _WordPress host_, not the _proxy_)
 
-```config
+```php
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')
   $_SERVER['HTTPS'] = 'on';
 ```

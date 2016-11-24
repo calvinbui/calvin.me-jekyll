@@ -3,10 +3,8 @@ author: calvinbui93
 comments: true
 date: 2014-10-03 03:35:02+00:00
 layout: post
-
 slug: update-transition-cloudflare
 title: Currently Moving to CloudFlare (Update)
-
 categories:
 - Misc
 images: 2014-10-03-update-transition-cloudflare

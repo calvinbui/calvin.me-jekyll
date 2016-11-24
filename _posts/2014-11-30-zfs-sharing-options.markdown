@@ -3,10 +3,8 @@ author: calvinbui93
 comments: true
 date: 2014-11-30 00:43:27+00:00
 layout: post
-
 slug: zfs-sharing-options
 title: ZFS Sharing over HTTP, FTP and more
-
 categories:
 - How-To
 - Storage
@@ -21,16 +19,13 @@ napp-it overs a [variety of extensions](http://napp-it.org/extensions/index_en.h
 
 <!-- more -->
 
-
 ## AMP Stack (HTTP)
-
 
 A common favourite of Apache, MySQL and PHP. This enables ZFS sharing over HTTP, accessible via the browser. To install:
 
-    
-    wget -O - www.napp-it.org/amp  | perl
-    
-
+```terminal    
+wget -O - www.napp-it.org/amp  | perl
+```
 
 Afterwards, settings can be altered under Home >Services > Apache.
 
@@ -40,23 +35,19 @@ To share a filesystem over HTTP, enable it under the Home > ZFS Filesystems unde
 
 By itself, sharing over HTTP is very plain old boring. That is why I use [h5ai](http://larsjung.de/h5ai/) which adds several additional features (the styling alone is good enough) like sorting, breadcrumbs, thumbnails, file previews and filtering.
 
-
 ## ProFTPD (FTP)
-
 
 ProFTPD Is a FTP server, among the most popular today. Its primary goal is to be as feature rich as possible. It is very easy to install as well:
 
-    
-    wget -O - www.napp-it.org/proftpd | perl
-
+```terminal        
+wget -O - www.napp-it.org/proftpd | perl
+```
 
 Similar to Apache, it can be configured under Home > Services > FTP. Sharing on the other hand occurs under Home > ZFS Filesystems underneath the FTP column.
 
 [![ftp](/images/{{page.images}}/ftp.png)](/images/{{page.images}}/ftp.png)
 
-
 ## Private Cloud
-
 
 There are two options if you want to have your own personal cloud storage - OwnCloud and Pydio (formerly AjaXplorer). They allow multiple users to have their own files and folders, calendar and contacts in one place.
 
@@ -66,26 +57,23 @@ Both of these will first require the AMP stack.
 
 OwnCloud
 
-    
-    wget -O - www.napp-it.org/owncloud  | perl
-
+```terminal        
+wget -O - www.napp-it.org/owncloud  | perl
+```
 
 Pydio
 
-    
-    wget -O - www.napp-it.org/pydio | perl
-
-
-
+```terminal        
+wget -O - www.napp-it.org/pydio | perl
+```
 
 ## Media Server
 
-
 Serviio is a media server which allows many different devices to stream from your ZFS filesystem. To install it, make sure you have the AMP stack then run the command:
 
-    
-    wget -O - www.napp-it.org/serviio | perl
-
+```terminal        
+wget -O - www.napp-it.org/serviio | perl
+```
 
 Serviio is accessible at http://<nappit>phpserviio/
 
@@ -99,8 +87,8 @@ With Serviio, I am able to specify which shares I want to be visible over DLNA/U
 
 An alternative to Serviio is Mediatomb, although it hasn't be updated in a long time:
 
-    
-    wget -O - www.napp-it.org/mediatomb  | sh
-
+```terminal        
+wget -O - www.napp-it.org/mediatomb  | sh
+```
 
 MediaTomb settings can be found under Home > Add-Ons > Mediatomb.

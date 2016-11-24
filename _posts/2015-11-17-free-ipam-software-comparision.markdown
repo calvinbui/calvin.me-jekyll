@@ -3,10 +3,8 @@ author: calvinbui93
 comments: true
 date: 2015-11-17 16:20:23+00:00
 layout: post
-
 slug: free-ipam-software-comparision
 title: Free IPAM Software Comparision
-
 categories:
 - Networking
 tags:
@@ -26,105 +24,49 @@ Of course this is something I would never pay for (and the commercial ones cost 
 
 Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https://en.wikipedia.org/wiki/IP_address_management), the three IPAMs that stood out where InfoBlox, phpIPAM and GestioIP.
 
-
 ### InfoBlox IPAM Express
 
-
-[
-](/images/{{page.images}}/gestio.png)[![infoblox](/images/{{page.images}}/infoblox-300x231.png)](/images/{{page.images}}/infoblox.png)
+[](/images/{{page.images}}/gestio.png)[![infoblox](/images/{{page.images}}/infoblox-300x231.png)](/images/{{page.images}}/infoblox.png)
 
 [Download](https://www.infoblox.com/downloads/software/ip-address-management-freeware)
 
-
-
-	
-  * Comes as a VMware Workstation Appliance, easily converted to ESXi. Do not change any settings as it needs the Flexible NIC to work properly.
-
-	
-  * Very slow, might have to do with Java
-
-	
-  * IP Address scans don't even show host names o.O
-
-	
-  * Interface is very enterprise-y, custom everything.
-
-	
-  * Interface is not mobile optimised
-
-	
-  * Seemed more trouble than it was so didn't continue using it after 5 minutes
-
-
-
+* Comes as a VMware Workstation Appliance, easily converted to ESXi. Do not change any settings as it needs the Flexible NIC to work properly.
+* Very slow, might have to do with Java
+* IP Address scans don't even show host names o.O
+* Interface is very enterprise-y, custom everything.
+* Interface is not mobile optimised
+* Seemed more trouble than it was so didn't continue using it after 5 minutes
 
 ### phpIPAM
-
 
 [![ipam](/images/{{page.images}}/ipam-300x234.png)](/images/{{page.images}}/ipam.png)
 
 [Download](http://phpipam.net/documents/download-phpipam/)
 
-
-
-	
-  * [Installation](http://frankhinek.com/how-to-setup-phpipam-on-ubuntu-14-04/) requires knowledge of Apache and its Virtual Hosts/Rewrite module
-
-	
-  * Username/Password isn't very clear and locked me out for 5 minutes. Default username is Admin
-
-	
-  * Uses MySQL, Apache 2 and of course, PHP
-
-	
-  * Interface is very modern (running Bootstrap) and works well on mobiles
-
-	
-  * Scanning is very easy, pings/telnet the entire subnet
-
-	
-  * Pings devices to see if they are online
-
-	
-  * Very pleasant to use and easy to understand
-
-
-
+* [Installation](http://frankhinek.com/how-to-setup-phpipam-on-ubuntu-14-04/) requires knowledge of Apache and its Virtual Hosts/Rewrite module
+* Username/Password isn't very clear and locked me out for 5 minutes. Default username is Admin
+* Uses MySQL, Apache 2 and of course, PHP
+* Interface is very modern (running Bootstrap) and works well on mobiles
+* Scanning is very easy, pings/telnet the entire subnet
+* Pings devices to see if they are online
+* Very pleasant to use and easy to understand
 
 ### GestioIP
-
 
 ![gestio](/images/{{page.images}}/gestio-300x281.png)
 
 [Download](http://sourceforge.net/projects/gestioip/)
 
-
-
-	
   * A lot of manual input required during installation
-
-	
   * Uses MySQL, Apache 2 and PERL
-
-	
   * Only supports .xls spreadsheets
-
-	
   * No mobile interface, very lacking in general
-
-	
   * Overall not pleasant and easy to use so I didn't go any further with it
-
 
 --------------------------------
 
-
 ## Winner: phpIPAM
-
 
 phpIPAM was so much easier and cleaner to use than the alternatives. There are probably better programs out there but at the moment it meets my needs quite well. The goal of having one is to reduce human error and use something higher tech than what is involved in Excel spreadsheets.
 
 If you're using Microsoft Server 2012 (R2) as your DNS and DHCP than I recommend using the built-in IPAM feature which is free!
-
-
-## 

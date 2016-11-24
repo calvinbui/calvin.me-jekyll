@@ -3,10 +3,8 @@ author: calvinbui93
 comments: true
 date: 2014-09-29 21:22:40+00:00
 layout: post
-
 slug: currently-moving-cloudflare
 title: Currently Moving to CloudFlare!
-
 categories:
 - Misc
 images: 2014-09-29-currently-moving-cloudflare

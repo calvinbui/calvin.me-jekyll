@@ -3,10 +3,8 @@ author: calvinbui93
 comments: true
 date: 2016-05-23 13:11:12+00:00
 layout: post
-
 slug: create-persistent-ubuntu-16-04-live-usb-even-boots-ram
 title: Create a persistent Ubuntu USB which boots to RAM
-
 categories:
 - How-To
 - Linux
@@ -25,86 +23,61 @@ When your drive dies, or in my case, the SATA port fails completely, this is a g
 
 Live USB/CDs are a great way to try out new Linux distros or run things securely. They're also great when you don't have any other operating system to run or hard drive to install to. The problem with Live USB/CDs is that anything you do in them are erased as soon as you turn the computer off as it's all stored temporarily. The way around this is to create a persistent file storage system on-top of the Live USB which captures all files and folder changes. So now when you turn off your computer, everything you've done will be saved!
 
-
 #### Note to pre-16.04 distros
-
 
 This used to be a very simple process in Ubuntu before 16.04 using the Startup Disk Creator program. If you have 15.10, 15.04, 14.10, etc. on hand without any Internet, this is the best and easy temporary solution. Persistence was removed in 16.04:
 
-    
-    usb-creator (0.3.0) xenial; urgency=medium
-    [ Marc Deslauriers ]
-    * Rework the whole imaging process for writing to devices:
-      - Use an equivalent of dd to make an exact copy of the image to the device
-      - This also breaks persistence.
-    
-    [ Mathieu Trudel-Lapierre ]
-    * Update UI and frontend code to drop the persistence widgets.
-    * Drop Erase Disk widgets too.
-    
-    -- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Fri, 11 Dec 2015 12:37:41 -0500
+```text    
+usb-creator (0.3.0) xenial; urgency=medium
+[ Marc Deslauriers ]
+* Rework the whole imaging process for writing to devices:
+  - Use an equivalent of dd to make an exact copy of the image to the device
+  - This also breaks persistence.
 
+[ Mathieu Trudel-Lapierre ]
+* Update UI and frontend code to drop the persistence widgets.
+* Drop Erase Disk widgets too.
+
+-- Mathieu Trudel-Lapierre <mathieu-tl@ubuntu.com>  Fri, 11 Dec 2015 12:37:41 -0500
+```
 
 {% include caption.html path="Startupdiskcreatorcomparison-179x300.png" caption="Comparison of Startup Disk Creator from 15.10 to 16.04" alt="Startupdiskcreatorcomparison" %}
 
-
 ## Let's start:
 
-
-
-
 ### Download Ubuntu
-
 
 The first you want to do is boot up an existing 16.04 or later Live CD or installation. There are a zillion guides how to get this up and running but usually you'll need another computer first if you got a dead hard drive.
 
 You can download [Ubuntu from here](http://www.ubuntu.com/download).
 
-
 ### Install the mkusb tool
-
 
 Open up terminal and run the following commands:
 
-
 If you run standard Ubuntu, you need an extra instruction to get the repository Universe. (Kubuntu, Lubuntu ... Xubuntu have the repository Universe activated automatically.)
 
+```terminal
+$ sudo add-apt-repository universe  # only for standard Ubuntu
 
-
-
-    
-    sudo add-apt-repository universe  # only for standard Ubuntu
-
-
-
-    
-    sudo add-apt-repository ppa:mkusb/ppa  # and press Enter
-    sudo apt-get update
-    sudo apt-get install mkusb
-
-
-
+$ sudo add-apt-repository ppa:mkusb/ppa  # and press Enter
+$ sudo apt-get update
+$ sudo apt-get install mkusb
+```
 
 and if you want also the command line version without graphics:
 
-
-
-
-    
-    sudo apt-get install mkusb-nox
-    
-
-
-
+```terminal
+$ sudo apt-get install mkusb-nox
+```
 
 ### Start mkusb
 
-
 You can start mkusb by either searching for it through Unity or running the command:
 
-    
-    sudo -H mkusb
-
+```terminal
+$ sudo -H mkusb
+```
 
 [![Ubuntu 64-bit-2016-05-23-19-07-49](/images/{{page.images}}/ubuntu-64-bit-2016-05-23-19-07-49.png)](/images/{{page.images}}/ubuntu-64-bit-2016-05-23-19-07-49.png)
 
@@ -151,9 +124,7 @@ Plug it in and see if works. In some cases you may have to change your BIOS from
 
 Success!
 
-
 ## Extra: Boot the Live USB to RAM
-
 
 When running applications or any read operations, everything is run from the USB drive. This can be slow depending on the type of USB used. A way around this is to have everything from the USB to be pushed into memory (RAM) which is a faster storage medium. For this to work you will need around 4GB or more of memory to be sure you don't run out.
 
@@ -168,8 +139,6 @@ To compare, here is my computer before and after using the 'toram' option:
 To make the 'toram' permanent you will have to edit GRUB and add another entry to the boot options. First open up the Disks application.
 
 [![Ubuntu 64-bit (2)-2016-05-23-19-44-58](/images/{{page.images}}/ubuntu-64-bit-2-2016-05-23-19-44-58-1.png)](/images/{{page.images}}/ubuntu-64-bit-2-2016-05-23-19-44-58-1.png)
-
-
 
 Mount the 128MB partition of your USB by clicking the Play button when it is highlighted:
 

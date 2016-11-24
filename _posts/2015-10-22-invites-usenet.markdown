@@ -14,21 +14,12 @@ images: 2015-10-22-invites-usenet
 
 No more invites :(
 
-<del>Just for you!</del>
+Just for you!
 
-<del>Comment below with your email (to hide from the bots post it like 'myemail (at) gmail dot com') with your requested site and I'll sent you an invite.</del>
+Comment below with your email (to hide from the bots post it like 'myemail (at) gmail dot com') with your requested site and I'll sent you an invite.
 
-<del>Currently have:</del>
+Currently have:
 
-
-
-	
-  * <del>1 x OMGWTFNZB</del> all gone!
-
-	
-  * <del>4 x DogNZB all gone!</del>
-
-	
-  * <del>4 x NZB.su all gone!</del>
-
-
+* 1 x OMGWTFNZB all gone!
+* 4 x DogNZB all gone!
+* 4 x NZB.su all gone!

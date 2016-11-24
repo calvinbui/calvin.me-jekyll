@@ -22,9 +22,9 @@ A very quick how-to guide on installing NGINX, MySQL and PHP, otherwise known as
 <!-- more --> **1. Install MySQL (mariadb)**
 
 ```terminal
-yum install mariadb mariadb-server
-service mariadb restart
-sudo /usr/bin/mysql_secure_installation
+$ yum install mariadb mariadb-server
+$ mariadb restart
+$ sudo /usr/bin/mysql_secure_installation
 ```
 **2. Add the NGINX repository** Create the file named /etc/yum.repos.d/nginx.repo with the following contents:
 
@@ -39,29 +39,29 @@ enabled=1
 **3. Install NGINX**
 
 ```terminal
-yum install nginx
-service nginx start
-service nginx status
+$ yum install nginx
+$ service nginx start
+$ service nginx status
 ```
 
 **4. Allow NGINX through the firewall**
 
 ```terminal
-firewall-cmd --set-default-zone=home
-firewall-cmd --permanent --zone=home --add-service=http
-firewall-cmd --reload
+$ firewall-cmd --set-default-zone=home
+$ firewall-cmd --permanent --zone=home --add-service=http
+$ firewall-cmd --reload
 ```
 
 **5. Install PHP**
 
-```terminal
-sudo yum install php-fpm php-mysql
+```console
+$ sudo yum install php-fpm php-mysql
 ```
 
 **6. Autostart MySQL, NGINX and PHP on boot**
 
 ```terminal
-sudo chkconfig --levels 235 mariadb on sudo chkconfig --levels 235 nginx on sudo chkconfig --levels 235 php-fpm on
+$ sudo chkconfig --levels 235 mariadb on sudo chkconfig --levels 235 nginx on sudo chkconfig --levels 235 php-fpm on
 ```
 
-And we are finished! Start configurating your new LEMP stack on CentOS [![nginx-success](/images/{{page.images}}/successsss.png)](/images/{{page.images}}/successsss.png)
+And we are finished! Start configuring your new LEMP stack on CentOS [![nginx-success](/images/{{page.images}}/successsss.png)](/images/{{page.images}}/successsss.png)
