@@ -103,9 +103,9 @@ Of course this depends on the hardware you are using so I can't help much here.
 LSO or Large Segment Offload is a technology to reduce CPU while having better network performance through segmentation. Segmentation however is not required if we are using an MTU of 9000 however.
 
 1. Run the following command to disable LSO though Solaris
-
-     $ ndd -set /dev/ip ip_lso_outbound 0
-
+```terminal
+$ ndd -set /dev/ip ip_lso_outbound 0
+```
 2. Disable LSO through the VMXNET3 driver. Edit /kernel/drv/vmxnet3s.conf. I changed EnableLSO and MTU.
 
 	   # Driver.conf(4) file for VMware Vmxnet Generation 3 adapters.
