@@ -45,33 +45,33 @@ First thing to do is enable jumbo frames. Typically, networks set their 'maximum
 
 To enable jumbo frames on Solaris 11, Oracle provides a [very easy guide](https://docs.oracle.com/cd/E19120-01/open.solaris/819-6990/ggtwf/index.html) to this:
 
-1. Select the interface to enable jumbo frames on, list it using the command:
+1. Select the interface to enable jumbo frames on, list it using the command:v2
 
-```terminal
-$ dladm show-phys
-LINK      MEDIA    STATE SPEED DUPLEX DEVICE
-vmxnet3s0 Ethernet up    10000 full   vmxnet3s0
-```
+  ```terminal
+  $ dladm show-phys
+  LINK      MEDIA    STATE SPEED DUPLEX DEVICE
+  vmxnet3s0 Ethernet up    10000 full   vmxnet3s0
+  ```
 
 2. See the current MTU, replacing vmxnet3s0 with your interface
 
-```terminal
-$ dladm show-linkprop -p mtu vmxnet3s0
-LINK      PROPERTY PERM VALUE DEFAULT POSSIBLE
-vmxnet3s0 mtu      rw   1500  1500    60-9000
-```
+    ```terminal
+    $ dladm show-linkprop -p mtu vmxnet3s0
+    LINK      PROPERTY PERM VALUE DEFAULT POSSIBLE
+    vmxnet3s0 mtu      rw   1500  1500    60-9000
+    ```
 
 3. Turn off the interface to configure it
 
-```terminal
-$ ifconfig vmxnet3s0 unplumb
-```
+    ```terminal
+    $ ifconfig vmxnet3s0 unplumb
+    ```
 
 4. Set MTU to 9000
 
-```terminal
-$ dladm set-linkprop -p mtu=9000 vmxnet3s0
-```
+  ```terminal
+  $ dladm set-linkprop -p mtu=9000 vmxnet3s0
+  ```
 
 5. Re-enable the interface
 
