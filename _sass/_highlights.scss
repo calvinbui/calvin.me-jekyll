@@ -9,7 +9,8 @@
   padding-left: 10px;
   background: #202020;
   color: #C1C2C3;
-  font-size: 75%;
+  font-size: .6875em;
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
   .gutter {
     padding-right: 5px;
 
@@ -19,10 +20,6 @@
       padding-right: 5px;
     }
   }
-}
-
-.code, pre {
-  font-family: monospace;
 }
 
 .highlight .hll { background-color: #202020 }
