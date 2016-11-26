@@ -15,7 +15,8 @@ tags:
 - license
 - reset
 - script
-images: 2015-12-17-reset-esxi-evaluation-license
+image: /images/2015-12-17-reset-esxi-evaluation-license/featured-image.jpg 
+images: /images/2015-12-17-reset-esxi-evaluation-license/
 ---
 
 *For testing and educational purposes only*

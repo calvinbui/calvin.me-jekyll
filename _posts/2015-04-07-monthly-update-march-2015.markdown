@@ -9,7 +9,8 @@ categories:
 - Monthy Update
 tags:
 - monthly update
-images: 2015-04-07-monthly-update-march-2015
+image: /images/2015-04-07-monthly-update-march-2015/featured-image.jpg 
+images: /images/2015-04-07-monthly-update-march-2015/
 ---
 
 In the monthly update, I like to cover what I've been doing throughout the past month in regards to technology, computers and more.

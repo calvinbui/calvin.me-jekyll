@@ -9,7 +9,8 @@ categories:
 - Monthy Update
 tags:
 - fornightly update
-images: 2014-11-02-fortnightly-update-22112014
+image: /images/2014-11-02-fortnightly-update-22112014/featured-image.jpg 
+images: /images/2014-11-02-fortnightly-update-22112014/
 ---
 
 In the fortnightly update, I bring you what I've been doing throughout the past two weeks in regards to technology, computers and more with links to tutorials and guides.
@@ -43,7 +44,7 @@ Replace the following with your own:
 
 This was a pain to setup, I'm happy they're bringing it in as default in later version of MediaWiki. I haven't written anytime in mine yet because I had to learn how to write in Wiki markdown but this is a step in right direction to get more individuals writing on Wikipedia. I had help on this [here ](http://www.mediawiki.org/wiki/Extension:VisualEditor)and [here](http://edutechwiki.unige.ch/en/VisualEditor). The editor itself is still considered beta as there are still a lot of things it cannot do like tables. You can see the full [roadmap to completion on the MediaWiki site](http://www.mediawiki.org/wiki/VisualEditor/Roadmap).
 
-[![mediawiki visual editor](/images/{{page.images}}/capture7.png)](/images/{{page.images}}/capture7.png)
+[![mediawiki visual editor]({{page.images}}capture7.png)]({{page.images}}capture7.png)
 
 ### LDAPS (LDAP over SSL)
 

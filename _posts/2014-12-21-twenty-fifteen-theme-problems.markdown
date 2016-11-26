@@ -9,7 +9,8 @@ title: Twenty Fifteen Theme Problems
 
 categories:
 - Review
-images: 2014-12-21-twenty-fifteen-theme-problems
+image: /images/2014-12-21-twenty-fifteen-theme-problems/featured-image.jpg 
+images: /images/2014-12-21-twenty-fifteen-theme-problems/
 ---
 
 I don't like this year's default theme. I was excited for a few months looking at the previews and news circulating around, but it ended up not meeting my expectations.
@@ -24,7 +25,7 @@ I really wanted a theme that could flesh my content in a easily readable and pre
 
 The font is a lot bigger than Twenty Fourteen but amazing still fits everything Twenty Fourteen did. It feels if I'm just trying to make content for the sake of it, like when you write a report and waffle on and on to pad the word count.
 
-[![one page 2015](/images/{{page.images}}/one-page-2015.png)](/images/{{page.images}}/one-page-2015.png)
+[![one page 2015]({{page.images}}one-page-2015.png)]({{page.images}}one-page-2015.png)
 
 ###  2. Mobile theme
 
@@ -42,6 +43,6 @@ Now if I'm on a mobile, I'd prefer the most compact and easily navigable layout 
 
 This is a bit annoying, creating a lump of white space on either side of the image
 
-[![Not flush](/images/{{page.images}}/not-flush1.png)](/images/{{page.images}}/not-flush1.png)
+[![Not flush]({{page.images}}not-flush1.png)]({{page.images}}not-flush1.png)
 
 This is really ugly when you look at it, like I didn't put any effort into creating and editing my pictures. Some pictures are small I know but at least they should automagically stretch.

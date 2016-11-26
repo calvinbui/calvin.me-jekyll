@@ -10,7 +10,8 @@ categories:
 - Misc
 tags:
 - nzbmegasearch nginx apache reverse proxy usenet
-images: 2014-10-24-nzbmegasearch-reverse-proxy
+image: /images/2014-10-24-nzbmegasearch-reverse-proxy/featured-image.jpg 
+images: /images/2014-10-24-nzbmegasearch-reverse-proxy/
 ---
 
 [NZBmegasearcH](http://pillone.github.io/usntssearch/) is a great program. It aggregates all the sites I regularly visit to find an NZB to just one place. CouchPotato and SickBeard can also retrieve results from it instead of querying multiple locations for updates. One thing it doesn't do well is being compatible with reverse proxy which [0byte admits](https://github.com/pillone/usntssearch/issues/91#issuecomment-27147551). But that doesn't mean its impossible!
@@ -83,7 +84,7 @@ If it works, let's move onto the next step.
 
 Within NZBmegasearcH there is an option to set the Reverse proxy directory located in the 'Connectivity' section. I found that you have to put the full URL for this to work.
 
-[![connectivity proxy](/images/{{page.images}}/capture6.png)](/images/{{page.images}}/capture6.png)
+[![connectivity proxy]({{page.images}}capture6.png)]({{page.images}}capture6.png)
 
 This means the URL you will be accessing it from including the protocol, domain and path. So if you were accessing it over _HTTPS_, your domain is _mydomain.com_ and the path will be _/search_ then you will have to put in '_https://mydomain.com/search_'. Save and restart NZBmegasearcH after you have done this.
 

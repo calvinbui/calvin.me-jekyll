@@ -15,7 +15,8 @@ tags:
 - monthly update
 - nps
 - plex
-images: 2015-01-11-monthly-update-11-01-2015
+image: /images/2015-01-11-monthly-update-11-01-2015/featured-image.jpg 
+images: /images/2015-01-11-monthly-update-11-01-2015/
 ---
 
 In the monthly update, I bring you what I've been doing throughout the past month in regards to technology, computers and more with links to tutorials and guides.
@@ -51,9 +52,9 @@ After reading (again) and convincing myself of the dangers of UPnP, I had to lo
 
 I made a port alias on pfSense which will be open.
 
-[![](/images/{{page.images}}/ports.png)](/images/{{page.images}}/rules.png)
+[![]({{page.images}}ports.png)]({{page.images}}rules.png)
 
-[![](/images/{{page.images}}/rules.png)](/images/{{page.images}}/rules.png)
+[![]({{page.images}}rules.png)]({{page.images}}rules.png)
 
 ### Created an OU in the Users Group
 
@@ -65,15 +66,15 @@ GitLab required an upgrade to 7.5 which allowed User/Group based filtering.
 
 Guide: [http://www.robinhobo.com/how-to-create-container-objects-in-active-directory-not-ous/](http://www.robinhobo.com/how-to-create-container-objects-in-active-directory-not-ous/)
 
-[![](/images/{{page.images}}/vmware1.png)](/images/{{page.images}}/vmware1.png)
+[![]({{page.images}}vmware1.png)]({{page.images}}vmware1.png)
 
-[![](/images/{{page.images}}/GitLab.png)](/images/{{page.images}}/GitLab.png)
+[![]({{page.images}}GitLab.png)]({{page.images}}GitLab.png)
 
-[![](/images/{{page.images}}/mediawiki1.png)](/images/{{page.images}}/mediawiki1.png)
+[![]({{page.images}}mediawiki1.png)]({{page.images}}mediawiki1.png)
 
-[![](/images/{{page.images}}/nginx1.png)](/images/{{page.images}}/nginx1.png)
+[![]({{page.images}}nginx1.png)]({{page.images}}nginx1.png)
 
-[![](/images/{{page.images}}/pfsense1.png)](/images/{{page.images}}/pfsense1.png)
+[![]({{page.images}}pfsense1.png)]({{page.images}}pfsense1.png)
 
 ### N40L now running ESXi
 

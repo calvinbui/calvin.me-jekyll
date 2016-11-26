@@ -9,7 +9,8 @@ categories:
 - Monthy Update
 tags:
 - weekly update
-images: 2014-09-07-weekly-update-792014
+image: /images/2014-09-07-weekly-update-792014/featured-image.jpg 
+images: /images/2014-09-07-weekly-update-792014/
 ---
 
 In the weekly update, I bring you what I’ve been doing throughout Monday to Sunday in regards to technology, computers and more with links to tutorials and guides.

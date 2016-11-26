@@ -7,14 +7,15 @@ slug: server-pc-gadgets-learning-plans-2015
 title: Server, PC, Gadgets & Learning Plans for 2015
 categories:
 - Misc
-images: 2014-12-13-server-pc-gadgets-learning-plans-2015
+image: /images/2014-12-13-server-pc-gadgets-learning-plans-2015/featured-image.jpg 
+images: /images/2014-12-13-server-pc-gadgets-learning-plans-2015/
 ---
 
 Now that 2014 is almost over and its time to wrap up the year, there are a few plans I have in mind for the year ahead. Now they might be ideas and plans I've had for 2014 that I never got around to but some are goals that I would've had to wait until the technology matured a lot more.
 
 <!-- more -->
 
-## [![LG_UltraWide_monitors](/images/{{page.images}}/lg_ultrawide_monitors.jpg)](/images/{{page.images}}/lg_ultrawide_monitors.jpg)
+## [![LG_UltraWide_monitors]({{page.images}}lg_ultrawide_monitors.jpg)]({{page.images}}lg_ultrawide_monitors.jpg)
 
 ## Server and PC Upgrades
 
@@ -36,7 +37,7 @@ I'm quite interested in new cases appearing on HardForum's Small Form Factor sec
 
 Link Aggregation and 10Gb networking are two things I'm very interested in. The reality is that I'll probably be only be able to achieve link aggregation. pfSense offers 'LAGG', their version of LACP that I can benefit from to increase bandwidth on my network. Four upstream ports mmm mmm mmm.Getting a network card would be the first step!
 
-[![20140616_135635_zps8b9592ca](/images/{{page.images}}/20140616_135635_zps8b9592ca.jpg)](/images/{{page.images}}/20140616_135635_zps8b9592ca.jpg)
+[![20140616_135635_zps8b9592ca]({{page.images}}20140616_135635_zps8b9592ca.jpg)]({{page.images}}20140616_135635_zps8b9592ca.jpg)
 
 ## Gadgets
 
@@ -50,7 +51,7 @@ Zoneminder is a Linux application which handles video cameras that I'm looking a
 
 I'm not sure how much I need one but there have been times when It would've came in handy. But If I get one of these I'd probably need a massive TV to go with it :) Putting a pin in this for now.
 
-[![New+Cert+Logos_520x150](/images/{{page.images}}/new-cert-logos_520x150.jpg)](/images/{{page.images}}/new-cert-logos_520x150.jpg)
+[![New+Cert+Logos_520x150]({{page.images}}new-cert-logos_520x150.jpg)]({{page.images}}new-cert-logos_520x150.jpg)
 
 ## Learning
 

@@ -13,7 +13,8 @@ tags:
 - pfsense
 - virtualised
 - vmware
-images: 2014-08-23-part-2-install-pfsense-esxi-5-5
+image: /images/2014-08-23-part-2-install-pfsense-esxi-5-5/featured-image.jpg 
+images: /images/2014-08-23-part-2-install-pfsense-esxi-5-5/
 ---
 
 In Part 2 of my virtualised pfSense installation on ESXi 5.5 we will be specifying the network interfaces for pfSense, configuring the LAN interface as well as connecting to the pfSense web interface. [Part 1 can be found here](/part-1-install-pfsense-on-esxi-5-5/).
@@ -32,7 +33,7 @@ The goal of the setup is to not lose your connection to ESXi. The moment you do,
 
 Say no to set up VLANs. This is for another day.
 
-[![pfsense-vlan-setup](/images/{{page.images}}/18.png)](/images/{{page.images}}/18.png)
+[![pfsense-vlan-setup]({{page.images}}18.png)]({{page.images}}18.png)
 
 When prompted for a WAN connection, provide it with the NIC connected to the WAN. You can find the MAC address of the NIC and match it up with what pfSense sees (e.g. em1)
 

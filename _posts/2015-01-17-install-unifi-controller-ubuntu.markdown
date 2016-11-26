@@ -14,7 +14,8 @@ tags:
 - Ubiquiti
 - ubuntu
 - unifi controller
-images: 2015-01-17-install-unifi-controller-ubuntu
+image: /images/2015-01-17-install-unifi-controller-ubuntu/featured-image.jpg 
+images: /images/2015-01-17-install-unifi-controller-ubuntu/
 ---
 
 **POST UP TO DATE 19/08/2015**
@@ -63,7 +64,7 @@ If everything went smoothly you should be able to access the controller through 
 
 Depending on the version installed, you will be taken to the setup wizard. You're done!
 
-[![Capture](/images/{{page.images}}/capture2.png)](/images/{{page.images}}/capture2.png)
+[![Capture]({{page.images}}capture2.png)]({{page.images}}capture2.png)
 
 ## Problems?
 

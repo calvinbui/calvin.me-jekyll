@@ -13,7 +13,8 @@ tags:
 - vmware
 - zfs
 - zil
-images: 2015-07-07-slow-vmware-nfs-zfs-add-zil
+image: /images/2015-07-07-slow-vmware-nfs-zfs-add-zil/featured-image.jpg 
+images: /images/2015-07-07-slow-vmware-nfs-zfs-add-zil/
 ---
 
 A short post on how I exponentially sped up my VMware environment.
@@ -45,7 +46,7 @@ The downside of using this is that if the log device is lost, it is possible to 
 
 I ended up using an old Intel 60GB SSD (thick provisioned through VMware) onto my Samsung 840 Pro mirror.
 
-[![Capture](/images/{{page.images}}/capture.png)](/images/{{page.images}}/capture.png)
+[![Capture]({{page.images}}capture.png)]({{page.images}}capture.png)
 
 #### Performance
 

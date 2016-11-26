@@ -12,7 +12,8 @@ tags:
 - napp-it
 - sharing
 - zfs
-images: 2014-11-30-zfs-sharing-options
+image: /images/2014-11-30-zfs-sharing-options/featured-image.jpg 
+images: /images/2014-11-30-zfs-sharing-options/
 ---
 
 napp-it overs a [variety of extensions](http://napp-it.org/extensions/index_en.html) to make use of your ZFS filesystem a lot easier. One of the main things to do with a filesystem is to share it of course! There are extensions that allow ZFS sharing over HTTP, FTP, personal clouds and media servers.
@@ -31,7 +32,7 @@ Afterwards, settings can be altered under Home >Services > Apache.
 
 To share a filesystem over HTTP, enable it under the Home > ZFS Filesystems under the 'WWW' column.
 
-[![apache](/images/{{page.images}}/apache.png)](/images/{{page.images}}/apache.png)
+[![apache]({{page.images}}apache.png)]({{page.images}}apache.png)
 
 By itself, sharing over HTTP is very plain old boring. That is why I use [h5ai](http://larsjung.de/h5ai/) which adds several additional features (the styling alone is good enough) like sorting, breadcrumbs, thumbnails, file previews and filtering.
 
@@ -45,7 +46,7 @@ $ wget -O - www.napp-it.org/proftpd | perl
 
 Similar to Apache, it can be configured under Home > Services > FTP. Sharing on the other hand occurs under Home > ZFS Filesystems underneath the FTP column.
 
-[![ftp](/images/{{page.images}}/ftp.png)](/images/{{page.images}}/ftp.png)
+[![ftp]({{page.images}}ftp.png)]({{page.images}}ftp.png)
 
 ## Private Cloud
 

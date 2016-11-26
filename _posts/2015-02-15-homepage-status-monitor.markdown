@@ -13,7 +13,8 @@ tags:
 - mean
 - monitoring
 - status
-images: 2015-02-15-homepage-status-monitor
+image: /images/2015-02-15-homepage-status-monitor/featured-image.jpg 
+images: /images/2015-02-15-homepage-status-monitor/
 ---
 
 Home is an application I developed last year (Nov-Dec) while learning the MEAN (MongoDB, Express, Angular and NodeJS) stack. It's a homepage status monitor, more or less a glorified bookmark/favourites tool with the ability to scan if ports are open or closed on a host.
@@ -56,7 +57,7 @@ I programmed it over the period of a month using IntelliJ's WebStorm application
 
 One cheesy feature I threw in was the weather feature. Weather provided by Forecast.io and animated icons from Skycons nicely present the forecast over one week period.
 
-[![weather](/images/{{page.images}}/weather.png)](/images/{{page.images}}/weather.png)
+[![weather]({{page.images}}weather.png)]({{page.images}}weather.png)
 
 ## Download/Source
 

@@ -13,7 +13,8 @@ tags:
 - pfsense
 - virtualised
 - vmware
-images: 2014-08-23-part-1-install-pfsense-on-esxi-5-5
+image: /images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/featured-image.jpg 
+images: /images/2014-08-23-part-1-install-pfsense-on-esxi-5-5/
 ---
 
 pfSense is an open source firewall/router based on FreeBSD. It is more than just however, with the ability to be a DNS, VPN, IDS/IPS, DHCP, NTP and cache (using Squid). Why would you dedicate a full system to pfSense when it can easily run as a virtual machine to provide networking to your entire infrastructure.  This guide will walk you through replacing your current router with pfSense and how to install pfSense on ESXi.
@@ -47,7 +48,7 @@ The best way would be a physical screen and monitor (what I will use), KVM or IP
 
 ## Let's Start!
 
-Currently your setup may look similar to something like this: [![nd3](/images/{{page.images}}/nd3.png)](/images/{{page.images}}/nd3.png)
+Currently your setup may look similar to something like this: [![nd3]({{page.images}}nd3.png)]({{page.images}}nd3.png)
 
 We want it to look something like this:
 
@@ -65,32 +66,32 @@ Give the names WAN and LAN corresponding to the which ever NIC is connected to t
 
 **2. Create a new Virtual machine with the follow settings:**
 
-[![13](/images/{{page.images}}/13.png)](/images/{{page.images}}/13.png)
+[![13]({{page.images}}13.png)]({{page.images}}13.png)
 
 **3. Load the pfSense ISO image into the VM and boot from it.**
 
 Straightforward enough. Make sure to boot from the CD/DVD drive.
 
-[![pfsense-iso](/images/{{page.images}}/14.png)](/images/{{page.images}}/14.png)
+[![pfsense-iso]({{page.images}}14.png)]({{page.images}}14.png)
 
 **4. Go with the default boot (number 1) or let the timer run down.**
 
-[![pfsense-boot](/images/{{page.images}}/141.png)](/images/{{page.images}}/141.png)
+[![pfsense-boot]({{page.images}}141.png)]({{page.images}}141.png)
 
 **5. Press 'I' when prompted again to start the installer.**
 
 Otherwise you will be running a LiveCD. Restart if this happens.
 
-[![pfsense-boot-options](/images/{{page.images}}/142.png)](/images/{{page.images}}/142.png)
+[![pfsense-boot-options]({{page.images}}142.png)]({{page.images}}142.png)
 
 **6. Accept all the default settings and wait for it to finish installing.**
 
-[![pfsense-install-progress](/images/{{page.images}}/143.png)](/images/{{page.images}}/143.png)
+[![pfsense-install-progress]({{page.images}}143.png)]({{page.images}}143.png)
 
 **7. Reboot when finished.**
 
 pfSense has now been installed. It isn't doing anything yet so we will need to configure and transition our network over to it.
 
-[![pfsense-reboot](/images/{{page.images}}/144.png)](/images/{{page.images}}/144.png)
+[![pfsense-reboot]({{page.images}}144.png)]({{page.images}}144.png)
 
 Continued in [Part 2: Install pfSense on ESXI 5.5](/part-2-install-pfsense-esxi-5-5/) where we will configure the new installation.

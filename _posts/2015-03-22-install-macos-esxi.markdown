@@ -13,7 +13,8 @@ tags:
 - mac os x
 - macOS
 - vmware
-images: 2015-03-22-install-macos-esxi
+image: /images/2015-03-22-install-macos-esxi/featured-image.jpg 
+images: /images/2015-03-22-install-macos-esxi/
 ---
 
 UPDATE 18/10/16: Changed to support 10.12
@@ -45,13 +46,13 @@ For this, I used the Windows vSphere client instead of the web client
 
 **3.** Open a datastore (Configuration > Hardware > Storage) by right-clicking it and selecting 'Browse Datastore...'
 
-![1](/images/{{page.images}}/11.png)
+![1]({{page.images}}11.png)
 
 **4.** Copy the 'esxi' folder to the datastore by selecting 'Upload Folder' making note of the warning of replacing any existing folders you may have with the same name
 
 **5.** Enable and connect to SSH on the host (Configuration > Software > Security Profile > Services > Properties > SSH > Options > Start > OK)
 
-[![2](/images/{{page.images}}/21.png)](/images/{{page.images}}/21.png)
+[![2]({{page.images}}21.png)]({{page.images}}21.png)
 
 **6.** Change directory over to your VMFS datastore
 
@@ -117,10 +118,10 @@ $ dmg2img -i InstallESD.img -o MountainLion.iso
 
 Make sure to select Apple Mac OS X as your Guest Operating System.
 
-[![3](/images/{{page.images}}/31.png)](/images/{{page.images}}/31.png)
+[![3]({{page.images}}31.png)]({{page.images}}31.png)
 
 Power on the VM and mount the ISO image to install.
 
 If you get the error 'darwin11_64guest is not supported', try starting the VM directly from the host instead of vCenter.
 
-[![123](/images/{{page.images}}/123-1024x875.png)](/images/{{page.images}}/123.png)
+[![123]({{page.images}}123-1024x875.png)]({{page.images}}123.png)
