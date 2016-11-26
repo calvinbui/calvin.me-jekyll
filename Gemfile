@@ -22,11 +22,18 @@ gem 'github-pages', '>=104', group: :jekyll_plugins
 # If you have any plugins, put them here!
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.6"
+   #A Jekyll plugin to add metadata tags for search engines and social networks to better index and display your site's content.
    gem 'jekyll-seo-tag'
-   # Emoji support
+   # Emoji support https://github.com/jekyll/jemoji
    gem 'jemoji'
    # A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites. https://jekyll.github.io/jekyll-admin/
    gem 'jekyll-admin'
+   # Streamline your writing in Jekyll with some commands. https://github.com/jekyll/jekyll-compose
+   gem 'jekyll-compose'
+   # Archive pages for your Jekyll tags and categories https://github.com/jekyll/jekyll-archives
+   gem 'jekyll-archives'
+   # Liquid tag for displaying GitHub Gists in Jekyll sites. https://github.com/jekyll/jekyll-gist
+   gem 'jekyll-gist'
 end
 
 gem 'wdm'
