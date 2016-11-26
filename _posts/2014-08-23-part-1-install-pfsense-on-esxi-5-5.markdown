@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2014-08-23 12:47:43+00:00
 layout: post
