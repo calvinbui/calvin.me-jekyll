@@ -351,7 +351,7 @@ Add the following to the configuration file:
 
 I prefer using _CTRL + Arrow_ keys as it's easier than _ALT + Arrow_ keys. If you prefer ALT, change 'm:0x4' to 'm:0x8' and 'Control' to 'Alt'
 
-To run the configuration file at startup, add it to the _~/.xprofile _which is executed by _LightDM_.
+To run the configuration file at startup, add it to the _~/.xprofile_ which is executed by _LightDM_.
 
 ```terminal
 $ echo 'xbindkeys &' >> ~/.xprofile
