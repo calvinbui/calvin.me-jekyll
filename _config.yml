@@ -31,6 +31,19 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
   googleplus: # anything in your profile username that comes after plus.google.com/
 
+# SEO tags
+title: Calvin Bui
+description: Technology, Computer and IT Blog
+url: https://calvin.me
+author: Calvin Bui
+logo: /images/avatar.jpg
+social:
+  names: Calvin Bui
+  links:
+    - https://github.com/calvinbui
+    - https://www.linkedin.com/in/thecalvinbui
+    - https://keybase.io/calvinbui
+google_site_verification: 37BYRtl4BMXnAo2XbsCEmDSX2vc4W2jiZDxxks1c9NY
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
