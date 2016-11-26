@@ -66,7 +66,7 @@ A few helpful sites
 
 Putting that I350-T4 too good use!
 
-First I added 3 physical adapters to the vSwitch on ESXi following their [official video](https://www.youtube.com/watch?v=Hx9FAo7_H2k). Everything went well so I enabled Port Trunking (EtherChannel  if you use Cisco terminology) on my D-Link switch but then it completely stopped working :( After a short read, I found this [question on serverfault](http://serverfault.com/questions/618217/link-aggregation-in-esxi-5-5) which led to believe that ESXi only Load Balances but default and doesn't do any LACP.
+First I added 3 physical adapters to the vSwitch on ESXi following their [official video](https://www.youtube.com/watch?v=Hx9FAo7_H2k). Everything went well so I enabled Port Trunking (EtherChannel  if you use Cisco terminology) on my D-Link switch but then it completely stopped working :disappointed: After a short read, I found this [question on serverfault](http://serverfault.com/questions/618217/link-aggregation-in-esxi-5-5) which led to believe that ESXi only Load Balances but default and doesn't do any LACP.
 
 Enabling Load Balancing on ESXi by default only acts as a failover using the **Route Based on Originating Port ID** option. Changing it to **Route Based on IP Hash** balances load across all of the network adapters in the team and make use of every single adapter in the process! This [VMware KB](http://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=2006129) really helped explaining that and also this page from [Pearson Certification](http://www.pearsonitcertification.com/articles/article.aspx?p=2190191&seqNum=8) (but don't even recommend it...).
 

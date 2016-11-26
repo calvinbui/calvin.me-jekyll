@@ -38,7 +38,7 @@ This is probably the biggest reason for my switch - 14.04 LTS uses [upstart](htt
 
 The good news is Ubuntu have finally decided to [switch over to systemd](http://www.markshuttleworth.com/archives/1316), except that decision came after 14.04 LTS. The bad news is all my upstart scripts won't rewrite themselves! At the top of my head, SABnzbd, CouchPotato and Transmission use upstart as their startup script! Some of these were hard as hell to get running because of all the user permissions I had to get right.
 
-I'm not clear on how to convert upstart scripts to systemd. I hope it just automagically works as a drop-in replacement but that's almost never ever the case for people like us :(
+I'm not clear on how to convert upstart scripts to systemd. I hope it just automagically works as a drop-in replacement but that's almost never ever the case for people like us :disappointed:
 
 I guess this isn't their fault as they follow Debian closely.
 

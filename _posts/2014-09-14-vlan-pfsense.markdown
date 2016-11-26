@@ -13,7 +13,7 @@ tags:
 - pfsense
 - vlan
 - vmware
-image: /images/2014-09-14-vlan-pfsense/featured-image.jpg 
+image: /images/2014-09-14-vlan-pfsense/featured-image.jpg
 images: /images/2014-09-14-vlan-pfsense/
 ---
 
@@ -128,4 +128,4 @@ Configure all other VLAN ports as necessary.
 
 If a DHCP is configured on each VLAN through pfSense, you should be able to acquire an IP address with matching DHCP range when you plug a device into that port.
 
-Now that our virtual switch and physical switch have been configured for VLANs you can take a rest. If you want to go a few steps further, try separating VLAN access from one another in pfSense or try connecting wireless access points to your network, don't worry if you can't, I'll help out with that in the future :)
+Now that our virtual switch and physical switch have been configured for VLANs you can take a rest. If you want to go a few steps further, try separating VLAN access from one another in pfSense or try connecting wireless access points to your network, don't worry if you can't, I'll help out with that in the future :smile:

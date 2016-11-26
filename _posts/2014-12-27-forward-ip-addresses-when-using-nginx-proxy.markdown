@@ -101,6 +101,6 @@ Now with the changes above...
 
 [![comments work]({{page.images}}test.png)]({{page.images}}test.png)
 
-The forwarded IP addresses is no longer my proxy server :)
+The forwarded IP addresses is no longer my proxy server :smile:
 
 Thanks to [Nick M from Server Fault](http://serverfault.com/questions/314574/nginx-real-ip-header-and-x-forwarded-for-seems-wrong). I literally searched this for a whole hour and I'm just expanding on what he's provided already.

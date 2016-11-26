@@ -64,7 +64,7 @@ I installed Headphones, NZBMegasearcH and LazyLibarian.
 
 [Headphones](https://github.com/rembo10/headphones) is an automatic music downloader. [NZBMegasearcH ](https://github.com/pillone/usntssearch/)is a aggregate search engine which saves me having to visit a bunch of sites to manually search for content. LazyLibarian hasn't been updated in a long time but [DobyTang's fork of the project](https://github.com/DobyTang/LazyLibrarian) continues to keep the project alive. LL is used for downloading eBooks.
 
-I also tried finding an automatic games downloader. The options available, [Gamez by avjui](https://github.com/avjui/Gamez) and [GamezServer by Riveu](https://github.com/Riveu/GamezServer) both didn't work for me :( I may try again later
+I also tried finding an automatic games downloader. The options available, [Gamez by avjui](https://github.com/avjui/Gamez) and [GamezServer by Riveu](https://github.com/Riveu/GamezServer) both didn't work for me :disappointed: I may try again later
 
 ### WordPress
 
@@ -111,7 +111,7 @@ The PBX systems I found were:
 
 ### LIFX Light bulb
 
-Got the [LIFX light bulb](http://au.lifx.co/) on my birthday! :)
+Got the [LIFX light bulb](http://au.lifx.co/) on my birthday! :smile:
 
 It's funny that the first 'home appliance' I ever did a firmware upgrade to was the vacuum now its my light bulb that needs an upgrade.
 

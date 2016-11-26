@@ -49,7 +49,7 @@ Zoneminder is a Linux application which handles video cameras that I'm looking a
 
 #### Get a Chromecast, Roku, WD Live or any other streaming device.
 
-I'm not sure how much I need one but there have been times when It would've came in handy. But If I get one of these I'd probably need a massive TV to go with it :) Putting a pin in this for now.
+I'm not sure how much I need one but there have been times when It would've came in handy. But If I get one of these I'd probably need a massive TV to go with it :smile: Putting a pin in this for now.
 
 [![New+Cert+Logos_520x150]({{page.images}}new-cert-logos_520x150.jpg)]({{page.images}}new-cert-logos_520x150.jpg)
 

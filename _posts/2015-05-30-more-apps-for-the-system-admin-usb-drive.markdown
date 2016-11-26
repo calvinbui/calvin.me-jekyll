@@ -21,7 +21,7 @@ If you haven't read the last post about making a [Multiboot USB Drive](https://c
 
 ## Drivers
 
-There have been times where I have installed Windows and performed every single Windows Update to find it was missing drivers. Sometimes the manufacturer's website such as Acer or ASUS do not provide working drivers either >:(
+There have been times where I have installed Windows and performed every single Windows Update to find it was missing drivers. Sometimes the manufacturer's website such as Acer or ASUS do not provide working drivers either :rage:
 
 The best thing to do then is to open up the machine and look at each individual piece of hardware, or, use a program to find the right drivers. For this I used:
 
@@ -50,7 +50,7 @@ These programs are great when I need a quit fix or program to do something. As t
 
 ## Anti-Virus
 
-Self-explanatory. Fixing an infected computer will require different tools. The best one though in this list is which ever works :)
+Self-explanatory. Fixing an infected computer will require different tools. The best one though in this list is which ever works :smile:
 
 * Crucial Scan
 * HiJack This

@@ -96,6 +96,7 @@ gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
   - jekyll-seo-tag # Supported by GitHub to optimise site for search engines and social media networks
+  - jemoji # GitHub-flavored emoji plugin for Jekyll http://rubygems.org/gems/jemoji
 
 # Exclude these files from your production _site
 exclude:

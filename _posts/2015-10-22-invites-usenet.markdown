@@ -13,7 +13,7 @@ image: /images/2015-10-22-invites-usenet/featured-image.jpg
 images: /images/2015-10-22-invites-usenet/
 ---
 
-No more invites :(
+No more invites :disappointed:
 
 Just for you!
 

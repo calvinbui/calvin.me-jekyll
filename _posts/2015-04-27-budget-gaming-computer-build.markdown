@@ -47,7 +47,7 @@ To reduce the costs a bit I was able to give him a few spare parts for the build
 
 For gaming builds, it is recommended to get an i5 over an i7 solely on the fact that games don't make use of the extra cores that come from hyper-threading. Most games only use two cores. The exception to this are Crysis 3, Metro Last Light, ARMA 3, Watch_Dogs and Battlefield.
 
-Because of the socket, we were limited to only used/preowned CPUs. Luckily a lot of people have been selling their 3-4 year old rigs so we were easily able to pick up an i7 2600 for $200. I would've like to have gotten an i5 2500 but the one we bought for $136 got lost in the mail :(.  The next best thing would've been the i5 3570K, however it did not offer any better gaming performance as [Ocaholic found](http://www.ocaholic.ch/modules/smartsection/item.php?itemid=1150).
+Because of the socket, we were limited to only used/preowned CPUs. Luckily a lot of people have been selling their 3-4 year old rigs so we were easily able to pick up an i7 2600 for $200. I would've like to have gotten an i5 2500 but the one we bought for $136 got lost in the mail :disappointed:.  The next best thing would've been the i5 3570K, however it did not offer any better gaming performance as [Ocaholic found](http://www.ocaholic.ch/modules/smartsection/item.php?itemid=1150).
 
 You may then wonder why we didn't go with an i3 or Pentium if it's only going to be a gaming computer. The reason is that many newer games nowadays specifically list a quad-core in their minimum system requirements whereas a Pentium only come in dual-core. Far Cry 4 for example won't start without a quad-core, a game he insisted he was going to be playing. An i3 on the other-hand loses up to 25% in games from the benchmarks I looked at.
 
