@@ -79,7 +79,7 @@ For editing multiple cameras at once, I recommend using [HikVision's Batch Confi
 
 For my video settings I went with 15 fps @ 2048*1536 (3MP), 5120 Kbps variable bitrate, H.264 and Video Quality at Highest.
 
-[![camera-video-settings](/images/{{page.images}}/capture.png)](/images/{{page.images}}/Capture.png)
+[![camera-video-settings](/images/{{page.images}}/Capture.png)](/images/{{page.images}}/Capture.png)
 
 The FPS sweet spot in a recording is 15 fps. This [video shows and explains it well](https://www.youtube.com/watch?v=W7LYhTPc-Nw). Not much is lost between 25/30fps and 15fps and it would likely catch fast hand movements when going back and pausing at a specific frame. Even 7fps is pretty good if tight on storage, everything you need to see is still captured although a little choppy. As long as the resolution is high enough, most details will be picked up.
 
