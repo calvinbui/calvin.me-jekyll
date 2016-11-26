@@ -20,14 +20,9 @@ Now that our pfSense installation is set up and working, we will have to wrap up
 
 <!-- more -->
 
-
 ## Part 4: Necessities and Wrap-up
 
-
-
-
 ### Install Native VMWare Tools for pfSense.
-
 
 VMware Tools are available for FreeBSD, if you selected it as the virtual machine's operating system. VMware Tools are important for increasing performance by allowing it to interact better with its hypervisor. It is extremely important in pfSense because it offers 10Gbp network cards via the vmxnet3 driver.
 
@@ -46,36 +41,35 @@ pfSense by default prevents you from downloading packages for good reason, it co
 First you will need to change where pfSense gets its packages from. As of this post, pfSense 2.1.4 is based off FreeBSD 8.3-RELEASE-p16. Find the URL that fits your version. Run the follow commands in the shell:
 For 64 bit:
 
-```console
-setenv PACKAGESITE "http://ftpmirror.your.org/pub/FreeBSD-Unofficial-Packages/83amd64-default/Latest/"
+```terminal
+$ setenv PACKAGESITE "http://ftpmirror.your.org/pub/FreeBSD-Unofficial-Packages/83amd64-default/Latest/"
 ```
 
 For 32 bit:
 
-```console
-setenv PACKAGESITE "http://ftpmirror.your.org/pub/FreeBSD-Unofficial-Packages/83i386-default/Latest/"
+```terminal
+$ setenv PACKAGESITE "http://ftpmirror.your.org/pub/FreeBSD-Unofficial-Packages/83i386-default/Latest/"
 ```
 
 Once the package site has been set, install 'perl'
 
-```console
-pkg_add -rv perl
+```terminal
+$ pkg_add -rv perl
 ```
 
 Finally install the compatibility library for your version of pfSense
 
 For 64 bit:
 
-```console
-pkg_add -rv compat6x-amd64
+```terminal
+$ pkg_add -rv compat6x-amd64
 ```
 
 For 32 bit:
 
-```console
-pkg_add -rv compat6x-i386
+```terminal
+$ pkg_add -rv compat6x-i386
 ```
-
 
 {% include caption.html path="capture.png" caption="Use Putty to SSH into pfSense. Putty makes it easier to copy and paste code instead of typing it which almost always leads to spelling mistakes." alt="Download packages" %}
 
@@ -89,38 +83,37 @@ Open a console to the pfSense virtual machine and click: 'VM -> Guest -> Instal
 
 or if you are in VMware workstation: 'VM -> Install VMware Tools'
 
-4. Mount and install VMware Tools
+**4.** Mount and install VMware Tools
 
 Run the following line by line to mount the the VMware Tools disk, unpack its contents and install i:
 
-```console
-mount -t cd9660 /dev/acd0 /mnt/
-cd /tmp
-tar xvzf /mnt/vmware-freebsd-tools.tar.gz
-cd vmware-tools-distrib/
-./vmware-install.pl -d
+```terminal
+$ mount -t cd9660 /dev/acd0 /mnt/
+$ cd /tmp
+$ tar xvzf /mnt/vmware-freebsd-tools.tar.gz
+$ cd vmware-tools-distrib/
+$ ./vmware-install.pl -d
 ```
 
 If it fails to install the first time, run the final line again for a reinstall.
 
 Remove the leftovers after the installation:
 
-```console
-rm -f /etc/vmware-tools/not_configured
+```terminal
+$ rm -f /etc/vmware-tools/not_configured
 ```
 
 **5. Set VMware Tools to start on boot**
 
 A script is required to add the compat6x library to boot time or VMware tools will not start properly. Enter these lines into the shell:
 
-```console
-echo '#!/bin/sh' > /usr/local/etc/rc.d/000-ldconfig.sh
-echo '/sbin/ldconfig -m /usr/local/lib/compat' >> /usr/local/etc/rc.d/000-ldconfig.sh
-echo '/usr/local/etc/rc.d/vmware-tools.sh restart' >> /usr/local/etc/rc.d/000-ldconfig.sh
-echo '/usr/local/bin/vmware-config-tools.pl -d' >> /usr/local/etc/rc.d/000-ldconfig.sh
-chmod a+x /usr/local/etc/rc.d/000-ldconfig.sh
+```terminal
+$ echo '#!/bin/sh' > /usr/local/etc/rc.d/000-ldconfig.sh
+$ echo '/sbin/ldconfig -m /usr/local/lib/compat' >> /usr/local/etc/rc.d/000-ldconfig.sh
+$ echo '/usr/local/etc/rc.d/vmware-tools.sh restart' >> /usr/local/etc/rc.d/000-ldconfig.sh
+$ echo '/usr/local/bin/vmware-config-tools.pl -d' >> /usr/local/etc/rc.d/000-ldconfig.sh
+$ chmod a+x /usr/local/etc/rc.d/000-ldconfig.sh
 ```
-
 
 As bad as this is script is, it seems to fix the problem where the vSphere Client says it is not running even though everythng else says it is (terminal commands, guest VM options, VMXNET3 working). VMware Tools also does not start because it wants to run through setup again. Hopefully this fixes all of that.
 
@@ -153,12 +146,11 @@ VMware Tools should be successfully installed natively on pfSense
 {% include caption.html path="7.png" caption="10Gbps networking!" alt="pfsense-vmxnet3-wi" %}
 
 Credits:
-* [https://doc.pfsense.org/index.php/VMware_Tools](https://doc.pfsense.org/index.php/VMware_Tools)
-* [http://www.v-front.de/2013/06/how-to-install-or-update-VMware-tools.html](http://www.v-front.de/2013/06/how-to-install-or-update-VMware-tools.html)
 
+* [pfSense Docs](https://doc.pfsense.org/index.php/VMware_Tools)
+* [v-front.de](http://www.v-front.de/2013/06/how-to-install-or-update-VMware-tools.html)
 
 ### Give ESXi a static IP
-
 
 You wont be able to access your ESXi box through the vSphere Client as ESXi would not have a working IP address at this moment. It is best to give it a STATIC address over a DYNAMIC (DHCP) address as pfSense is a VM which starts after ESXi boots up. Therefore ESXi would not be able to obtain an address from DHCP and you would not be able to connect to it.
 
@@ -188,10 +180,10 @@ Return to the main screen and restart when your management network when prompted
 
 If pfSense is now your router, it is very important to auto-start it with ESXi.
 
-  1. Open the vSphere Client and connect to ESXi
-  2. Select your host and click on the 'Configuration' tab
-  3. Select 'Virtual Machine Startup/Shutdown' and click on 'Properties...' in the top right corner.
-  4. Select the VM and click 'Move Up' until it reaches Automatic Startup. Adjust the delay if necessary. Click 'OK' when done.
+1. Open the vSphere Client and connect to ESXi
+2. Select your host and click on the 'Configuration' tab
+3. Select 'Virtual Machine Startup/Shutdown' and click on 'Properties...' in the top right corner.
+4. Select the VM and click 'Move Up' until it reaches Automatic Startup. Adjust the delay if necessary. Click 'OK' when done.
 
 {% include caption.html path="waprup5.png" caption="Ensure all the details are correct." alt="" %}
 

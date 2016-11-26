@@ -39,43 +39,51 @@ Here is my current setup and what I have:
 
 For this, I used the Windows vSphere client instead of the web client
 
-1. Connect directly to your ESXi host instead of vCenter
-2. Unzip the unlock-all-v130.zip file
-3. Open a datastore (Configuration > Hardware > Storage) by right-clicking it and selecting 'Browse Datastore...'
+**1.** Connect directly to your ESXi host instead of vCenter
 
-    ![1](/images/{{page.images}}/11.png)
+**2.** Unzip the unlock-all-v130.zip file
 
-4. Copy the 'esxi' folder to the datastore by selecting 'Upload Folder' making note of the warning of replacing any existing folders you may have with the same name
-5. Enable and connect to SSH on the host (Configuration > Software > Security Profile > Services > Properties > SSH > Options > Start > OK)
+**3.** Open a datastore (Configuration > Hardware > Storage) by right-clicking it and selecting 'Browse Datastore...'
 
-    [![2](/images/{{page.images}}/21.png)](/images/{{page.images}}/21.png)
+![1](/images/{{page.images}}/11.png)
 
-6. Change directory over to your VMFS datastore
+**4.** Copy the 'esxi' folder to the datastore by selecting 'Upload Folder' making note of the warning of replacing any existing folders you may have with the same name
+
+**5.** Enable and connect to SSH on the host (Configuration > Software > Security Profile > Services > Properties > SSH > Options > Start > OK)
+
+[![2](/images/{{page.images}}/21.png)](/images/{{page.images}}/21.png)
+
+**6.** Change directory over to your VMFS datastore
+
 ```terminal
 $ cd /vmfs/volumes/[datastore]/
 ```
 
-7. I recommend changing the name of the unlocker's folder to something else such as osx_unlocker
+**7.** I recommend changing the name of the unlocker's folder to something else such as osx_unlocker
+
 ```terminal
 $ mv esxi osx_unlocker
 ```
 
-8. Go into the unlocker folder afterwards
+**8.** Go into the unlocker folder afterwards
+
 ```terminal
 $ cd osx_unlocker
 ```
 
-9. Make the install and uninstall file executable
+**9.** Make the install and uninstall file executable
+
 ```terminal
 $ chmod +x *
 ```
 
-10. Run the install script file
+**10.** Run the install script file
+
 ```terminal
 $ ./install.sh
 ```
 
-11. Reboot your ESXi host
+**11.** Reboot your ESXi host
 
 ## Create the ISO image
 

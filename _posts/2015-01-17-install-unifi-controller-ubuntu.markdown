@@ -61,7 +61,6 @@ As of August, the unifi-beta and unifi-rapid packages are obsolete.
 
 If everything went smoothly you should be able to access the controller through your web browser: https://unifi-server-here:8443
 
-
 Depending on the version installed, you will be taken to the setup wizard. You're done!
 
 [![Capture](/images/{{page.images}}/capture2.png)](/images/{{page.images}}/capture2.png)
