@@ -8,12 +8,24 @@ layout: default
     	<div class="post-image">
         <img src="{{ post.images }}/featured-image-small.jpg">
       </div>
-
       <div class="post-content">
         <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
         <span class="entry-date"><time datetime="{{ post.date }}">{{ post.date | date_to_long_string }}</time></span>
         <div class="entry">
           {{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More >></a>
+          <div class="post-categories">
+          <p>
+      		  {% if post %}
+      		    {% assign categories = post.categories %}
+      		  {% else %}
+      		    {% assign categories = page.categories %}
+      		  {% endif %}
+      		  {% for category in categories %}
+      		  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">&#8226; {{category}}</a>
+      		  {% unless forloop.last %}&nbsp;{% endunless %}
+      		  {% endfor %}
+          </p>
+      		</div>
         </div>
       </div>
     </article>

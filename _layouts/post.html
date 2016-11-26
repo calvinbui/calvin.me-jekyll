@@ -7,7 +7,20 @@ layout: default
 	<div class="post-heading">
 	  <h1>{{ page.title }}</h1>
 	  <span class="entry-date"><time datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time></span>
-	</div>
+		<div class="post-categories">
+			<p>
+			  {% if post %}
+			    {% assign categories = post.categories %}
+			  {% else %}
+			    {% assign categories = page.categories %}
+			  {% endif %}
+			  {% for category in categories %}
+			  <a href="{{site.baseurl}}/categories/#{{category|slugize}}">&#8226; {{category}}</a>
+			  {% unless forloop.last %}&nbsp;{% endunless %}
+			  {% endfor %}
+			</p>
+		</div>
+	</div
   <div class="entry">
     {{ content }}
   </div>
