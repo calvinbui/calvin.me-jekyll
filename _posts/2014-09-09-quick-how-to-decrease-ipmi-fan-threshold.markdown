@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2014-09-09 23:00:53+00:00
 layout: post
@@ -12,7 +12,8 @@ tags:
 - how to
 - ipmi
 - supermicro
-images: 2014-09-09-quick-how-to-decrease-ipmi-fan-threshold
+image: /images/2014-09-09-quick-how-to-decrease-ipmi-fan-threshold/featured-image.jpg 
+images: /images/2014-09-09-quick-how-to-decrease-ipmi-fan-threshold/
 ---
 
 I like quiet (slow) fans. I like Supermicro's X10SL7 motherboard. I like how I get email notifications from the IPMI when something is wrong. I do not like how I get warnings because the IPMI fan threshold is 900 RPM. The bad thing is this is not directly configurable through the IPMI user interface or client. That's where we need [IPMITOOL ](http://sourceforge.net/projects/ipmitool/files/)tool to let us lower this annoying little warning.

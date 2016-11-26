@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2015-05-17 08:18:51+00:00
 layout: post
@@ -13,7 +13,8 @@ tags:
 - system admin
 - tool
 - usb
-images: 2015-05-17-make-a-multiboot-usb-drive
+image: /images/2015-05-17-make-a-multiboot-usb-drive/featured-image.jpg 
+images: /images/2015-05-17-make-a-multiboot-usb-drive/
 ---
 
 For my job and as a system admin, I'm expected to provide quick fixes and know the solution to every single problem that my users face. That is why I need a tool that just works wherever I bring it and that tool is my USB drive. It can rescue systems from death, scan for viruses, partition drives, install Linux or Windows but best of all it's on a light and speedy portable SSD!
@@ -26,7 +27,7 @@ For my USB I wanted something fast. What's would be better than a portable SSD? 
 
 The drive boasts some ridiculous speeds. I only went with the 250GB as I don't feel I would use that much space. I'm sure the 500GB and 1TB drives are faster than the 250GB due to the higher amounts of flash chips on them. Overall though very happy with the speeds as well as how light and small it is.
 
-![samsungt1](/images/{{page.images}}/samsungt1.png)
+![samsungt1]({{page.images}}samsungt1.png)
 
 For a multiboot USB drive it's possible to use any. It doesn't have to be a bleeding edge portable SSD like mine. This could be easily done with a 8GB drive if you don't put too much on it of course.
 
@@ -88,7 +89,7 @@ Things to note straight away (from my experience):
 
 For my USB I went with two partitions. One for the multiboot partition (50GB and had 8GB left over by the end) and the rest was allocated as a general USB drive. I chose to go with FAT32 for the multiboot partition for compatibility reasons and exFAT for my general storage. I found NTFS to have issues with some laptops I owned.
 
-[![hiren](/images/{{page.images}}/hiren.png)](/images/{{page.images}}/hiren.png)
+[![hiren]({{page.images}}hiren.png)]({{page.images}}hiren.png)
 
 ## Step 5: Make the USB Drive
 
@@ -118,4 +119,4 @@ If installing Windows under UEFI, Easy2Boot requires the ISOs to be reformatted 
 
 To make it a little cooler, you can also edit the background and menu colours...
 
-[![Capture](/images/{{page.images}}/Capture-1024x795.png)](/images/{{page.images}}/capture.png)
+[![Capture]({{page.images}}Capture-1024x795.png)]({{page.images}}capture.png)

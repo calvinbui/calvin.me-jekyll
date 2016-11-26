@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2014-09-19 00:01:27+00:00
 layout: post
@@ -10,7 +10,8 @@ categories:
 - Web
 tags:
 - pfsense
-images: 2014-09-19-pfsense-captive-portal
+image: /images/2014-09-19-pfsense-captive-portal/featured-image.jpg 
+images: /images/2014-09-19-pfsense-captive-portal/
 ---
 
 A Captive Portal is a special webpage users see before using the Internet. It will intercept network packets  and when users try to access a webpage it prompt them to login. My personal captive portal utilises pfSense's own Captive Portal features to authenticate users before they begin using the Internet.
@@ -45,7 +46,7 @@ My portal utilises the pfSense User Accounts method but in a unique way - a user
 4. Upload the 'error.html' for Authentication error page contents.
 5. Upload the rest of the files with the pre-fix 'captiveportal-' into the File Manager. 
 
-[![captive portal file manager](/images/{{page.images}}/capture2.png)](/images/{{page.images}}/capture2.png)
+[![captive portal file manager]({{page.images}}capture2.png)]({{page.images}}capture2.png)
 
 ## Proposed Updates
 

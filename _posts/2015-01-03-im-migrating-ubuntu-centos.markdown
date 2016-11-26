@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2015-01-03 23:35:36+00:00
 layout: post
@@ -13,7 +13,8 @@ categories:
 tags:
 - centos
 - ubuntu
-images: 2015-01-03-im-migrating-ubuntu-centos
+image: /images/2015-01-03-im-migrating-ubuntu-centos/featured-image.jpg 
+images: /images/2015-01-03-im-migrating-ubuntu-centos/
 ---
 
 I'm migrating from Ubuntu to CentOS as my main Linux distro. Literally every virtual machine (VM) I've set up so far runs Ubuntu's latest and greatest LTS (14.04 Trusty Tahr) so I won't be manually setting them all up again, only every VM I set up from this point onward. There's a couple of reasons for the change.
@@ -29,7 +30,7 @@ First off, Ubuntu is great. I really love it.
 
 I'm not hating on Ubuntu, I'm just against it from now on for my own usage - not that I'm telling you to change too. There are just a few niggly things I'm worried about and some decisions Canonical have made which don't bode well with me.
 
-![ubuntu-trusty-320x205](/images/{{page.images}}/ubuntu-trusty-320x205.jpg)
+![ubuntu-trusty-320x205]({{page.images}}ubuntu-trusty-320x205.jpg)
 
 ### Reason 1: Upstart vs Systemd
 
@@ -47,19 +48,19 @@ Ubuntu 14.04 uses the 3.13 Linux kernel, not a [longterm version of the Linux ke
 
 Apparently Torvalds held off the 3.14 LTR until a week after the [14.04 LTS kernel code freeze occurred](http://www.phoronix.com/scan.php?page=news_item&px=MTY0MjM). Why didn't Ubuntu just wait another week to implement it? Now every new patch release must be manually added and tested by Ubuntu kernel maintainers for the next 5 years...if they even bother. The updates would've gave direct from the official linux kernel if they just went with 3.12 LTR.
 
-[![tux](/images/{{page.images}}/tux.png)](/images/{{page.images}}/tux.png)
+[![tux]({{page.images}}tux.png)]({{page.images}}tux.png)
 
 
 ### Reason 3: Landscape costs money! $$$$
 
 [Landscape](http://www.ubuntu.com/management) is Canonical's system management tool for all your Ubuntu hosts. It does everything you would expect from updating/upgrading software (using apt-get and aptitude), host monitoring like when you see CPU usage and warnings; and deployment features for OpenStack and cloud infrastructure.
 
-![imageso_0serverso_0landscape](/images/{{page.images}}/imageso_0serverso_0landscape.png)
+![imageso_0serverso_0landscape]({{page.images}}imageso_0serverso_0landscape.png)
 
 I haven't tried Landscape and I don't plan to because it costs money. Although it has the general 30 day free trial, I rather not be wasting my time because in the end I wouldn't fork out my cash for it.
 
 This is Ubuntu's answer to [Red Hat's Satellite](https://access.redhat.com/products/red-hat-satellite) but there isn't an answer to Red Hat's free alternative: [Spacewalk](http://spacewalk.redhat.com/).
 
-[![spacewalk-black](/images/{{page.images}}/spacewalk-black.png)](/images/{{page.images}}/spacewalk-black.png)
+[![spacewalk-black]({{page.images}}spacewalk-black.png)]({{page.images}}spacewalk-black.png)
 
 System management is tough as it is already (I do it as a job) but without the proper tools it gets a lot harder. Until Ubuntu release a free offshoot there's not much to do except try out other alternatives like [Puppet ](http://puppetlabs.com/)and [Chef](https://www.chef.io/chef/).

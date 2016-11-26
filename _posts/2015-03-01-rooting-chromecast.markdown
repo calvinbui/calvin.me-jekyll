@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2015-03-01 06:07:48+00:00
 layout: post
@@ -11,7 +11,8 @@ tags:
 - chromecast
 - hubcap
 - root
-images: 2015-03-01-rooting-chromecast
+image: /images/2015-03-01-rooting-chromecast/featured-image.jpg 
+images: /images/2015-03-01-rooting-chromecast/
 ---
 
 Rooting a Chromecast looks easy. The method itself looks easy. But when things look easy, they're never really easy. This is what I went through to get [Hubcap ](http://forum.xda-developers.com/hardware-hacking/chromecast/root-hubcap-chromecast-root-release-t2855893)running on my Chromecast.
@@ -70,19 +71,19 @@ Sometimes it would flash, sometimes I wouldn't. It would work at certain power p
 
 After a while I gave up, it would turn on and keep throwing me the 'Startup Issues' screen. I decided there and then I was going to make my own powered USB OTG cable.
 
-[![JhGf3Se](/images/{{page.images}}/jhgf3se.jpg)](/images/{{page.images}}/jhgf3se.jpg)
+[![JhGf3Se]({{page.images}}jhgf3se.jpg)]({{page.images}}jhgf3se.jpg)
 
 I followed a [very simple guide ](http://forum.xda-developers.com/showthread.php?t=1828032)on how to make an OTG cable. Just by soldering the black and red cables together, I could power my unpowered OTG cable. First I needed a USB Male head to power the cable. I got out a USB Mini cable and snipped it off there.
 
-[![IMG_20150108_231328](/images/{{page.images}}/img_20150108_231328.jpg)](/images/{{page.images}}/img_20150108_231328.jpg)
+[![IMG_20150108_231328]({{page.images}}img_20150108_231328.jpg)]({{page.images}}img_20150108_231328.jpg)
 
 I also have a soldering iron from back in the PS3 days, iron-ically. I'm not very good with the solder but I can do basic cable modding without any clips.
 
-[![IMG_20150108_230433](/images/{{page.images}}/img_20150108_230433.jpg)](/images/{{page.images}}/img_20150108_230433.jpg)
+[![IMG_20150108_230433]({{page.images}}img_20150108_230433.jpg)]({{page.images}}img_20150108_230433.jpg)
 
 A few snips with the scissors along with peeling the cable shielding back I was able to fashion a very dodgy powered OTG cable. Plugging it in, I was delighted to see the Chromecast power on (and that the dodgy soldering worked!).
 
-[![IMG_20150108_230910](/images/{{page.images}}/img_20150108_230910.jpg)](/images/{{page.images}}/img_20150108_230910.jpg)
+[![IMG_20150108_230910]({{page.images}}img_20150108_230910.jpg)]({{page.images}}img_20150108_230910.jpg)
 
 Even using the newly made cable, the Chromecast still didn't want to flash, annoyingly showing me the 'Startup Issues' screen over and over again. I thought it could've been an issue with the Teensy so I kept reflashing over and over to make sure it was perfect...and then it happened...the Teensy began flashing orange!
 

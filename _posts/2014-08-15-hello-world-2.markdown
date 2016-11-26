@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2014-08-15 14:43:13+00:00
 layout: post
@@ -7,7 +7,8 @@ slug: hello-world-2
 title: Hello World, Hi I'm Calvin
 categories:
 - Misc
-images: 2014-08-16-hello-world-2
+image: /images/2014-08-16-hello-world-2/featured-image.jpg
+images: /images/2014-08-16-hello-world-2/
 ---
 
 Hello World !

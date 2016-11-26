@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2015-05-30 09:55:51+00:00
 layout: post
@@ -11,7 +11,8 @@ tags:
 - apps
 - system admin
 - usb
-images: 2015-05-30-more-apps-for-the-system-admin-usb-drive
+image: /images/2015-05-30-more-apps-for-the-system-admin-usb-drive/featured-image.jpg 
+images: /images/2015-05-30-more-apps-for-the-system-admin-usb-drive/
 ---
 
 If you haven't read the last post about making a [Multiboot USB Drive](https://calvin.me/make-a-multiboot-usb-drive/), definitely take a look! It creates a powerful drive that can be used to troubleshoot, fix problems, remove viruses and install operating systems!!! Since then I have been adding more tools to it as I need or discover.
@@ -36,7 +37,7 @@ When a problem is too big or I just can't figure out the root cause I usually th
 * [TronScript](https://www.reddit.com/r/TronScript/)
 * ComboFix
 
-[![bLmusI0](/images/{{page.images}}/blmusi0.png)](/images/{{page.images}}/blmusi0.png)
+[![bLmusI0]({{page.images}}blmusi0.png)]({{page.images}}blmusi0.png)
 
 ## Portable Applications
 
@@ -45,7 +46,7 @@ These programs are great when I need a quit fix or program to do something. As t
 * LiberKey
 * PortableApps
 
-[![_features_-_organize](/images/{{page.images}}/features_-_organize.png)](/images/{{page.images}}/features_-_organize.png)
+[![_features_-_organize]({{page.images}}features_-_organize.png)]({{page.images}}features_-_organize.png)
 
 ## Anti-Virus
 
@@ -70,7 +71,7 @@ Sometimes I run into a slow computer even though it's rocking good hardware. The
 * HWMonitor
 * Process Hacker
 
-[![Capture](/images/{{page.images}}/capture3.png)](/images/{{page.images}}/capture3.png)
+[![Capture]({{page.images}}capture3.png)]({{page.images}}capture3.png)
 
 ## Tools
 
@@ -82,7 +83,7 @@ These are general tools which are helpful in different situations. ProduKey for 
 * ProduKey
 * SpeedFan
 
-[![Capture](/images/{{page.images}}/capture2.png)](/images/{{page.images}}/capture2.png)
+[![Capture]({{page.images}}capture2.png)]({{page.images}}capture2.png)
 
 ## Disk
 
@@ -93,4 +94,4 @@ While the problem could be some malware or lack of resources, sometimes the issu
 * Test Disk
 * WinDirStat
 
-![Capture](/images/{{page.images}}/capture1.png)
+![Capture]({{page.images}}capture1.png)

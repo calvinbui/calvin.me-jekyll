@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2015-11-17 16:20:23+00:00
 layout: post
@@ -11,7 +11,8 @@ tags:
 - comparison
 - free
 - ipam
-images: 2015-11-17-free-ipam-software-comparision
+image: /images/2015-11-17-free-ipam-software-comparision/featured-image.jpg 
+images: /images/2015-11-17-free-ipam-software-comparision/
 ---
 
 Lose the spreadsheets, manage IP addresses properly using an IP Address Management tool (IPAM)!
@@ -26,7 +27,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 
 ### InfoBlox IPAM Express
 
-[](/images/{{page.images}}/gestio.png)[![infoblox](/images/{{page.images}}/infoblox-300x231.png)](/images/{{page.images}}/infoblox.png)
+[]({{page.images}}gestio.png)[![infoblox]({{page.images}}infoblox-300x231.png)]({{page.images}}infoblox.png)
 
 [Download](https://www.infoblox.com/downloads/software/ip-address-management-freeware)
 
@@ -39,7 +40,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 
 ### phpIPAM
 
-[![ipam](/images/{{page.images}}/ipam-300x234.png)](/images/{{page.images}}/ipam.png)
+[![ipam]({{page.images}}ipam-300x234.png)]({{page.images}}ipam.png)
 
 [Download](http://phpipam.net/documents/download-phpipam/)
 
@@ -53,7 +54,7 @@ Based on some [initial research](https://www.reddit.com/) and [Wikipedia](https:
 
 ### GestioIP
 
-![gestio](/images/{{page.images}}/gestio-300x281.png)
+![gestio]({{page.images}}gestio-300x281.png)
 
 [Download](http://sourceforge.net/projects/gestioip/)
 

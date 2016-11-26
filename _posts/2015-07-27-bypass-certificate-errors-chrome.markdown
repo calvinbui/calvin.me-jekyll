@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2015-07-27 17:34:09+00:00
 layout: post
@@ -15,7 +15,8 @@ tags:
 - certificates
 - chrome
 - ssl
-images: 2015-07-27-bypass-certificate-errors-chrome
+image: /images/2015-07-27-bypass-certificate-errors-chrome/featured-image.jpg 
+images: /images/2015-07-27-bypass-certificate-errors-chrome/
 ---
 
 Wasn't it annoying when Google Chrome suddenly made you do two clicks instead of one to bypass certificate errors?!
@@ -26,19 +27,19 @@ Chrome can remember decisions to proceed through certificate errors for a speci
 
 1. Enter **chrome://flags** into the address bar
 
-	[![flags](/images/{{page.images}}/flags.jpg)](/images/{{page.images}}/flags.jpg)
+	[![flags]({{page.images}}flags.jpg)]({{page.images}}flags.jpg)
 
 2. Find '**Remember decisions to proceed through SSL errors for a specified length of time.**' It is about 3/4 of the way down the page. Use CTRL+F to make your life a little easier. 
 
-	[![remember](/images/{{page.images}}/remember.jpg)](/images/{{page.images}}/remember.jpg)
+	[![remember]({{page.images}}remember.jpg)]({{page.images}}remember.jpg)
 
 3. Select '**Remember for three months**' in the drop-down. 
 
-	[![dropdown](/images/{{page.images}}/dropdown.jpg)](/images/{{page.images}}/dropdown.jpg)
+	[![dropdown]({{page.images}}dropdown.jpg)]({{page.images}}dropdown.jpg)
 
 4. Relaunch Chrome as prompted. 
 
-	[![relaunch](/images/{{page.images}}/relaunch.jpg)](/images/{{page.images}}/relaunch.jpg)
+	[![relaunch]({{page.images}}relaunch.jpg)]({{page.images}}relaunch.jpg)
 
 ### Explanation of Certificate Errors
 

@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2015-10-31 10:23:30+00:00
 layout: post
@@ -14,7 +14,8 @@ tags:
 - esxi
 - vmware
 - web interface
-images: 2015-10-31-web-interface-for-esxi-without-vcenter
+image: /images/2015-10-31-web-interface-for-esxi-without-vcenter/featured-image.jpg 
+images: /images/2015-10-31-web-interface-for-esxi-without-vcenter/
 ---
 
 It's now possible to manage standalone ESXi hosts with not only the Windows vSphere Client or vCenter, but with a web interface for ESXi !
@@ -75,12 +76,12 @@ Making sure you include the full path name to the file or else installation will
 
 If the VIB installation completes successfully, you should now be able to navigate a web browser to https://<esxip>/ui and the login page should be displayed.
 
-[![Capture2](/images/{{page.images}}/Capture2-300x291.png)](/images/{{page.images}}/Capture2.png)[
-](/images/{{page.images}}/Capture2.png)
+[![Capture2]({{page.images}}Capture2-300x291.png)]({{page.images}}Capture2.png)[
+]({{page.images}}Capture2.png)
 
 Login with your usually ESXi credentials and try it out.
 
-[![running](/images/{{page.images}}/running-300x291.png)](/images/{{page.images}}/running.png)
+[![running]({{page.images}}running-300x291.png)]({{page.images}}running.png)
 
 ## Verdict
 

@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2014-08-30 19:00:52+00:00
 layout: post
@@ -9,7 +9,8 @@ categories:
 - Monthy Update
 tags:
 - weekly update
-images: 2014-08-30-weekly-update-3182014
+image: /images/2014-08-30-weekly-update-3182014/featured-image.jpg 
+images: /images/2014-08-30-weekly-update-3182014/
 ---
 
 In the weekly update, I bring you what I’ve been doing throughout Monday to Sunday in regards to technology, computers and more with links to tutorials and guides.

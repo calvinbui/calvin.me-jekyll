@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2015-03-29 03:19:01+00:00
 layout: post
@@ -11,7 +11,8 @@ tags:
 - caching
 - speed
 - wordpress
-images: 2015-03-29-wordpress-caching-comparison
+image: /images/2015-03-29-wordpress-caching-comparison/featured-image.jpg 
+images: /images/2015-03-29-wordpress-caching-comparison/
 ---
 
 WordPress caching is the fastest way to improve website performance. Caching WordPress reduces server load by reducing the number of requests per page. For every single user that visits your site, data is retrieved from MySQL, processed with PHP and then displayed as HTML. This is a draining process if several hundred users at on your site at once. Caching saves the webpage into files which it shows visitors instead, not requiring MySQL or PHP which reduces load time significantly.
@@ -37,7 +38,7 @@ I thought I would test based on two factors, number of **website requests** and 
 
 I decided to use [Pingdom's Website Speed Test](http://tools.pingdom.com/fpt/) as the main testing tool because it gave results quickly and there wasn't much fussing around.
 
-[![Capture555](/images/{{page.images}}/capture555.png)](/images/{{page.images}}/capture555.png)
+[![Capture555]({{page.images}}capture555.png)]({{page.images}}capture555.png)
 
 A total of 8 tests were taken for each plugin and the best 5 were selected to avoid many outliers.
 
@@ -58,9 +59,9 @@ Other reputable testing sites include:
 | Hyper Cache | 54 / 3.16 | 56 / 2.22 | 54 / 3.16 | 52 / 4.24
 | Quick Cache | 55 / 3.10 | 56 / 2.11 | 56 / 3.23 | 53 / 4.07
 
-[![average](/images/{{page.images}}/average.png)](/images/{{page.images}}/average.png)
+[![average]({{page.images}}average.png)]({{page.images}}average.png)
 
-[![response](/images/{{page.images}}/response.png)](/images/{{page.images}}/response.png)
+[![response]({{page.images}}response.png)]({{page.images}}response.png)
 
 ## Conclusion
 

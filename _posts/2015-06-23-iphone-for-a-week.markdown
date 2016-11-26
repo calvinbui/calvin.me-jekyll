@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2015-06-23 09:54:01+00:00
 layout: post
@@ -11,7 +11,8 @@ categories:
 tags:
 - ios
 - iphone
-images: 2015-06-23-iphone-for-a-week
+image: /images/2015-06-23-iphone-for-a-week/featured-image.jpg 
+images: /images/2015-06-23-iphone-for-a-week/
 ---
 
 I had a few days with an iPhone so I decided to try it out and see if it was usable for someone like me.
@@ -106,7 +107,7 @@ It was nice to see Apple include toggles for Wi-Fi, Bluetooth and Auto-Rotate in
 
 I always thought Android's settings menu was a bit confusing, then I saw Apple's one. Is it me, or is almost everything I try and find turns out to be dumped under the 'General' tab? Trying to find keyboard settings? General. Trying to find battery usage? General. Trying to find storage usage? General.
 
-[![settings](/images/{{page.images}}/swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)](/images/{{page.images}}/swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)
+[![settings]({{page.images}}swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)]({{page.images}}swiftkey-mind-reading-keyboard-is-here-for-ios-8-w654.jpg)
 
 #### DISLIKED: No Data Usage Limit
 

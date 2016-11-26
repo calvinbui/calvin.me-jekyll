@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2016-01-11 16:29:24+00:00
 layout: post
@@ -19,7 +19,8 @@ tags:
 - napp-it
 - solaris
 - solaris 11
-images: 2016-01-11-napp-it-10gbps-network-solaris-11
+image: /images/2016-01-11-napp-it-10gbps-network-solaris-11/featured-image.jpg 
+images: /images/2016-01-11-napp-it-10gbps-network-solaris-11/
 ---
 
 While it can be difficult to have a transfer speed of 1.25GB per second (10Gbp/s), it wouldn't hurt to make sure it works well right?

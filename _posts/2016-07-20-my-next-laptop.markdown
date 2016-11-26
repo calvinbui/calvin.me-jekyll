@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2016-07-20 16:41:27+00:00
 layout: post
@@ -12,7 +12,8 @@ tags:
 - laptop
 - personal
 - recommended
-images: 2016-07-20-my-next-laptop
+image: /images/2016-07-20-my-next-laptop/featured-image.jpg 
+images: /images/2016-07-20-my-next-laptop/
 ---
 
 I’m not into writing a buying guides, [LappyList](http://www.lappylist.com/) is probably the best place to find a laptop if you want something that would probably do the job pretty well. This is based off my own research I have done in preparation to replace my slowly dying (but strong) 5-year-old Lenovo X220. These laptops are what I would probably end up purchasing.
@@ -36,7 +37,7 @@ With this in mind, I have found four options which are really good:
 
 ### Toshiba Chromebook 2 CB35-C3350 ($400 AUD)
 
-[![2_B102F_ToshibaChromebook2_Gandof_Silver](/images/{{page.images}}/2_B102F_ToshibaChromebook2_Gandof_Silver-e1469031643803-1024x624.jpg)](/images/{{page.images}}/2_B102F_ToshibaChromebook2_Gandof_Silver.jpg)
+[![2_B102F_ToshibaChromebook2_Gandof_Silver]({{page.images}}2_B102F_ToshibaChromebook2_Gandof_Silver-e1469031643803-1024x624.jpg)]({{page.images}}2_B102F_ToshibaChromebook2_Gandof_Silver.jpg)
 
 **Positives**
 
@@ -62,7 +63,7 @@ With this in mind, I have found four options which are really good:
 
 ### Lenovo E460 (~$1000 AUD)
 
-[![lenovo-laptop-thinkpad-e460-front](/images/{{page.images}}/lenovo-laptop-thinkpad-e460-front.png)](/images/{{page.images}}/lenovo-laptop-thinkpad-e460-front.png)
+[![lenovo-laptop-thinkpad-e460-front]({{page.images}}lenovo-laptop-thinkpad-e460-front.png)]({{page.images}}lenovo-laptop-thinkpad-e460-front.png)
 
 **Specs**
 
@@ -97,7 +98,7 @@ With this in mind, I have found four options which are really good:
 
 ### Lenovo ThinkPad X260 $1000 (+$300 for 256GB SSD and 16GB SODIMM)
 
-[![thinkpad-x260-hero](/images/{{page.images}}/thinkpad-x260-hero-e1469031669606.png)](/images/{{page.images}}/thinkpad-x260-hero.png)
+[![thinkpad-x260-hero]({{page.images}}thinkpad-x260-hero-e1469031669606.png)]({{page.images}}thinkpad-x260-hero.png)
 
 **Specs**
 
@@ -134,7 +135,7 @@ With this in mind, I have found four options which are really good:
 
 ### Gigabyte Aero 14 $2400
 
-[![20160505160152_big](/images/{{page.images}}/20160505160152_big-e1469031504756.png)](/images/{{page.images}}/20160505160152_big.png)
+[![20160505160152_big]({{page.images}}20160505160152_big-e1469031504756.png)]({{page.images}}20160505160152_big.png)
 
 **Specs**
 

@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: false
 date: 2015-10-22 07:12:30+00:00
 layout: post
@@ -9,7 +9,8 @@ title: DogNZB, NZB.su and OMGWTFNZB Invites!
 
 categories:
 - Uncategorised
-images: 2015-10-22-invites-usenet
+image: /images/2015-10-22-invites-usenet/featured-image.jpg 
+images: /images/2015-10-22-invites-usenet/
 ---
 
 No more invites :(

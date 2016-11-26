@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2015-12-17 03:03:55+00:00
 layout: post
@@ -15,7 +15,8 @@ tags:
 - license
 - reset
 - script
-images: 2015-12-17-reset-esxi-evaluation-license
+image: /images/2015-12-17-reset-esxi-evaluation-license/featured-image.jpg 
+images: /images/2015-12-17-reset-esxi-evaluation-license/
 ---
 
 *For testing and educational purposes only*

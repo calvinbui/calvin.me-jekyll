@@ -1,5 +1,5 @@
 ---
-author: calvinbui93
+author: Calvin Bui
 comments: true
 date: 2014-08-27 14:48:30+00:00
 layout: post
@@ -14,7 +14,8 @@ tags:
 - mysql
 - nginx
 - php
-images: 2014-08-27-lemp-stack-on-centos-7-red-hat
+image: /images/2014-08-27-lemp-stack-on-centos-7-red-hat/featured-image.jpg 
+images: /images/2014-08-27-lemp-stack-on-centos-7-red-hat/
 ---
 
 A very quick how-to guide on installing NGINX, MySQL and PHP, otherwise known as a LEMP stack on CentOS 7 (and usable on Red Hat 7 as well). _Image from Digital Ocean [link](https://twitter.com/digitalocean/status/496697898248065025)._
@@ -65,4 +66,4 @@ $ sudo yum install php-fpm php-mysql
 $ sudo chkconfig --levels 235 mariadb on sudo chkconfig --levels 235 nginx on sudo chkconfig --levels 235 php-fpm on
 ```
 
-And we are finished! Start configuring your new LEMP stack on CentOS [![nginx-success](/images/{{page.images}}/successsss.png)](/images/{{page.images}}/successsss.png)
+And we are finished! Start configuring your new LEMP stack on CentOS [![nginx-success]({{page.images}}successsss.png)]({{page.images}}successsss.png)
