@@ -267,9 +267,9 @@ We're done! For extra configurations have a read through the [nginx ldap module]
 
 #### Resources:
 
-* http://www.rackspace.com/knowledge_center/article/ubuntu-and-debian-installing-nginx-from-source
-* http://wiki.nginx.org/Install#Building_Nginx_From_Source
-* http://demongin.org/
-* http://www.allgoodbits.org/articles/view/29
-* https://github.com/JasonGiedymin/nginx-init-ubuntu
-* https://github.com/kvspb/nginx-auth-ldap
+* [http://www.rackspace.com/knowledge_center/article/ubuntu-and-debian-installing-nginx-from-source](http://www.rackspace.com/knowledge_center/article/ubuntu-and-debian-installing-nginx-from-source)
+* [http://wiki.nginx.org/Install#Building_Nginx_From_Source](http://wiki.nginx.org/Install#Building_Nginx_From_Source)
+* [http://demongin.org/](http://demongin.org/)
+* [http://www.allgoodbits.org/articles/view/29](http://www.allgoodbits.org/articles/view/29)
+* [https://github.com/JasonGiedymin/nginx-init-ubuntu](https://github.com/JasonGiedymin/nginx-init-ubuntu)
+* [https://github.com/kvspb/nginx-auth-ldap](https://github.com/kvspb/nginx-auth-ldap)
