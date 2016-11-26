@@ -30,8 +30,6 @@ group :jekyll_plugins do
    gem 'jekyll-admin'
    # Streamline your writing in Jekyll with some commands. https://github.com/jekyll/jekyll-compose
    gem 'jekyll-compose'
-   # Archive pages for your Jekyll tags and categories https://github.com/jekyll/jekyll-archives
-   gem 'jekyll-archives'
    # Liquid tag for displaying GitHub Gists in Jekyll sites. https://github.com/jekyll/jekyll-gist
    gem 'jekyll-gist'
 end
