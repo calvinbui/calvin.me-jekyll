@@ -52,9 +52,6 @@ google_site_verification: 37BYRtl4BMXnAo2XbsCEmDSX2vc4W2jiZDxxks1c9NY
 # You can find your shortname on the Settings page of your Disqus account
 disqus: calvinbui
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
-google_analytics: UA-33090338-1
-
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
 url: https://calvin.me
