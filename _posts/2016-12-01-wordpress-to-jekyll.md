@@ -14,9 +14,9 @@ I've made the leap over from WordPress to Jekyll. Static sites are just easier, 
 
 <!-- more -->
 
-Honestly, what hasn't been said about Jekyll? Static sites are definitely the way to go. I've been hearing about vulnerabilities in WordPress and Drupal on and off, even more so since listening to security podcasts like Risky Biz.
+Honestly, what hasn't been said about Jekyll? Static sites are definitely the way to go. I've been hearing about vulnerabilities in [WordPress](https://wpvulndb.com/) and [Drupal](https://www.drupal.org/security) on and off, even more so since listening to security podcasts like [Risky Biz](http://risky.biz/).
 
-What I never thought I'd say is my site is now somewhat...open-source? You can find all of it's code on my GitHub project [https://github.com/calvinbui/calvin.me](calvinbui/calvin.me). There, you can find some drafts I'm working on as well if you want to spoil yourself.
+What I never thought I'd say is my site is now somewhat...open-source? You can find all of its code on my GitHub project [https://github.com/calvinbui/calvin.me](calvinbui/calvin.me). There, you can find some drafts I'm working on as well if you want to spoil yourself.
 
 To sum up my own experience for the transition:
 
