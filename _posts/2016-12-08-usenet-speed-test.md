@@ -6,8 +6,8 @@ slug: usenet-provider-speed-tests
 title: Usenet Providers Speed Test from Sydney
 categories:
 - Misc
-image: /images/usenet-provider-speed-tests/featured-image.jpg
-images:  /images/usenet-provider-speed-tests/
+image: /images/2016-12-08-usenet-speed-test/featured-image.jpg
+images:  /images/2016-12-08-usenet-speed-test/
 ---
 
 I signed up for a few trials before the Black Friday sales to test out some different providers and their download speeds.
