@@ -32,9 +32,9 @@ I signed up for a few trials before the Black Friday sales to test out some diff
 | UsenetBucket | N/A | 11.8 | 7 days | 18GB | 7 Day / 25GB Trial
 | TweakNews | 2.5 | 2.07 | 5 days | 10GB | 7 Day / 10GB Trial
 | EasyNews | N/A | 13.5 | 14 days | 162GB | 14 Day / 10 GB Trial, which kept going
-| Newsdemon | Unlimited | 11.1 | 15GB | 14GB | 15GB Trial
-| Newsgroupdirect | Unlimited | 13.5 | 7 days | 50GB | EU servers @ 7MB/s
-| Frugal | N/A | 13.0 | 7 days |  | EU servers @ 6.8MB/s
+| Newsdemon | Unlimited | 11.1 | 5 days | 14GB | 15GB Trial
+| Newsgroupdirect (US) | Unlimited | 13.5 | 7 days | 50GB | EU servers @ 7MB/s
+| Frugal (US) | N/A | 12.0 | 10 days | 38GB | EU servers @ 6.8MB/s
 
 ## Summary:
 

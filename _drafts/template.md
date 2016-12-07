@@ -18,7 +18,6 @@ categories:
 - Mobile
 - Uncategorised
 - Virtualisation
-<!-- date: 2015-11-30 -->
 image: /images/template/featured-image.jpg
 images:  /images/template/
 ---

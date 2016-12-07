@@ -6,7 +6,6 @@ slug: endgame-audio-setup
 title: My Endgame Audio Setup
 categories:
 - Misc
-<!-- date: 2015-11-30 -->
 image: /images/template/featured-image.jpg
 images:  /images/template/
 ---
