@@ -1,14 +1,14 @@
 .highlight {
   white-space: pre;
   overflow: auto;
-  word-wrap: normal; /* horizontal scrolling */
+  word-wrap: normal; // horizontal scrolling
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  padding: 20px 10px 0px;
+  padding: 20px 10px 0;
   padding-left: 10px;
   background: #202020;
-  color: #ffffff;
+  color: #fff;
   font-size: .6875em;
   font-family: Monaco,Consolas,"Lucida Console",monospace;
   .gutter {
@@ -16,7 +16,7 @@
 
     .lineno {
       border-right: 1px solid #ccc;
-      color: white;
+      color: #fff;
       padding-right: 5px;
     }
   }
@@ -83,21 +83,19 @@
 .highlight .kp{color:#f92672}
 .highlight .o{color:#f92672}
 
-/*
-   GitHub Gists
-   ========================================================================== */
+// GitHub Gists
 
 //Remove extra padding
 .gist table {
-  margin-top:0px;
+  margin-top: 0;
 
 }
 
 //Remove hover effect
-.gist tbody
-{
+.gist tbody {
+  background-color: $white; //Background color white
+
   tr:hover > td, tr:hover > th {
-    background-color:transparent;
-  };
-  background-color:white; //Background color white
+    background-color: transparent;
+  }
 }
