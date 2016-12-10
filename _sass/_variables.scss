@@ -5,9 +5,6 @@
 
 // Colors
 $blue: #4183c4;
-
-
-// Grays
 $black: #000;
 $darker-gray: #222;
 $dark-gray: #333;
@@ -16,6 +13,24 @@ $soft-gray: #7a8288;
 $lighter-gray: #ddd;
 $light-gray: #eee;
 $white: #fff;
+
+// Syntax colors
+$code-background: #202020;
+$line-numbers-border: #ccc;
+$code-heading: #999;
+$code-generic-subheading: #aaa;
+$code-string-regex: #f6aa11;
+$code-generic-output: #888;
+$code-generic-prompt: #555;
+$code-name-builtin: #f6aa11;
+$code-comment: #75715e;
+$code-error: #960050;
+$code-generic-ins-del-emp: #49483e;
+$code-keyword: #66d9ef;
+$code-number-char-symbol: #ae81ff;
+$code-string: #e6db74;
+$code-name: #a6e22e;
+$code-operator-keyword: #f92672;
 
 // Font stacks
 $helvetica: Helvetica, Arial, sans-serif;

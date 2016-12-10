@@ -1,3 +1,30 @@
+tt, code, kbd, samp, pre, .highlight {
+  font-family: Monaco,Consolas,"Lucida Console",monospace;
+  font-size: .9em;
+}
+
+pre {
+  overflow-x: auto; // add scrollbars to wide code blocks
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  color: $white;
+  padding-top: .1rem;
+  padding-bottom: .1rem;
+  font-size: .9em;
+  background: $code-background;
+  border-radius: 5px;
+
+  &:before, &:after {
+    letter-spacing: -.2em;
+    content: '\00a0'; // non-breaking space
+  }
+}
+
 .highlight {
   white-space: pre;
   overflow: auto;
@@ -7,88 +34,88 @@
   border-radius: 5px;
   padding: 20px 10px 0;
   padding-left: 10px;
-  background: #202020;
-  color: #fff;
-  font-size: .6875em;
-  font-family: Monaco,Consolas,"Lucida Console",monospace;
+  background: $code-background;
+  color: $white;
+  font-size: .8em;
+
+
   .gutter {
     padding-right: 5px;
 
     .lineno {
-      border-right: 1px solid #ccc;
-      color: #fff;
+      border-right: 1px solid $line-numbers-border;
+      color: $white;
       padding-right: 5px;
     }
   }
-}
 
-.highlight .gh{color:#999}
-.highlight .sr{color:#f6aa11}
-.highlight .go{color:#888}
-.highlight .gp{color:#555}
-.highlight .gu{color:#aaa}
-.highlight .nb{color:#f6aa11}
-.highlight .cm{color:#75715e}
-.highlight .cp{color:#75715e}
-.highlight .c1{color:#75715e}
-.highlight .cs{color:#75715e}
-.highlight .c,.highlight .cd{color:#75715e}
-.highlight .err{color:#960050}
-.highlight .gr{color:#960050}
-.highlight .gt{color:#960050}
-.highlight .gd{color:#49483e}
-.highlight .gi{color:#49483e}
-.highlight .ge{color:#49483e}
-.highlight .kc{color:#66d9ef}
-.highlight .kd{color:#66d9ef}
-.highlight .kr{color:#66d9ef}
-.highlight .no{color:#66d9ef}
-.highlight .kt{color:#66d9ef}
-.highlight .mf{color:#ae81ff}
-.highlight .mh{color:#ae81ff}
-.highlight .il{color:#ae81ff}
-.highlight .mi{color:#ae81ff}
-.highlight .mo{color:#ae81ff}
-.highlight .m,.highlight .mb,.highlight .mx{color:#ae81ff}
-.highlight .sc{color:#ae81ff}
-.highlight .se{color:#ae81ff}
-.highlight .ss{color:#ae81ff}
-.highlight .sd{color:#e6db74}
-.highlight .s2{color:#e6db74}
-.highlight .sb{color:#e6db74}
-.highlight .sh{color:#e6db74}
-.highlight .si{color:#e6db74}
-.highlight .sx{color:#e6db74}
-.highlight .s1{color:#e6db74}
-.highlight .s{color:#e6db74}
-.highlight .na{color:#a6e22e}
-.highlight .nc{color:#a6e22e}
-.highlight .nd{color:#a6e22e}
-.highlight .ne{color:#a6e22e}
-.highlight .nf{color:#a6e22e}
-.highlight .vc{color:#fff}
-.highlight .nn{color:#fff}
-.highlight .nl{color:#fff}
-.highlight .ni{color:#fff}
-.highlight .bp{color:#fff}
-.highlight .vg{color:#fff}
-.highlight .vi{color:#fff}
-.highlight .nv{color:#fff}
-.highlight .w{color:#fff}
-.highlight .n,.highlight .py,.highlight .nx{color:#fff}
-.highlight .ow{color:#f92672}
-.highlight .nt{color:#f92672}
-.highlight .k,.highlight .kv{color:#f92672}
-.highlight .kn{color:#f92672}
-.highlight .kp{color:#f92672}
-.highlight .o{color:#f92672}
+  .gh {color: $code-heading;}
+  .sr {color: $code-string-regex;}
+  .go {color: $code-generic-output;}
+  .gp {color: $code-generic-prompt;}
+  .gu {color: $code-generic-subheading;}
+  .nb {color: $code-name-builtin;}
+  .cm {color: $code-comment;}
+  .cp {color: $code-comment;}
+  .c1 {color: $code-comment;}
+  .cs {color: $code-comment;}
+  .c, .cd {color: $code-comment;}
+  .err {color: $code-error;}
+  .gr {color: $code-error;}
+  .gt {color: $code-error;}
+  .gd {color: $code-generic-ins-del-emp;}
+  .gi {color: $code-generic-ins-del-emp;}
+  .ge {color: $code-generic-ins-del-emp;}
+  .kc {color: $code-keyword;}
+  .kd {color: $code-keyword;}
+  .kr {color: $code-keyword;}
+  .no {color: $code-keyword;}
+  .kt {color: $code-keyword;}
+  .mf {color: $code-number-char-symbol;}
+  .mh {color: $code-number-char-symbol;}
+  .il {color: $code-number-char-symbol;}
+  .mi {color: $code-number-char-symbol;}
+  .mo {color: $code-number-char-symbol;}
+  .m, .mb, .mx {color: $code-number-char-symbol;}
+  .sc {color: $code-number-char-symbol;}
+  .se {color: $code-number-char-symbol;}
+  .ss {color: $code-number-char-symbol;}
+  .sd {color: $code-string;}
+  .s2 {color: $code-string;}
+  .sb {color: $code-string;}
+  .sh {color: $code-string;}
+  .si {color: $code-string;}
+  .sx {color: $code-string;}
+  .s1 {color: $code-string;}
+  .s {color: $code-string;}
+  .na {color: $code-name;}
+  .nc {color: $code-name;}
+  .nd {color: $code-name;}
+  .ne {color: $code-name;}
+  .nf {color: $code-name;}
+  .vc { color: $white;}
+  .nn {color: $white;}
+  .nl {color: $white;}
+  .ni {color: $white;}
+  .bp {color: $white;}
+  .vg {color: $white;}
+  .vi {color: $white;}
+  .nv {color: $white;}
+  .w {color: $white;}
+  .n, .py, .nx {color: $white;}
+  .ow {color: $code-operator-keyword;}
+  .nt {color: $code-operator-keyword;}
+  .k, .kv {color: $code-operator-keyword;}
+  .kn {color: $code-operator-keyword;}
+  .kp {color: $code-operator-keyword;}
+  .o {color: $code-operator-keyword;}
+}
 
 // GitHub Gists
 
 //Remove extra padding
 .gist table {
   margin-top: 0;
-
 }
 
 //Remove hover effect
