@@ -6,7 +6,7 @@ layout: default
 	<img class="featured-image" src="{{ page.image }}">
 	<div class="post-heading">
 	  <h1>{{ page.title }}</h1>
-	  <span class="entry-date"><time datetime="{{ page.date }}">{{ page.date | date_to_long_string }}</time></span>
+	  <span class="entry-date"><time datetime="{{ page.date }}">{{ page.date | date: "%A, %-d %B %Y" }}</time></span>
 		<div class="post-categories">
 			<p>
 			  {% if post %}
