@@ -11,16 +11,16 @@ image: /images/2016-12-15-gmail-mark-as-read-archive-alternative/featured-image.
 images:  /images/2016-12-15-gmail-mark-as-read-archive-alternative/
 ---
 
-Isn't annoying that Gmail only provides the option to either Archive or Delete emails from its notification? Well be annoyed no more! This script periodically moves Archived emails back into your Inbox and also marks them as read.
+Isn't annoying that Gmail provides the option to either Archive or Delete emails from its notification? Well, no more! This script periodically moves Archived emails back into your Inbox and also marks them as read.
 
 <!-- more -->
 
-Previously my solution to this niggling problem was to use [XNotifications](https://play.google.com/store/apps/details?id=com.Taptigo.Xposed.XNotifications&hl=en) which adds the 'Mark As Read' option to Gmail notifications. XNotifications relies on the Xposed Framework which can be limiting to non-root or locked bootloader  users. This was simple solution but as time on went on, I became wary about how eventually I would have to move into a non-root, non-xposed world.
+My first solution to this niggling problem was to use [XNotifications](https://play.google.com/store/apps/details?id=com.Taptigo.Xposed.XNotifications&hl=en) which adds the 'Mark As Read' option to Gmail notifications. XNotifications relies on the Xposed Framework which can be limiting to non-root or locked bootloader users. This was a simple solution but as time on went on, I became wary about how I would have to one day unroot and lock my bootloader.
 
 The problem with Archiving emails is:
 
 * It does not show up in your inbox if unless you search for it
-* It is not Marked as Read and hence searching for unread emails will also pull them up annoyingly
+* They are not Marked as Read and hence searching for unread emails will also pull them up annoyingly
 
 ## Solution
 
@@ -30,7 +30,7 @@ My way around either Archiving emails or Deleting emails has been using [Google 
 
 This script searches for Archived emails, marks them as read, and moves them back into your inbox.
 
-I would recommend doing this manually first as there's a daily limit to how often the Gmail API can be used.
+I would recommend doing this manually first as there's a daily usage limit on the Gmail API.
 
 The two tags it searches are:
 
@@ -47,7 +47,7 @@ function run() {
 }
 
 function task(label, method) {
-  // as long as there are archived emails, do this method
+  // if Archived Emails exist, do this method
   while(hasArchivedEmails(label)) {
     method(searchGmail(label));
   }
@@ -73,10 +73,10 @@ function searchGmail(query) {
 5. Go to "Resources > Current project's Triggers"
 6. Set up a new trigger with the 'Run' method for every hour or as long as you want.
 7. Press Save
-8. Review the permissions and authroisation required to access Gmail when prompted
+8. Review the permissions and authorisation  required to access Gmail when prompted
 
 ## Flowchart
 
-Just a basic flow chart of how this script works.
+This is a basic flow chart of how this script works.
 
 [![Flowchart]({{page.images}}flowchart.PNG)]({{page.images}}flowchart.PNG)
