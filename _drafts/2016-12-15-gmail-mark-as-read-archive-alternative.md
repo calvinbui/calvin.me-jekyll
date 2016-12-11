@@ -79,4 +79,4 @@ function searchGmail(query) {
 
 Just a basic flow chart of how this script works.
 
-[![Flowchart]({{page.images}}flowchart.png)]({{page.images}}flowchart.png)
+[![Flowchart]({{page.images}}flowchart.PNG)]({{page.images}}flowchart.PNG)
