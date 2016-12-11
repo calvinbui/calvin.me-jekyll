@@ -6,8 +6,7 @@
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <style type="text/css">{% include critical.css %}</style>
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
     <link rel="icon" type="image/png" href="/images/favicon/favicon-32x32.png" sizes="32x32">
@@ -59,5 +58,7 @@
         </footer>
       </div>
     </div>
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
   </body>
 </html>
