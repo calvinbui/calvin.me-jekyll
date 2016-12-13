@@ -11,11 +11,11 @@ categories:
 - Web
 tags:
 - nginx https
-image: /images/2014-09-07-enable-https-on-nginx-server-blocks/featured-image.jpg 
+image: /images/2014-09-07-enable-https-on-nginx-server-blocks/featured-image.jpg
 images: /images/2014-09-07-enable-https-on-nginx-server-blocks/
 ---
 
-Running HTTPS on NGINX is easy. Running a web server with HTTPS on [NGINX server blocks](http://wiki.nginx.org/ServerBlockExample) can also be easy. The only real problem is getting your settings correct on both the web servers and proxy servers and where your SSL certificate and keys reside.
+Running HTTPS on NGINX is easy. Running a web server with HTTPS on [NGINX server blocks](https://www.nginx.com/resources/wiki/start/topics/examples/server_blocks/) can also be easy. The only real problem is getting your settings correct on both the web servers and proxy servers and where your SSL certificate and keys reside.
 
 <!-- more -->
 
@@ -83,7 +83,7 @@ server {
             proxy_set_header  X-Real-IP $remote_addr;
             proxy_set_header  X-Forwarded-For $proxy_add_x_forwarded_for;
             proxy_set_header  X-Forwarded-Proto https;
-            proxy_pass        http://wp.calvin.me;<br>        
+            proxy_pass        http://wp.calvin.me;<br>
     }
 }
 ```
