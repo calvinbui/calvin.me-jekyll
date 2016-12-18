@@ -3,17 +3,13 @@
 //
 
 .entry > table {
-
+  margin-top: 1em;
   margin-bottom: 1em;
   width: 100%;
   font-size: .8em !important;
   font-family: $verdana;
   border-collapse: collapse;
   border: $gray-mix;
-
-  table {
-    margin-top: 1em;
-  }
 
   thead {
     background-color: $white-mix;
