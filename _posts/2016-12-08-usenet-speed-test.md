@@ -35,6 +35,7 @@ I signed up for a few trials before the Black Friday sales to test out some diff
 | Newsdemon | Unlimited | 11.1 | 5 days | 14GB | 15GB Trial
 | Newsgroupdirect (US) | Unlimited | 13.5 | 7 days | 50GB | EU servers @ 7MB/s
 | Frugal (US) | N/A | 12.0 | 10 days | 38GB | EU servers @ 6.8MB/s
+{: .table }
 
 ## Summary:
 

@@ -12,7 +12,7 @@ tags:
 - backup
 - software
 - vmware esxi
-image: /assets/images/2016-02-29-comparison-of-free-esxi-vm-backup-softwares/featured-image.jpg 
+image: /assets/images/2016-02-29-comparison-of-free-esxi-vm-backup-softwares/featured-image.jpg
 images: /assets/images/2016-02-29-comparison-of-free-esxi-vm-backup-softwares/
 ---
 
@@ -43,10 +43,11 @@ From my search I found 7 reputable free products that can be used to backup VMs 
 | ThinWare | Windows | Not stated. | Unlimited | No | Windows File Explorer to choose | Email | With Windows Task Scheduler | Free license requires a request to be made |
 | ghettoVCB | ESXi | N/A | Unlimited | No | Depends on what you can mount into ESXi | Email | With Crontab | Simple solution that can be built into ESXi |
 | XSIBackup | Linux | N/A | Unlimited | Yes (rsync) | Depends on what you can mount | Email | With Cron | Script with no GUI |
+{: .table }
 
 ## Conclusion
 
-* From my tests I can chose VSquare over the other products as it had ticked almost all my boxes. The Administration Console did crash on me a few times I would admit. I would have preferred if it ran on Linux as well. 	
-* If not the limit of 2 VMs on Nakivo I would have gone with instead but I'm trying to look to the future where this could hold me back. 	
-* I don't understand why some programs did not have the ability to manually schedule backup tasks, to me that would be the most important feature to have. 	
+* From my tests I can chose VSquare over the other products as it had ticked almost all my boxes. The Administration Console did crash on me a few times I would admit. I would have preferred if it ran on Linux as well.
+* If not the limit of 2 VMs on Nakivo I would have gone with instead but I'm trying to look to the future where this could hold me back.
+* I don't understand why some programs did not have the ability to manually schedule backup tasks, to me that would be the most important feature to have.
 * ghettoVCB and XSIBackup are just scripts which perform copy pasta. They do work though so don't doubt them if you are in need of some RAM or something smaller

@@ -12,7 +12,7 @@ tags:
 - laptop
 - personal
 - recommended
-image: /assets/images/2016-07-20-my-next-laptop/featured-image.jpg 
+image: /assets/images/2016-07-20-my-next-laptop/featured-image.jpg
 images: /assets/images/2016-07-20-my-next-laptop/
 ---
 
@@ -49,7 +49,7 @@ With this in mind, I have found four options which are really good:
 
 **Negatives**
 
-* Intel Celeron and i3 are weak. Barely noticeable if only using for documents or web browsing/YouTube/Minecraft. Preferably get the i3. 	
+* Intel Celeron and i3 are weak. Barely noticeable if only using for documents or web browsing/YouTube/Minecraft. Preferably get the i3.
 * RAM non-upgradeable, would be nice to turn this into something great
 
 **Summary**
@@ -174,6 +174,7 @@ With this in mind, I have found four options which are really good:
 | Lenovo E460 | $1,000 | i7 6500U | 16GB | 14 |
 | Lenovo  X260 | $1,300 | i5 6200U | 16GB | 12.5 |
 | Gigabyte Aero | $2,400 | i7 6700HQ | 8GB | 14 |
+{: .table }
 
 I'm currently leaning towards either the X260 or the Chromebook. The Aero is expensive and an overkill for my needs. The E460 on the other hand offers great value and even better specs than the X260 for a lower price, but it is also thicker, heavier and its keyboard is not backlit. It therefore certainly pays to have get the X260.
 

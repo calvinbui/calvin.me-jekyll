@@ -10,7 +10,7 @@ categories:
 tags:
 - http/1.1
 - http/2
-image: /assets/images/2016-03-19-speed-test-http1-1-vs-http2/featured-image.jpg 
+image: /assets/images/2016-03-19-speed-test-http1-1-vs-http2/featured-image.jpg
 images: /assets/images/2016-03-19-speed-test-http1-1-vs-http2/
 ---
 
@@ -76,6 +76,7 @@ To find out quickly a page runs, the built-in Network Developer Tools (CTRL + Sh
 | 20 | 2.49 | 2.83 |
 | Average | 2.57 | 3.07 |
 | Median | 2.60 | 3.00 |
+{: .table }
 
 ## Conclusion
 

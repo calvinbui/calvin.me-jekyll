@@ -15,7 +15,7 @@ tags:
 - best
 - comparison
 - gps
-image: /assets/images/2015-06-07-android-gps-apps-comparison/featured-image.jpg 
+image: /assets/images/2015-06-07-android-gps-apps-comparison/featured-image.jpg
 images: /assets/images/2015-06-07-android-gps-apps-comparison/
 ---
 
@@ -62,5 +62,6 @@ X - Not available.
 | MAPS.ME | ✔ | X | X | X | X | X | X | 4/4 | Could not find common locations like schools |
 | OsmAnd | ○ | X | X | X | X | X | ✔ | 2/4 | Entering destination is clunky |
 | Wisepilot | X | ✔ | X | ✔ | X | X | ✔ | 3/4 | Could not find schools, speed limit only on major roads |
+{: .table }
 
 I personally would not use an app if it did not have live traffic data. Waze is also a strong contender and I find myself using it a lot of the time just for its simplicity and trust in traffic data. Sometimes that's all that matters. Waze has voice search, uses Google when searching locations and takes traffic data from multiple places including Waze. It only lacks in Lane Assistance. **Waze is therefore my choice of GPS app**.

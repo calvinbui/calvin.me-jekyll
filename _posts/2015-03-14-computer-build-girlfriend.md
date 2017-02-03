@@ -11,7 +11,7 @@ tags:
 - computer build
 - log
 - parts
-image: /assets/images/2015-03-14-computer-build-girlfriend/featured-image.jpg 
+image: /assets/images/2015-03-14-computer-build-girlfriend/featured-image.jpg
 images: /assets/images/2015-03-14-computer-build-girlfriend/
 ---
 
@@ -70,6 +70,7 @@ The proposed BRIX however was:
 | SSD | Intel SSD | OWN
 |=
 | | **Total** | $984
+{: .table }
 
 [![GB_BrixPro_Package]({{page.images}}gb_brixpro_package.jpg)]({{page.images}}gb_brixpro_package.jpg)
 
@@ -89,6 +90,7 @@ Even with the new budget of $800, I said I could do it for way less. For this bu
 | **WiFi Adapter** | TP-Link TL-WN881ND | $18
 |=
 | |  **Total** | $241
+{: .table }
 
 Too bad this configuration was more for your grandparents than your girlfriend who loves multimedia and studies I.T. A basic business/homework/internet/office use computer but not a Photoshop warrior she would expect. It was a pretty bad mix of components, bottlenecked by the Pentium CPU and its two cores.
 
@@ -118,6 +120,7 @@ So with everything in mind I came up with this:
 | **WiFi Adapter** | TP-Link TL-WN881ND | $18
 |=
 | |  **Total** | $799
+{: .table }
 
 Everything just fit in the $800 budget!
 
@@ -144,6 +147,7 @@ This build set a very good baseline overall. I felt I needed some little adjustm
 | **WiFi Adapter** | TP-Link TL-WN881ND | $18
 |=
 | | **Total** | $679
+{: .table }
 
 The final build! What felt like a few little changes turned out to be quite a lot. Pretty much everything except the WiFi Adapter was changed.
 

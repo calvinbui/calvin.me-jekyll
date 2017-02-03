@@ -11,7 +11,7 @@ tags:
 - caching
 - speed
 - wordpress
-image: /assets/images/2015-03-29-wordpress-caching-comparison/featured-image.jpg 
+image: /assets/images/2015-03-29-wordpress-caching-comparison/featured-image.jpg
 images: /assets/images/2015-03-29-wordpress-caching-comparison/
 ---
 
@@ -58,6 +58,7 @@ Other reputable testing sites include:
 | W3 Total Cache | 52 / 3.44 | 50 / 2.67 | 53 / 3.65 | 52 / 4.03
 | Hyper Cache | 54 / 3.16 | 56 / 2.22 | 54 / 3.16 | 52 / 4.24
 | Quick Cache | 55 / 3.10 | 56 / 2.11 | 56 / 3.23 | 53 / 4.07
+{: .table }
 
 [![average]({{page.images}}average.png)]({{page.images}}average.png)
 

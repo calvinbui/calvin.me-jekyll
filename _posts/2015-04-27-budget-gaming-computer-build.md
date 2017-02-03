@@ -11,7 +11,7 @@ tags:
 - computer build
 - gaming
 - pc
-image: /assets/images/2015-04-27-budget-gaming-computer-build/featured-image.jpg 
+image: /assets/images/2015-04-27-budget-gaming-computer-build/featured-image.jpg
 images: /assets/images/2015-04-27-budget-gaming-computer-build/
 ---
 
@@ -97,6 +97,7 @@ There weren't any other SSDs that were as good as the MX100 in this price range.
 | Case | Thermaltake Versa H21 | $79.00
 |=
 ||Total | $677.00
+{: .table }
 
 If it wasn't for my motherboard and memory, this build would've cost at least $200 more.
 
