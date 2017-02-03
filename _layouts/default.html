@@ -61,7 +61,17 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     {% include analytics.html %}
-    <link rel="stylesheet" type="text/css" href="css/datatables.min.css"
-    <script src="js/datatables.min.js" async></script>
+    <link rel="stylesheet" type="text/css" href="/css/datatables.min.css" />
+    <script type="text/javascript" src="/js/datatables.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('table').DataTable(){
+        "fixedColumns": true,
+        "fixedHeader" : true,
+        "keys"        : true,
+        "responsive"  : true
+      };
+    });
+    </script>
   </body>
 </html>
