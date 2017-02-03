@@ -65,14 +65,12 @@
     <script type="text/javascript" src="/assets/js/datatables.min.js"></script>
     <script>
     $(document).ready(function(){
-      $('table').each(function(){
-        $(this).DataTable({
-          "fixedHeader" : true,
-          "responsive"  : true,
-          "paging"      : false,
-          "searching"   : false,
-          "info"        : false
-        });
+      $('.table').DataTable({
+        "fixedHeader" : true,
+        "responsive"  : true,
+        "paging"      : false,
+        "searching"   : false,
+        "info"        : false
       });
     });
     </script>
