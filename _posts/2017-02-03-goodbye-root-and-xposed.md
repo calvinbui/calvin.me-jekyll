@@ -7,8 +7,8 @@ title: Goodbye Root and Xposed
 categories:
 - Security
 - Mobile
-image: /images/2016-12-22-goodbye-root-and-xposed/featured-image.jpg
-images:  /images/2016-12-22-goodbye-root-and-xposed/
+image: /images/2017-02-03-goodbye-root-and-xposed/featured-image.jpg
+images:  /images/2017-02-03-goodbye-root-and-xposed/
 ---
 
 Accept it or not, Google is moving transitioning to a non-root/non-xposed world.
@@ -66,9 +66,7 @@ I noticed about a 10%-20% decrease in battery life without both apps installed.
 
 ## Adblocking
 
-**Used For**:
-
-To block ads I used:
+**Used For**: To block ads I used:
 
 - [Adaway](https://f-droid.org/repository/browse/?fdid=org.adaway): For web browsing.
 - [YouTube Adaway](http://repo.xposed.info/module/ma.wanam.youtubeadaway): For YouTube.
