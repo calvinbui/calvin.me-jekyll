@@ -13,8 +13,8 @@ tags:
 - mac os x
 - macOS
 - vmware
-image: /images/2015-03-22-install-macos-esxi/featured-image.jpg
-images: /images/2015-03-22-install-macos-esxi/
+image: /assets/images/2015-03-22-install-macos-esxi/featured-image.jpg
+images: /assets/images/2015-03-22-install-macos-esxi/
 ---
 
 UPDATE 18/10/16: Changed to support 10.12

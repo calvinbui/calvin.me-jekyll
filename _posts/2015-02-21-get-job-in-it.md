@@ -10,8 +10,8 @@ categories:
 tags:
 - advice
 - IT
-image: /images/2015-02-21-get-job-in-it/featured-image.jpg 
-images: /images/2015-02-21-get-job-in-it/
+image: /assets/images/2015-02-21-get-job-in-it/featured-image.jpg 
+images: /assets/images/2015-02-21-get-job-in-it/
 ---
 
 This is a talk I gave during my time at IBM to University of Western Sydney students who came for a site visit. They were all roughly my age (late teens, early twenties), with many looking for job opportunities such as internships, scholarships and graduate positions.

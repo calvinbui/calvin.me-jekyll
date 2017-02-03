@@ -14,8 +14,8 @@ tags:
 - Ubiquiti
 - ubuntu
 - unifi controller
-image: /images/2015-01-17-install-unifi-controller-ubuntu/featured-image.jpg 
-images: /images/2015-01-17-install-unifi-controller-ubuntu/
+image: /assets/images/2015-01-17-install-unifi-controller-ubuntu/featured-image.jpg 
+images: /assets/images/2015-01-17-install-unifi-controller-ubuntu/
 ---
 
 **POST UP TO DATE 19/08/2015**

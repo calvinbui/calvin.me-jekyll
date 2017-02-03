@@ -13,8 +13,8 @@ tags:
 - mean
 - monitoring
 - status
-image: /images/2015-02-15-homepage-status-monitor/featured-image.jpg 
-images: /images/2015-02-15-homepage-status-monitor/
+image: /assets/images/2015-02-15-homepage-status-monitor/featured-image.jpg 
+images: /assets/images/2015-02-15-homepage-status-monitor/
 ---
 
 Home is an application I developed last year (Nov-Dec) while learning the MEAN (MongoDB, Express, Angular and NodeJS) stack. It's a homepage status monitor, more or less a glorified bookmark/favourites tool with the ability to scan if ports are open or closed on a host.

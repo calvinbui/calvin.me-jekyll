@@ -12,8 +12,8 @@ tags:
 - napp-it
 - sharing
 - zfs
-image: /images/2014-11-30-zfs-sharing-options/featured-image.jpg 
-images: /images/2014-11-30-zfs-sharing-options/
+image: /assets/images/2014-11-30-zfs-sharing-options/featured-image.jpg 
+images: /assets/images/2014-11-30-zfs-sharing-options/
 ---
 
 napp-it overs a [variety of extensions](http://napp-it.org/extensions/index_en.html) to make use of your ZFS filesystem a lot easier. One of the main things to do with a filesystem is to share it of course! There are extensions that allow ZFS sharing over HTTP, FTP, personal clouds and media servers.

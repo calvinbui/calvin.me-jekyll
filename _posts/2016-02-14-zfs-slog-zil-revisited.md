@@ -11,8 +11,8 @@ tags:
 - slog
 - zfs
 - zil
-image: /images/2016-02-14-zfs-slog-zil-revisited/featured-image.jpg 
-images: /images/2016-02-14-zfs-slog-zil-revisited/
+image: /assets/images/2016-02-14-zfs-slog-zil-revisited/featured-image.jpg 
+images: /assets/images/2016-02-14-zfs-slog-zil-revisited/
 ---
 
 Taking a look back how my SLOG device has been performing on my ZFS pool after fixing some significant problems.

@@ -12,8 +12,8 @@ tags:
 - firmware
 - intel nic
 - update
-image: /images/2016-01-23-how-to-update-intel-nic-firmware/featured-image.jpg 
-images: /images/2016-01-23-how-to-update-intel-nic-firmware/
+image: /assets/images/2016-01-23-how-to-update-intel-nic-firmware/featured-image.jpg 
+images: /assets/images/2016-01-23-how-to-update-intel-nic-firmware/
 ---
 
 You should update your NIC cause newer is always better right? Right!

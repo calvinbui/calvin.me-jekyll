@@ -14,8 +14,8 @@ tags:
 - toram
 - ubuntu
 - usb
-image: /images/2016-05-23-create-persistent-ubuntu-16-04-live-usb-even-boots-ram/featured-image.jpg 
-images: /images/2016-05-23-create-persistent-ubuntu-16-04-live-usb-even-boots-ram/
+image: /assets/images/2016-05-23-create-persistent-ubuntu-16-04-live-usb-even-boots-ram/featured-image.jpg 
+images: /assets/images/2016-05-23-create-persistent-ubuntu-16-04-live-usb-even-boots-ram/
 ---
 
 When your drive dies, or in my case, the SATA port fails completely, this is a good temporary solution until the replacement arrives.

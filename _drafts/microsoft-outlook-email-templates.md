@@ -7,8 +7,8 @@ title: Reply to an email with a template in Microsoft Outlook
 categories:
 - Misc
 - How-To
-image: /images/template/featured-image.jpg
-images:  /images/template/
+image: /assets/images/template/featured-image.jpg
+images:  /assets/images/template/
 ---
 
 A simple macro to send a range of email templates, prefilled with different items like your subject line, recipients, CC and BCC.

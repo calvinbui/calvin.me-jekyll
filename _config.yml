@@ -9,7 +9,7 @@ name: Calvin Bui
 location: Sydney, Australia
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
-avatar: /images/avatar.jpg
+avatar: /assets/images/avatar.jpg
 
 #
 # Flags below are optional
@@ -40,7 +40,7 @@ title: Calvin Bui
 description: Tech Blog
 url: https://calvin.me
 author: Calvin Bui
-logo: /images/avatar.jpg
+logo: /assets/images/avatar.jpg
 social:
   names: Calvin Bui
   links:

@@ -13,8 +13,8 @@ tags:
 - hikvision
 - ipcam
 - Security
-image: /images/2016-09-11-home-security-cameras/featured-image.jpg
-images: /images/2016-09-11-home-security-cameras/
+image: /assets/images/2016-09-11-home-security-cameras/featured-image.jpg
+images: /assets/images/2016-09-11-home-security-cameras/
 ---
 
 This post covers some of my home security camera system. Not a lot of information is shared for obvious reasons, but enough to show its capabilities and configuration.

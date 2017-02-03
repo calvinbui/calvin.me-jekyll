@@ -6,8 +6,8 @@ slug: streaming-setup
 title: My Streaming Setup
 categories:
 - Misc
-image: /images/template/featured-image.jpg
-images:  /images/template/
+image: /assets/images/template/featured-image.jpg
+images:  /assets/images/template/
 ---
 
 Avermedia

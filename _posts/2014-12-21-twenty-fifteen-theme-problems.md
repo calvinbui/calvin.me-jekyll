@@ -9,8 +9,8 @@ title: Twenty Fifteen Theme Problems
 
 categories:
 - Review
-image: /images/2014-12-21-twenty-fifteen-theme-problems/featured-image.jpg 
-images: /images/2014-12-21-twenty-fifteen-theme-problems/
+image: /assets/images/2014-12-21-twenty-fifteen-theme-problems/featured-image.jpg 
+images: /assets/images/2014-12-21-twenty-fifteen-theme-problems/
 ---
 
 I don't like this year's default theme. I was excited for a few months looking at the previews and news circulating around, but it ended up not meeting my expectations.

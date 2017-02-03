@@ -11,8 +11,8 @@ categories:
 - Web
 tags:
 - nginx https
-image: /images/2014-09-07-enable-https-on-nginx-server-blocks/featured-image.jpg
-images: /images/2014-09-07-enable-https-on-nginx-server-blocks/
+image: /assets/images/2014-09-07-enable-https-on-nginx-server-blocks/featured-image.jpg
+images: /assets/images/2014-09-07-enable-https-on-nginx-server-blocks/
 ---
 
 Running HTTPS on NGINX is easy. Running a web server with HTTPS on [NGINX server blocks](https://www.nginx.com/resources/wiki/start/topics/examples/server_blocks/) can also be easy. The only real problem is getting your settings correct on both the web servers and proxy servers and where your SSL certificate and keys reside.

@@ -15,8 +15,8 @@ tags:
 - certificates
 - chrome
 - ssl
-image: /images/2015-07-27-bypass-certificate-errors-chrome/featured-image.jpg 
-images: /images/2015-07-27-bypass-certificate-errors-chrome/
+image: /assets/images/2015-07-27-bypass-certificate-errors-chrome/featured-image.jpg 
+images: /assets/images/2015-07-27-bypass-certificate-errors-chrome/
 ---
 
 Wasn't it annoying when Google Chrome suddenly made you do two clicks instead of one to bypass certificate errors?!

@@ -11,8 +11,8 @@ tags:
 - computer build
 - log
 - parts
-image: /images/2015-03-14-computer-build-girlfriend/featured-image.jpg 
-images: /images/2015-03-14-computer-build-girlfriend/
+image: /assets/images/2015-03-14-computer-build-girlfriend/featured-image.jpg 
+images: /assets/images/2015-03-14-computer-build-girlfriend/
 ---
 
 Recently I went through the process of researching and picking out components for a new computer for my SO.

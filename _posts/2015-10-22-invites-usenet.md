@@ -9,8 +9,8 @@ title: DogNZB, NZB.su and OMGWTFNZB Invites!
 
 categories:
 - Uncategorised
-image: /images/2015-10-22-invites-usenet/featured-image.jpg 
-images: /images/2015-10-22-invites-usenet/
+image: /assets/images/2015-10-22-invites-usenet/featured-image.jpg 
+images: /assets/images/2015-10-22-invites-usenet/
 ---
 
 No more invites :disappointed:

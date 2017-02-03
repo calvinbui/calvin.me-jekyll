@@ -7,8 +7,8 @@ slug: hello-world-2
 title: Hello World, Hi I'm Calvin
 categories:
 - Misc
-image: /images/2014-08-16-hello-world-2/featured-image.jpg
-images: /images/2014-08-16-hello-world-2/
+image: /assets/images/2014-08-16-hello-world-2/featured-image.jpg
+images: /assets/images/2014-08-16-hello-world-2/
 ---
 
 Hello World !

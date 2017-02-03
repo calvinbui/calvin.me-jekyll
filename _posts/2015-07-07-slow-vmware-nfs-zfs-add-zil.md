@@ -13,8 +13,8 @@ tags:
 - vmware
 - zfs
 - zil
-image: /images/2015-07-07-slow-vmware-nfs-zfs-add-zil/featured-image.jpg 
-images: /images/2015-07-07-slow-vmware-nfs-zfs-add-zil/
+image: /assets/images/2015-07-07-slow-vmware-nfs-zfs-add-zil/featured-image.jpg 
+images: /assets/images/2015-07-07-slow-vmware-nfs-zfs-add-zil/
 ---
 
 A short post on how I exponentially sped up my VMware environment.

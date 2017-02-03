@@ -9,8 +9,8 @@ categories:
 - Monthy Update
 tags:
 - fornightly update
-image: /images/2014-11-02-fortnightly-update-22112014/featured-image.jpg
-images: /images/2014-11-02-fortnightly-update-22112014/
+image: /assets/images/2014-11-02-fortnightly-update-22112014/featured-image.jpg
+images: /assets/images/2014-11-02-fortnightly-update-22112014/
 ---
 
 In the fortnightly update, I bring you what I've been doing throughout the past two weeks in regards to technology, computers and more with links to tutorials and guides.

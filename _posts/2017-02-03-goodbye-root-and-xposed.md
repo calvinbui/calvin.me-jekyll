@@ -7,8 +7,8 @@ title: Goodbye Root and Xposed
 categories:
 - Security
 - Mobile
-image: /images/2017-02-03-goodbye-root-and-xposed/featured-image.jpg
-images:  /images/2017-02-03-goodbye-root-and-xposed/
+image: /assets/images/2017-02-03-goodbye-root-and-xposed/featured-image.jpg
+images:  /assets/images/2017-02-03-goodbye-root-and-xposed/
 ---
 
 Accept it or not, Google is moving transitioning to a non-root/non-xposed world.

@@ -12,8 +12,8 @@ tags:
 - dashboard
 - material
 - usenet
-image: /images/2015-12-02-material-usenet-dashboard/featured-image.jpg 
-images: /images/2015-12-02-material-usenet-dashboard/
+image: /assets/images/2015-12-02-material-usenet-dashboard/featured-image.jpg 
+images: /assets/images/2015-12-02-material-usenet-dashboard/
 ---
 
 A personalised dashboard built using Google's Material Design.

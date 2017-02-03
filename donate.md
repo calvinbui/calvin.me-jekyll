@@ -6,7 +6,7 @@ permalink: /donate/
 ### Bitcoin
 [1KkLfB76BFNfyfXQ25B9vB1NB2rFcMRRq5](bitcoin:1KkLfB76BFNfyfXQ25B9vB1NB2rFcMRRq5)
 
-![BitCoin QR Code](/images/donate/bitcoin.png)
+![BitCoin QR Code](/assets/images/donate/bitcoin.png)
 
 ### PayPal
 [https://paypal.me/calvinbui](https://paypal.me/calvinbui)

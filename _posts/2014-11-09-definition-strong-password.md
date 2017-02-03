@@ -11,8 +11,8 @@ tags:
 - password
 - secure password
 - strong password
-image: /images/2014-11-09-definition-strong-password/featured-image.jpg 
-images: /images/2014-11-09-definition-strong-password/
+image: /assets/images/2014-11-09-definition-strong-password/featured-image.jpg 
+images: /assets/images/2014-11-09-definition-strong-password/
 ---
 
 It's a common misconception that difficult passwords (e.g. X2hj2i) are strong passwords. It takes a computer 0.00743 seconds to crack that one...

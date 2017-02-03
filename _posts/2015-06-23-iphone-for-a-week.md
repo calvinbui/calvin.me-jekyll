@@ -11,8 +11,8 @@ categories:
 tags:
 - ios
 - iphone
-image: /images/2015-06-23-iphone-for-a-week/featured-image.jpg 
-images: /images/2015-06-23-iphone-for-a-week/
+image: /assets/images/2015-06-23-iphone-for-a-week/featured-image.jpg 
+images: /assets/images/2015-06-23-iphone-for-a-week/
 ---
 
 I had a few days with an iPhone so I decided to try it out and see if it was usable for someone like me.

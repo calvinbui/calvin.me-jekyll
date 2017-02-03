@@ -12,8 +12,8 @@ tags:
 - backup
 - software
 - vmware esxi
-image: /images/2016-02-29-comparison-of-free-esxi-vm-backup-softwares/featured-image.jpg 
-images: /images/2016-02-29-comparison-of-free-esxi-vm-backup-softwares/
+image: /assets/images/2016-02-29-comparison-of-free-esxi-vm-backup-softwares/featured-image.jpg 
+images: /assets/images/2016-02-29-comparison-of-free-esxi-vm-backup-softwares/
 ---
 
 I searched and compared the offerings to backup VMs on the Internet so you don't have to.
