@@ -230,9 +230,6 @@ Reference-style:
 
 <a name="code"/>
 
-Caption:
-{% include caption.html path="https://github.com/adam-p/markdown-here/raw/master/src/common/assets/images/icon48.png" caption="Our modem becomes independent of the router. pfSense becomes the router living as a VM on our ESXi host. A switch may not be needed, but they're great to have." alt="the network we want to have" %}
-
 ## Code and Syntax Highlighting
 
 Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
