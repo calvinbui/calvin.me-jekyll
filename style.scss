@@ -108,10 +108,9 @@ strong, b {
   font-weight: bold;
 }
 
-/* CRITICAL CSS
 img {
   max-width: 100%;
-}*/
+}
 
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
@@ -326,11 +325,10 @@ nav {
     text-align: center;
   }
 
-  // CRITICAL-CSS
-  /*.featured-image {
+  .featured-image {
     display: block;
     margin: 0 auto;
-  }*/
+  }
 
   .comments {
     margin-top: 10px;
@@ -425,5 +423,5 @@ footer {
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import 'highlights';
-//@import 'svg-icons';
+@import 'svg-icons';
 @import 'table';
