@@ -13,3 +13,15 @@ Will require Ruby and Bundler installed.
 Run `bundler install` to get the latest packages.
 
 To execute, run `bundle exec jekyll serve [--incremental] [--drafts] [--host 0.0.0.0]`. Otherwise run the scripts in the `scripts` folder.
+
+## Generate Critical CSS
+
+Install gulp and critical:
+
+```npm install --save gulp```
+
+```npm install --save critical```
+
+Run the gulp script:
+
+```gulp critical-css```
