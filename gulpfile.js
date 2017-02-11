@@ -10,13 +10,13 @@ gulp.task('critical-css', function() {
     // Base directory
     base: '_site/',
     // HTML source file
-    src: 'bottlehead-crack-build-log/index.html',
+    src: 'index.html',
     // CSS output file
     dest: '../_includes/critical-css.css',
     // Viewport width
-    width: 1280,
+    width: 640,
     // Viewport height
-    height: 900,
+    height: 360,
     // Minify critical-path CSS
     minify: true
   });
