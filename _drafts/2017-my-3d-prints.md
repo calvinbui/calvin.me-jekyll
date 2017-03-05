@@ -6,148 +6,182 @@ slug: my-3d-prints
 title: My 3D Prints
 categories:
 - Misc
-image: /assets/images/2017-my-3d-prints/featured-image.jpg
-images:  /assets/images/2017-my-3d-prints/
+image: /assets/images/2017-03-05-my-3d-prints/featured-image.jpg
+images: /assets/images/2017-03-05-my-3d-prints/
 ---
 
 ## Codenames Organiser
-![]({{page.images}})
+
+**Description**: This is an organiser for the popular board game [Codenames](https://boardgamegeek.com/boardgame/178900/codenames) I made based off [another design](http://www.thingiverse.com/thing:1997729).
+
+![]({{page.images}}codenames/box.jpg)
+
+![]({{page.images}}codenames/all.jpg)
+
+![]({{page.images}}codenames/keyholder.jpg)
 
 Download: [http://www.thingiverse.com/thing:2094242](http://www.thingiverse.com/thing:2094242)
 
-Description
+## IKEA Mulig Shelf Mods
 
-## IKEA Shelf (Mulig) Mods
+**Description**: These are hooks for the IKEA Mulig Drying Rack but I repurposed them for my [Mulig shelf](http://www.ikea.com/au/en/catalog/products/40224164/) instead. The shelf comes with only two of these hooks so I printed two more.
 
-![]({{page.images}})
+The other hook is attached to the screws holding the joints of the shelf together. This does not come by default.
 
-Download: []()
+![]({{page.images}}mulig/hook.jpg)
 
-Description
+![]({{page.images}}mulig/hook2.jpg)
+
+Download:
+
+* [http://www.thingiverse.com/thing:2008602](http://www.thingiverse.com/thing:2008602)
+* [http://www.thingiverse.com/thing:1728543](http://www.thingiverse.com/thing:1728543)
 
 ## Dice Tower
-![]({{page.images}})
+
+**Description**: My board game group are very serious when it comes to legit dice rolls (the dice cannot touch anything when it's rolling). This is our approved dice roller. The only knick I have with it is sometimes the dice don't always come out and sit inside a bit. This would probably be fixed with a bigger slope on the end. Nevertheless, there are a dozen other dice rollers out there.
+
+![]({{page.images}}dice/angle.jpg)
+
+![]({{page.images}}dice/side.jpg)
+
+![]({{page.images}}dice/top.jpg)
 
 Download: [http://www.thingiverse.com/thing:1358428](http://www.thingiverse.com/thing:1358428)
 
-Description
-
 ## Sheriff of Nottingham Stand
 
-![]({{page.images}})
+**Description**: This is for the board game [Sheriff of Nottingham](https://boardgamegeek.com/boardgame/157969/sheriff-nottingham). The stand that comes in the box always falls off the Sheriff. This is a perfect fix!
+
+![]({{page.images}}sheriff/all.jpg)
+
+![]({{page.images}}sheriff/closeup.jpg)
 
 Download: [http://www.thingiverse.com/thing:1956920](http://www.thingiverse.com/thing:1956920)
 
-Description
+**Description**: This is for the board game, [Dead of Winter](https://boardgamegeek.com/boardgame/150376/dead-winter-crossroads-game). This is awesome organiser made by [markwal](http://www.thingiverse.com/thing:1109172) that I reused and only added a small box to separate the male and female survivors.
 
 ## Dead of Winter Box Organiser
 
-![]({{page.images}})
+![]({{page.images}}deadofwinter/top.jpg)
 
-Download: [http://www.thingiverse.com/thing:1109172](http://www.thingiverse.com/thing:1109172)
+![]({{page.images}}deadofwinter/inside.jpg)
 
-Description
+![]({{page.images}}deadofwinter/cards.jpg)
+
+Download: [http://www.thingiverse.com/thing:2154099](http://www.thingiverse.com/thing:2154099)
 
 ## Raspberry Pi 3 Case
 
-![]({{page.images}})
+**Description**: A case for my Raspberry Pi 3 that does not require any screws. I still got to find a use for my Pi :disappointed_relieved:
 
-Download: []()
+![]({{page.images}}pi/case.jpg)
 
-Description
-
-## Bitcoin
-
-![]({{page.images}})
-
-Download: []()
-
-Description
+Download: [http://www.thingiverse.com/thing:1956623](http://www.thingiverse.com/thing:1956623)
 
 ## Agricola ACBAS Organiser
 
-![]({{page.images}})
+**Description**: This is an organiser for the board game [Agricola: All Creatures Big and Small](https://boardgamegeek.com/boardgame/119890/agricola-all-creatures-big-and-small). The game comes with two plastic bags to hold everything. This makes setup and packing up a whole lot quicker.
 
-Download: []()
+![]({{page.images}}agricola/top.jpg)
 
-Description
+![]({{page.images}}agricola/animals.jpg)
 
-## Cable Combs
+![]({{page.images}}agricola/resources.jpg)
 
-![]({{page.images}})
+![]({{page.images}}agricola/buildings.jpg)
 
-Download: []()
+Download: [http://www.thingiverse.com/thing:1287312](http://www.thingiverse.com/thing:1287312)
 
-Description
+## Mage Knight
 
-## Mage Knight Organiser
+**Description**: This is a bunch of organisers for my favourite board game, [Mage Knight](https://boardgamegeek.com/boardgame/96848/mage-knight-board-game).
 
-![]({{page.images}})
+![]({{page.images}}mageknight/cards.jpg)
 
-Download: []()
+![]({{page.images}}mageknight/tiles.jpg)
 
-Description
+![]({{page.images}}mageknight/tiles2.jpg)
+
+![]({{page.images}}mageknight/characters.jpg)
+
+![]({{page.images}}mageknight/characters-inside.jpg)
+
+![]({{page.images}}mageknight/tokens.jpg)
+
+Download:
+
+* [http://www.thingiverse.com/thing:2154107](http://www.thingiverse.com/thing:2154107)
+* [http://www.thingiverse.com/thing:2154105](http://www.thingiverse.com/thing:2154105)
+* [http://www.thingiverse.com/thing:2154103](http://www.thingiverse.com/thing:2154103)
+* [http://www.thingiverse.com/thing:1573912](http://www.thingiverse.com/thing:1573912)
 
 ## Pebble Charging Stand
 
+**Description**: A charging stand for my Pebble Time Steel, which I've given away :sob:
+
 ![]({{page.images}})
 
-Download: []()
-
-Description
+Download: [http://www.thingiverse.com/thing:1104975](http://www.thingiverse.com/thing:1104975)
 
 ## Dyson Accessories Holder
 
-![]({{page.images}})
+**Description**: For some reason, Dyson only provide two slots for accessories when they ship with around ~5. This adapter provides more slots to keep the brushes and nozzles in one place.
 
-Download: []()
+![]({{page.images}}dyson/holder.jpg)
 
-Description
+Download: [http://www.thingiverse.com/thing:1788378](http://www.thingiverse.com/thing:1788378)
 
 ## PCI HDD/SSD Mount
 
-![]({{page.images}})
+**Description**: This adapter allows hard drives to me mounted in PCI slots. I've loaded all the HDD/SSD and 5.25" bays in my server so this is perfect for getting storage in there.
 
-Download: []()
+![]({{page.images}}hdd/2.5.jpg)
 
-Description
+![]({{page.images}}hdd/all.jpg)
+
+Download:
+
+* [http://www.thingiverse.com/thing:133833](http://www.thingiverse.com/thing:133833)
+* [http://www.thingiverse.com/thing:946543](http://www.thingiverse.com/thing:946543)
 
 ## Tripod Quick Release
 
+**Description**: I lost my tripod quick release mount, rendering my tripod useless a while back. Luckily you can print a replacement :thumbsup:
+
 ![]({{page.images}})
 
-Download: []()
-
-Description
+Download: [http://www.thingiverse.com/thing:1824197](http://www.thingiverse.com/thing:1824197)
 
 ## Galaxy Trucker Organiser
 
-![]({{page.images}})
+**Description**: This is an bunch of organiser for the board game, [Galaxy Trucker](https://boardgamegeek.com/boardgame/31481/galaxy-trucker).
 
-Download: []()
+![]({{page.images}}galaxytrucker/all.jpg)
 
-Description
+![]({{page.images}}galaxytrucker/tiles.jpg)
 
-## Macbook Charger Guides (2016)
+![]({{page.images}}galaxytrucker/credits.jpg)
 
-![]({{page.images}})
+![]({{page.images}}galaxytrucker/resources.jpg)
 
-Download: []()
+Download:
 
-Description
+* [http://www.thingiverse.com/thing:1816340](http://www.thingiverse.com/thing:1816340)
+* [http://www.thingiverse.com/thing:792864](http://www.thingiverse.com/thing:792864)
 
 ## Catan Card Organiser
 
-![]({{page.images}})
+**Description**: This is card holder for the board game [Catan](https://boardgamegeek.com/boardgame/13/catan).
 
-Download: []()
+![]({{page.images}}catan/cards.jpg)
 
-Description
+Download: [http://www.thingiverse.com/thing:1381035](http://www.thingiverse.com/thing:1381035)
 
 ## Headphone Stand End
 
-![]({{page.images}})
+**Description**: I purchased the [Woo Headphone Stand](http://www.wooaudio.com/products/wahps.html) back in 2011. The stand has two poles which made taking my headphones off it difficult. I removed one pole and designed this to keep the headphones on it without falling off.
 
-Download: []()
+![]({{page.images}}headphone/stand.jpg)
 
-Description
+![]({{page.images}}headphone/woo.jpg)
