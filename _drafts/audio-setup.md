@@ -12,19 +12,19 @@ images:  /assets/images/template/
 
 TODO:
 
-* Diagram
-* Pictures
-  * Switcher with inputs and outputs as a overlay
-* Price for Kanto YU2
+*   Diagram
+*   Pictures
+*   Switcher with inputs and outputs as a overlay
+*   Price for Kanto YU2
 
 <!-- more -->
 
-* Headphones: [Massdrop x Sennheiser HD 6XX Headphones](https://www.massdrop.com/buy/massdrop-sennheiser-hd6xx): $295.30 AUD
-* Speakers: [Kanto YU2 Powered Desktop Speakers](https://www.amazon.com/Kanto-YU2GW-Powered-Desktop-Speakers/dp/B00GMPDA9K): $. AUD
-* AMP: [Bottlehead Crack 1.1 OTL + Speedball](http://bottlehead.com/product/crack-otl-headphone-amplifier-kit/): $593.12 AUD
-* DAC: [JDS Labs OL DAC](https://www.jdslabs.com/products/176/ol-dac/): $193.05 AUD
-* A/B Switcher: [JDS Labs OL Switcher](https://www.jdslabs.com/products/177/ol-switcher/): $62.50 AUD
-* Thick ass cables
+*   Headphones: [Massdrop x Sennheiser HD 6XX Headphones](https://www.massdrop.com/buy/massdrop-sennheiser-hd6xx): $295.30 AUD
+*   Speakers: [Kanto YU2 Powered Desktop Speakers](https://www.amazon.com/Kanto-YU2GW-Powered-Desktop-Speakers/dp/B00GMPDA9K): $. AUD
+*   AMP: [Bottlehead Crack 1.1 OTL + Speedball](http://bottlehead.com/product/crack-otl-headphone-amplifier-kit/): $593.12 AUD
+*   DAC: [JDS Labs OL DAC](https://www.jdslabs.com/products/176/ol-dac/): $193.05 AUD
+*   A/B Switcher: [JDS Labs OL Switcher](https://www.jdslabs.com/products/177/ol-switcher/): $62.50 AUD
+*   Thick ass cables
 
 ## Impressions
 
