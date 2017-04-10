@@ -5,6 +5,7 @@ layout: post
 slug: template
 title: template
 categories:
+- Computers
 - Misc
 - Server
 - pfSense
