@@ -26,10 +26,6 @@ group :jekyll_plugins do
    gem 'jekyll-seo-tag'
    # Emoji support https://github.com/jekyll/jemoji
    gem 'jemoji'
-   # A Jekyll plugin that provides users with a traditional CMS-style graphical interface to author content and administer Jekyll sites. https://jekyll.github.io/jekyll-admin/
-   gem 'jekyll-admin'
-   # Streamline your writing in Jekyll with some commands. https://github.com/jekyll/jekyll-compose
-   gem 'jekyll-compose'
    # Liquid tag for displaying GitHub Gists in Jekyll sites. https://github.com/jekyll/jekyll-gist
    gem 'jekyll-gist'
 end
