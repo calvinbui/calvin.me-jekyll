@@ -14,11 +14,11 @@ A step-by-step guide to remove unwanted devices such as DVD drives, USB drives, 
 
 <!-- more -->
 
-First thing you want to do is find the device in Device Manager. Go to it's 'Details' page and choose the 'Device instance path' proeprty. Take note of this value.
+First thing you want to do is find the device in Device Manager. Go to it's 'Details' page and choose the 'Device instance path' property. Take note of this value.
 
 ![Device Manager]({{page.images}}/device-manager.PNG)
 
-Open RegEdit and search for that device under `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\`, mine was under `USB`.
+Open RegEdit and search for that device under `HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum`, mine was under `USB`.
 
 ![Path to copy]({{page.images}}/regedit-path.PNG)
 
