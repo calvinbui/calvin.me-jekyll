@@ -1,0 +1,38 @@
+@mixin font-face(
+    $font-family,
+    $file-path,
+    $file-formats: _bourbon-get-setting("global-font-file-formats"),
+    $asset-pipeline: _bourbon-get-setting("rails-asset-pipeline")
+  ) {
+
+  @font-face {
+    font-family: $font-family;
+    src: _font-source-declaration(
+      $font-family,
+      $file-path,
+      $asset-pipeline,
+      $file-formats
+    );
+    @content;
+  }
+}
+
+@include font-face("Calibre", "../assets/fonts/CalibreWeb-Regular") {
+  font-style: normal;
+  font-weight: $regular-font-weight;
+};
+
+@include font-face("Calibre", "../assets/fonts/CalibreWeb-RegularItalic") {
+  font-style: italic;
+  font-weight: $regular-font-weight;
+};
+
+@include font-face("Calibre", "../assets/fonts/CalibreWeb-Medium") {
+  font-style: normal;
+  font-weight: $medium-font-weight;
+};
+
+@include font-face("Calibre", "../assets/fonts/CalibreWeb-MediumItalic") {
+  font-style: italic;
+  font-weight: $medium-font-weight;
+};
