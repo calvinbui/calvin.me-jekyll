@@ -1,6 +1,6 @@
 tt, code, kbd, samp, pre, .highlight {
   font-family: Monaco,Consolas,"Lucida Console",monospace;
-  font-size: .9em;
+  font-size: $code-font-size;
 }
 
 pre {
@@ -13,9 +13,8 @@ li > code,
 figcaption > code,
 td > code {
   color: $white;
-  padding-top: .1rem;
-  padding-bottom: .1rem;
-  font-size: .9em;
+  padding: .1rem;
+  font-size: $code-font-size;
   background: $code-background;
   border-radius: 5px;
 
@@ -32,21 +31,16 @@ td > code {
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
-  padding: 20px 10px 0;
-  padding-left: 10px;
+  padding: 0.5rem;
   background: $code-background;
   color: $white;
-  font-size: .8em;
+  font-size: $code-font-size;
 
-
-  .gutter {
-    padding-right: 5px;
-
-    .lineno {
-      border-right: 1px solid $line-numbers-border;
-      color: $white;
-      padding-right: 5px;
-    }
+  .lineno {
+    border-right: 1px solid $line-numbers-border;
+    color: $white;
+    padding-right: .5rem;
+    margin-right: .5rem;
   }
 
   .gh {color: $code-heading;}

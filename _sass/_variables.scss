@@ -33,10 +33,57 @@ $code-name: #a6e22e;
 $code-operator-keyword: #f92672;
 
 // Font stacks
+$font-stack-system: (
+  -apple-system,
+  BlinkMacSystemFont,
+  "Segoe UI",
+  "Roboto",
+  "Oxygen",
+  "Ubuntu",
+  "Cantarell",
+  "Fira Sans",
+  "Droid Sans",
+  "Helvetica Neue",
+  sans-serif,
+);
+$calibre: "Calibre", $font-stack-system;
 $helvetica: Helvetica, Arial, sans-serif;
 $helvetica-neue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
 $verdana: Verdana, Geneva, sans-serif;
+
+// choices! //
+
+// font
+$base-font-family: $calibre;
+$heading-font-family: $calibre;
+
+// font config
+$regular-font-weight: 400;
+$medium-font-weight: 500;
+$base-font-size: 1em;
+$large-font-size: 1.25em;
+$base-line-height: 1.9rem;
+$heading-line-height: 1.25;
+
+// header
+$header-font-weight: 500;
+$header-font-size: 1.75em;
+
+// nav
+$nav-font-weight: 500;
+$nav-font-size: 1em;
+
+// colour
+$base-font-color: #454547;
+$heading-font-color: #29292c;
+$base-background-color: #fff;
+$action-color: #ed3e44;
+
+
+// code highlighting
+$code-font-size: 1rem;
+
 
 $white-mix: mix($white, $soft-gray, 90%);
 $gray-mix: 1px solid mix($white, $soft-gray, 50%);

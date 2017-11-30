@@ -7,6 +7,7 @@
 
 @import 'reset';
 @import 'variables';
+@import 'fonts';
 // Syntax highlighting @import is at the bottom of this file
 
 //
@@ -18,9 +19,12 @@ html {
 }
 
 body {
-	background: $white;
-  font: 18px / 1.4 $helvetica;
-  color: $dark-gray;
+  background-color: $base-background-color;
+	color: $base-font-color;
+  font-family: $base-font-family;
+  font-size: $base-font-size * 1.1;
+  -webkit-font-smoothing: antialiased;
+  line-height: $base-line-height;
 }
 
 .container {
@@ -31,21 +35,20 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helvetica-neue;
-  color: $darker-gray;
-  font-weight: bold;
-
-  line-height: 1.7;
+  font-family: $heading-font-family;
+  color: $heading-font-color;
+  font-weight: $medium-font-weight;
+  line-height: $heading-line-height;
   margin: 1em 0 15px;
   padding: 0;
-
+  text-rendering: optimizeLegibility;
   @include mobile {
     line-height: 1.4;
   }
 }
 
 h1 {
-  font-size: 30px;
+  font-size: $base-font-size * 1.5;
 
   a {
     color: inherit;
@@ -53,30 +56,49 @@ h1 {
 }
 
 h2 {
-  font-size: 24px;
+  font-size: $base-font-size * 1.3;
+  margin-bottom: $base-line-height * 0.8;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: $base-font-size * 1.1;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: $base-font-size * 1.05;
   color: $gray;
 }
 
 p {
+  color: $base-font-color;
+  font-size: $base-font-size;
+  font-weight: $regular-font-weight;
   margin: 15px 0;
 }
 
 a {
-  color: $blue;
   text-decoration: none;
-	cursor: pointer;
+  cursor: pointer;
+  line-height: normal;
+  -webkit-transition: color 250ms ease;
+  -o-transition: color 250ms ease;
+  transition: color 150ms ease;
+  -webkit-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+  -o-transition-duration: 250ms;
+  transition-duration: 150ms;
+  -webkit-transition-timing-function: ease;
+  -o-transition-timing-function: ease;
+  transition-timing-function: ease;
+  -webkit-transition-delay: initial;
+  -o-transition-delay: initial;
+  transition-delay: initial;
+}
 
-  &:hover, &:active {
-    color: $blue;
-  }
+a:hover {
+  color: $action-color;
 }
 
 ul, ol {
@@ -189,11 +211,11 @@ img {
 
 .site-name {
   margin: 0;
-  color: $dark-gray;
+  color: $heading-font-color;
   cursor: pointer;
-  font-family: $helvetica-neue;
-  font-weight: 300;
-  font-size: 28px;
+  font-family: $heading-font-family;
+  font-weight: $header-font-weight;
+  font-size: $header-font-size;
   letter-spacing: 1px;
 }
 
@@ -209,10 +231,10 @@ img {
 
 nav {
   float: left;
-  margin-top: -5px;
+  margin-top: 0px;
   margin-left: 2px;
-  font-family: $helvetica-neue;
-  font-size: 18px;
+  font-family: $heading-font-family;
+  font-size: $nav-font-size;
 
   @include mobile {
     float: none;
@@ -224,7 +246,7 @@ nav {
     margin-right: 10px;
     color: $dark-gray;
     text-align: right;
-    font-weight: 300;
+    font-weight: $nav-font-weight;
     letter-spacing: 1px;
 
     @include mobile {
@@ -235,7 +257,7 @@ nav {
 }
 
 .social {
-  margin-top: -30px;
+  margin-top: -20px;
   float: right;
 
   @include mobile {
@@ -244,10 +266,7 @@ nav {
   }
 }
 
-//
-// .main
-//
-
+// home page
 .posts > .post {
   border-bottom: 1px solid $light-gray;
   display: flex;
@@ -282,10 +301,42 @@ nav {
     h1 {
       margin-bottom: 0;
       line-height: 1.2;
+      .post-title a {
+        color: $heading-font-color;
+      }
+    }
+
+    .entry-date {
+      line-height: normal;
+      margin-top: 0.5em;
+      font-size: 1rem;
     }
 
     .entry, .entry-date, h1 {
       overflow: hidden;
+    }
+
+    .entry {
+
+      .post-summary {
+        a {
+          color: $base-font-color;
+          text-decoration: underline;
+        }
+
+        a:hover {
+          color: $action-color;
+        }
+      }
+
+      .post-categories {
+        a {
+          color: $action-color;
+          text-decoration: none;
+          font-size: 1rem;
+          font-weight: 500;
+        }
+      }
     }
 
     @include mobile {
@@ -311,6 +362,8 @@ nav {
   border-bottom: 0;
 }
 
+
+// within a post
 .post {
   blockquote {
     margin: 1.8em .8em;
@@ -323,6 +376,27 @@ nav {
 
   .post-heading {
     text-align: center;
+
+    .meta {
+      .entry-date {
+        margin-right: 1.5rem;
+        font-size: 1.1rem
+      }
+
+      .post-categories {
+        font-size: 1rem;
+        font-weight: 500;
+        a {
+          color: $action-color;
+          text-decoration: none;
+        }
+      }
+
+      // put date and category on same line
+      .post-categories, .entry-date {
+        display: inline-block;
+      }
+    }
   }
 
   .featured-image {
@@ -356,6 +430,15 @@ nav {
       -moz-hyphens: auto;
       -webkit-hyphens: auto;
       hyphens: auto;
+    }
+
+    a {
+      color: $base-font-color;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: $action-color;
     }
 
     * img {

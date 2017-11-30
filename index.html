@@ -9,10 +9,10 @@ layout: default
         <img src="{{ post.images }}featured-image-small.jpg">
       </div>
       <div class="post-content">
-        <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-        <span class="entry-date"><time datetime="{{ post.date }}">{{ post.date | date: "%A, %-d %B %Y" }}</time></span>
+        <h1><a class="post-title" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+        <div class="entry-date"><span><time datetime="{{ post.date }}">{{ post.date | date: "%A, %-d %B %Y" }}</time></span></div>
         <div class="entry">
-          {{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More &#62;&#62;</a>
+          <div class="post-summary">{{ post.excerpt }}</div>
           <div class="post-categories">
           <p>
       		  {% if post %}
