@@ -1,23 +1,16 @@
-var gulp = require('gulp');
-var critical = require('critical');
+const gulp = require('gulp');
+const gutil = require('gulp-util');
+const rename = require("gulp-rename");
+const critical = require('critical').stream;
 
-gulp.task('critical-css', function() {
-  critical.generate({
-    // Inline the generated critical-path CSS
-    // - true generates HTML
-    // - false generates CSS
-    inline: false,
-    // Base directory
-    base: '_site/',
-    // HTML source file
-    src: 'index.html',
-    // CSS output file
-    dest: '../_includes/critical-css.css',
-    // Viewport width
-    width: 640,
-    // Viewport height
-    height: 360,
-    // Minify critical-path CSS
-    minify: true
-  });
+gulp.task('critical', function () {
+  return gulp.src('index.html') // HTML source file
+    .pipe(critical({
+      base: '_site', // Base directory
+      css: ['_site/style.css'], // Your CSS Files
+      minify: true // Minify critical-path CSS
+    }))
+    .on('error', function(err) { gutil.log(gutil.colors.red(err.message)); })
+    .pipe(rename('critical-css.css'))
+    .pipe(gulp.dest('_includes/'));
 });

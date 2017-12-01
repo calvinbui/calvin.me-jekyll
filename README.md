@@ -24,4 +24,4 @@ Install gulp and critical:
 
 Run the gulp script:
 
-```gulp critical-css```
+```gulp critical```
