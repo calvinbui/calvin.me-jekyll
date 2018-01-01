@@ -321,7 +321,8 @@ nav {
       .post-summary {
         a {
           color: $base-font-color;
-          text-decoration: underline;
+          text-decoration: none;
+          border-bottom: 2px solid $gray;
         }
 
         a:hover {
@@ -337,6 +338,7 @@ nav {
           font-weight: 500;
         }
       }
+
     }
 
     @include mobile {
@@ -364,7 +366,7 @@ nav {
 
 
 // within a post
-.post {
+#main.container > .post {
   blockquote {
     margin: 1.8em .8em;
     border-left: 2px solid $gray;
@@ -432,9 +434,17 @@ nav {
       hyphens: auto;
     }
 
+    .post-categories {
+      a {
+        color: $base-font-color;
+        text-decoration: underline;
+      }
+    }
+
     a {
       color: $base-font-color;
-      text-decoration: underline;
+      text-decoration: none;
+      border-bottom: 2px solid $gray;
     }
 
     a:hover {
