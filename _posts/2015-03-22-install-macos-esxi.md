@@ -7,6 +7,8 @@ slug: install-macos-esxi
 title: Install macOS on ESXi
 categories:
 - How-To
+- Hacking
+- Virtualisation
 tags:
 - esxi
 - install

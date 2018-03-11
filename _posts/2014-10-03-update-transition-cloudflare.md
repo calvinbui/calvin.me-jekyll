@@ -6,8 +6,8 @@ layout: post
 slug: update-transition-cloudflare
 title: Currently Moving to CloudFlare (Update)
 categories:
-- Misc
-image: /assets/images/2014-10-03-update-transition-cloudflare/featured-image.jpg 
+- Blog
+image: /assets/images/2014-10-03-update-transition-cloudflare/featured-image.jpg
 images: /assets/images/2014-10-03-update-transition-cloudflare/
 ---
 

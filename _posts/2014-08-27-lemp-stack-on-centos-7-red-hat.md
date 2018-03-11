@@ -8,13 +8,14 @@ title: 'Install LEMP Stack on CentOS 7 (Red Hat 7)'
 categories:
 - How-To
 - Linux
+- Web
 tags:
 - centos
 - lemp
 - mysql
 - nginx
 - php
-image: /assets/images/2014-08-27-lemp-stack-on-centos-7-red-hat/featured-image.jpg 
+image: /assets/images/2014-08-27-lemp-stack-on-centos-7-red-hat/featured-image.jpg
 images: /assets/images/2014-08-27-lemp-stack-on-centos-7-red-hat/
 ---
 

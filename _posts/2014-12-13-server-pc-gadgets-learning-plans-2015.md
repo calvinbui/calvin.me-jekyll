@@ -6,8 +6,8 @@ layout: post
 slug: server-pc-gadgets-learning-plans-2015
 title: Server, PC, Gadgets & Learning Plans for 2015
 categories:
-- Misc
-image: /assets/images/2014-12-13-server-pc-gadgets-learning-plans-2015/featured-image.jpg 
+- Blog
+image: /assets/images/2014-12-13-server-pc-gadgets-learning-plans-2015/featured-image.jpg
 images: /assets/images/2014-12-13-server-pc-gadgets-learning-plans-2015/
 ---
 

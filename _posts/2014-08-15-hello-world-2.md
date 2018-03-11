@@ -6,7 +6,7 @@ layout: post
 slug: hello-world-2
 title: Hello World, Hi I'm Calvin
 categories:
-- Misc
+- Blog
 image: /assets/images/2014-08-16-hello-world-2/featured-image.jpg
 images: /assets/images/2014-08-16-hello-world-2/
 ---

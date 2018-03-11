@@ -5,8 +5,8 @@ layout: post
 slug: xiaofang-camera-hack
 title: Hacking the Xiaomi Xiaofang Camera
 categories:
--   Misc
--   How-To
+- Programming
+- Hacks
 image: /assets/images/2017-08-01-xiaofang-camera-hack/featured-image.jpg
 images:  /assets/images/2017-08-01-xiaofang-camera-hack/
 ---

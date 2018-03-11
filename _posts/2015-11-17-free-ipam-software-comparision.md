@@ -7,11 +7,12 @@ slug: free-ipam-software-comparision
 title: Free IPAM Software Comparision
 categories:
 - Networking
+- Review
 tags:
 - comparison
 - free
 - ipam
-image: /assets/images/2015-11-17-free-ipam-software-comparision/featured-image.jpg 
+image: /assets/images/2015-11-17-free-ipam-software-comparision/featured-image.jpg
 images: /assets/images/2015-11-17-free-ipam-software-comparision/
 ---
 

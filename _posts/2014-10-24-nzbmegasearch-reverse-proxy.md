@@ -7,10 +7,10 @@ slug: nzbmegasearch-reverse-proxy
 title: NZBmegasearcH NGINX Reverse Proxy
 categories:
 - How-To
-- Misc
+- Usenet
 tags:
 - nzbmegasearch nginx apache reverse proxy usenet
-image: /assets/images/2014-10-24-nzbmegasearch-reverse-proxy/featured-image.jpg 
+image: /assets/images/2014-10-24-nzbmegasearch-reverse-proxy/featured-image.jpg
 images: /assets/images/2014-10-24-nzbmegasearch-reverse-proxy/
 ---
 

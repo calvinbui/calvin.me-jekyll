@@ -6,6 +6,7 @@ slug: remove-device-from-safely-remove-menu
 title: Remove Device from Windows Safely Remove Menu
 categories:
 - How-To
+- Hacks
 image: /assets/images/2017-09-09-remove-device-from-safely-remove-menu/featured-image.jpg
 images:  /assets/images/2017-09-09-remove-device-from-safely-remove-menu/
 ---

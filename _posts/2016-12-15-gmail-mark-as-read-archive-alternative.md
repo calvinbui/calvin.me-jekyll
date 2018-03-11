@@ -7,6 +7,7 @@ title: Gmail Mark As Read Alternative
 categories:
 - How-To
 - Mobile
+- Programming
 image: /assets/images/2016-12-15-gmail-mark-as-read-archive-alternative/featured-image.jpg
 images:  /assets/images/2016-12-15-gmail-mark-as-read-archive-alternative/
 ---

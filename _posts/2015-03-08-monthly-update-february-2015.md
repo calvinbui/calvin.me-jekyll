@@ -6,10 +6,10 @@ layout: post
 slug: monthly-update-february-2015
 title: Monthly Update (February 2015)
 categories:
-- Monthy Update
+- Monthly Update
 tags:
 - monthly update
-image: /assets/images/2015-03-08-monthly-update-february-2015/featured-image.jpg 
+image: /assets/images/2015-03-08-monthly-update-february-2015/featured-image.jpg
 images: /assets/images/2015-03-08-monthly-update-february-2015/
 ---
 

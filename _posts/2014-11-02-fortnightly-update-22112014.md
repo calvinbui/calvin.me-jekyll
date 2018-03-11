@@ -6,7 +6,7 @@ layout: post
 slug: fortnightly-update-22112014
 title: Fortnightly Update (2/11/2014)
 categories:
-- Monthy Update
+- Monthly Update
 tags:
 - fornightly update
 image: /assets/images/2014-11-02-fortnightly-update-22112014/featured-image.jpg

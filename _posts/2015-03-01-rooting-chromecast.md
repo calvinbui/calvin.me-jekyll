@@ -6,12 +6,12 @@ layout: post
 slug: rooting-chromecast
 title: Rooting the Chromecast
 categories:
-- Misc
+- Hacking
 tags:
 - chromecast
 - hubcap
 - root
-image: /assets/images/2015-03-01-rooting-chromecast/featured-image.jpg 
+image: /assets/images/2015-03-01-rooting-chromecast/featured-image.jpg
 images: /assets/images/2015-03-01-rooting-chromecast/
 ---
 

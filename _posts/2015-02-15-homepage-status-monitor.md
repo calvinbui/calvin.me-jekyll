@@ -6,14 +6,14 @@ layout: post
 slug: homepage-status-monitor
 title: My Homepage Status Monitoring Application
 categories:
-- Misc
+- Programming
 tags:
 - home
 - javascript
 - mean
 - monitoring
 - status
-image: /assets/images/2015-02-15-homepage-status-monitor/featured-image.jpg 
+image: /assets/images/2015-02-15-homepage-status-monitor/featured-image.jpg
 images: /assets/images/2015-02-15-homepage-status-monitor/
 ---
 

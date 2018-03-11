@@ -5,7 +5,7 @@ layout: post
 slug: small-theme-update
 title: Small Theme Update
 categories:
-- Web
+- Blog
 image: /assets/images/2017-12-01-small-theme-update/featured-image.jpg
 images: /assets/images/2017-12-01-small-theme-update/
 ---

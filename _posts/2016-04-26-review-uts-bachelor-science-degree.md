@@ -6,14 +6,14 @@ layout: post
 slug: review-uts-bachelor-science-degree
 title: Review of the UTS Bachelor of Science in IT Degree
 categories:
-- Misc
 - Review
+- Blog
 tags:
 - bachelor of science in information technology
 - sydney
 - university of technology
 - uts
-image: /assets/images/2016-04-26-review-uts-bachelor-science-degree/featured-image.jpg 
+image: /assets/images/2016-04-26-review-uts-bachelor-science-degree/featured-image.jpg
 images: /assets/images/2016-04-26-review-uts-bachelor-science-degree/
 ---
 

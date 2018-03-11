@@ -5,6 +5,7 @@ layout: post
 slug: facebook-messenger-bot
 title: Facebook Messenger Bot
 categories:
+- Programming
 - Web
 image: /assets/images/2018-01-02-facebook-messenger-bot/featured-image.jpg
 images: /assets/images/2018-01-02-facebook-messenger-bot/

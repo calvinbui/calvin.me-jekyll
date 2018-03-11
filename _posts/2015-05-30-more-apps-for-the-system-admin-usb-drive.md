@@ -6,12 +6,12 @@ layout: post
 slug: more-apps-for-the-system-admin-usb-drive
 title: More Apps for the System Admin USB Drive
 categories:
-- Misc
+- Computers
 tags:
 - apps
 - system admin
 - usb
-image: /assets/images/2015-05-30-more-apps-for-the-system-admin-usb-drive/featured-image.jpg 
+image: /assets/images/2015-05-30-more-apps-for-the-system-admin-usb-drive/featured-image.jpg
 images: /assets/images/2015-05-30-more-apps-for-the-system-admin-usb-drive/
 ---
 

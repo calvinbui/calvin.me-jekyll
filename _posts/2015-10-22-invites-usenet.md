@@ -8,8 +8,8 @@ slug: invites-usenet
 title: DogNZB, NZB.su and OMGWTFNZB Invites!
 
 categories:
-- Uncategorised
-image: /assets/images/2015-10-22-invites-usenet/featured-image.jpg 
+- Blog
+image: /assets/images/2015-10-22-invites-usenet/featured-image.jpg
 images: /assets/images/2015-10-22-invites-usenet/
 ---
 

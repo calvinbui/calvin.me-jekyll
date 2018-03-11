@@ -6,12 +6,12 @@ layout: post
 slug: definition-strong-password
 title: My Definition of a Strong Password
 categories:
-- Misc
+- Security
 tags:
 - password
 - secure password
 - strong password
-image: /assets/images/2014-11-09-definition-strong-password/featured-image.jpg 
+image: /assets/images/2014-11-09-definition-strong-password/featured-image.jpg
 images: /assets/images/2014-11-09-definition-strong-password/
 ---
 

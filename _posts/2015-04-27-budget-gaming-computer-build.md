@@ -6,7 +6,7 @@ layout: post
 slug: budget-gaming-computer-build
 title: Budget Gaming Computer Build
 categories:
-- Misc
+- Computers
 tags:
 - computer build
 - gaming

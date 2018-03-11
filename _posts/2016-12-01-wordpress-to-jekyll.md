@@ -5,7 +5,7 @@ layout: post
 slug: wordpress-to-jekyll
 title: Now powered by Jekyll
 categories:
-- Web
+- Blog
 image: /assets/images/2016-12-01-wordpress-to-jekyll/featured-image.jpg
 images:  /assets/images/2016-12-01-wordpress-to-jekyll/
 ---

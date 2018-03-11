@@ -7,10 +7,11 @@ slug: favourite-pfsense-packages
 title: The Best pfSense Packages
 categories:
 - pfSense
+- Networking
 tags:
 - packages
 - pfsense
-image: /assets/images/2014-09-30-favourite-pfsense-packages/featured-image.jpg 
+image: /assets/images/2014-09-30-favourite-pfsense-packages/featured-image.jpg
 images: /assets/images/2014-09-30-favourite-pfsense-packages/
 ---
 

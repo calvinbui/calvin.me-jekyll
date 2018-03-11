@@ -9,6 +9,7 @@ categories:
 - Linux
 - Virtualisation
 - Server
+- Usenet
 image: /assets/images/2017-05-07-ansible-usenet-docker/featured-image.jpg
 images:  /assets/images/2017-05-07-ansible-usenet-docker/
 ---

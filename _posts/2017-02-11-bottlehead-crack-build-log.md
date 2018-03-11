@@ -5,7 +5,7 @@ layout: post
 slug: bottlehead-crack-build-log
 title: Bottlehead Crack Amp Build Log
 categories:
-- Misc
+- Computers
 image: /assets/images/2017-02-11-bottlehead-crack-build-log/featured-image.jpg
 images:  /assets/images/2017-02-11-bottlehead-crack-build-log/
 ---

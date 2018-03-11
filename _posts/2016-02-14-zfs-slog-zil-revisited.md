@@ -11,7 +11,7 @@ tags:
 - slog
 - zfs
 - zil
-image: /assets/images/2016-02-14-zfs-slog-zil-revisited/featured-image.jpg 
+image: /assets/images/2016-02-14-zfs-slog-zil-revisited/featured-image.jpg
 images: /assets/images/2016-02-14-zfs-slog-zil-revisited/
 ---
 

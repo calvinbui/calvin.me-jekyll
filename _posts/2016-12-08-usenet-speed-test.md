@@ -5,7 +5,8 @@ layout: post
 slug: usenet-provider-speed-tests
 title: Usenet Providers Speed Test from Sydney
 categories:
-- Misc
+- Usenet
+- Web
 image: /assets/images/2016-12-08-usenet-speed-test/featured-image.jpg
 images:  /assets/images/2016-12-08-usenet-speed-test/
 ---

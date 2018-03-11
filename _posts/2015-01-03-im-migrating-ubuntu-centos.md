@@ -9,11 +9,10 @@ title: I'm migrating from Ubuntu to CentOS
 
 categories:
 - Linux
-- Misc
 tags:
 - centos
 - ubuntu
-image: /assets/images/2015-01-03-im-migrating-ubuntu-centos/featured-image.jpg 
+image: /assets/images/2015-01-03-im-migrating-ubuntu-centos/featured-image.jpg
 images: /assets/images/2015-01-03-im-migrating-ubuntu-centos/
 ---
 

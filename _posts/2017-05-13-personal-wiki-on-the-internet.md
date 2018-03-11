@@ -5,7 +5,7 @@ layout: post
 slug: personal-wiki-on-the-internet
 title: Personal Wiki on the Internet
 categories:
-- Misc
+- Web
 image: /assets/images/2017-05-13-personal-wiki-on-the-internet/featured-image.jpg
 images:  /assets/images/2017-05-13-personal-wiki-on-the-internet/
 ---

@@ -6,11 +6,11 @@ layout: post
 slug: get-job-in-it
 title: Getting a Job in I.T.
 categories:
-- Misc
+- Blog
 tags:
 - advice
 - IT
-image: /assets/images/2015-02-21-get-job-in-it/featured-image.jpg 
+image: /assets/images/2015-02-21-get-job-in-it/featured-image.jpg
 images: /assets/images/2015-02-21-get-job-in-it/
 ---
 

@@ -5,7 +5,8 @@ layout: post
 slug: viofo-a119s-weather-video
 title: Viofo A119S - Sydney Weather
 categories:
-- Computers
+- Cars
+- Review
 image: /assets/images/2017-03-27-viofo-a119s-weather-video/featured-image.jpg
 images:  /assets/images/2017-03-27-viofo-a119s-weather-video/
 ---

@@ -6,7 +6,7 @@ layout: post
 slug: computer-build-girlfriend
 title: Computer Build for Girlfriend
 categories:
-- Misc
+- Computers
 tags:
 - computer build
 - log

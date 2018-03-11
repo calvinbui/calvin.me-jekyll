@@ -5,7 +5,7 @@ layout: post
 slug: my-prusa-i3-mk3-3d-printer-mods
 title: My Prusa i3 MK3 3D Printer Mods
 categories:
-- Web
+- 3D Printing
 image: /assets/images/2018-03-10-my-prusa-i3-mk3-3d-printer-mods/featured-image.jpg
 images: /assets/images/2018-03-10-my-prusa-i3-mk3-3d-printer-mods/
 ---

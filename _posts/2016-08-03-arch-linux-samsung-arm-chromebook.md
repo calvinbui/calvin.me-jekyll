@@ -8,10 +8,11 @@ title: Arch Linux on Samsung ARM Chromebook
 categories:
 - How-To
 - Linux
+- Hacking
 tags:
 - arch linux
 - chromebook
-image: /assets/images/2016-08-03-arch-linux-samsung-arm-chromebook/featured-image.jpg 
+image: /assets/images/2016-08-03-arch-linux-samsung-arm-chromebook/featured-image.jpg
 images: /assets/images/2016-08-03-arch-linux-samsung-arm-chromebook/
 ---
 

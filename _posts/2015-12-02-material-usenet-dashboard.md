@@ -6,13 +6,13 @@ layout: post
 slug: material-usenet-dashboard
 title: Material Usenet Dashboard
 categories:
-- Misc
-- Web
+- Programming
+- Usenet
 tags:
 - dashboard
 - material
 - usenet
-image: /assets/images/2015-12-02-material-usenet-dashboard/featured-image.jpg 
+image: /assets/images/2015-12-02-material-usenet-dashboard/featured-image.jpg
 images: /assets/images/2015-12-02-material-usenet-dashboard/
 ---
 

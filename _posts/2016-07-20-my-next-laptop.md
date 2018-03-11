@@ -6,8 +6,8 @@ layout: post
 slug: my-next-laptop
 title: My Next Laptop
 categories:
-- Misc
 - Review
+- Computers
 tags:
 - laptop
 - personal

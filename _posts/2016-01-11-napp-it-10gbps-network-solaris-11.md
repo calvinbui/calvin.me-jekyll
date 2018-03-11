@@ -7,6 +7,7 @@ slug: napp-it-10gbps-network-solaris-11
 title: Improve 10Gbps Performance on napp-it (Solaris 11)
 categories:
 - Networking
+- Virtualisation
 tags:
 - 10 gigabit network
 - 10gbe
@@ -19,7 +20,7 @@ tags:
 - napp-it
 - solaris
 - solaris 11
-image: /assets/images/2016-01-11-napp-it-10gbps-network-solaris-11/featured-image.jpg 
+image: /assets/images/2016-01-11-napp-it-10gbps-network-solaris-11/featured-image.jpg
 images: /assets/images/2016-01-11-napp-it-10gbps-network-solaris-11/
 ---
 

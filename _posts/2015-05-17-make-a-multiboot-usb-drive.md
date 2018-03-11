@@ -7,13 +7,13 @@ slug: make-a-multiboot-usb-drive
 title: Make A Multiboot USB Drive
 categories:
 - How-To
-- Misc
+- Computers
 tags:
 - multiboot
 - system admin
 - tool
 - usb
-image: /assets/images/2015-05-17-make-a-multiboot-usb-drive/featured-image.jpg 
+image: /assets/images/2015-05-17-make-a-multiboot-usb-drive/featured-image.jpg
 images: /assets/images/2015-05-17-make-a-multiboot-usb-drive/
 ---
 

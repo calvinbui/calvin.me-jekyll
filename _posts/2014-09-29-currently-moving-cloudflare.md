@@ -6,8 +6,8 @@ layout: post
 slug: currently-moving-cloudflare
 title: Currently Moving to CloudFlare!
 categories:
-- Misc
-image: /assets/images/2014-09-29-currently-moving-cloudflare/featured-image.jpg 
+- Blog
+image: /assets/images/2014-09-29-currently-moving-cloudflare/featured-image.jpg
 images: /assets/images/2014-09-29-currently-moving-cloudflare/
 ---
 

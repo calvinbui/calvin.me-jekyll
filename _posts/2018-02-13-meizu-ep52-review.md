@@ -5,7 +5,7 @@ layout: post
 slug: meizu-ep52-review
 title: Meizu EP52 Wireless Bluetooth Sport Earphones Review
 categories:
-- Web
+- Review
 image: /assets/images/2018-02-13-meizu-ep52-review/featured-image.jpg
 images: /assets/images/2018-02-13-meizu-ep52-review/
 ---

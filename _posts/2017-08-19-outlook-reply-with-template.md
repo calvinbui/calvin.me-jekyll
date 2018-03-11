@@ -5,8 +5,8 @@ layout: post
 slug: outlook-reply-with-template
 title: Microsoft Outlook - Send a reply using an email template
 categories:
-- Misc
 - How-To
+- Programming
 image: /assets/images/2017-08-19-outlook-reply-with-template/featured-image.jpg
 images:  /assets/images/2017-08-19-outlook-reply-with-template/
 ---

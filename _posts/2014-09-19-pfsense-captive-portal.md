@@ -8,9 +8,10 @@ title: My pfSense Captive Portal
 categories:
 - pfSense
 - Web
+- Networking
 tags:
 - pfsense
-image: /assets/images/2014-09-19-pfsense-captive-portal/featured-image.jpg 
+image: /assets/images/2014-09-19-pfsense-captive-portal/featured-image.jpg
 images: /assets/images/2014-09-19-pfsense-captive-portal/
 ---
 
