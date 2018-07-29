@@ -29,7 +29,7 @@ There are a laundry list of features my Golf R has. Below, I've listed all the o
 
 **Lane Assist** keeps my car within the two white lines on the road, even steering for me when the road curves. When used with **Adaptive Cruise Control**, the car basically drives itself. It makes me think what can Tesla's do that I can't (besides changing lanes). Doesn't make turns obviously.
 
-<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/uav1L9gYZv0" allowfullscreen></iframe></div>
+<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/k8T5eNyCtpQ" allowfullscreen></iframe></div>
 
 ## Traffic Jam Assist
 
@@ -59,13 +59,13 @@ Automatic High Beam on really dark roads. Whenever there's oncoming traffic, it 
 
 Whenever I indicate to turn, the headlights will illuminate the side of the road so I can see the turn the whole way through. Also good for any pedestrians who happen to be crossing or on the road.
 
-<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/vlpH5QPlWRc" allowfullscreen></iframe></div>
+<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/enZ4iuGsjao" allowfullscreen></iframe></div>
 
 ## Front Assist
 
 For whatever reason I'm driving too fast and would likely hit someone/something in front of me, the car will alert me to this, prepare my brakes and even slow the car down.
 
-<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/SkTPA6kIYLM" allowfullscreen></iframe></div>
+<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/EIWy657EQeM" allowfullscreen></iframe></div>
 
 ## Rear Assist
 
@@ -106,6 +106,10 @@ This can be selected just before driving but it's also saved in each keyfob!
 
 Whenever the car senses its dark, it will automatically turn on the headlights. I never had to even bother with this anymore, one less thing to worry about.
 
+## Auto Dimming Rear View Mirror
+
+Dims headlights in the rear view mirror automatically without having to use the flip button. Great for night time driving and not getting blinded. It is always on and no action is required on my part.
+
 ## Automatic wipers
 
 Similar to above, whenever it rains, the car will automatically turn on the wipers. Another thing to never worry about.
@@ -120,7 +124,7 @@ When the car gets up to speed, it will automatically lock all car doors through 
 
 I only need to have the key about 1 metre away from the car door for it to be able to lock and unlock. I now never have to take the keys out of my pocket or bag. I sometimes carry my bag into the petrol station rather than taking the keys out cause of the hassle haha.
 
-<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/j__attYgyoA" allowfullscreen></iframe></div>
+<div class="iframe iframe-16x9"><iframe src="https://www.youtube.com/embed/NwMvPHQAaDA" allowfullscreen></iframe></div>
 
 ## Push to start
 
