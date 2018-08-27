@@ -2,8 +2,8 @@
 author: Calvin Bui
 comments: true
 layout: post
-slug: endgame-audio-setup
-title: My Endgame Audio Setup
+slug: audio-setup
+title: My Audio Setup
 categories:
 - Misc
 image: /assets/images/template/featured-image.jpg
