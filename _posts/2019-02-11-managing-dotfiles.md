@@ -6,7 +6,7 @@ layout: post
 slug: managing-dotfiles
 title: Managing Dotfiles
 categories:
-- Misc
+- Linux
 image: /assets/images/2019-02-11-managing-dotfiles/featured-image.jpg
 images: /assets/images/2019-02-11-managing-dotfiles/
 ---

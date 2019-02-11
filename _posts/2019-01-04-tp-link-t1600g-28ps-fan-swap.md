@@ -6,7 +6,8 @@ layout: post
 slug: tp-link-t1600g-28ps-fan-swap
 title: TP-Link T1600G-28PS Fan Swap
 categories:
-- Misc
+- Networking
+- How-To
 image: /assets/images/2019-01-04-tp-link-t1600g-28ps-fan-swap/featured-image.jpg
 images: /assets/images/2019-01-04-tp-link-t1600g-28ps-fan-swap/
 ---
