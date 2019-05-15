@@ -11,7 +11,7 @@ image: /assets/images/2019-05-15-my-ansible-roles/featured-image.jpg
 images: /assets/images/2019-05-15-my-ansible-roles/
 ---
 
-The entire process and tough criteria I went through to pick a VPN provider and escape mass surveillance.
+A collection of Ansible roles I wrote to automate installation and configuration of my homelab.
 
 <!-- more -->
 
