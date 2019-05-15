@@ -18,6 +18,10 @@ I made a Ansible playbook to deploy Docker containers containing Usenet applicat
 
 <!-- more -->
 
+# Update
+
+You can find my new playbook (and the roles they refer to) on GitHub at https://github.com/calvinbui/usenet-playbook
+
 ## Overview
 
 Ansible and Docker are two technologies I started learning this year. As I used them at work, I started getting ideas of how to put them into practice at home in my environments.
