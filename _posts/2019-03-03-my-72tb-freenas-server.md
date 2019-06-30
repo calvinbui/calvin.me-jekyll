@@ -1,7 +1,7 @@
 ---
 author: Calvin Bui
 comments: true
-date: 2019-03-03 00:12:00+10:00
+date: 2019-03-03 00:00:00 +1000
 layout: post
 slug: my-72tb-freenas-server
 title: My 72TB FreeNAS Server

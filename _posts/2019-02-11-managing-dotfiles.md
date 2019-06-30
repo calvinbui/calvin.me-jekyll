@@ -1,7 +1,7 @@
 ---
 author: Calvin Bui
 comments: true
-date: 2019-02-11 00:12:00+10:00
+date: 2019-02-11 00:00:00 +1000
 layout: post
 slug: managing-dotfiles
 title: Managing Dotfiles

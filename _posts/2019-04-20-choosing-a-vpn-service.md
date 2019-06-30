@@ -1,7 +1,7 @@
 ---
 author: Calvin Bui
 comments: true
-date: 2019-04-20 00:12:00+10:00
+date: 2019-04-20 00:00:00 +1000
 layout: post
 slug: choosing-a-vpn-service
 title: Choosing a VPN Service

@@ -1,7 +1,7 @@
 ---
 author: Calvin Bui
 comments: true
-date: 2019-01-04 00:12:00+10:00
+date: 2019-01-04 00:00:00 +1000
 layout: post
 slug: tp-link-t1600g-28ps-fan-swap
 title: TP-Link T1600G-28PS Fan Swap
