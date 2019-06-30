@@ -1,6 +1,7 @@
 ---
 author: Calvin Bui
 comments: true
+date: 2019-06-30 00:00:00 +1000
 layout: post
 slug: retooling-for-privacy
 title: Retooling for Privacy

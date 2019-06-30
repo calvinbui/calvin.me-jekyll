@@ -1,7 +1,7 @@
 ---
 author: Calvin Bui
 comments: true
-date: 2019-05-15 00:12:00+10:00
+date: 2019-05-15 00:00:00 +1000
 layout: post
 slug: my-ansible-roles
 title: My Ansible Roles
