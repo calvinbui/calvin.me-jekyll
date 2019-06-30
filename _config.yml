@@ -15,6 +15,7 @@ avatar: /assets/images/avatar.jpg
 # Flags below are optional
 #
 
+timezone: Australia/Sydney
 repository: calvinbui/calvinbui.github.io
 github: [metadata]
 
