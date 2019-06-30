@@ -7,6 +7,7 @@ slug: choosing-a-vpn-service
 title: Choosing a VPN Service
 categories:
 - Security
+- Privacy
 image: /assets/images/2019-04-20-choosing-a-vpn-service/featured-image.jpg
 images: /assets/images/2019-04-20-choosing-a-vpn-service/
 ---
