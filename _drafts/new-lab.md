@@ -15,7 +15,4 @@ Individual posts about:
 - pfsense
 - networking
 - server rack
-- ups + NUT
 - ESXi
-- TP Link Fan replacement
-- FreeNas
