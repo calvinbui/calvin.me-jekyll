@@ -110,3 +110,4 @@ exclude:
   - .gitignore
   - serve.bat
   - serve.sh
+  - gulpfile.js
