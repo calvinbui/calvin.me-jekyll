@@ -1,9 +1,12 @@
-const gulp = require('gulp');
-const gutil = require('gulp-util');
-const rename = require("gulp-rename");
-const critical = require('critical').stream;
+'use strict';
 
-gulp.task('critical', function () {
+var gulp = require('gulp');
+var rename = require("gulp-rename");
+var critical = require('critical').stream;
+
+// have jekyll generate a site first
+// then run gulp
+gulp.task('default', function () {
   return gulp.src('index.html') // HTML source file
     .pipe(critical({
       base: '_site', // Base directory

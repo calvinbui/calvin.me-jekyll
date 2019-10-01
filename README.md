@@ -16,12 +16,16 @@ To execute, run `bundle exec jekyll serve [--incremental] [--drafts] [--host 0.0
 
 ## Generate Critical CSS
 
-Option 1: https://www.sitelocity.com/critical-path-css-generator
+Install dependencies:
 
-Option 2: Install gulp and critical:
+```
+npm install
+```
 
-```npm install```
+Comment out the current `critical-css` in `default.html`
 
 Run the gulp script:
 
-```gulp critical```
+```
+gulp
+```
