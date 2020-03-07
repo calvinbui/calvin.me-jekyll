@@ -21,6 +21,7 @@
     <meta name="msapplication-config" content="/assets/images/favicon/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
     {% seo %}
+    {% include matomo.html %}
   </head>
 
   <body>
@@ -57,6 +58,5 @@
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     {% include lazyload.html %}
-    {% include matomo.html %}
   </body>
 </html>
