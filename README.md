@@ -1,3 +1,5 @@
+Moved to https://github.com/calvinbui/calvin.me
+
 # calvin.me
 
 Source files for my website [https://calvin.me](https://calvin.me).
